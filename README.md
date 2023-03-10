@@ -23,3 +23,5 @@ Now it's just a repo for record.
 
 这个没趣啊的代码
 version:navigation-kinetic-devel
+这个版本是合并了之前看dwa代码与move_base代码的
+
