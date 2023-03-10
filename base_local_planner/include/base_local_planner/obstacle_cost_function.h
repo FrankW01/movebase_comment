@@ -50,7 +50,7 @@ namespace base_local_planner {
  * @brief Uses costmap 2d to assign negative costs if robot footprint
  * is in obstacle on any point of the trajectory.
  */
-class ObstacleCostFunction : public TrajectoryCostFunction {
+class ObstacleCostFunction : public TrajectoryCostFunction {//继承打分基类
 
 public:
   ObstacleCostFunction(costmap_2d::Costmap2D* costmap);

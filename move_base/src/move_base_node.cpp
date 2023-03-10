@@ -26,15 +26,17 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-
+//调用入口函数
 #include <move_base/move_base.h>
+#include <tf2_ros/transform_listener.h>
 
 int main(int argc, char** argv){
-  ros::init(argc, argv, "move_base_node");
-  tf::TransformListener tf(ros::Duration(10));
+  ros::init(argc, argv, "move_base_node");//默认节点名称
+  tf2_ros::Buffer buffer(ros::Duration(10));//并创立了tf2_ros::Buffer类的一个对象
+  tf2_ros::TransformListener tf(buffer);//完成对tf2_ros::Buffer类的初始化和构造，并订阅相应tf消息
+  std::cerr << "THIS IS MY CODE\n";
 
-  move_base::MoveBase move_base( tf );
-
+  move_base::MoveBase move_base( buffer );//后续操作都是用的tf2_ros::Buffer类的成员函数完成
   //ros::MultiThreadedSpinner s;
   ros::spin();
 

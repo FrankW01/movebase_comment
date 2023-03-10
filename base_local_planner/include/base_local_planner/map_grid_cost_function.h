@@ -34,7 +34,7 @@
  *
  * Author: TKruse
  *********************************************************************/
-
+//继承打分基类
 #ifndef MAP_GRID_COST_FUNCTION_H_
 #define MAP_GRID_COST_FUNCTION_H_
 
@@ -70,7 +70,7 @@ enum CostAggregationType { Last, Sum, Product};
  * @param is_local_goal_function, scores for local goal rather than whole path
  * @param aggregationType how to combine costs along trajectory
  */
-class MapGridCostFunction: public base_local_planner::TrajectoryCostFunction {
+class MapGridCostFunction: public base_local_planner::TrajectoryCostFunction {//继承了打分基类
 public:
   MapGridCostFunction(costmap_2d::Costmap2D* costmap,
       double xshift = 0.0,

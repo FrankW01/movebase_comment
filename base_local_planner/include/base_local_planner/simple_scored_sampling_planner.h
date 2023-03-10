@@ -87,9 +87,18 @@ public:
    * result. Returns true and sets the traj parameter to the first trajectory with
    * minimal non-negative costs if sampling yields trajectories with non-negative costs,
    * else returns false.
+   *调用生成器，直到生成器没有更多样本或达到最大样本数。
+*对于每一个生成的traj，依次调用批评者。如果任何评论家的回答是否定的
+*价值，该价值被假设为成本，否则成本是所有批评者的总和
+*结果。返回true，并使用
+*如果采样产生具有非负成本的轨迹，则非负成本最小，
+*else返回false。
    *
    * @param traj The container to write the result to
    * @param all_explored pass NULL or a container to collect all trajectories for debugging (has a penalty)
+   *
+*@param traj要将结果写入的容器
+*@param all\u探索传递NULL或容器以收集所有轨迹以进行调试（有惩罚）
    */
   bool findBestTrajectory(Trajectory& traj, std::vector<Trajectory>* all_explored = 0);
 

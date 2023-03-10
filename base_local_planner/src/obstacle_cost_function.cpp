@@ -76,7 +76,7 @@ double ObstacleCostFunction::scoreTrajectory(Trajectory &traj) {
   double scale = getScalingFactor(traj, scaling_speed_, max_trans_vel_, max_scaling_factor_);
   double px, py, pth;
   if (footprint_spec_.size() == 0) {
-    // Bug, should never happen
+    // Bug, should never happen   11月07DWA 运行时在rviz中发送目标点时报错 note by zhijie
     ROS_ERROR("Footprint spec is empty, maybe missing call to setFootprint?");
     return -9;
   }
@@ -94,7 +94,7 @@ double ObstacleCostFunction::scoreTrajectory(Trajectory &traj) {
     if(sum_scores_)
         cost +=  f_cost;
     else
-        cost = f_cost;
+        cost = std::max(cost, f_cost);
   }
   return cost;
 }
@@ -120,11 +120,19 @@ double ObstacleCostFunction::footprintCost (
     double scale,
     std::vector<geometry_msgs::Point> footprint_spec,
     costmap_2d::Costmap2D* costmap,
-    base_local_planner::WorldModel* world_model) {
+    base_local_planner::WorldModel* world_model) {//计算车辆模型的代价类
+
+  std::vector<geometry_msgs::Point> scaled_footprint;
+  for(unsigned int i  = 0; i < footprint_spec.size(); ++i) {
+    geometry_msgs::Point new_pt;
+    new_pt.x = scale * footprint_spec[i].x;
+    new_pt.y = scale * footprint_spec[i].y;
+    scaled_footprint.push_back(new_pt);
+  }
 
   //check if the footprint is legal
   // TODO: Cache inscribed radius
-  double footprint_cost = world_model->footprintCost(x, y, th, footprint_spec);
+  double footprint_cost = world_model->footprintCost(x, y, th, scaled_footprint);
 
   if (footprint_cost < 0) {
     return -6.0;

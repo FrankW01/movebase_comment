@@ -58,7 +58,20 @@ namespace base_local_planner {
  * trajectory rollout approach will sample max-x-velocities 0m/s up to 1m/s
  * trajectory rollout approach does so respecting the acceleration limit, so it gradually increases velocity
  */
-class SimpleTrajectoryGenerator: public base_local_planner::TrajectorySampleGenerator {
+ /*
+ *基于自由度的等距离散生成轨迹。
+*这应该是轨迹采样生成器的一个简单而健壮的实现
+*接口，更高效的实现是可以想象的。
+*
+*这可以用于dwa和轨迹卷展方法。
+*例如，假设这些值：
+*模拟时间=1s，模拟周期=200ms，dt=200ms，
+*vsamples_x=5，
+*acc_limit_x=1m/s^2，vel_x=0（机器人处于静止状态，数值仅用于简单计算）
+*dwa_planner将采样0 m/s至0.2m/s的最大x速度。
+*轨迹卷展方法将采样最大x速度0米/秒到1米/秒
+*轨迹卷展方法是在考虑加速度限制的情况下实现的，因此它会逐渐增加速度*/
+class SimpleTrajectoryGenerator: public base_local_planner::TrajectorySampleGenerator {//继承了TrajectorySampleGenerator类
 public:
 
   SimpleTrajectoryGenerator() {

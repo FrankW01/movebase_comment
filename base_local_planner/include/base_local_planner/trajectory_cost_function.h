@@ -39,7 +39,7 @@
 #define TRAJECTORYCOSTFUNCTION_H_
 
 #include <base_local_planner/trajectory.h>
-
+//轨迹打分cost的基类
 namespace base_local_planner {
 
 /**
@@ -48,8 +48,12 @@ namespace base_local_planner {
  * During each sampling run, a batch of many trajectories will be scored using such a cost function.
  * The prepare method is called before each batch run, and then for each
  * trajectory of the sampling set, score_trajectory may be called.
+ *@brief为轨迹批评者提供了一个界面
+*在每次采样过程中，将使用此类成本函数对一批多个轨迹进行评分。
+*在每次批处理运行之前调用prepare方法，然后针对每个批处理运行调用prepare方法
+*采样集的轨迹，score_轨迹可以称为。
  */
-class TrajectoryCostFunction {
+class TrajectoryCostFunction {//对轨迹进行打分
 public:
 
   /**

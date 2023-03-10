@@ -39,14 +39,15 @@
 #define TRAJECTORY_SAMPLE_GENERATOR_H_
 
 #include <base_local_planner/trajectory.h>
-
+//轨迹生成的基类
 namespace base_local_planner {
 
 /**
  * @class TrajectorySampleGenerator
  * @brief Provides an interface for navigation trajectory generators
+ 为导航轨迹生成器提供接口
  */
-class TrajectorySampleGenerator {
+class TrajectorySampleGenerator {//提供根据速度来产生轨迹生成
 public:
 
   /**
