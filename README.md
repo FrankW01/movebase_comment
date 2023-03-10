@@ -22,3 +22,4 @@ Now it's just a repo for record.
 
 
 这个没趣啊的代码
+version:navigation-kinetic-devel
