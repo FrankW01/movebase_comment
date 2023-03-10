@@ -1,0 +1,15 @@
+<map id="navigation/base_local_planner/src/latched_stop_rotate_controller.cpp" name="navigation/base_local_planner/src/latched_stop_rotate_controller.cpp">
+<area shape="rect" id="node2" href="$latched__stop__rotate__controller_8h.html" title="base_local_planner\l/latched_stop_rotate\l_controller.h" alt="" coords="2381,109,2521,165"/>
+<area shape="rect" id="node32" href="$local__planner__limits_8h.html" title="base_local_planner\l/local_planner_limits.h" alt="" coords="2643,303,2794,344"/>
+<area shape="rect" id="node37" href="$goal__functions_8h.html" title="base_local_planner\l/goal_functions.h" alt="" coords="2811,481,2944,523"/>
+<area shape="rect" id="node6" href="$local__planner__util_8h.html" title="base_local_planner\l/local_planner_util.h" alt="" coords="2081,213,2218,255"/>
+<area shape="rect" id="node33" href="$odometry__helper__ros_8h.html" title="base_local_planner\l/odometry_helper_ros.h" alt="" coords="2150,481,2309,523"/>
+<area shape="rect" id="node7" href="$base__local__planner_8h.html" title="nav_core/base_local\l_planner.h" alt="" coords="2080,303,2219,344"/>
+<area shape="rect" id="node14" href="$costmap__2d_8h.html" title="costmap_2d/costmap_2d.h" alt="" coords="1368,645,1547,672"/>
+<area shape="rect" id="node10" href="$costmap__2d__ros_8h.html" title="costmap_2d/costmap\l_2d_ros.h" alt="" coords="1259,392,1405,433"/>
+<area shape="rect" id="node11" href="$layered__costmap_8h.html" title="costmap_2d/layered\l_costmap.h" alt="" coords="1181,481,1320,523"/>
+<area shape="rect" id="node13" href="$layer_8h.html" title="costmap_2d/layer.h" alt="" coords="1619,571,1755,597"/>
+<area shape="rect" id="node21" href="$costmap__2d__publisher_8h.html" title="costmap_2d/costmap\l_2d_publisher.h" alt="" coords="1011,481,1157,523"/>
+<area shape="rect" id="node26" href="$footprint_8h.html" title="costmap_2d/footprint.h" alt="" coords="623,489,777,515"/>
+<area shape="rect" id="node12" href="$cost__values_8h.html" title="costmap_2d/cost_values.h" alt="" coords="1419,571,1595,597"/>
+</map>

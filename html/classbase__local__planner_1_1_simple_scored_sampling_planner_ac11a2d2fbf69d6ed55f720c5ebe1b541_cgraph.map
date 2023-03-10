@@ -1,0 +1,4 @@
+<map id="base_local_planner::SimpleScoredSamplingPlanner::scoreTrajectory" name="base_local_planner::SimpleScoredSamplingPlanner::scoreTrajectory">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_trajectory_cost_function.html#abaae8d899bd41d8baf02bf7aa175ded9" title="base_local_planner\l::TrajectoryCostFunction\l::getScale" alt="" coords="263,5,427,61"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_trajectory_cost_function.html#a6908a8071270b455fc25b48db76e2d3c" title="base_local_planner\l::TrajectoryCostFunction\l::scoreTrajectory" alt="" coords="263,85,427,141"/>
+</map>

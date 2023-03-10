@@ -1,0 +1,13 @@
+<map id="navigation/move_base/src/move_base_node.cpp" name="navigation/move_base/src/move_base_node.cpp">
+<area shape="rect" id="node2" href="$move__base_8h.html" title="move_base/move_base.h" alt="" coords="1875,95,2042,121"/>
+<area shape="rect" id="node8" href="$base__local__planner_8h.html" title="nav_core/base_local\l_planner.h" alt="" coords="1836,169,1975,211"/>
+<area shape="rect" id="node11" href="$costmap__2d__ros_8h.html" title="costmap_2d/costmap\l_2d_ros.h" alt="" coords="1677,259,1824,300"/>
+<area shape="rect" id="node15" href="$costmap__2d_8h.html" title="costmap_2d/costmap_2d.h" alt="" coords="1145,512,1324,539"/>
+<area shape="rect" id="node32" href="$base__global__planner_8h.html" title="nav_core/base_global\l_planner.h" alt="" coords="1615,169,1761,211"/>
+<area shape="rect" id="node33" href="$recovery__behavior_8h.html" title="nav_core/recovery_behavior.h" alt="" coords="2050,177,2241,203"/>
+<area shape="rect" id="node12" href="$layered__costmap_8h.html" title="costmap_2d/layered\l_costmap.h" alt="" coords="1773,348,1912,389"/>
+<area shape="rect" id="node14" href="$layer_8h.html" title="costmap_2d/layer.h" alt="" coords="2004,437,2140,464"/>
+<area shape="rect" id="node21" href="$costmap__2d__publisher_8h.html" title="costmap_2d/costmap\l_2d_publisher.h" alt="" coords="468,348,615,389"/>
+<area shape="rect" id="node26" href="$footprint_8h.html" title="costmap_2d/footprint.h" alt="" coords="1221,355,1376,382"/>
+<area shape="rect" id="node13" href="$cost__values_8h.html" title="costmap_2d/cost_values.h" alt="" coords="1804,437,1980,464"/>
+</map>

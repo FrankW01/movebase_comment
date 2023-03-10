@@ -1,0 +1,4 @@
+<map id="base_local_planner::TrajectoryPlanner::getCellCosts" name="base_local_planner::TrajectoryPlanner::getCellCosts">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_trajectory_planner_r_o_s.html#a4b78694e9a9731a93d46adb57dc3e61c" title="Constructs the ros wrapper. " alt="" coords="187,5,345,61"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_trajectory_planner_r_o_s.html#ae646760a3abcffa60565753165fb1a07" title="Constructs the ros wrapper. " alt="" coords="393,5,552,61"/>
+</map>

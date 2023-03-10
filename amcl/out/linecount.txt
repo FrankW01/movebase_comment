@@ -1,0 +1,58 @@
+===============================================================================
+EXTENSION NAME : linecount
+EXTENSION VERSION : 0.1.7
+-------------------------------------------------------------------------------
+count time : 2017-07-24 00:59:31
+count workspace : c:\Users\Administrator\Desktop\ros-ws\navigation\amcl
+total files : 46
+total code lines : 4618
+total comment lines : 1551
+total blank lines : 1216
+
+amcl note, code is 14, comment is 0, blank is 1.
+cfg\AMCL.cfg, code is 53, comment is 0, blank is 22.
+CHANGELOG.rst, code is 69, comment is 3, blank is 16.
+CMakeLists.txt, code is 123, comment is 9, blank is 19.
+examples\amcl_diff.launch, code is 36, comment is 0, blank is 0.
+examples\amcl_omni.launch, code is 36, comment is 0, blank is 0.
+include\amcl\map\map.h, code is 40, comment is 67, blank is 43.
+include\amcl\pf\eig3.h, code is 3, comment is 4, blank is 4.
+include\amcl\pf\pf.h, code is 74, comment is 72, blank is 49.
+include\amcl\pf\pf_kdtree.h, code is 34, comment is 46, blank is 29.
+include\amcl\pf\pf_pdf.h, code is 35, comment is 57, blank is 29.
+include\amcl\pf\pf_vector.h, code is 29, comment is 43, blank is 22.
+include\amcl\sensors\amcl_laser.h, code is 76, comment is 53, blank is 27.
+include\amcl\sensors\amcl_odom.h, code is 43, comment is 37, blank is 18.
+include\amcl\sensors\amcl_sensor.h, code is 29, comment is 46, blank is 22.
+package.xml, code is 12, comment is 0, blank is 0.
+src\amcl\map\map.c, code is 35, comment is 32, blank is 17.
+src\amcl\map\map_cspace.cpp, code is 174, comment is 27, blank is 32.
+src\amcl\map\map_draw.c, code is 89, comment is 38, blank is 31.
+src\amcl\map\map_range.c, code is 76, comment is 30, blank is 14.
+src\amcl\map\map_store.c, code is 80, comment is 114, blank is 21.
+src\amcl\pf\eig3.c, code is 205, comment is 27, blank is 40.
+src\amcl\pf\pf.c, code is 387, comment is 135, blank is 140.
+src\amcl\pf\pf_draw.c, code is 79, comment is 47, blank is 37.
+src\amcl\pf\pf_kdtree.c, code is 253, comment is 132, blank is 101.
+src\amcl\pf\pf_pdf.c, code is 88, comment is 80, blank is 41.
+src\amcl\pf\pf_vector.c, code is 121, comment is 102, blank is 53.
+src\amcl\sensors\amcl_laser.cpp, code is 323, comment is 62, blank is 96.
+src\amcl\sensors\amcl_odom.cpp, code is 222, comment is 37, blank is 33.
+src\amcl\sensors\amcl_odom.png, it is a binary file.
+src\amcl\sensors\amcl_sensor.cpp, code is 35, comment is 14, blank is 16.
+src\amcl_node.cpp, code is 1145, comment is 180, blank is 221.
+test\basic_localization.py, code is 60, comment is 5, blank is 14.
+test\basic_localization_stage.xml, code is 44, comment is 5, blank is 0.
+test\global_localization_stage.xml, code is 44, comment is 5, blank is 0.
+test\rosie_multilaser.xml, code is 44, comment is 5, blank is 0.
+test\set_initial_pose.xml, code is 42, comment is 8, blank is 0.
+test\set_initial_pose_delayed.xml, code is 43, comment is 11, blank is 0.
+test\set_pose.py, code is 37, comment is 2, blank is 7.
+test\small_loop_crazy_driving_prg.xml, code is 47, comment is 2, blank is 0.
+test\small_loop_crazy_driving_prg_corrected.xml, code is 47, comment is 2, blank is 0.
+test\small_loop_prf.xml, code is 44, comment is 2, blank is 0.
+test\texas_greenroom_loop.xml, code is 37, comment is 0, blank is 0.
+test\texas_greenroom_loop_corrected.xml, code is 37, comment is 0, blank is 0.
+test\texas_willow_hallway_loop.xml, code is 37, comment is 10, blank is 1.
+test\texas_willow_hallway_loop_corrected.xml, code is 37, comment is 0, blank is 0.
+===============================================================================

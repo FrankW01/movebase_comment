@@ -1,0 +1,10 @@
+<map id="voxel_grid::VoxelGrid::sizeZ" name="voxel_grid::VoxelGrid::sizeZ">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_voxel_grid_model.html#ae83079ddab58c740ffd2ef1a7cb3adee" title="base_local_planner\l::VoxelGridModel::getPoints" alt="" coords="412,71,597,112"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_voxel_layer.html#ab28185cd71c8e42f72880b779ef08ae2" title="This is called by the LayeredCostmap to poll this plugin as to how much of the costmap it needs to up..." alt="" coords="197,15,364,56"/>
+<area shape="rect" id="node6" href="$classvoxel__grid_1_1_voxel_grid.html#a82798a1492156f1c23801e0c486743a3" title="voxel_grid::VoxelGrid\l::getVoxel" alt="" coords="209,180,353,221"/>
+<area shape="rect" id="node9" href="$voxel__grid__tests_8cpp.html#a4ed1e65f04eb231a04beb7c3cd79983d" title="TEST" alt="" coords="715,254,770,281"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_voxel_grid_model.html#ab9d0a3a6fa8ea481c8b3911b90236c3b" title="Destructor for the world model. " alt="" coords="645,63,840,119"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_voxel_layer.html#a02a7f51ba2b09b61f6ada3d10acf5a20" title="costmap_2d::VoxelLayer\l::VoxelLayer" alt="" coords="421,5,588,47"/>
+<area shape="rect" id="node7" href="$costmap__2d__cloud_8cpp.html#a37983da30da7edf07fa9971cd4957c6b" title="voxelCallback" alt="" coords="454,137,555,163"/>
+<area shape="rect" id="node8" href="$classvoxel__grid_1_1_voxel_grid.html#a23f965c26a19c8eeddaedab7640999a0" title="voxel_grid::VoxelGrid\l::printVoxelGrid" alt="" coords="433,188,577,229"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="costmap_2d::VoxelLayer::resetMaps" name="costmap_2d::VoxelLayer::resetMaps">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_voxel_layer.html#a3987d72bcc1891335c474b060e404329" title="costmap_2d::VoxelLayer\l::isDiscretized" alt="" coords="435,5,601,47"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_voxel_layer.html#af5f57588c57a8a5c8dff065b5a76a0db" title="costmap_2d::VoxelLayer\l::reset" alt="" coords="220,33,387,75"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_voxel_layer.html#a91dc901da59c768aea0b25037bf46fef" title="Move the origin of the costmap to a new location.... keeping data when it can. " alt="" coords="220,99,387,140"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_voxel_layer.html#a02a7f51ba2b09b61f6ada3d10acf5a20" title="costmap_2d::VoxelLayer\l::VoxelLayer" alt="" coords="649,96,816,137"/>
+<area shape="rect" id="node6" href="$classcostmap__2d_1_1_voxel_layer.html#ab28185cd71c8e42f72880b779ef08ae2" title="This is called by the LayeredCostmap to poll this plugin as to how much of the costmap it needs to up..." alt="" coords="435,125,601,167"/>
+</map>

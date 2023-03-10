@@ -1,0 +1,6 @@
+<map id="base_local_planner::SimpleTrajectoryGenerator::initialise" name="base_local_planner::SimpleTrajectoryGenerator::initialise">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_local_planner_limits.html#a0402363ae18d44002834003a1b17f14b" title="Get the acceleration limits of the robot. " alt="" coords="245,5,385,61"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_velocity_iterator.html#a26feadcdf741e954dd8551028a4ed204" title="base_local_planner\l::VelocityIterator::\lisFinished" alt="" coords="248,85,381,141"/>
+<area shape="rect" id="node4" href="$classbase__local__planner_1_1_velocity_iterator.html#aa89af2f5352eda024084506787e45a01" title="base_local_planner\l::VelocityIterator::\lgetVelocity" alt="" coords="248,165,381,221"/>
+<area shape="rect" id="node5" href="$classbase__local__planner_1_1_velocity_iterator.html#a305df916173f8e725ae5cd81e75d2306" title="base_local_planner\l::VelocityIterator::reset" alt="" coords="237,246,392,287"/>
+</map>

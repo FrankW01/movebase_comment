@@ -1,0 +1,21 @@
+===============================================================================
+EXTENSION NAME : linecount
+EXTENSION VERSION : 0.1.7
+-------------------------------------------------------------------------------
+count time : 2017-07-24 01:01:47
+count workspace : c:\Users\Administrator\Desktop\ros-ws\navigation\dwa_local_planner
+total files : 9
+total code lines : 716
+total comment lines : 322
+total blank lines : 218
+
+blp_plugin.xml, code is 7, comment is 0, blank is 0.
+cfg\DWAPlanner.cfg, code is 26, comment is 0, blank is 14.
+CHANGELOG.rst, code is 53, comment is 1, blank is 15.
+CMakeLists.txt, code is 53, comment is 0, blank is 9.
+include\dwa_local_planner\dwa_planner.h, code is 64, comment is 94, blank is 28.
+include\dwa_local_planner\dwa_planner_ros.h, code is 48, comment is 80, blank is 33.
+package.xml, code is 41, comment is 0, blank is 9.
+src\dwa_planner.cpp, code is 239, comment is 80, blank is 59.
+src\dwa_planner_ros.cpp, code is 185, comment is 67, blank is 51.
+===============================================================================

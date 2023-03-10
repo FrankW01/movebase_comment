@@ -1,0 +1,4 @@
+<map id="base_local_planner::TrajectoryPlanner::checkTrajectory" name="base_local_planner::TrajectoryPlanner::checkTrajectory">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_trajectory_planner_r_o_s.html#a79384acb51a894dbcec4447bee1ca90f" title="Destructor for the wrapper. " alt="" coords="187,5,353,61"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_trajectory_planner_r_o_s.html#a9155bebb3d073ae4b19b8d0da87478a6" title="Generate and score a single trajectory. " alt="" coords="191,85,349,141"/>
+</map>

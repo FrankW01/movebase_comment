@@ -1,0 +1,7 @@
+<map id="costmap_2d::Costmap2D::polygonOutlineCells" name="costmap_2d::Costmap2D::polygonOutlineCells">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_costmap2_d.html#aa3c49f2d63f6edfb7396d1b0c79a4b12" title="Get the map cells that fill a convex polygon. " alt="" coords="223,39,392,80"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_costmap2_d.html#afb8a42c3810e796107ed04c0ca3cbf90" title="Sets the cost of a convex polygon to a desired value. " alt="" coords="440,39,609,80"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_obstacle_layer.html#a02fbdf76db69ddc03c400b2c00e903ee" title="Actually update the underlying costmap, only within the bounds calculated during UpdateBounds(). " alt="" coords="657,5,843,47"/>
+<area shape="rect" id="node6" href="$classmove__base_1_1_move_base.html#a1f61244f766f8652ca8d205b34906f39" title="Constructor for the actions. " alt="" coords="673,71,827,112"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_obstacle_layer.html#a4620782e96fabeb0b449daa725857c00" title="costmap_2d::ObstacleLayer\l::ObstacleLayer" alt="" coords="891,5,1076,47"/>
+</map>

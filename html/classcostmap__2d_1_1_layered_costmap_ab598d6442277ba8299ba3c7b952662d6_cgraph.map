@@ -1,0 +1,12 @@
+<map id="costmap_2d::LayeredCostmap::updateMap" name="costmap_2d::LayeredCostmap::updateMap">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_costmap2_d.html#a0d03ac474a496bee0780d4b7f5b4a2f1" title="costmap_2d::Costmap2D\l::getMutex" alt="" coords="261,5,430,47"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_costmap2_d.html#a645ea4720d5cab8bcf662687cc81d087" title="Accessor for the x size of the costmap in meters. " alt="" coords="261,71,430,112"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_costmap2_d.html#afb1d6cdc01d77452175487955e6aff4d" title="Accessor for the y size of the costmap in meters. " alt="" coords="261,136,430,177"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_costmap2_d.html#a5ca05c95f95e1408ca9e23d2e7f8987a" title="Move the origin of the costmap to a new location.... keeping data when it can. " alt="" coords="261,201,430,243"/>
+<area shape="rect" id="node8" href="$classcostmap__2d_1_1_costmap2_d.html#ae412173f42af7edba9996f86754b7cbf" title="Convert from world coordinates to map coordinates, constraining results to legal bounds. " alt="" coords="252,267,439,308"/>
+<area shape="rect" id="node9" href="$classcostmap__2d_1_1_costmap2_d.html#a615a4186649d8970111f8a356906b320" title="Accessor for the x size of the costmap in cells. " alt="" coords="261,332,430,373"/>
+<area shape="rect" id="node10" href="$classcostmap__2d_1_1_costmap2_d.html#a702f4ed109f94c8513500cf97ff066a4" title="Accessor for the y size of the costmap in cells. " alt="" coords="261,397,430,439"/>
+<area shape="rect" id="node11" href="$classcostmap__2d_1_1_costmap2_d.html#aba344550cbc08bcc3a54c64290f8f568" title="costmap_2d::Costmap2D\l::resetMap" alt="" coords="261,463,430,504"/>
+<area shape="rect" id="node6" href="$classcostmap__2d_1_1_costmap2_d.html#ab857ec41de2e14d601b85bbf6497b612" title="Copy a region of a source map into a destination map. " alt="" coords="487,169,656,211"/>
+<area shape="rect" id="node7" href="$classcostmap__2d_1_1_costmap2_d.html#ab4424e85f6daaf91eaf455e4bb241c19" title="Resets the costmap and static_map to be unknown space. " alt="" coords="487,235,656,276"/>
+</map>

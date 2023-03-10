@@ -1,0 +1,4 @@
+<map id="costmap_2d::VoxelLayer::updateOrigin" name="costmap_2d::VoxelLayer::updateOrigin">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_voxel_layer.html#a02a7f51ba2b09b61f6ada3d10acf5a20" title="costmap_2d::VoxelLayer\l::VoxelLayer" alt="" coords="435,5,601,47"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_voxel_layer.html#ab28185cd71c8e42f72880b779ef08ae2" title="This is called by the LayeredCostmap to poll this plugin as to how much of the costmap it needs to up..." alt="" coords="220,35,387,76"/>
+</map>

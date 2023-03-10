@@ -1,0 +1,4 @@
+<map id="costmap_2d::LayeredCostmap::isSizeLocked" name="costmap_2d::LayeredCostmap::isSizeLocked">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_static_layer.html#a3c8a9c7ea061ad416e09d2f1f18cdc8a" title="Implement this to make this layer match the size of the parent costmap. " alt="" coords="267,5,434,47"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a22cf571bfd4cd4434c2d203cd341d2c7" title="costmap_2d::Costmap2DROS\l::~Costmap2DROS" alt="" coords="252,71,449,112"/>
+</map>

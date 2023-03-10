@@ -1,0 +1,7 @@
+<map id="base_local_planner::LocalPlannerUtil::getLocalPlan" name="base_local_planner::LocalPlannerUtil::getLocalPlan">
+<area shape="rect" id="node2" href="$namespacebase__local__planner.html#a047695bdbc63bda4b4bd5f0f5bd9b585" title="Transforms the global plan of the robot from the planner frame to the frame of the costmap..." alt="" coords="187,71,333,112"/>
+<area shape="rect" id="node6" href="$namespacebase__local__planner.html#abfcb938c8a408993b8164d77db39ecb7" title="Trim off parts of the global plan that are far enough behind the robot. " alt="" coords="193,136,327,177"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_costmap2_d.html#a615a4186649d8970111f8a356906b320" title="Accessor for the x size of the costmap in cells. " alt="" coords="381,5,551,47"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_costmap2_d.html#ade55f512e27c62cec28a3de5ca775759" title="Accessor for the resolution of the costmap. " alt="" coords="381,71,551,112"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_costmap2_d.html#a702f4ed109f94c8513500cf97ff066a4" title="Accessor for the y size of the costmap in cells. " alt="" coords="381,136,551,177"/>
+</map>

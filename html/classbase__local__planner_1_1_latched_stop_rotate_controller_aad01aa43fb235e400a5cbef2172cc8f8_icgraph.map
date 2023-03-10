@@ -1,0 +1,6 @@
+<map id="base_local_planner::LatchedStopRotateController::rotateToGoal" name="base_local_planner::LatchedStopRotateController::rotateToGoal">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_latched_stop_rotate_controller.html#af3b08514bca9dfc212b770a071f85b3b" title="base_local_planner\l::LatchedStopRotateController\l::resetLatching" alt="" coords="573,5,769,61"/>
+<area shape="rect" id="node4" href="$classbase__local__planner_1_1_latched_stop_rotate_controller.html#a3da98bf8229a6cafc8b059b33ae54d59" title="base_local_planner\l::LatchedStopRotateController\l::computeVelocityCommandsStopRotate" alt="" coords="249,71,508,127"/>
+<area shape="rect" id="node3" href="$classdwa__local__planner_1_1_d_w_a_planner_r_o_s.html#a0cfcf517c3112678a7eabeb498d9b2ce" title="Set the plan that the controller is following. " alt="" coords="835,13,1012,54"/>
+<area shape="rect" id="node5" href="$classdwa__local__planner_1_1_d_w_a_planner_r_o_s.html#a700178e32159b614d328326b6ba5f8b0" title="Given the current position, orientation, and velocity of the robot, compute velocity commands to send..." alt="" coords="556,85,787,141"/>
+</map>

@@ -1,0 +1,25 @@
+<map id="base_local_planner::MapGridCostFunction::setStopOnFailure" name="base_local_planner::MapGridCostFunction::setStopOnFailure">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_map_grid_cost_function.html#af3f80d67ddeefec5871b4828ddafb5dc" title="base_local_planner\l::MapGridCostFunction\l::prepare" alt="" coords="209,481,365,537"/>
+<area shape="rect" id="node21" href="$classbase__local__planner_1_1_map_grid_cost_function.html#a4332b1fd1c72795c87fb5d3a427df476" title="base_local_planner\l::MapGridCostFunction\l::scoreTrajectory" alt="" coords="419,665,575,721"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_map_grid.html#aaede39518e77d4eb1f7fc7766da5cb11" title="reset path distance fields for all cells " alt="" coords="413,456,580,497"/>
+<area shape="rect" id="node13" href="$classbase__local__planner_1_1_map_grid.html#a8e3227190b9f67376ee2890f493079d5" title="Update what cells are considered path based on the global plan. " alt="" coords="877,473,1047,515"/>
+<area shape="rect" id="node19" href="$classbase__local__planner_1_1_map_grid.html#ab73fe99a7ad21b36a3178e26296945d5" title="Update what cell is considered the next local goal. " alt="" coords="881,333,1043,375"/>
+<area shape="rect" id="node4" href="$classbase__local__planner_1_1_map_grid.html#a1b7145c6781d0d3703a1003b9f753420" title="base_local_planner\l::MapGrid::unreachableCell\lCosts" alt="" coords="628,446,807,502"/>
+<area shape="rect" id="node5" href="$classbase__local__planner_1_1_map_grid.html#a88efaf02a2735770450745f47239f0d9" title="Used to update the distance of a cell in path distance computation. " alt="" coords="1389,603,1564,644"/>
+<area shape="rect" id="node10" href="$classbase__local__planner_1_1_map_grid.html#a0af367c6272d3c4b7c16dde4a41c306a" title="base_local_planner\l::MapGrid::adjustPlanResolution" alt="" coords="1125,5,1334,47"/>
+<area shape="rect" id="node11" href="$classbase__local__planner_1_1_map_grid.html#a0af0995160ef050ddb804dafed2f960b" title="Compute the distance from each cell in the local map grid to the planned path. " alt="" coords="1117,603,1341,644"/>
+<area shape="rect" id="node12" href="$classbase__local__planner_1_1_map_grid.html#af1dd07e1b2e42fc5dd65c3f8f0d366e5" title="Compute the distance from each cell in the local map grid to the local goal point. " alt="" coords="855,408,1069,449"/>
+<area shape="rect" id="node6" href="$classcostmap__2d_1_1_costmap2_d.html#a2a8ad2c3fc3aa47be8d2d0f9ae113c27" title="Get the cost of a cell in the costmap. " alt="" coords="1613,443,1782,484"/>
+<area shape="rect" id="node8" href="$classbase__local__planner_1_1_map_grid.html#acbeadc4a517c19334f36831931019ec1" title="base_local_planner\l::MapGrid::getCell" alt="" coords="1631,544,1764,585"/>
+<area shape="rect" id="node9" href="$classbase__local__planner_1_1_map_grid.html#af3db024faefa9420ec75b18d4da90cfe" title="base_local_planner\l::MapGrid::obstacleCosts" alt="" coords="1612,693,1783,735"/>
+<area shape="rect" id="node7" href="$classcostmap__2d_1_1_costmap2_d.html#a57d2ea3f3a039d72640c159cd149ff9d" title="Given two map coordinates... compute the associated index. " alt="" coords="1831,443,2000,484"/>
+<area shape="rect" id="node14" href="$classbase__local__planner_1_1_map_grid.html#ada7418321ccc809a6dfa8e45ada16c6d" title="check if we need to resize " alt="" coords="1155,435,1303,476"/>
+<area shape="rect" id="node15" href="$classcostmap__2d_1_1_costmap2_d.html#a615a4186649d8970111f8a356906b320" title="Accessor for the x size of the costmap in cells. " alt="" coords="1145,239,1314,280"/>
+<area shape="rect" id="node16" href="$classcostmap__2d_1_1_costmap2_d.html#a702f4ed109f94c8513500cf97ff066a4" title="Accessor for the y size of the costmap in cells. " alt="" coords="1145,304,1314,345"/>
+<area shape="rect" id="node17" href="$classcostmap__2d_1_1_costmap2_d.html#ade55f512e27c62cec28a3de5ca775759" title="Accessor for the resolution of the costmap. " alt="" coords="1145,369,1314,411"/>
+<area shape="rect" id="node18" href="$classcostmap__2d_1_1_costmap2_d.html#a9a2c824d4cd3bcad3ac3435d81982986" title="Convert from world coordinates to map coordinates. " alt="" coords="1145,668,1314,709"/>
+<area shape="rect" id="node20" href="$classcostmap__2d_1_1_costmap2_d.html#a8e39feaa7ee4446347674b3701a1394c" title="Convert from map coordinates to world coordinates. " alt="" coords="1145,71,1314,112"/>
+<area shape="rect" id="node22" href="$classbase__local__planner_1_1_trajectory.html#a825364365ad68291ce701c0e97bef3d5" title="Return the number of points in the trajectory. " alt="" coords="629,836,805,877"/>
+<area shape="rect" id="node23" href="$classbase__local__planner_1_1_trajectory.html#aefeea7b81d210b228cfe041938be6a14" title="Get a point within the trajectory. " alt="" coords="646,901,789,943"/>
+<area shape="rect" id="node24" href="$classbase__local__planner_1_1_map_grid_cost_function.html#a0a9cdd8ffef9d7cfe3c7a8c38a6e6e33" title="base_local_planner\l::MapGridCostFunction\l::getCellCosts" alt="" coords="639,599,795,655"/>
+</map>

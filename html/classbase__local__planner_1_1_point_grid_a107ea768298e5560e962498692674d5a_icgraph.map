@@ -1,0 +1,13 @@
+<map id="base_local_planner::PointGrid::gridIndex" name="base_local_planner::PointGrid::gridIndex">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_point_grid.html#ab844aee638783adfa214c30dc03db8e9" title="Returns the points that lie within the cells contained in the specified range. Some of these points m..." alt="" coords="432,87,627,128"/>
+<area shape="rect" id="node10" href="$classbase__local__planner_1_1_point_grid.html#a28e4c85e879080776352bd86b64ccf12" title="Insert a point into the point grid. " alt="" coords="698,240,831,281"/>
+<area shape="rect" id="node11" href="$classbase__local__planner_1_1_point_grid.html#a701757dbd179c3dad466c7b7e2114d6b" title="Find the distance between a point and its nearest neighbor in a cell. " alt="" coords="197,284,384,325"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_point_grid.html#adcf3cf7ebf7d52a909fb2744560bf1e4" title="Destructor for a point grid. " alt="" coords="1116,33,1271,75"/>
+<area shape="rect" id="node4" href="$classbase__local__planner_1_1_point_grid.html#ae9398ded210128450fbdb86f231cf588" title="Checks if any points in the grid lie inside a convex footprint. " alt="" coords="903,33,1068,75"/>
+<area shape="rect" id="node6" href="$classbase__local__planner_1_1_point_grid.html#a693cf4b2962ea0ffb4e74daf44a317a4" title="Removes points from the grid that lie within a laser scan. " alt="" coords="675,79,855,135"/>
+<area shape="rect" id="node9" href="$classbase__local__planner_1_1_point_grid.html#afb743eed27facd44c2ed0e59e9f04449" title="Removes points from the grid that lie within the polygon. " alt="" coords="675,159,855,215"/>
+<area shape="rect" id="node5" href="$point__grid_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1168,119,1219,146"/>
+<area shape="rect" id="node7" href="$classbase__local__planner_1_1_point_grid.html#ac2ef35c1ba187bc774ec0c2437ede23a" title="Check if two line segmenst intersect. " alt="" coords="904,240,1067,281"/>
+<area shape="rect" id="node8" href="$classbase__local__planner_1_1_point_grid.html#adb8a9a0665445fe274510a86dd0e8277" title="Inserts observations from sensors into the point grid. " alt="" coords="903,112,1068,153"/>
+<area shape="rect" id="node12" href="$classbase__local__planner_1_1_point_grid.html#ab0d5b4b745f965826501b9fca2bf7aa7" title="Find the distance between a point and its nearest neighbor in the grid. " alt="" coords="436,277,623,333"/>
+</map>

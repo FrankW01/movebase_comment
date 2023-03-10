@@ -1,0 +1,4 @@
+<map id="costmap_2d::Costmap2D::polygonOutlineCells" name="costmap_2d::Costmap2D::polygonOutlineCells">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_costmap2_d.html#af1d619d9b49b6851cb0a33de4e39ec78" title="Raytrace a line and apply some action at each step. " alt="" coords="223,5,392,47"/>
+<area shape="rect" id="node3" href="$costmap__math_8h.html#a8f3cba07aa75b7320ae8bd6c0aeac498" title="Return &#45;1 if x &lt; 0, +1 otherwise. " alt="" coords="440,13,487,39"/>
+</map>

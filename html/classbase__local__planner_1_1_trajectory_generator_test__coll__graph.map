@@ -1,0 +1,5 @@
+<map id="base_local_planner::TrajectoryGeneratorTest" name="base_local_planner::TrajectoryGeneratorTest">
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_simple_trajectory_generator.html" title="base_local_planner\l::SimpleTrajectoryGenerator" alt="" coords="284,57,468,98"/>
+<area shape="rect" id="node4" href="$classbase__local__planner_1_1_trajectory_sample_generator.html" title="Provides an interface for navigation trajectory generators. " alt="" coords="5,23,193,65"/>
+<area shape="rect" id="node5" href="$classbase__local__planner_1_1_local_planner_limits.html" title="base_local_planner\l::LocalPlannerLimits" alt="" coords="29,89,169,130"/>
+</map>

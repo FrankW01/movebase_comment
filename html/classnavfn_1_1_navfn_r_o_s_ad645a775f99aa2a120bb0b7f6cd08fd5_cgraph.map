@@ -1,0 +1,5 @@
+<map id="navfn::NavfnROS::getPlanFromPotential" name="navfn::NavfnROS::getPlanFromPotential">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_costmap2_d.html#a9a2c824d4cd3bcad3ac3435d81982986" title="Convert from world coordinates to map coordinates. " alt="" coords="236,5,405,47"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_costmap2_d.html#a615a4186649d8970111f8a356906b320" title="Accessor for the x size of the costmap in cells. " alt="" coords="236,71,405,112"/>
+<area shape="rect" id="node4" href="$classnavfn_1_1_navfn_r_o_s.html#a05b4ca9b40c385791f4cb7be8237e4bb" title="Publish a path for visualization purposes. " alt="" coords="224,137,417,163"/>
+</map>

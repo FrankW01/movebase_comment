@@ -1,0 +1,10 @@
+<map id="costmap_2d::CostmapLayer::matchSize" name="costmap_2d::CostmapLayer::matchSize">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_costmap_layer.html#a7a595c59ef61a168c71e63360b9b1501" title="costmap_2d::CostmapLayer\l::isDiscretized" alt="" coords="239,5,424,47"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_obstacle_layer.html#a370822e3b19d717ef04311b7b967f496" title="This is called at the end of initialize(). Override to implement subclass&#45;specific initialization..." alt="" coords="239,71,424,112"/>
+<area shape="rect" id="node7" href="$classcostmap__2d_1_1_voxel_layer.html#a0528c59b3cbe4c1b81748284ae0a3dc5" title="Implement this to make this layer match the size of the parent costmap. " alt="" coords="248,136,415,177"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_obstacle_layer.html#a4620782e96fabeb0b449daa725857c00" title="costmap_2d::ObstacleLayer\l::ObstacleLayer" alt="" coords="472,5,657,47"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_voxel_layer.html#a7b0d5249f27fd757f206493b491fd37a" title="This is called at the end of initialize(). Override to implement subclass&#45;specific initialization..." alt="" coords="481,71,648,112"/>
+<area shape="rect" id="node6" href="$classcostmap__2d_1_1_voxel_layer.html#a02a7f51ba2b09b61f6ada3d10acf5a20" title="costmap_2d::VoxelLayer\l::VoxelLayer" alt="" coords="705,136,872,177"/>
+<area shape="rect" id="node8" href="$classcostmap__2d_1_1_voxel_layer.html#a3987d72bcc1891335c474b060e404329" title="costmap_2d::VoxelLayer\l::isDiscretized" alt="" coords="481,136,648,177"/>
+<area shape="rect" id="node9" href="$classcostmap__2d_1_1_voxel_layer.html#a783343776ec9c85b62c882b7739fc2b0" title="costmap_2d::VoxelLayer\l::~VoxelLayer" alt="" coords="481,201,648,243"/>
+</map>

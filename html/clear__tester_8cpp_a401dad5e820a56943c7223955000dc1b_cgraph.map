@@ -1,0 +1,7 @@
+<map id="testClearBehavior" name="testClearBehavior">
+<area shape="rect" id="node2" href="$classclear__costmap__recovery_1_1_clear_costmap_recovery.html#ab18314fcc1f808163d558e0e9fcffeb5" title="Initialization function for the ClearCostmapRecovery recovery behavior. " alt="" coords="176,5,341,61"/>
+<area shape="rect" id="node3" href="$classclear__costmap__recovery_1_1_clear_costmap_recovery.html#a7306f9a6b3db7e909e07e7fac7ee84a4" title="Run the ClearCostmapRecovery recovery behavior. Reverts the costmap to the static map outside of a us..." alt="" coords="176,85,341,141"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a555aa9850ee20c826b5b229b49081c30" title="costmap_2d::Costmap2DROS\l::getLayeredCostmap" alt="" coords="390,27,587,69"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_layered_costmap.html#aac454be50f1e5a7933667ca4793bfe23" title="costmap_2d::LayeredCostmap\l::getPlugins" alt="" coords="389,93,588,134"/>
+<area shape="rect" id="node6" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#ac5e8d0c1f441dfb0508951bc5e9a4ae1" title="Get the pose of the robot in the global frame of the costmap. " alt="" coords="390,158,587,199"/>
+</map>

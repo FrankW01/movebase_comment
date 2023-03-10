@@ -1,0 +1,4 @@
+<map id="dwa_local_planner::DWAPlanner::getCellCosts" name="dwa_local_planner::DWAPlanner::getCellCosts">
+<area shape="rect" id="node2" href="$classdwa__local__planner_1_1_d_w_a_planner.html#a943ce6facaf2c7602709ed4d0e9c9c54" title="Get the period at which the local planner is expected to run. " alt="" coords="232,5,415,47"/>
+<area shape="rect" id="node3" href="$classdwa__local__planner_1_1_d_w_a_planner.html#ab2c1143a3a54638d0dc38f9b6fa16e53" title="Constructor for the planner. " alt="" coords="233,71,413,112"/>
+</map>

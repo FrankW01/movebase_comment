@@ -1,0 +1,6 @@
+<map id="global_planner::GlobalPlanner::makePlan" name="global_planner::GlobalPlanner::makePlan">
+<area shape="rect" id="node2" href="$classglobal__planner_1_1_planner_with_costmap.html#a735f4750a1e88ab01b22a4d12d8dfc0d" title="global_planner::PlannerWith\lCostmap::makePlanService" alt="" coords="253,5,437,47"/>
+<area shape="rect" id="node4" href="$classglobal__planner_1_1_global_planner.html#a760dc206a99babddfacded0558d35208" title="global_planner::GlobalPlanner\l::makePlanService" alt="" coords="248,71,443,112"/>
+<area shape="rect" id="node3" href="$classglobal__planner_1_1_planner_with_costmap.html#abf6efea3cec2f9f41ae7104005f777c7" title="global_planner::PlannerWith\lCostmap::PlannerWithCostmap" alt="" coords="491,5,696,47"/>
+<area shape="rect" id="node5" href="$classglobal__planner_1_1_global_planner.html#af3ade8f9f487fe2ddd109f0845a6ffb2" title="global_planner::GlobalPlanner\l::initialize" alt="" coords="496,71,691,112"/>
+</map>

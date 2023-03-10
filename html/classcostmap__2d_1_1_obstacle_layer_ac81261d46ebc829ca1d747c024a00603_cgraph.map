@@ -1,0 +1,6 @@
+<map id="costmap_2d::ObstacleLayer::updateFootprint" name="costmap_2d::ObstacleLayer::updateFootprint">
+<area shape="rect" id="node2" href="$namespacecostmap__2d.html#a0928255ee5f8797cece2ab99f3eb310b" title="Given a pose and base footprint, build the oriented footprint of the robot (list of Points) ..." alt="" coords="239,5,445,32"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_layer.html#ac24cade239a2cb0923a774bc5231ac44" title="Convenience function for layered_costmap_&#45;&gt;getFootprint(). " alt="" coords="271,57,413,98"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_costmap_layer.html#a7ae82ac5b75c5627ded6cda139849f6c" title="costmap_2d::CostmapLayer\l::touch" alt="" coords="249,122,435,163"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_layered_costmap.html#a5d39338c55ccd02b1577ffb84320272b" title="Returns the latest footprint stored with setFootprint(). " alt="" coords="493,57,692,98"/>
+</map>

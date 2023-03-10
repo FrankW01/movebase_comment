@@ -1,0 +1,30 @@
+===============================================================================
+EXTENSION NAME : linecount
+EXTENSION VERSION : 0.1.7
+-------------------------------------------------------------------------------
+count time : 2017-07-24 01:02:54
+count workspace : c:\Users\Administrator\Desktop\ros-ws\navigation\map_server
+total files : 18
+total code lines : 858
+total comment lines : 386
+total blank lines : 179
+
+CHANGELOG.rst, code is 60, comment is 2, blank is 14.
+CMakeLists.txt, code is 78, comment is 0, blank is 12.
+include\map_server\image_loader.h, code is 12, comment is 59, blank is 6.
+package.xml, code is 29, comment is 0, blank is 6.
+scripts\crop_map, code is 92, comment is 0, blank is 18.
+src\image_loader.cpp, code is 90, comment is 48, blank is 24.
+src\main.cpp, code is 177, comment is 51, blank is 23.
+src\map_saver.cpp, code is 96, comment is 44, blank is 28.
+src\map_server.dox, code is 0, comment is 8, blank is 1.
+test\consumer.py, code is 29, comment is 34, blank is 9.
+test\rtest.cpp, code is 94, comment is 35, blank is 17.
+test\rtest.xml, code is 4, comment is 0, blank is 3.
+test\test_constants.cpp, code is 18, comment is 36, blank is 8.
+test\test_constants.h, code is 9, comment is 30, blank is 4.
+test\testmap.bmp, it is a binary file.
+test\testmap.png, it is a binary file.
+test\testmap.yaml, code is 6, comment is 0, blank is 0.
+test\utest.cpp, code is 64, comment is 39, blank is 6.
+===============================================================================

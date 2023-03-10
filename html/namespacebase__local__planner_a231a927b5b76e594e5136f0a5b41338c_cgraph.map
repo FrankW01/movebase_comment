@@ -1,0 +1,7 @@
+<map id="base_local_planner::isGoalReached" name="base_local_planner::isGoalReached">
+<area shape="rect" id="node2" href="$namespacebase__local__planner.html#aa0e40cef653b1dd1f828e2090c22b5b8" title="Returns last pose in plan. " alt="" coords="234,5,367,47"/>
+<area shape="rect" id="node3" href="$namespaceglobal__planner.html#a2ac867f1fbf1f4ee1946ef6a371ab7ba" title="global_planner::getYaw" alt="" coords="463,134,619,161"/>
+<area shape="rect" id="node4" href="$namespacebase__local__planner.html#a007b4a7cab1ce8354626fa161fc0ea0d" title="return squared distance to check if the goal position has been achieved " alt="" coords="214,123,387,164"/>
+<area shape="rect" id="node5" href="$namespacebase__local__planner.html#a689257572d08394d8d14ab2d1996590c" title="return angle difference to goal to check if the goal orientation has been achieved ..." alt="" coords="187,188,415,229"/>
+<area shape="rect" id="node6" href="$namespacebase__local__planner.html#a80ea2934aded9d99c3e082dd934ae89c" title="Check whether the robot is stopped or not. " alt="" coords="234,253,367,295"/>
+</map>

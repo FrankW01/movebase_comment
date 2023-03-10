@@ -1,0 +1,14 @@
+<map id="base_local_planner::WorldModel::footprintCost" name="base_local_planner::WorldModel::footprintCost">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_costmap_model.html#a0ec575505589c1816559a563b34cd682" title="Destructor for the world model. " alt="" coords="233,5,453,47"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_point_grid.html#adcf3cf7ebf7d52a909fb2744560bf1e4" title="Destructor for a point grid. " alt="" coords="266,71,421,112"/>
+<area shape="rect" id="node4" href="$classbase__local__planner_1_1_voxel_grid_model.html#ab9d0a3a6fa8ea481c8b3911b90236c3b" title="Destructor for the world model. " alt="" coords="246,137,441,193"/>
+<area shape="rect" id="node5" href="$classbase__local__planner_1_1_world_model.html#ac7e8dc9c77a2dd2fa77f5a27d812fd43" title="base_local_planner\l::WorldModel::footprintCost" alt="" coords="253,217,433,259"/>
+<area shape="rect" id="node6" href="$classbase__local__planner_1_1_obstacle_cost_function.html#a1f6a1fa580a775f11226ca346b8dcc33" title="base_local_planner\l::ObstacleCostFunction\l::footprintCost" alt="" coords="264,283,423,339"/>
+<area shape="rect" id="node10" href="$classbase__local__planner_1_1_trajectory_planner.html#a26b25e08c3bd59f73b5aa19ad2a4a1e3" title="Given the current position, orientation, and velocity of the robot, return a trajectory to follow..." alt="" coords="277,363,410,419"/>
+<area shape="rect" id="node12" href="$classcarrot__planner_1_1_carrot_planner.html#a83b1bb77b4ef4a2719dcc29bf90d077e" title="Initialization function for the CarrotPlanner. " alt="" coords="248,444,439,485"/>
+<area shape="rect" id="node7" href="$classbase__local__planner_1_1_obstacle_cost_function.html#a62321188c336dbef4d749a79cecc45c0" title="base_local_planner\l::ObstacleCostFunction\l::setSumScores" alt="" coords="519,203,677,259"/>
+<area shape="rect" id="node9" href="$classbase__local__planner_1_1_obstacle_cost_function.html#a3bac5a99d333a755440449809270e638" title="base_local_planner\l::ObstacleCostFunction\l::scoreTrajectory" alt="" coords="519,283,677,339"/>
+<area shape="rect" id="node8" href="$classdwa__local__planner_1_1_d_w_a_planner.html#ab2c1143a3a54638d0dc38f9b6fa16e53" title="Constructor for the planner. " alt="" coords="743,211,923,252"/>
+<area shape="rect" id="node11" href="$classbase__local__planner_1_1_trajectory_planner_r_o_s.html#adb2d96332da31a154db84930754409af" title="Given the current position, orientation, and velocity of the robot, compute velocity commands to send..." alt="" coords="501,363,695,419"/>
+<area shape="rect" id="node13" href="$classcarrot__planner_1_1_carrot_planner.html#a4046ba14bc9523f59305115c530dfc0b" title="Constructor for the CarrotPlanner. " alt="" coords="503,444,693,485"/>
+</map>

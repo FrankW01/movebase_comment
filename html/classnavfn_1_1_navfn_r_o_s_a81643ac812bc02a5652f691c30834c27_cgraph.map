@@ -1,0 +1,6 @@
+<map id="navfn::NavfnROS::makePlanService" name="navfn::NavfnROS::makePlanService">
+<area shape="rect" id="node2" href="$classnavfn_1_1_navfn_r_o_s.html#aa8cec6d49a902ace7e71ffc7125b29a9" title="Given a goal pose in the world, compute a plan. " alt="" coords="237,5,421,32"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_costmap2_d.html#a9aae81be964f5fff675f9a10c3bf2e82" title="Accessor for the x origin of the costmap. " alt="" coords="245,57,414,98"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_costmap2_d.html#ade55f512e27c62cec28a3de5ca775759" title="Accessor for the resolution of the costmap. " alt="" coords="245,122,414,163"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_costmap2_d.html#a686124b010e121eb87629ff17a032d7f" title="Accessor for the y origin of the costmap. " alt="" coords="245,187,414,229"/>
+</map>

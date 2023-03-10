@@ -1,0 +1,7 @@
+<map id="base_local_planner::TrajectoryPlannerROS::isInitialized" name="base_local_planner::TrajectoryPlannerROS::isInitialized">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_trajectory_planner_r_o_s.html#a4b78694e9a9731a93d46adb57dc3e61c" title="Constructs the ros wrapper. " alt="" coords="229,5,388,61"/>
+<area shape="rect" id="node4" href="$classbase__local__planner_1_1_trajectory_planner_r_o_s.html#af3a0c8be5746b1e1d8657f6b867ea934" title="Set the plan that the controller is following. " alt="" coords="229,85,388,141"/>
+<area shape="rect" id="node5" href="$classbase__local__planner_1_1_trajectory_planner_r_o_s.html#adb2d96332da31a154db84930754409af" title="Given the current position, orientation, and velocity of the robot, compute velocity commands to send..." alt="" coords="212,165,405,221"/>
+<area shape="rect" id="node6" href="$classbase__local__planner_1_1_trajectory_planner_r_o_s.html#a5196b75a728ab7c37d6bdd99faa7b541" title="Check if the goal pose has been achieved. " alt="" coords="229,245,388,301"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_trajectory_planner_r_o_s.html#ae646760a3abcffa60565753165fb1a07" title="Constructs the ros wrapper. " alt="" coords="453,5,612,61"/>
+</map>

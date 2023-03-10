@@ -1,0 +1,6 @@
+<map id="base_local_planner::LatchedStopRotateController::isPositionReached" name="base_local_planner::LatchedStopRotateController::isPositionReached">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_local_planner_util.html#ab872bb31110cc8cf9d1fa7f5b339c6fd" title="base_local_planner\l::LocalPlannerUtil::\lgetCurrentLimits" alt="" coords="269,5,403,61"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_local_planner_util.html#a0b25669a2eb263677de189f52e2c0e33" title="base_local_planner\l::LocalPlannerUtil::\lgetGoal" alt="" coords="269,85,403,141"/>
+<area shape="rect" id="node5" href="$namespacebase__local__planner.html#a007b4a7cab1ce8354626fa161fc0ea0d" title="return squared distance to check if the goal position has been achieved " alt="" coords="249,166,423,207"/>
+<area shape="rect" id="node4" href="$namespacebase__local__planner.html#aa0e40cef653b1dd1f828e2090c22b5b8" title="Returns last pose in plan. " alt="" coords="471,93,604,134"/>
+</map>

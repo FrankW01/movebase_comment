@@ -1,0 +1,6 @@
+<map id="TEST" name="TEST">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_line_iterator.html#a603d638882063ab678c2a75911591080" title="base_local_planner\l::LineIterator::isValid" alt="" coords="112,5,253,47"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_line_iterator.html#a28c1d5cf80224634d4b8adca5ec6f441" title="base_local_planner\l::LineIterator::getX" alt="" coords="116,71,249,112"/>
+<area shape="rect" id="node4" href="$classbase__local__planner_1_1_line_iterator.html#a59ca9e3b8bdfb50250a9bf93d1fb304b" title="base_local_planner\l::LineIterator::getY" alt="" coords="116,136,249,177"/>
+<area shape="rect" id="node5" href="$classbase__local__planner_1_1_line_iterator.html#a8ed9b1960bf22eb83e62177cede42f6e" title="base_local_planner\l::LineIterator::advance" alt="" coords="108,201,257,243"/>
+</map>

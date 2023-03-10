@@ -1,0 +1,5 @@
+<map id="base_local_planner::OdometryHelperRos::setOdomTopic" name="base_local_planner::OdometryHelperRos::setOdomTopic">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_odometry_helper_ros.html#a03cc609ab67e45a06d58f9829c304554" title="base_local_planner\l::OdometryHelperRos\l::~OdometryHelperRos" alt="" coords="213,5,367,61"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_odometry_helper_ros.html#af6ea30bc773864015dd3d243dc375d0b" title="Constructor. " alt="" coords="217,85,363,141"/>
+<area shape="rect" id="node4" href="$classdwa__local__planner_1_1_d_w_a_planner_r_o_s.html#a38d0371b8c565fc3bda33b49388853c5" title="Constructs the ros wrapper. " alt="" coords="200,166,380,207"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="base_local_planner::OscillationCostFunction::updateOscillationFlags" name="base_local_planner::OscillationCostFunction::updateOscillationFlags">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_oscillation_cost_function.html#a1cc7c1cd4c49df97515da3c12400f4df" title="base_local_planner\l::OscillationCostFunction\l::prepare" alt="" coords="227,5,395,61"/>
+<area shape="rect" id="node3" href="$classdwa__local__planner_1_1_d_w_a_planner.html#ad7e5c57da49cd1517ee0affdf5f3acd3" title="Given the current position and velocity of the robot, find the best trajectory to exectue..." alt="" coords="221,86,400,127"/>
+<area shape="rect" id="node4" href="$classdwa__local__planner_1_1_d_w_a_planner.html#a67aec91da742af7b6a9e001fad67d03f" title="Destructor for the planner. " alt="" coords="448,86,636,127"/>
+</map>

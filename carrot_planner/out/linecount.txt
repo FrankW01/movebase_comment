@@ -1,0 +1,18 @@
+===============================================================================
+EXTENSION NAME : linecount
+EXTENSION VERSION : 0.1.7
+-------------------------------------------------------------------------------
+count time : 2017-07-24 01:00:52
+count workspace : c:\Users\Administrator\Desktop\ros-ws\navigation\carrot_planner
+total files : 6
+total code lines : 247
+total comment lines : 111
+total blank lines : 71
+
+bgp_plugin.xml, code is 7, comment is 0, blank is 0.
+CHANGELOG.rst, code is 36, comment is 0, blank is 14.
+CMakeLists.txt, code is 41, comment is 0, blank is 9.
+include\carrot_planner\carrot_planner.h, code is 30, comment is 68, blank is 9.
+package.xml, code is 32, comment is 2, blank is 9.
+src\carrot_planner.cpp, code is 101, comment is 41, blank is 30.
+===============================================================================

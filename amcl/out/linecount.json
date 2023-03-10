@@ -1,0 +1,294 @@
+{
+    "extension": "linecount",
+    "version": "0.1.7",
+    "workspace": "c:\\Users\\Administrator\\Desktop\\ros-ws\\navigation\\amcl",
+    "linecount": [
+        {
+            "version": "0.1.7",
+            "counttime": "2017-07-24 00:59:31",
+            "filesum": 46,
+            "codesum": 4618,
+            "commentsum": 1551,
+            "blanksum": 1216,
+            "filelist": [
+                {
+                    "blank": 1,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "amcl note"
+                },
+                {
+                    "blank": 22,
+                    "code": 53,
+                    "comment": 0,
+                    "filename": "cfg\\AMCL.cfg"
+                },
+                {
+                    "blank": 16,
+                    "code": 69,
+                    "comment": 3,
+                    "filename": "CHANGELOG.rst"
+                },
+                {
+                    "blank": 19,
+                    "code": 123,
+                    "comment": 9,
+                    "filename": "CMakeLists.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "examples\\amcl_diff.launch"
+                },
+                {
+                    "blank": 0,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "examples\\amcl_omni.launch"
+                },
+                {
+                    "blank": 43,
+                    "code": 40,
+                    "comment": 67,
+                    "filename": "include\\amcl\\map\\map.h"
+                },
+                {
+                    "blank": 4,
+                    "code": 3,
+                    "comment": 4,
+                    "filename": "include\\amcl\\pf\\eig3.h"
+                },
+                {
+                    "blank": 49,
+                    "code": 74,
+                    "comment": 72,
+                    "filename": "include\\amcl\\pf\\pf.h"
+                },
+                {
+                    "blank": 29,
+                    "code": 34,
+                    "comment": 46,
+                    "filename": "include\\amcl\\pf\\pf_kdtree.h"
+                },
+                {
+                    "blank": 29,
+                    "code": 35,
+                    "comment": 57,
+                    "filename": "include\\amcl\\pf\\pf_pdf.h"
+                },
+                {
+                    "blank": 22,
+                    "code": 29,
+                    "comment": 43,
+                    "filename": "include\\amcl\\pf\\pf_vector.h"
+                },
+                {
+                    "blank": 27,
+                    "code": 76,
+                    "comment": 53,
+                    "filename": "include\\amcl\\sensors\\amcl_laser.h"
+                },
+                {
+                    "blank": 18,
+                    "code": 43,
+                    "comment": 37,
+                    "filename": "include\\amcl\\sensors\\amcl_odom.h"
+                },
+                {
+                    "blank": 22,
+                    "code": 29,
+                    "comment": 46,
+                    "filename": "include\\amcl\\sensors\\amcl_sensor.h"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "package.xml"
+                },
+                {
+                    "blank": 17,
+                    "code": 35,
+                    "comment": 32,
+                    "filename": "src\\amcl\\map\\map.c"
+                },
+                {
+                    "blank": 32,
+                    "code": 174,
+                    "comment": 27,
+                    "filename": "src\\amcl\\map\\map_cspace.cpp"
+                },
+                {
+                    "blank": 31,
+                    "code": 89,
+                    "comment": 38,
+                    "filename": "src\\amcl\\map\\map_draw.c"
+                },
+                {
+                    "blank": 14,
+                    "code": 76,
+                    "comment": 30,
+                    "filename": "src\\amcl\\map\\map_range.c"
+                },
+                {
+                    "blank": 21,
+                    "code": 80,
+                    "comment": 114,
+                    "filename": "src\\amcl\\map\\map_store.c"
+                },
+                {
+                    "blank": 40,
+                    "code": 205,
+                    "comment": 27,
+                    "filename": "src\\amcl\\pf\\eig3.c"
+                },
+                {
+                    "blank": 140,
+                    "code": 387,
+                    "comment": 135,
+                    "filename": "src\\amcl\\pf\\pf.c"
+                },
+                {
+                    "blank": 37,
+                    "code": 79,
+                    "comment": 47,
+                    "filename": "src\\amcl\\pf\\pf_draw.c"
+                },
+                {
+                    "blank": 101,
+                    "code": 253,
+                    "comment": 132,
+                    "filename": "src\\amcl\\pf\\pf_kdtree.c"
+                },
+                {
+                    "blank": 41,
+                    "code": 88,
+                    "comment": 80,
+                    "filename": "src\\amcl\\pf\\pf_pdf.c"
+                },
+                {
+                    "blank": 53,
+                    "code": 121,
+                    "comment": 102,
+                    "filename": "src\\amcl\\pf\\pf_vector.c"
+                },
+                {
+                    "blank": 96,
+                    "code": 323,
+                    "comment": 62,
+                    "filename": "src\\amcl\\sensors\\amcl_laser.cpp"
+                },
+                {
+                    "blank": 33,
+                    "code": 222,
+                    "comment": 37,
+                    "filename": "src\\amcl\\sensors\\amcl_odom.cpp"
+                },
+                {
+                    "filename": "src\\amcl\\sensors\\amcl_odom.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 16,
+                    "code": 35,
+                    "comment": 14,
+                    "filename": "src\\amcl\\sensors\\amcl_sensor.cpp"
+                },
+                {
+                    "blank": 221,
+                    "code": 1145,
+                    "comment": 180,
+                    "filename": "src\\amcl_node.cpp"
+                },
+                {
+                    "blank": 14,
+                    "code": 60,
+                    "comment": 5,
+                    "filename": "test\\basic_localization.py"
+                },
+                {
+                    "blank": 0,
+                    "code": 44,
+                    "comment": 5,
+                    "filename": "test\\basic_localization_stage.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 44,
+                    "comment": 5,
+                    "filename": "test\\global_localization_stage.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 44,
+                    "comment": 5,
+                    "filename": "test\\rosie_multilaser.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 42,
+                    "comment": 8,
+                    "filename": "test\\set_initial_pose.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 43,
+                    "comment": 11,
+                    "filename": "test\\set_initial_pose_delayed.xml"
+                },
+                {
+                    "blank": 7,
+                    "code": 37,
+                    "comment": 2,
+                    "filename": "test\\set_pose.py"
+                },
+                {
+                    "blank": 0,
+                    "code": 47,
+                    "comment": 2,
+                    "filename": "test\\small_loop_crazy_driving_prg.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 47,
+                    "comment": 2,
+                    "filename": "test\\small_loop_crazy_driving_prg_corrected.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 44,
+                    "comment": 2,
+                    "filename": "test\\small_loop_prf.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "test\\texas_greenroom_loop.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "test\\texas_greenroom_loop_corrected.xml"
+                },
+                {
+                    "blank": 1,
+                    "code": 37,
+                    "comment": 10,
+                    "filename": "test\\texas_willow_hallway_loop.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "test\\texas_willow_hallway_loop_corrected.xml"
+                }
+            ]
+        }
+    ]
+}

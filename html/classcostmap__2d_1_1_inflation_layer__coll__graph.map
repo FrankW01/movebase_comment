@@ -1,0 +1,4 @@
+<map id="costmap_2d::InflationLayer" name="costmap_2d::InflationLayer">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_layer.html" title="costmap_2d::Layer" alt="" coords="113,95,246,121"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_layered_costmap.html" title="Instantiates different layer plugins and aggregates them into one score. " alt="" coords="5,5,204,32"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="base_local_planner::getGoalOrientationAngleDifference" name="base_local_planner::getGoalOrientationAngleDifference">
+<area shape="rect" id="node2" href="$namespacebase__local__planner.html#a231a927b5b76e594e5136f0a5b41338c" title="base_local_planner\l::isGoalReached" alt="" coords="344,5,477,47"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_latched_stop_rotate_controller.html#a07f9829adbf696e788a2678ebc941adf" title="base_local_planner\l::LatchedStopRotateController\l::isGoalReached" alt="" coords="313,71,509,127"/>
+<area shape="rect" id="node5" href="$classbase__local__planner_1_1_latched_stop_rotate_controller.html#a3da98bf8229a6cafc8b059b33ae54d59" title="base_local_planner\l::LatchedStopRotateController\l::computeVelocityCommandsStopRotate" alt="" coords="281,151,540,207"/>
+<area shape="rect" id="node9" href="$classbase__local__planner_1_1_trajectory_planner_r_o_s.html#adb2d96332da31a154db84930754409af" title="Given the current position, orientation, and velocity of the robot, compute velocity commands to send..." alt="" coords="314,231,507,287"/>
+<area shape="rect" id="node4" href="$classdwa__local__planner_1_1_d_w_a_planner_r_o_s.html#a847c1877d967acd515d7ddf1ac246941" title="Check if the goal pose has been achieved. " alt="" coords="593,79,814,120"/>
+<area shape="rect" id="node6" href="$classbase__local__planner_1_1_latched_stop_rotate_controller.html#af3b08514bca9dfc212b770a071f85b3b" title="base_local_planner\l::LatchedStopRotateController\l::resetLatching" alt="" coords="605,147,801,203"/>
+<area shape="rect" id="node8" href="$classdwa__local__planner_1_1_d_w_a_planner_r_o_s.html#a700178e32159b614d328326b6ba5f8b0" title="Given the current position, orientation, and velocity of the robot, compute velocity commands to send..." alt="" coords="588,227,819,283"/>
+<area shape="rect" id="node7" href="$classdwa__local__planner_1_1_d_w_a_planner_r_o_s.html#a0cfcf517c3112678a7eabeb498d9b2ce" title="Set the plan that the controller is following. " alt="" coords="867,155,1044,196"/>
+</map>

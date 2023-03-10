@@ -1,0 +1,143 @@
+{
+    "extension": "linecount",
+    "version": "0.1.7",
+    "workspace": "c:\\Users\\Administrator\\Desktop\\ros-ws\\navigation\\navfn",
+    "linecount": [
+        {
+            "version": "0.1.7",
+            "counttime": "2017-07-24 01:04:42",
+            "filesum": 21,
+            "codesum": 2217,
+            "commentsum": 851,
+            "blanksum": 531,
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "bgp_plugin.xml"
+                },
+                {
+                    "blank": 15,
+                    "code": 61,
+                    "comment": 2,
+                    "filename": "CHANGELOG.rst"
+                },
+                {
+                    "blank": 14,
+                    "code": 113,
+                    "comment": 0,
+                    "filename": "CMakeLists.txt"
+                },
+                {
+                    "blank": 46,
+                    "code": 69,
+                    "comment": 164,
+                    "filename": "include\\navfn\\navfn.h"
+                },
+                {
+                    "blank": 22,
+                    "code": 56,
+                    "comment": 113,
+                    "filename": "include\\navfn\\navfn_ros.h"
+                },
+                {
+                    "blank": 9,
+                    "code": 33,
+                    "comment": 15,
+                    "filename": "include\\navfn\\navwin.h"
+                },
+                {
+                    "blank": 6,
+                    "code": 18,
+                    "comment": 35,
+                    "filename": "include\\navfn\\potarr_point.h"
+                },
+                {
+                    "blank": 2,
+                    "code": 4,
+                    "comment": 30,
+                    "filename": "include\\navfn\\read_pgm_costmap.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 25,
+                    "comment": 7,
+                    "filename": "Makefile.orig"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "package.xml"
+                },
+                {
+                    "blank": 173,
+                    "code": 700,
+                    "comment": 273,
+                    "filename": "src\\navfn.cpp"
+                },
+                {
+                    "blank": 34,
+                    "code": 69,
+                    "comment": 37,
+                    "filename": "src\\navfn_node.cpp"
+                },
+                {
+                    "blank": 82,
+                    "code": 307,
+                    "comment": 60,
+                    "filename": "src\\navfn_ros.cpp"
+                },
+                {
+                    "blank": 47,
+                    "code": 278,
+                    "comment": 36,
+                    "filename": "src\\navtest.cpp"
+                },
+                {
+                    "blank": 35,
+                    "code": 245,
+                    "comment": 16,
+                    "filename": "src\\navwin.cpp"
+                },
+                {
+                    "blank": 10,
+                    "code": 101,
+                    "comment": 32,
+                    "filename": "src\\read_pgm_costmap.cpp"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "srv\\MakeNavPlan.srv"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "srv\\SetCostmap.srv"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "test\\CMakeLists.txt"
+                },
+                {
+                    "blank": 25,
+                    "code": 105,
+                    "comment": 31,
+                    "filename": "test\\path_calc_test.cpp"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "test\\willow_costmap.pgm"
+                }
+            ]
+        }
+    ]
+}

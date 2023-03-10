@@ -1,0 +1,5 @@
+<map id="costmap_2d::Costmap2DROS::setUnpaddedRobotFootprint" name="costmap_2d::Costmap2DROS::setUnpaddedRobotFootprint">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a27b741da068294f35a426f339d721cc2" title="Constructor for the wrapper. " alt="" coords="537,5,735,47"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a05c662c0ad169c124480ed3d9ee500e8" title="Set the footprint of the robot to be the given polygon, padded by footprint_padding. " alt="" coords="251,35,489,76"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a22cf571bfd4cd4434c2d203cd341d2c7" title="costmap_2d::Costmap2DROS\l::~Costmap2DROS" alt="" coords="271,100,469,141"/>
+</map>

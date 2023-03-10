@@ -1,0 +1,5 @@
+<map id="estimation::OdomEstimation::setOutputFrame" name="estimation::OdomEstimation::setOutputFrame">
+<area shape="rect" id="node2" href="$classestimation_1_1_odom_estimation.html#a015caf531f3d4f2308fbfde712698445" title="estimation::OdomEstimation\l::isInitialized" alt="" coords="240,5,427,47"/>
+<area shape="rect" id="node4" href="$classestimation_1_1_odom_estimation_node.html#a339d89b1fa1af2dc4a499d6b90d643db" title="constructor " alt="" coords="240,71,427,112"/>
+<area shape="rect" id="node3" href="$classestimation_1_1_odom_estimation_node.html#a7875c25b1f0eb1ee8b975c823d3104aa" title="destructor " alt="" coords="475,5,669,47"/>
+</map>

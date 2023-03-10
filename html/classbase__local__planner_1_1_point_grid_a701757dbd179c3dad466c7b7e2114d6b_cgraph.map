@@ -1,0 +1,4 @@
+<map id="base_local_planner::PointGrid::getNearestInCell" name="base_local_planner::PointGrid::getNearestInCell">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_point_grid.html#a107ea768298e5560e962498692674d5a" title="Converts cell coordinates to an index value that can be used to look up the correct grid cell..." alt="" coords="249,5,393,47"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_point_grid.html#af278e4297342dce5d1e3b0b8643dbe4e" title="Compute the squared distance between two points. " alt="" coords="240,71,403,112"/>
+</map>

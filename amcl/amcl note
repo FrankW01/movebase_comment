@@ -1,0 +1,34 @@
+reading guide:
+    ??? means questions
+    entry means where to read from
+    this note is just for inspiration, comprehensive notes 
+    can be seen before func declaration or start of the files
+
+sensor---->odom
+      ---->laser
+sensor class provide interface for all sensors
+typical interfaces: 
+    data, only store a pointer to sensor 
+    sensor func: 
+        updateAction
+odom: updateAction, pf samples x,y,theta is udpated here, following odom with some error
+    it's recommanded to read codes with amcl_odom.png to understand it.
+laser: updateSensor, calculate a total weight, each sample will divide by it
+
+all key pf calculation is done in laserReceived.
+
+to do: read outlook of amcl, details of pf algorithm, and ros fundamental lib, tf etc
+    try to understand laserReceived
+
+amcl transforms incoming laser scans to the odometry frame (~odom_frame_id). 
+So there must exist a path through the tf tree from the frame in which the laser scans are published to the odometry frame.
+An implementation detail: on receipt of the first laser scan, amcl looks up the transform between the laser's frame and the 
+base frame (~base_frame_id), and latches it forever. So amcl cannot handle a laser that moves with respect to the base.
+The drawing below shows the difference between localization using odometry and amcl. During operation amcl estimates the 
+transformation of the base frame (~base_frame_id) in respect to the global frame (~global_frame_id) 
+but it only publishes the transform between the global frame and the odometry frame (~odom_frame_id). 
+
+pf cluster??? todo: pf datatype
+pf current_set: only changed in resample func and always used when referred to set.
+
+ok, understand pf, kd-tree is the key.

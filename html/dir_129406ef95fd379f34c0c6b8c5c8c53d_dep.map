@@ -1,0 +1,13 @@
+<map id="navigation/base_local_planner/include" name="navigation/base_local_planner/include">
+<area shape="rect" id="node2" href="dir_bb32271d922da71ba16ace84fa9a0ae0.html" title="base_local_planner" alt="" coords="37,63,171,111"/>
+<area shape="rect" id="node3" href="dir_5e758602ff419117b17ecfa50b8f1f03.html" title="voxel_grid" alt="" coords="31,351,110,399"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000015_000074.html" title="1" alt="" coords="63,323,71,338"/>
+<area shape="rect" id="node4" href="dir_f1b931503547f3232ee51ea68c71611a.html" title="nav_core" alt="" coords="67,159,141,207"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000015_000056.html" title="2" alt="" coords="108,133,116,148"/>
+<area shape="rect" id="node5" href="dir_3249f8571638b9487265653c0398c147.html" title="costmap_2d" alt="" coords="67,255,160,303"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000015_000030.html" title="17" alt="" coords="139,236,154,251"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000056_000030.html" title="3" alt="" coords="114,228,122,243"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000030_000074.html" title="3" alt="" coords="92,330,100,345"/>
+<area shape="rect" id="clust2" href="dir_129406ef95fd379f34c0c6b8c5c8c53d.html" alt="" coords="27,52,277,121"/>
+<area shape="rect" id="clust1" href="dir_6d2f2c938a2d4f80b1d020e6519c40dc.html" title="base_local_planner" alt="" coords="16,16,288,132"/>
+</map>

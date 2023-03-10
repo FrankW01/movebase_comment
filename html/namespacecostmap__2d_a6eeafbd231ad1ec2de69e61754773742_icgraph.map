@@ -1,0 +1,12 @@
+<map id="costmap_2d::calculateMinAndMaxDistances" name="costmap_2d::calculateMinAndMaxDistances">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_world_model.html#ac7e8dc9c77a2dd2fa77f5a27d812fd43" title="base_local_planner\l::WorldModel::footprintCost" alt="" coords="237,5,417,47"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_trajectory_planner.html#a3b44d4da776a23b06f388aa244de84b1" title="Constructs a trajectory controller. " alt="" coords="261,71,394,127"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_layered_costmap.html#acf16f3d3636b7fbe6e28edbd32340464" title="Updates the stored footprint, updates the circumscribed and inscribed radii, and calls onFootprintCha..." alt="" coords="228,152,427,193"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_layered_costmap.html#afc113bdd03ed7d3fa29038769a1bd9e3" title="costmap_2d::LayeredCostmap\l::isInitialized" alt="" coords="475,68,673,109"/>
+<area shape="rect" id="node6" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a220a578102cf3592a744ad5264bf09ed" title="Set the footprint of the robot to be the given set of points, padded by footprint_padding. " alt="" coords="721,112,919,153"/>
+<area shape="rect" id="node10" href="$inflation__tests_8cpp.html#a691c7abce99a1c663f13e70eca655d45" title="setRadii" alt="" coords="539,185,609,211"/>
+<area shape="rect" id="node11" href="$inflation__tests_8cpp.html#ad4ae0b82faed5db2b710a038b9cf895f" title="TEST" alt="" coords="793,199,847,226"/>
+<area shape="rect" id="node7" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a27b741da068294f35a426f339d721cc2" title="Constructor for the wrapper. " alt="" coords="1253,83,1451,124"/>
+<area shape="rect" id="node8" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a05c662c0ad169c124480ed3d9ee500e8" title="Set the footprint of the robot to be the given polygon, padded by footprint_padding. " alt="" coords="967,112,1205,153"/>
+<area shape="rect" id="node9" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a22cf571bfd4cd4434c2d203cd341d2c7" title="costmap_2d::Costmap2DROS\l::~Costmap2DROS" alt="" coords="987,177,1185,219"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="base_local_planner::getGoalPositionDistance" name="base_local_planner::getGoalPositionDistance">
+<area shape="rect" id="node2" href="$namespacebase__local__planner.html#a231a927b5b76e594e5136f0a5b41338c" title="base_local_planner\l::isGoalReached" alt="" coords="258,5,391,47"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_latched_stop_rotate_controller.html#a2617c378ce3c0f644ef9a3b8b51b056f" title="base_local_planner\l::LatchedStopRotateController\l::isPositionReached" alt="" coords="227,71,423,127"/>
+<area shape="rect" id="node5" href="$classbase__local__planner_1_1_latched_stop_rotate_controller.html#a07f9829adbf696e788a2678ebc941adf" title="base_local_planner\l::LatchedStopRotateController\l::isGoalReached" alt="" coords="227,151,423,207"/>
+<area shape="rect" id="node7" href="$classbase__local__planner_1_1_trajectory_planner_r_o_s.html#adb2d96332da31a154db84930754409af" title="Given the current position, orientation, and velocity of the robot, compute velocity commands to send..." alt="" coords="228,231,421,287"/>
+<area shape="rect" id="node4" href="$classdwa__local__planner_1_1_d_w_a_planner_r_o_s.html#a700178e32159b614d328326b6ba5f8b0" title="Given the current position, orientation, and velocity of the robot, compute velocity commands to send..." alt="" coords="471,71,701,127"/>
+<area shape="rect" id="node6" href="$classdwa__local__planner_1_1_d_w_a_planner_r_o_s.html#a847c1877d967acd515d7ddf1ac246941" title="Check if the goal pose has been achieved. " alt="" coords="475,159,697,200"/>
+</map>

@@ -1,0 +1,18 @@
+===============================================================================
+EXTENSION NAME : linecount
+EXTENSION VERSION : 0.1.7
+-------------------------------------------------------------------------------
+count time : 2017-07-24 01:04:18
+count workspace : c:\Users\Administrator\Desktop\ros-ws\navigation\nav_core
+total files : 6
+total code lines : 141
+total comment lines : 185
+total blank lines : 46
+
+CHANGELOG.rst, code is 39, comment is 1, blank is 14.
+CMakeLists.txt, code is 23, comment is 0, blank is 4.
+include\nav_core\base_global_planner.h, code is 23, comment is 65, blank is 7.
+include\nav_core\base_local_planner.h, code is 19, comment is 65, blank is 8.
+include\nav_core\recovery_behavior.h, code is 15, comment is 54, blank is 6.
+package.xml, code is 22, comment is 0, blank is 7.
+===============================================================================

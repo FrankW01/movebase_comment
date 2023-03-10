@@ -1,0 +1,19 @@
+===============================================================================
+EXTENSION NAME : linecount
+EXTENSION VERSION : 0.1.7
+-------------------------------------------------------------------------------
+count time : 2017-07-24 01:05:56
+count workspace : c:\Users\Administrator\Desktop\ros-ws\navigation\rotate_recovery
+total files : 7
+total code lines : 221
+total comment lines : 103
+total blank lines : 63
+
+CHANGELOG.rst, code is 38, comment is 0, blank is 14.
+CMakeLists.txt, code is 35, comment is 0, blank is 7.
+include\rotate_recovery\rotate_recovery.h, code is 29, comment is 57, blank is 5.
+package.xml, code is 31, comment is 0, blank is 8.
+rotate_plugin.xml, code is 7, comment is 0, blank is 0.
+rotate_recovery.txt, code is 1, comment is 0, blank is 0.
+src\rotate_recovery.cpp, code is 80, comment is 46, blank is 29.
+===============================================================================

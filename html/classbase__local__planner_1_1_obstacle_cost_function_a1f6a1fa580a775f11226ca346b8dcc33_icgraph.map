@@ -1,0 +1,5 @@
+<map id="base_local_planner::ObstacleCostFunction::footprintCost" name="base_local_planner::ObstacleCostFunction::footprintCost">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_obstacle_cost_function.html#a62321188c336dbef4d749a79cecc45c0" title="base_local_planner\l::ObstacleCostFunction\l::setSumScores" alt="" coords="212,5,371,61"/>
+<area shape="rect" id="node4" href="$classbase__local__planner_1_1_obstacle_cost_function.html#a3bac5a99d333a755440449809270e638" title="base_local_planner\l::ObstacleCostFunction\l::scoreTrajectory" alt="" coords="212,85,371,141"/>
+<area shape="rect" id="node3" href="$classdwa__local__planner_1_1_d_w_a_planner.html#ab2c1143a3a54638d0dc38f9b6fa16e53" title="Constructor for the planner. " alt="" coords="419,13,599,54"/>
+</map>

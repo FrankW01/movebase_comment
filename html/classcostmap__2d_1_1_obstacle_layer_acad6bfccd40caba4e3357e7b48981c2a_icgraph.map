@@ -1,0 +1,6 @@
+<map id="costmap_2d::ObstacleLayer::pointCloudCallback" name="costmap_2d::ObstacleLayer::pointCloudCallback">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_obstacle_layer.html#a4620782e96fabeb0b449daa725857c00" title="costmap_2d::ObstacleLayer\l::ObstacleLayer" alt="" coords="472,5,657,47"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_obstacle_layer.html#a370822e3b19d717ef04311b7b967f496" title="This is called at the end of initialize(). Override to implement subclass&#45;specific initialization..." alt="" coords="239,64,424,105"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_voxel_layer.html#a7b0d5249f27fd757f206493b491fd37a" title="This is called at the end of initialize(). Override to implement subclass&#45;specific initialization..." alt="" coords="481,71,648,112"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_voxel_layer.html#a02a7f51ba2b09b61f6ada3d10acf5a20" title="costmap_2d::VoxelLayer\l::VoxelLayer" alt="" coords="705,71,872,112"/>
+</map>

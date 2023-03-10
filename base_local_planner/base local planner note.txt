@@ -1,0 +1,44 @@
+costmap_model: just check if footprint is legal in cost map
+footprint_helper: just get cells coordinate in footprint
+oscillation_cost_function: depress oscillation by scoring -5 to a trajectory
+
+interface: 
+    world model: get footprint cost
+    inherited by:
+        costmap_model: check footprint in costmap
+        point_grid: check footprint, but more complex, need to see further
+        voxel_grid: check footprint
+        latter two maintain own obstacle grid, and point_grid has a main???
+        find no usage of latter two classes
+
+        costmap_model used in ObstacleCostFunction and trajectory_planner_ros
+    
+    trajectoryCostFunction: scoreTrajectory, and a scale field(used to combine each score func)
+    inherited by:
+        mapGridCostFunction: score trajectory efficiently
+        obstacleCostFunction: check trajectory if is in footprint
+        OscillationCostFunction: just as name indicates
+        PreferForwardCostFunction: just as name indicates
+
+    trajectorySampleGenerator: hasMoreTrajectories nextTrajectory
+    inherited by:
+    simple_trajectory_generator: for a few steps,select a velocity from all possible velocity,
+        accelerate from current velocity until reaching target velocity.
+        record trajectories of all, to score them later.
+
+    trajectorySearch: findBestTrajectory
+    inherited by:
+    simple_scored_sampling_planner: scoreTrajectory to findBestTrajectory,
+        combine all trajectoryCostFunction 
+
+above is only used in dwa planner.
+In base local planner(trajectory planner (ros)), all is coupled together
+
+four parts: footprint, trajectory cost, trajectory generator and find best.
+
+mapGrid: std::vector<MapCell> map_ --> mapGrid cost
+mapCell: ordinary coordinate with some extra fields
+    unsigned int cx, cy; ///< @brief Cell index in the grid map
+    double target_dist; ///< @brief Distance to planner's path
+    bool target_mark; ///< @brief Marks for computing path/goal distances
+    bool within_robot; ///< @brief Mark for cells within the robot footprint

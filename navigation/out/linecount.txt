@@ -1,0 +1,16 @@
+===============================================================================
+EXTENSION NAME : linecount
+EXTENSION VERSION : 0.1.7
+-------------------------------------------------------------------------------
+count time : 2017-07-24 01:05:13
+count workspace : c:\Users\Administrator\Desktop\ros-ws\navigation\navigation
+total files : 4
+total code lines : 84
+total comment lines : 2
+total blank lines : 20
+
+CHANGELOG.rst, code is 36, comment is 0, blank is 14.
+CMakeLists.txt, code is 4, comment is 0, blank is 0.
+package.xml, code is 36, comment is 0, blank is 3.
+README.rst, code is 8, comment is 2, blank is 3.
+===============================================================================

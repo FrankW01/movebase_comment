@@ -1,0 +1,5 @@
+<map id="global_planner::GlobalPlanner::GlobalPlanner" name="global_planner::GlobalPlanner::GlobalPlanner">
+<area shape="rect" id="node2" href="$classglobal__planner_1_1_global_planner.html#a280ebb6723d46b462eb66ec73a2fe266" title="Initialization function for the PlannerCore object. " alt="" coords="248,39,443,80"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#ac07a4d7573ab5d8daa87e4bbebf43853" title="Return a pointer to the &quot;master&quot; costmap which receives updates from all the layers. " alt="" coords="491,5,688,47"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a10181fc2c66a8f1ae9a9d67100f98d73" title="Returns the global frame of the costmap. " alt="" coords="491,71,688,112"/>
+</map>

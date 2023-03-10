@@ -1,0 +1,5 @@
+<map id="base_local_planner::TrajectoryPlanner::updatePlan" name="base_local_planner::TrajectoryPlanner::updatePlan">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_trajectory_planner_r_o_s.html#adb2d96332da31a154db84930754409af" title="Given the current position, orientation, and velocity of the robot, compute velocity commands to send..." alt="" coords="187,5,380,61"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_trajectory_planner_r_o_s.html#a9155bebb3d073ae4b19b8d0da87478a6" title="Generate and score a single trajectory. " alt="" coords="204,85,363,141"/>
+<area shape="rect" id="node4" href="$classbase__local__planner_1_1_trajectory_planner_r_o_s.html#af883fc515db5a2234cd6b6d366ca31a5" title="Generate and score a single trajectory. " alt="" coords="204,165,363,221"/>
+</map>

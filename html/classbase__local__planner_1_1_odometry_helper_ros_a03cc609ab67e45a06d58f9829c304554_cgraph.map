@@ -1,0 +1,6 @@
+<map id="base_local_planner::OdometryHelperRos::~OdometryHelperRos" name="base_local_planner::OdometryHelperRos::~OdometryHelperRos">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_odometry_helper_ros.html#a0eeb49d061e05d16d43cac5196552c01" title="Callback for receiving odometry data. " alt="" coords="403,80,549,136"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_odometry_helper_ros.html#ada88271c5b81d4a97b81eb51de64f67c" title="base_local_planner\l::OdometryHelperRos\l::getOdom" alt="" coords="208,32,355,88"/>
+<area shape="rect" id="node4" href="$classbase__local__planner_1_1_odometry_helper_ros.html#a9959ba8c07504ca92b52ad80c23fe11d" title="base_local_planner\l::OdometryHelperRos\l::getRobotVel" alt="" coords="208,112,355,168"/>
+<area shape="rect" id="node5" href="$classbase__local__planner_1_1_odometry_helper_ros.html#a3405fc02265edac001b3f4c8802c983d" title="Set the odometry topic. This overrides what was set in the constructor, if anything. " alt="" coords="208,192,355,248"/>
+</map>

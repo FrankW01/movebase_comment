@@ -1,0 +1,7 @@
+<map id="navigation/base_local_planner/src/point_grid.cpp" name="navigation/base_local_planner/src/point_grid.cpp">
+<area shape="rect" id="node2" href="$point__grid_8h.html" title="base_local_planner\l/point_grid.h" alt="" coords="191,95,325,136"/>
+<area shape="rect" id="node7" href="$observation_8h.html" title="costmap_2d/observation.h" alt="" coords="335,281,509,307"/>
+<area shape="rect" id="node10" href="$world__model_8h.html" title="base_local_planner\l/world_model.h" alt="" coords="583,184,717,225"/>
+<area shape="rect" id="node11" href="$footprint_8h.html" title="costmap_2d/footprint.h" alt="" coords="883,281,1038,307"/>
+<area shape="rect" id="node16" href="$planar__laser__scan_8h.html" title="base_local_planner\l/planar_laser_scan.h" alt="" coords="635,273,777,315"/>
+</map>

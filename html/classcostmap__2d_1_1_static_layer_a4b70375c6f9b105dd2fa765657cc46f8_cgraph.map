@@ -1,0 +1,11 @@
+<map id="costmap_2d::StaticLayer::activate" name="costmap_2d::StaticLayer::activate">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_static_layer.html#a05ac3b3a903d45c76d076fed8ae220f6" title="This is called at the end of initialize(). Override to implement subclass&#45;specific initialization..." alt="" coords="220,137,387,179"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_layered_costmap.html#a676b53370395f4ecd152031a45387c09" title="costmap_2d::LayeredCostmap\l::getGlobalFrameID" alt="" coords="435,39,633,80"/>
+<area shape="rect" id="node8" href="$classcostmap__2d_1_1_costmap2_d.html#a615a4186649d8970111f8a356906b320" title="Accessor for the x size of the costmap in cells. " alt="" coords="449,104,619,145"/>
+<area shape="rect" id="node9" href="$classcostmap__2d_1_1_costmap2_d.html#a702f4ed109f94c8513500cf97ff066a4" title="Accessor for the y size of the costmap in cells. " alt="" coords="449,169,619,211"/>
+<area shape="rect" id="node10" href="$classcostmap__2d_1_1_costmap2_d.html#ade55f512e27c62cec28a3de5ca775759" title="Accessor for the resolution of the costmap. " alt="" coords="449,235,619,276"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_layered_costmap.html#a8f8121ac0c6a2c5f267cf1cc07cfc40b" title="costmap_2d::LayeredCostmap\l::resizeMap" alt="" coords="681,39,880,80"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_costmap2_d.html#a95bae6eccd820a77d8040562e2a51118" title="costmap_2d::Costmap2D\l::resizeMap" alt="" coords="928,39,1097,80"/>
+<area shape="rect" id="node6" href="$classcostmap__2d_1_1_costmap2_d.html#a1da91220df45a19376a3e3df3a517c27" title="Initializes the costmap, static_map, and markers data structures. " alt="" coords="1145,5,1315,47"/>
+<area shape="rect" id="node7" href="$classcostmap__2d_1_1_costmap2_d.html#ab4424e85f6daaf91eaf455e4bb241c19" title="Resets the costmap and static_map to be unknown space. " alt="" coords="1145,71,1315,112"/>
+</map>

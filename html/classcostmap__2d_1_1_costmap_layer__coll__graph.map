@@ -1,0 +1,5 @@
+<map id="costmap_2d::CostmapLayer" name="costmap_2d::CostmapLayer">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_layer.html" title="costmap_2d::Layer" alt="" coords="113,95,246,121"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_layered_costmap.html" title="Instantiates different layer plugins and aggregates them into one score. " alt="" coords="5,5,204,32"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_costmap2_d.html" title="A 2D costmap provides a mapping between points in the world and their associated &quot;costs&quot;. " alt="" coords="271,95,440,121"/>
+</map>

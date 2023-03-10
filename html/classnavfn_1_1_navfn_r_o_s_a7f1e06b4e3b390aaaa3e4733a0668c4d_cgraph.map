@@ -1,0 +1,4 @@
+<map id="navfn::NavfnROS::initialize" name="navfn::NavfnROS::initialize">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#ac07a4d7573ab5d8daa87e4bbebf43853" title="Return a pointer to the &quot;master&quot; costmap which receives updates from all the layers. " alt="" coords="227,5,424,47"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a10181fc2c66a8f1ae9a9d67100f98d73" title="Returns the global frame of the costmap. " alt="" coords="227,71,424,112"/>
+</map>

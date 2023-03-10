@@ -1,0 +1,10 @@
+<map id="dwa_local_planner::DWAPlannerROS::dwaComputeVelocityCommands" name="dwa_local_planner::DWAPlannerROS::dwaComputeVelocityCommands">
+<area shape="rect" id="node2" href="$classdwa__local__planner_1_1_d_w_a_planner_r_o_s.html#ae6d59b99f11c5998b10fba331ef077a8" title="dwa_local_planner::\lDWAPlannerROS::isInitialized" alt="" coords="308,5,505,47"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_odometry_helper_ros.html#a9959ba8c07504ca92b52ad80c23fe11d" title="base_local_planner\l::OdometryHelperRos\l::getRobotVel" alt="" coords="333,71,480,127"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#ad529a3c85f89233a524699514fee1927" title="Returns the local frame of the costmap. " alt="" coords="308,152,505,193"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#add1c9e06ffbae7fecc956c3c377f869e" title="Return the current footprint of the robot as a vector of points. " alt="" coords="308,217,505,259"/>
+<area shape="rect" id="node6" href="$namespaceglobal__planner.html#a2ac867f1fbf1f4ee1946ef6a371ab7ba" title="global_planner::getYaw" alt="" coords="329,283,485,310"/>
+<area shape="rect" id="node7" href="$classbase__local__planner_1_1_trajectory.html#a825364365ad68291ce701c0e97bef3d5" title="Return the number of points in the trajectory. " alt="" coords="319,335,495,376"/>
+<area shape="rect" id="node8" href="$classbase__local__planner_1_1_trajectory.html#aefeea7b81d210b228cfe041938be6a14" title="Get a point within the trajectory. " alt="" coords="335,400,478,441"/>
+<area shape="rect" id="node9" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a10181fc2c66a8f1ae9a9d67100f98d73" title="Returns the global frame of the costmap. " alt="" coords="308,465,505,507"/>
+</map>

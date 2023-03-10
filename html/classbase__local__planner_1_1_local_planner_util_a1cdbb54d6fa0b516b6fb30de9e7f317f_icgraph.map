@@ -1,0 +1,4 @@
+<map id="base_local_planner::LocalPlannerUtil::getLocalPlan" name="base_local_planner::LocalPlannerUtil::getLocalPlan">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_local_planner_util.html#ac34e4f518922c568863f53006d5cfcca" title="base_local_planner\l::LocalPlannerUtil::\l~LocalPlannerUtil" alt="" coords="235,5,369,61"/>
+<area shape="rect" id="node3" href="$classdwa__local__planner_1_1_d_w_a_planner_r_o_s.html#a700178e32159b614d328326b6ba5f8b0" title="Given the current position, orientation, and velocity of the robot, compute velocity commands to send..." alt="" coords="187,85,417,141"/>
+</map>

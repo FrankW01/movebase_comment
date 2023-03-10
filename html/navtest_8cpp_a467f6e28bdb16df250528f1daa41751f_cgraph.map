@@ -1,0 +1,7 @@
+<map id="dispPot" name="dispPot">
+<area shape="rect" id="node2" href="$classnavfn_1_1_nav_win.html#a7b08b1ff35ee825d53a9ca50148884f9" title="navfn::NavWin::drawPot" alt="" coords="120,5,279,32"/>
+<area shape="rect" id="node4" href="$navtest_8cpp.html#ae87cacae23ab38614eac77a5a210e01c" title="readPGM" alt="" coords="161,56,238,83"/>
+<area shape="rect" id="node3" href="$classnavfn_1_1_nav_win.html#ab798d08a7b8bda455651dce23220b433" title="navfn::NavWin::drawOverlay" alt="" coords="327,5,508,32"/>
+<area shape="rect" id="node5" href="$navtest_8cpp.html#ace863d8925ca590c1f53eb63ff29a680" title="setcostobs" alt="" coords="374,56,461,83"/>
+<area shape="rect" id="node6" href="$navtest_8cpp.html#a0be847867182c4112b953ae0f7ee5a5a" title="setcostunk" alt="" coords="374,107,461,133"/>
+</map>

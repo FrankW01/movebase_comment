@@ -1,0 +1,9 @@
+<map id="dwa_local_planner::DWAPlannerROS::initialize" name="dwa_local_planner::DWAPlannerROS::initialize">
+<area shape="rect" id="node2" href="$classdwa__local__planner_1_1_d_w_a_planner_r_o_s.html#ae6d59b99f11c5998b10fba331ef077a8" title="dwa_local_planner::\lDWAPlannerROS::isInitialized" alt="" coords="233,5,431,47"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#ac5e8d0c1f441dfb0508951bc5e9a4ae1" title="Get the pose of the robot in the global frame of the costmap. " alt="" coords="233,71,431,112"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#ac07a4d7573ab5d8daa87e4bbebf43853" title="Return a pointer to the &quot;master&quot; costmap which receives updates from all the layers. " alt="" coords="233,136,431,177"/>
+<area shape="rect" id="node5" href="$classbase__local__planner_1_1_local_planner_util.html#a61fa528618d99a5f59fa96b32a85cc2f" title="base_local_planner\l::LocalPlannerUtil::\linitialize" alt="" coords="265,202,399,258"/>
+<area shape="rect" id="node6" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a10181fc2c66a8f1ae9a9d67100f98d73" title="Returns the global frame of the costmap. " alt="" coords="233,283,431,324"/>
+<area shape="rect" id="node7" href="$classbase__local__planner_1_1_odometry_helper_ros.html#a3405fc02265edac001b3f4c8802c983d" title="Set the odometry topic. This overrides what was set in the constructor, if anything. " alt="" coords="259,349,405,405"/>
+<area shape="rect" id="node8" href="$classbase__local__planner_1_1_odometry_helper_ros.html#a0eeb49d061e05d16d43cac5196552c01" title="Callback for receiving odometry data. " alt="" coords="479,349,625,405"/>
+</map>

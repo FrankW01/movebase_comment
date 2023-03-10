@@ -1,0 +1,41 @@
+{
+    "extension": "linecount",
+    "version": "0.1.7",
+    "workspace": "c:\\Users\\Administrator\\Desktop\\ros-ws\\navigation\\navigation",
+    "linecount": [
+        {
+            "version": "0.1.7",
+            "counttime": "2017-07-24 01:05:13",
+            "filesum": 4,
+            "codesum": 84,
+            "commentsum": 2,
+            "blanksum": 20,
+            "filelist": [
+                {
+                    "blank": 14,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "CHANGELOG.rst"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "CMakeLists.txt"
+                },
+                {
+                    "blank": 3,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "package.xml"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 2,
+                    "filename": "README.rst"
+                }
+            ]
+        }
+    ]
+}

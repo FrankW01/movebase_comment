@@ -1,0 +1,9 @@
+<map id="costmap_2d::Costmap2DROS::getRobotFootprint" name="costmap_2d::Costmap2DROS::getRobotFootprint">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_trajectory_planner_r_o_s.html#a4b78694e9a9731a93d46adb57dc3e61c" title="Constructs the ros wrapper. " alt="" coords="299,5,457,61"/>
+<area shape="rect" id="node4" href="$classcarrot__planner_1_1_carrot_planner.html#a83b1bb77b4ef4a2719dcc29bf90d077e" title="Initialization function for the CarrotPlanner. " alt="" coords="283,86,473,127"/>
+<area shape="rect" id="node6" href="$footprint__tests_8cpp.html#aeb9facd9b1f8c5afe801ca9ab2e46d06" title="TEST" alt="" coords="351,152,405,179"/>
+<area shape="rect" id="node7" href="$classdwa__local__planner_1_1_d_w_a_planner_r_o_s.html#aa46b9804f416cccdabcec5cc12cd5eea" title="Given the current position, orientation, and velocity of the robot, compute velocity commands to send..." alt="" coords="251,203,505,259"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_trajectory_planner_r_o_s.html#ae646760a3abcffa60565753165fb1a07" title="Constructs the ros wrapper. " alt="" coords="589,5,748,61"/>
+<area shape="rect" id="node5" href="$classcarrot__planner_1_1_carrot_planner.html#a4046ba14bc9523f59305115c530dfc0b" title="Constructor for the CarrotPlanner. " alt="" coords="573,86,764,127"/>
+<area shape="rect" id="node8" href="$classdwa__local__planner_1_1_d_w_a_planner_r_o_s.html#a700178e32159b614d328326b6ba5f8b0" title="Given the current position, orientation, and velocity of the robot, compute velocity commands to send..." alt="" coords="553,203,784,259"/>
+</map>

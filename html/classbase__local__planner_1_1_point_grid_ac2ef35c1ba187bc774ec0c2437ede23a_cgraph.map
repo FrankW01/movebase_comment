@@ -1,0 +1,17 @@
+<map id="base_local_planner::PointGrid::segIntersect" name="base_local_planner::PointGrid::segIntersect">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_point_grid.html#aa41c865d15598b2982d2af8585f2ed3b" title="Check the orientation of a pt c with respect to the vector a&#45;&gt;b. " alt="" coords="723,63,856,104"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_point_grid.html#a42d9b62516e5e401669b618e790979ad" title="Find the intersection point of two lines. " alt="" coords="216,495,405,536"/>
+<area shape="rect" id="node4" href="$classbase__local__planner_1_1_point_grid.html#a76d376055cc9c8fc13a3d3c5fad1aa04" title="Check if a point is in a polygon. " alt="" coords="471,63,631,104"/>
+<area shape="rect" id="node5" href="$classbase__local__planner_1_1_point_grid.html#a28e4c85e879080776352bd86b64ccf12" title="Insert a point into the point grid. " alt="" coords="244,323,377,364"/>
+<area shape="rect" id="node7" href="$classbase__local__planner_1_1_point_grid.html#ab0d5b4b745f965826501b9fca2bf7aa7" title="Find the distance between a point and its nearest neighbor in the grid. " alt="" coords="457,364,644,420"/>
+<area shape="rect" id="node10" href="$classbase__local__planner_1_1_point_grid.html#a701757dbd179c3dad466c7b7e2114d6b" title="Find the distance between a point and its nearest neighbor in a cell. " alt="" coords="696,482,883,523"/>
+<area shape="rect" id="node12" href="$classbase__local__planner_1_1_point_grid.html#afb743eed27facd44c2ed0e59e9f04449" title="Removes points from the grid that lie within the polygon. " alt="" coords="221,112,401,168"/>
+<area shape="rect" id="node14" href="$classbase__local__planner_1_1_point_grid.html#a693cf4b2962ea0ffb4e74daf44a317a4" title="Removes points from the grid that lie within a laser scan. " alt="" coords="221,192,401,248"/>
+<area shape="rect" id="node15" href="$classbase__local__planner_1_1_point_grid.html#a517ae832ace7e530e9e86ae249e5d42d" title="Checks to see if a point is within a laser scan specification. " alt="" coords="479,196,622,238"/>
+<area shape="rect" id="node16" href="$classbase__local__planner_1_1_point_grid.html#af217b647ec8da186411e6e188e1019b9" title="Get the points in the point grid. " alt="" coords="237,560,384,602"/>
+<area shape="rect" id="node6" href="$classbase__local__planner_1_1_point_grid.html#a85f9826c14353e9a75696be52d438554" title="Convert from world coordinates to grid coordinates. " alt="" coords="712,247,867,288"/>
+<area shape="rect" id="node11" href="$classbase__local__planner_1_1_point_grid.html#a107ea768298e5560e962498692674d5a" title="Converts cell coordinates to an index value that can be used to look up the correct grid cell..." alt="" coords="940,306,1084,347"/>
+<area shape="rect" id="node8" href="$classbase__local__planner_1_1_point_grid.html#aa98a155058a5045be350a89eb3858f41" title="Get the bounds in world coordinates of a cell in the point grid, assumes a legal cell when called..." alt="" coords="701,364,877,406"/>
+<area shape="rect" id="node9" href="$classbase__local__planner_1_1_point_grid.html#af278e4297342dce5d1e3b0b8643dbe4e" title="Compute the squared distance between two points. " alt="" coords="931,452,1093,494"/>
+<area shape="rect" id="node13" href="$classbase__local__planner_1_1_point_grid.html#ab844aee638783adfa214c30dc03db8e9" title="Returns the points that lie within the cells contained in the specified range. Some of these points m..." alt="" coords="453,131,648,172"/>
+</map>

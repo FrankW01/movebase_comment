@@ -1,0 +1,5 @@
+<map id="base_local_planner::TrajectoryPlanner::scoreTrajectory" name="base_local_planner::TrajectoryPlanner::scoreTrajectory">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_map_grid.html#af3db024faefa9420ec75b18d4da90cfe" title="base_local_planner\l::MapGrid::obstacleCosts" alt="" coords="187,5,357,47"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_trajectory.html#a7247858ecf5432a6557d8daf55e3e3f5" title="Get the last point of the trajectory. " alt="" coords="190,71,354,112"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_costmap2_d.html#a9a2c824d4cd3bcad3ac3435d81982986" title="Convert from world coordinates to map coordinates. " alt="" coords="187,136,357,177"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="base_local_planner::MapGrid::commonInit" name="base_local_planner::MapGrid::commonInit">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_map_grid.html#a8efc6461e975c937560ef8e68b471a78" title="Destructor for a MapGrid. " alt="" coords="208,5,352,47"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_map_grid.html#a55e83a26cdb3c6614d9ca4635da5dc92" title="Creates a map of size_x by size_y. " alt="" coords="212,71,348,112"/>
+</map>

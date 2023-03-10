@@ -1,0 +1,53 @@
+{
+    "extension": "linecount",
+    "version": "0.1.7",
+    "workspace": "c:\\Users\\Administrator\\Desktop\\ros-ws\\navigation\\carrot_planner",
+    "linecount": [
+        {
+            "version": "0.1.7",
+            "counttime": "2017-07-24 01:00:52",
+            "filesum": 6,
+            "codesum": 247,
+            "commentsum": 111,
+            "blanksum": 71,
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "bgp_plugin.xml"
+                },
+                {
+                    "blank": 14,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "CHANGELOG.rst"
+                },
+                {
+                    "blank": 9,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "CMakeLists.txt"
+                },
+                {
+                    "blank": 9,
+                    "code": 30,
+                    "comment": 68,
+                    "filename": "include\\carrot_planner\\carrot_planner.h"
+                },
+                {
+                    "blank": 9,
+                    "code": 32,
+                    "comment": 2,
+                    "filename": "package.xml"
+                },
+                {
+                    "blank": 30,
+                    "code": 101,
+                    "comment": 41,
+                    "filename": "src\\carrot_planner.cpp"
+                }
+            ]
+        }
+    ]
+}

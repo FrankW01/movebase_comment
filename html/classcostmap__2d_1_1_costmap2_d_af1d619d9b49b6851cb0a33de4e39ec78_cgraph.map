@@ -1,0 +1,3 @@
+<map id="costmap_2d::Costmap2D::raytraceLine" name="costmap_2d::Costmap2D::raytraceLine">
+<area shape="rect" id="node2" href="$costmap__math_8h.html#a8f3cba07aa75b7320ae8bd6c0aeac498" title="Return &#45;1 if x &lt; 0, +1 otherwise. " alt="" coords="223,13,269,39"/>
+</map>

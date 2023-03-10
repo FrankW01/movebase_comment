@@ -1,0 +1,4 @@
+<map id="base_local_planner::TEST" name="base_local_planner::TEST">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_footprint_helper_test.html#a0addc7b918a129e13848fc8adfe4dcba" title="base_local_planner\l::FootprintHelperTest\l::correctLineCells" alt="" coords="187,5,329,61"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_footprint_helper.html#ab65128ff1acf0eb1d8b398ad0741ee55" title="Use Bresenham&#39;s algorithm to trace a line between two points in a grid. " alt="" coords="377,5,545,61"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="base_local_planner::PointGrid::gridCoords" name="base_local_planner::PointGrid::gridCoords">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_point_grid.html#ab844aee638783adfa214c30dc03db8e9" title="Returns the points that lie within the cells contained in the specified range. Some of these points m..." alt="" coords="208,89,403,130"/>
+<area shape="rect" id="node10" href="$classbase__local__planner_1_1_point_grid.html#a28e4c85e879080776352bd86b64ccf12" title="Insert a point into the point grid. " alt="" coords="474,242,607,283"/>
+<area shape="rect" id="node11" href="$classbase__local__planner_1_1_point_grid.html#ab0d5b4b745f965826501b9fca2bf7aa7" title="Find the distance between a point and its nearest neighbor in the grid. " alt="" coords="212,264,399,320"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_point_grid.html#adcf3cf7ebf7d52a909fb2744560bf1e4" title="Destructor for a point grid. " alt="" coords="892,33,1047,74"/>
+<area shape="rect" id="node4" href="$classbase__local__planner_1_1_point_grid.html#ae9398ded210128450fbdb86f231cf588" title="Checks if any points in the grid lie inside a convex footprint. " alt="" coords="679,33,844,74"/>
+<area shape="rect" id="node6" href="$classbase__local__planner_1_1_point_grid.html#a693cf4b2962ea0ffb4e74daf44a317a4" title="Removes points from the grid that lie within a laser scan. " alt="" coords="451,161,631,217"/>
+<area shape="rect" id="node9" href="$classbase__local__planner_1_1_point_grid.html#afb743eed27facd44c2ed0e59e9f04449" title="Removes points from the grid that lie within the polygon. " alt="" coords="451,81,631,137"/>
+<area shape="rect" id="node5" href="$point__grid_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="944,116,995,143"/>
+<area shape="rect" id="node7" href="$classbase__local__planner_1_1_point_grid.html#ac2ef35c1ba187bc774ec0c2437ede23a" title="Check if two line segmenst intersect. " alt="" coords="680,179,843,221"/>
+<area shape="rect" id="node8" href="$classbase__local__planner_1_1_point_grid.html#adb8a9a0665445fe274510a86dd0e8277" title="Inserts observations from sensors into the point grid. " alt="" coords="679,109,844,150"/>
+</map>

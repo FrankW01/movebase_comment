@@ -1,0 +1,47 @@
+{
+    "extension": "linecount",
+    "version": "0.1.7",
+    "workspace": "c:\\Users\\Administrator\\Desktop\\ros-ws\\navigation\\fake_localization",
+    "linecount": [
+        {
+            "version": "0.1.7",
+            "counttime": "2017-07-24 01:02:14",
+            "filesum": 5,
+            "codesum": 257,
+            "commentsum": 89,
+            "blanksum": 73,
+            "filelist": [
+                {
+                    "blank": 14,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "CHANGELOG.rst"
+                },
+                {
+                    "blank": 9,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "CMakeLists.txt"
+                },
+                {
+                    "blank": 37,
+                    "code": 129,
+                    "comment": 79,
+                    "filename": "fake_localization.cpp"
+                },
+                {
+                    "blank": 4,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "package.xml"
+                },
+                {
+                    "blank": 9,
+                    "code": 28,
+                    "comment": 10,
+                    "filename": "static_odom_broadcaster.py"
+                }
+            ]
+        }
+    ]
+}

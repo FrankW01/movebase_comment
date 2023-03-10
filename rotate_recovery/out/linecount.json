@@ -1,0 +1,59 @@
+{
+    "extension": "linecount",
+    "version": "0.1.7",
+    "workspace": "c:\\Users\\Administrator\\Desktop\\ros-ws\\navigation\\rotate_recovery",
+    "linecount": [
+        {
+            "version": "0.1.7",
+            "counttime": "2017-07-24 01:05:56",
+            "filesum": 7,
+            "codesum": 221,
+            "commentsum": 103,
+            "blanksum": 63,
+            "filelist": [
+                {
+                    "blank": 14,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "CHANGELOG.rst"
+                },
+                {
+                    "blank": 7,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "CMakeLists.txt"
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 57,
+                    "filename": "include\\rotate_recovery\\rotate_recovery.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "package.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "rotate_plugin.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "rotate_recovery.txt"
+                },
+                {
+                    "blank": 29,
+                    "code": 80,
+                    "comment": 46,
+                    "filename": "src\\rotate_recovery.cpp"
+                }
+            ]
+        }
+    ]
+}

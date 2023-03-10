@@ -1,0 +1,22 @@
+===============================================================================
+EXTENSION NAME : linecount
+EXTENSION VERSION : 0.1.7
+-------------------------------------------------------------------------------
+count time : 2017-07-24 01:01:19
+count workspace : c:\Users\Administrator\Desktop\ros-ws\navigation\clear_costmap_recovery
+total files : 10
+total code lines : 352
+total comment lines : 95
+total blank lines : 89
+
+ccr_plugin.xml, code is 7, comment is 0, blank is 0.
+CHANGELOG.rst, code is 50, comment is 0, blank is 15.
+clearCostMapRecovery-note.txt, code is 1, comment is 0, blank is 0.
+CMakeLists.txt, code is 56, comment is 0, blank is 13.
+include\clear_costmap_recovery\clear_costmap_recovery.h, code is 26, comment is 57, blank is 4.
+package.xml, code is 30, comment is 0, blank is 8.
+src\clear_costmap_recovery.cpp, code is 94, comment is 38, blank is 26.
+test\clear_tester.cpp, code is 69, comment is 0, blank is 23.
+test\clear_tests.launch, code is 6, comment is 0, blank is 0.
+test\params.yaml, code is 13, comment is 0, blank is 0.
+===============================================================================

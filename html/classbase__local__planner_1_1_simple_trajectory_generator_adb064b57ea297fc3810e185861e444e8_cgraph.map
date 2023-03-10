@@ -1,0 +1,9 @@
+<map id="base_local_planner::SimpleTrajectoryGenerator::nextTrajectory" name="base_local_planner::SimpleTrajectoryGenerator::nextTrajectory">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_simple_trajectory_generator.html#ab2e9ca5e1468974af51acc17e5c7aec2" title="base_local_planner\l::SimpleTrajectoryGenerator\l::hasMoreTrajectories" alt="" coords="237,71,421,127"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_simple_trajectory_generator.html#a09675e3d736eaf9ff3b8c8bc3587b768" title="base_local_planner\l::SimpleTrajectoryGenerator\l::generateTrajectory" alt="" coords="237,151,421,207"/>
+<area shape="rect" id="node4" href="$classbase__local__planner_1_1_trajectory.html#a35c05c071ce0f8e54c18f0f8816315d3" title="Clear the trajectory&#39;s points. " alt="" coords="481,5,642,47"/>
+<area shape="rect" id="node5" href="$classbase__local__planner_1_1_simple_trajectory_generator.html#abeea221947f5062cdb481c9888c33075" title="base_local_planner\l::SimpleTrajectoryGenerator\l::computeNewVelocities" alt="" coords="469,71,653,127"/>
+<area shape="rect" id="node6" href="$classbase__local__planner_1_1_local_planner_limits.html#a0402363ae18d44002834003a1b17f14b" title="Get the acceleration limits of the robot. " alt="" coords="491,151,631,207"/>
+<area shape="rect" id="node7" href="$classbase__local__planner_1_1_trajectory.html#a94ff45de82ae4417fdbb1158c5c2b204" title="Add a point to the end of a trajectory. " alt="" coords="488,232,635,273"/>
+<area shape="rect" id="node8" href="$classbase__local__planner_1_1_simple_trajectory_generator.html#a4762e662d557328a98abad8155501626" title="base_local_planner\l::SimpleTrajectoryGenerator\l::computeNewPositions" alt="" coords="469,298,653,354"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="costmap_2d::toPointVector" name="costmap_2d::toPointVector">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a05c662c0ad169c124480ed3d9ee500e8" title="Set the footprint of the robot to be the given polygon, padded by footprint_padding. " alt="" coords="233,5,472,47"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a27b741da068294f35a426f339d721cc2" title="Constructor for the wrapper. " alt="" coords="520,5,717,47"/>
+</map>

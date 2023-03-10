@@ -1,0 +1,8 @@
+<map id="costmap_2d::InflationLayer::onInitialize" name="costmap_2d::InflationLayer::onInitialize">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_inflation_layer.html#a740c5ab2d838eb17f8fbfa16001feff5" title="Implement this to make this layer match the size of the parent costmap. " alt="" coords="231,104,408,145"/>
+<area shape="rect" id="node7" href="$classcostmap__2d_1_1_inflation_layer.html#a9bb0571041eaadcf3e93a9e0b1395cbb" title="Change the values of the inflation radius parameters. " alt="" coords="231,169,408,211"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_layered_costmap.html#ae0c5b98322d3f62761418b895e2884b3" title="costmap_2d::LayeredCostmap\l::getCostmap" alt="" coords="456,5,655,47"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_costmap2_d.html#ade55f512e27c62cec28a3de5ca775759" title="Accessor for the resolution of the costmap. " alt="" coords="471,71,640,112"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_costmap2_d.html#a615a4186649d8970111f8a356906b320" title="Accessor for the x size of the costmap in cells. " alt="" coords="471,136,640,177"/>
+<area shape="rect" id="node6" href="$classcostmap__2d_1_1_costmap2_d.html#a702f4ed109f94c8513500cf97ff066a4" title="Accessor for the y size of the costmap in cells. " alt="" coords="471,201,640,243"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="sign0" name="sign0">
+<area shape="rect" id="node2" href="$namespacecostmap__2d.html#a16dd6a7064ce2ed191b40c7009512489" title="Adds the specified amount of padding to the footprint (in place) " alt="" coords="107,42,280,69"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a220a578102cf3592a744ad5264bf09ed" title="Set the footprint of the robot to be the given set of points, padded by footprint_padding. " alt="" coords="328,35,525,76"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a27b741da068294f35a426f339d721cc2" title="Constructor for the wrapper. " alt="" coords="860,5,1057,47"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a05c662c0ad169c124480ed3d9ee500e8" title="Set the footprint of the robot to be the given polygon, padded by footprint_padding. " alt="" coords="573,35,812,76"/>
+<area shape="rect" id="node6" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a22cf571bfd4cd4434c2d203cd341d2c7" title="costmap_2d::Costmap2DROS\l::~Costmap2DROS" alt="" coords="594,100,791,141"/>
+</map>

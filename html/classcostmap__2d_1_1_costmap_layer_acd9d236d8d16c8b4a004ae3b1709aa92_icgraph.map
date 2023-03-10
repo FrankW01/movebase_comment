@@ -1,0 +1,6 @@
+<map id="costmap_2d::CostmapLayer::updateWithMax" name="costmap_2d::CostmapLayer::updateWithMax">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_costmap_layer.html#a7a595c59ef61a168c71e63360b9b1501" title="costmap_2d::CostmapLayer\l::isDiscretized" alt="" coords="239,5,424,47"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_obstacle_layer.html#a02fbdf76db69ddc03c400b2c00e903ee" title="Actually update the underlying costmap, only within the bounds calculated during UpdateBounds(). " alt="" coords="239,71,424,112"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_static_layer.html#a9ebed8f042ee945073031e51f82229f1" title="Actually update the underlying costmap, only within the bounds calculated during UpdateBounds(). " alt="" coords="248,136,415,177"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_obstacle_layer.html#a4620782e96fabeb0b449daa725857c00" title="costmap_2d::ObstacleLayer\l::ObstacleLayer" alt="" coords="472,71,657,112"/>
+</map>

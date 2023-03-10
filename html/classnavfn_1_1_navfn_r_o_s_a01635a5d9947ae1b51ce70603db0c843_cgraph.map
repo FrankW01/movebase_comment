@@ -1,0 +1,8 @@
+<map id="navfn::NavfnROS::computePotential" name="navfn::NavfnROS::computePotential">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_costmap2_d.html#a615a4186649d8970111f8a356906b320" title="Accessor for the x size of the costmap in cells. " alt="" coords="229,5,399,47"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_costmap2_d.html#a702f4ed109f94c8513500cf97ff066a4" title="Accessor for the y size of the costmap in cells. " alt="" coords="229,71,399,112"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_costmap2_d.html#a951c218252d6e66e23062a123dbde34d" title="Will return a pointer to the underlying unsigned char array used as the costmap. " alt="" coords="229,136,399,177"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_costmap2_d.html#a9a2c824d4cd3bcad3ac3435d81982986" title="Convert from world coordinates to map coordinates. " alt="" coords="229,201,399,243"/>
+<area shape="rect" id="node6" href="$classcostmap__2d_1_1_costmap2_d.html#ae1703900adbbf1e0d929cec0735a8b0e" title="Set the cost of a cell in the costmap. " alt="" coords="229,267,399,308"/>
+<area shape="rect" id="node7" href="$classcostmap__2d_1_1_costmap2_d.html#a57d2ea3f3a039d72640c159cd149ff9d" title="Given two map coordinates... compute the associated index. " alt="" coords="447,267,616,308"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="base_local_planner::TEST" name="base_local_planner::TEST">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_footprint_helper_test.html#a76bf4841d7d0069d3911b2f5169f5ca0" title="base_local_planner\l::FootprintHelperTest\l::correctFootprint" alt="" coords="187,71,329,127"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_footprint_helper.html#ae808cb5daa8579714519073568709f15" title="Used to get the cells that make up the footprint of the robot. " alt="" coords="377,71,572,127"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_costmap2_d.html#a9a2c824d4cd3bcad3ac3435d81982986" title="Convert from world coordinates to map coordinates. " alt="" coords="620,5,789,47"/>
+<area shape="rect" id="node5" href="$classbase__local__planner_1_1_footprint_helper.html#ab65128ff1acf0eb1d8b398ad0741ee55" title="Use Bresenham&#39;s algorithm to trace a line between two points in a grid. " alt="" coords="621,71,789,127"/>
+<area shape="rect" id="node6" href="$classbase__local__planner_1_1_footprint_helper.html#a6bb46e8dcf95d5694a1aa5b03ab83892" title="Fill the outline of a polygon, in this case the robot footprint, in a grid. " alt="" coords="624,151,785,207"/>
+</map>

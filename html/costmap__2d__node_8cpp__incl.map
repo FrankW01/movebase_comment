@@ -1,0 +1,9 @@
+<map id="navigation/costmap_2d/src/costmap_2d_node.cpp" name="navigation/costmap_2d/src/costmap_2d_node.cpp">
+<area shape="rect" id="node3" href="$costmap__2d__ros_8h.html" title="costmap_2d/costmap\l_2d_ros.h" alt="" coords="1117,95,1263,136"/>
+<area shape="rect" id="node4" href="$layered__costmap_8h.html" title="costmap_2d/layered\l_costmap.h" alt="" coords="1650,184,1789,225"/>
+<area shape="rect" id="node6" href="$layer_8h.html" title="costmap_2d/layer.h" alt="" coords="1563,273,1699,300"/>
+<area shape="rect" id="node15" href="$costmap__2d__publisher_8h.html" title="costmap_2d/costmap\l_2d_publisher.h" alt="" coords="497,184,643,225"/>
+<area shape="rect" id="node20" href="$footprint_8h.html" title="costmap_2d/footprint.h" alt="" coords="973,191,1127,218"/>
+<area shape="rect" id="node5" href="$cost__values_8h.html" title="costmap_2d/cost_values.h" alt="" coords="1723,273,1899,300"/>
+<area shape="rect" id="node7" href="$costmap__2d_8h.html" title="costmap_2d/costmap_2d.h" alt="" coords="1355,348,1534,375"/>
+</map>

@@ -1,0 +1,53 @@
+{
+    "extension": "linecount",
+    "version": "0.1.7",
+    "workspace": "c:\\Users\\Administrator\\Desktop\\ros-ws\\navigation\\voxel_grid",
+    "linecount": [
+        {
+            "version": "0.1.7",
+            "counttime": "2017-07-24 01:06:14",
+            "filesum": 6,
+            "codesum": 627,
+            "commentsum": 176,
+            "blanksum": 127,
+            "filelist": [
+                {
+                    "blank": 15,
+                    "code": 46,
+                    "comment": 0,
+                    "filename": "CHANGELOG.rst"
+                },
+                {
+                    "blank": 7,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "CMakeLists.txt"
+                },
+                {
+                    "blank": 52,
+                    "code": 314,
+                    "comment": 77,
+                    "filename": "include\\voxel_grid\\voxel_grid.h"
+                },
+                {
+                    "blank": 5,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "package.xml"
+                },
+                {
+                    "blank": 31,
+                    "code": 150,
+                    "comment": 40,
+                    "filename": "src\\voxel_grid.cpp"
+                },
+                {
+                    "blank": 17,
+                    "code": 70,
+                    "comment": 59,
+                    "filename": "test\\voxel_grid_tests.cpp"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+<map id="costmap_2d::LayeredCostmap::addPlugin" name="costmap_2d::LayeredCostmap::addPlugin">
+<area shape="rect" id="node2" href="$testing__helper_8h.html#a801a18dc44fea1eff51e69a3f9638a15" title="addStaticLayer" alt="" coords="296,5,405,32"/>
+<area shape="rect" id="node4" href="$testing__helper_8h.html#a3cfd0d41ebd4d281809df4e265d78758" title="addObstacleLayer" alt="" coords="287,56,414,83"/>
+<area shape="rect" id="node6" href="$testing__helper_8h.html#a04f30d4042788f66a335a809f5585dbd" title="addInflationLayer" alt="" coords="291,107,410,133"/>
+<area shape="rect" id="node7" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a27b741da068294f35a426f339d721cc2" title="Constructor for the wrapper. " alt="" coords="252,158,449,199"/>
+<area shape="rect" id="node3" href="$inflation__tests_8cpp.html#a790b8d46b7472f667bc70b1ac2b485e1" title="TEST" alt="" coords="497,5,552,32"/>
+<area shape="rect" id="node5" href="$inflation__tests_8cpp.html#ad4ae0b82faed5db2b710a038b9cf895f" title="TEST" alt="" coords="497,81,552,108"/>
+</map>

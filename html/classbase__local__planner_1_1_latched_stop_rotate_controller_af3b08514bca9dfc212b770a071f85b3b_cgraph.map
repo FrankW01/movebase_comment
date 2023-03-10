@@ -1,0 +1,13 @@
+<map id="base_local_planner::LatchedStopRotateController::resetLatching" name="base_local_planner::LatchedStopRotateController::resetLatching">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_latched_stop_rotate_controller.html#a4d852a19860d34e22e47801c4096aeae" title="Stop the robot taking into account acceleration limits. " alt="" coords="572,5,768,61"/>
+<area shape="rect" id="node4" href="$classbase__local__planner_1_1_latched_stop_rotate_controller.html#aad01aa43fb235e400a5cbef2172cc8f8" title="Once a goal position is reached... rotate to the goal orientation. " alt="" coords="572,85,768,141"/>
+<area shape="rect" id="node5" href="$classbase__local__planner_1_1_latched_stop_rotate_controller.html#a3da98bf8229a6cafc8b059b33ae54d59" title="base_local_planner\l::LatchedStopRotateController\l::computeVelocityCommandsStopRotate" alt="" coords="249,265,508,321"/>
+<area shape="rect" id="node3" href="$namespaceglobal__planner.html#a2ac867f1fbf1f4ee1946ef6a371ab7ba" title="global_planner::getYaw" alt="" coords="832,137,988,164"/>
+<area shape="rect" id="node6" href="$classbase__local__planner_1_1_local_planner_util.html#a0b25669a2eb263677de189f52e2c0e33" title="base_local_planner\l::LocalPlannerUtil::\lgetGoal" alt="" coords="603,589,737,645"/>
+<area shape="rect" id="node8" href="$classbase__local__planner_1_1_local_planner_util.html#ab872bb31110cc8cf9d1fa7f5b339c6fd" title="base_local_planner\l::LocalPlannerUtil::\lgetCurrentLimits" alt="" coords="603,232,737,288"/>
+<area shape="rect" id="node9" href="$namespacebase__local__planner.html#a689257572d08394d8d14ab2d1996590c" title="return angle difference to goal to check if the goal orientation has been achieved ..." alt="" coords="556,166,784,207"/>
+<area shape="rect" id="node10" href="$classbase__local__planner_1_1_odometry_helper_ros.html#a9959ba8c07504ca92b52ad80c23fe11d" title="base_local_planner\l::OdometryHelperRos\l::getRobotVel" alt="" coords="597,363,743,419"/>
+<area shape="rect" id="node11" href="$classbase__local__planner_1_1_odometry_helper_ros.html#ada88271c5b81d4a97b81eb51de64f67c" title="base_local_planner\l::OdometryHelperRos\l::getOdom" alt="" coords="597,443,743,499"/>
+<area shape="rect" id="node12" href="$namespacebase__local__planner.html#a80ea2934aded9d99c3e082dd934ae89c" title="Check whether the robot is stopped or not. " alt="" coords="603,523,737,565"/>
+<area shape="rect" id="node7" href="$namespacebase__local__planner.html#aa0e40cef653b1dd1f828e2090c22b5b8" title="Returns last pose in plan. " alt="" coords="843,597,977,638"/>
+</map>

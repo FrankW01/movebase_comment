@@ -1,0 +1,4 @@
+<map id="costmap_2d::StaticLayer::onInitialize" name="costmap_2d::StaticLayer::onInitialize">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_static_layer.html#a4b70375c6f9b105dd2fa765657cc46f8" title="Restart publishers if they&#39;ve been stopped. " alt="" coords="220,5,387,47"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_static_layer.html#a80083e19e7d50881f3d46c79e324dd93" title="costmap_2d::StaticLayer\l::reset" alt="" coords="220,71,387,112"/>
+</map>

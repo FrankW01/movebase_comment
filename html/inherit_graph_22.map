@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classbase__local__planner_1_1_trajectory_search.html" title="Interface for modules finding a trajectory to use for navigation commands next. " alt="" coords="5,5,139,47"/>
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_simple_scored_sampling_planner.html" title="Generates a local plan using the given generator and cost functions. Assumes less cost are best..." alt="" coords="187,5,396,47"/>
+</map>

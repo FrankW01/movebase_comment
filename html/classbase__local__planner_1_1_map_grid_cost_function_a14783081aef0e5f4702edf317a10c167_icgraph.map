@@ -1,0 +1,5 @@
+<map id="base_local_planner::MapGridCostFunction::obstacleCosts" name="base_local_planner::MapGridCostFunction::obstacleCosts">
+<area shape="rect" id="node2" href="$classdwa__local__planner_1_1_d_w_a_planner.html#ab62d6664d13e90e42327de34a2ed1cfb" title="Compute the components and total cost for a map grid cell. " alt="" coords="209,39,388,80"/>
+<area shape="rect" id="node3" href="$classdwa__local__planner_1_1_d_w_a_planner.html#a943ce6facaf2c7602709ed4d0e9c9c54" title="Get the period at which the local planner is expected to run. " alt="" coords="436,5,619,47"/>
+<area shape="rect" id="node4" href="$classdwa__local__planner_1_1_d_w_a_planner.html#ab2c1143a3a54638d0dc38f9b6fa16e53" title="Constructor for the planner. " alt="" coords="437,71,617,112"/>
+</map>

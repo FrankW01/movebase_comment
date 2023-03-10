@@ -1,0 +1,53 @@
+{
+    "extension": "linecount",
+    "version": "0.1.7",
+    "workspace": "c:\\Users\\Administrator\\Desktop\\ros-ws\\navigation\\nav_core",
+    "linecount": [
+        {
+            "version": "0.1.7",
+            "counttime": "2017-07-24 01:04:18",
+            "filesum": 6,
+            "codesum": 141,
+            "commentsum": 185,
+            "blanksum": 46,
+            "filelist": [
+                {
+                    "blank": 14,
+                    "code": 39,
+                    "comment": 1,
+                    "filename": "CHANGELOG.rst"
+                },
+                {
+                    "blank": 4,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "CMakeLists.txt"
+                },
+                {
+                    "blank": 7,
+                    "code": 23,
+                    "comment": 65,
+                    "filename": "include\\nav_core\\base_global_planner.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 19,
+                    "comment": 65,
+                    "filename": "include\\nav_core\\base_local_planner.h"
+                },
+                {
+                    "blank": 6,
+                    "code": 15,
+                    "comment": 54,
+                    "filename": "include\\nav_core\\recovery_behavior.h"
+                },
+                {
+                    "blank": 7,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "package.xml"
+                }
+            ]
+        }
+    ]
+}

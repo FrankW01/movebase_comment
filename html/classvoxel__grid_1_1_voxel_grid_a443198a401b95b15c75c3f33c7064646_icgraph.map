@@ -1,0 +1,13 @@
+<map id="voxel_grid::VoxelGrid::sizeX" name="voxel_grid::VoxelGrid::sizeX">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_voxel_grid_model.html#ae83079ddab58c740ffd2ef1a7cb3adee" title="base_local_planner\l::VoxelGridModel::getPoints" alt="" coords="412,188,597,229"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_voxel_layer.html#a0528c59b3cbe4c1b81748284ae0a3dc5" title="Implement this to make this layer match the size of the parent costmap. " alt="" coords="197,68,364,109"/>
+<area shape="rect" id="node8" href="$classcostmap__2d_1_1_voxel_layer.html#ab28185cd71c8e42f72880b779ef08ae2" title="This is called by the LayeredCostmap to poll this plugin as to how much of the costmap it needs to up..." alt="" coords="197,133,364,175"/>
+<area shape="rect" id="node9" href="$classvoxel__grid_1_1_voxel_grid.html#a82798a1492156f1c23801e0c486743a3" title="voxel_grid::VoxelGrid\l::getVoxel" alt="" coords="209,253,353,295"/>
+<area shape="rect" id="node12" href="$voxel__grid__tests_8cpp.html#a4ed1e65f04eb231a04beb7c3cd79983d" title="TEST" alt="" coords="715,319,770,346"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_voxel_grid_model.html#ab9d0a3a6fa8ea481c8b3911b90236c3b" title="Destructor for the world model. " alt="" coords="645,181,840,237"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_voxel_layer.html#a3987d72bcc1891335c474b060e404329" title="costmap_2d::VoxelLayer\l::isDiscretized" alt="" coords="421,5,588,47"/>
+<area shape="rect" id="node6" href="$classcostmap__2d_1_1_voxel_layer.html#a783343776ec9c85b62c882b7739fc2b0" title="costmap_2d::VoxelLayer\l::~VoxelLayer" alt="" coords="421,71,588,112"/>
+<area shape="rect" id="node7" href="$classcostmap__2d_1_1_voxel_layer.html#a02a7f51ba2b09b61f6ada3d10acf5a20" title="costmap_2d::VoxelLayer\l::VoxelLayer" alt="" coords="659,93,826,135"/>
+<area shape="rect" id="node10" href="$costmap__2d__cloud_8cpp.html#a37983da30da7edf07fa9971cd4957c6b" title="voxelCallback" alt="" coords="454,370,555,397"/>
+<area shape="rect" id="node11" href="$classvoxel__grid_1_1_voxel_grid.html#a23f965c26a19c8eeddaedab7640999a0" title="voxel_grid::VoxelGrid\l::printVoxelGrid" alt="" coords="433,253,577,295"/>
+</map>

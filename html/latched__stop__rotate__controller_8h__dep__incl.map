@@ -1,0 +1,5 @@
+<map id="navigation/base_local_planner/include/base_local_planner/latched_stop_rotate_controller.h" name="navigation/base_local_planner/include/base_local_planner/latched_stop_rotate_controller.h">
+<area shape="rect" id="node2" href="$latched__stop__rotate__controller_8cpp.html" title="navigation/base_local\l_planner/src/latched\l_stop_rotate_controller.cpp" alt="" coords="5,124,184,180"/>
+<area shape="rect" id="node3" href="$dwa__planner__ros_8h.html" title="navigation/dwa_local\l_planner/include/dwa\l_local_planner/dwa_planner_ros.h" alt="" coords="209,124,426,180"/>
+<area shape="rect" id="node4" href="$dwa__planner__ros_8cpp.html" title="navigation/dwa_local\l_planner/src/dwa_planner\l_ros.cpp" alt="" coords="233,228,402,284"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="costmap_2d::LayeredCostmap::getFootprint" name="costmap_2d::LayeredCostmap::getFootprint">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_inflation_layer.html#ae838b68ddf6d2dce9efca777e8455335" title="LayeredCostmap calls this whenever the footprint there changes (via LayeredCostmap::setFootprint()). Override to be notified of changes to the robot&#39;s footprint. " alt="" coords="252,5,429,47"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_layer.html#ac24cade239a2cb0923a774bc5231ac44" title="Convenience function for layered_costmap_&#45;&gt;getFootprint(). " alt="" coords="270,71,411,112"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_layer.html#af85315764d007012838b33516999a727" title="costmap_2d::Layer::\lgetName" alt="" coords="499,37,641,79"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_obstacle_layer.html#ac81261d46ebc829ca1d747c024a00603" title="costmap_2d::ObstacleLayer\l::updateFootprint" alt="" coords="477,103,663,144"/>
+<area shape="rect" id="node6" href="$classcostmap__2d_1_1_obstacle_layer.html#a1bfef13f020e8aa64a33743f72824ebd" title="This is called by the LayeredCostmap to poll this plugin as to how much of the costmap it needs to up..." alt="" coords="711,69,896,111"/>
+<area shape="rect" id="node8" href="$classcostmap__2d_1_1_voxel_layer.html#ab28185cd71c8e42f72880b779ef08ae2" title="This is called by the LayeredCostmap to poll this plugin as to how much of the costmap it needs to up..." alt="" coords="720,135,887,176"/>
+<area shape="rect" id="node7" href="$classcostmap__2d_1_1_obstacle_layer.html#a4620782e96fabeb0b449daa725857c00" title="costmap_2d::ObstacleLayer\l::ObstacleLayer" alt="" coords="944,69,1129,111"/>
+<area shape="rect" id="node9" href="$classcostmap__2d_1_1_voxel_layer.html#a02a7f51ba2b09b61f6ada3d10acf5a20" title="costmap_2d::VoxelLayer\l::VoxelLayer" alt="" coords="953,135,1120,176"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="base_local_planner::PointGrid::getPointsInRange" name="base_local_planner::PointGrid::getPointsInRange">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_point_grid.html#a85f9826c14353e9a75696be52d438554" title="Convert from world coordinates to grid coordinates. " alt="" coords="248,5,403,47"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_point_grid.html#a107ea768298e5560e962498692674d5a" title="Converts cell coordinates to an index value that can be used to look up the correct grid cell..." alt="" coords="253,71,397,112"/>
+</map>

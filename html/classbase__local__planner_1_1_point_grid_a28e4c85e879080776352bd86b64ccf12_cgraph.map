@@ -1,0 +1,8 @@
+<map id="base_local_planner::PointGrid::insert" name="base_local_planner::PointGrid::insert">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_point_grid.html#a85f9826c14353e9a75696be52d438554" title="Convert from world coordinates to grid coordinates. " alt="" coords="437,5,592,47"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_point_grid.html#ab0d5b4b745f965826501b9fca2bf7aa7" title="Find the distance between a point and its nearest neighbor in the grid. " alt="" coords="187,107,373,163"/>
+<area shape="rect" id="node7" href="$classbase__local__planner_1_1_point_grid.html#a107ea768298e5560e962498692674d5a" title="Converts cell coordinates to an index value that can be used to look up the correct grid cell..." alt="" coords="665,221,809,263"/>
+<area shape="rect" id="node4" href="$classbase__local__planner_1_1_point_grid.html#aa98a155058a5045be350a89eb3858f41" title="Get the bounds in world coordinates of a cell in the point grid, assumes a legal cell when called..." alt="" coords="427,71,603,112"/>
+<area shape="rect" id="node5" href="$classbase__local__planner_1_1_point_grid.html#af278e4297342dce5d1e3b0b8643dbe4e" title="Compute the squared distance between two points. " alt="" coords="656,143,819,184"/>
+<area shape="rect" id="node6" href="$classbase__local__planner_1_1_point_grid.html#a701757dbd179c3dad466c7b7e2114d6b" title="Find the distance between a point and its nearest neighbor in a cell. " alt="" coords="421,188,608,229"/>
+</map>

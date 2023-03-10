@@ -1,0 +1,4 @@
+<map id="nav_core::BaseGlobalPlanner::makePlan" name="nav_core::BaseGlobalPlanner::makePlan">
+<area shape="rect" id="node2" href="$classnav__core_1_1_base_global_planner.html#ae34a7c7cf96ebdfaf6b33f24a646156c" title="Given a goal pose in the world, compute a plan. " alt="" coords="245,5,437,47"/>
+<area shape="rect" id="node3" href="$classnav__core_1_1_base_global_planner.html#a485461ff314103dac95744f771107c43" title="Initialization function for the BaseGlobalPlanner. " alt="" coords="245,71,437,112"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="base_local_planner::TEST" name="base_local_planner::TEST">
+<area shape="rect" id="node2" href="$namespacebase__local__planner.html#a36836029a495e1e1880edc09e837f482" title="base_local_planner\l::setup_testclass_singleton" alt="" coords="187,5,368,47"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_trajectory_planner_test.html#aed6310ad3775b62007fa12ea9a3df4da" title="base_local_planner\l::TrajectoryPlannerTest\l::footprintObstacles" alt="" coords="199,71,355,127"/>
+<area shape="rect" id="node4" href="$classbase__local__planner_1_1_wavefront_map_accessor.html#a22a6ea335309603f580cac039bc8871c" title="base_local_planner\l::WavefrontMapAccessor\l::synchronize" alt="" coords="417,34,584,90"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_costmap2_d.html#a2a8ad2c3fc3aa47be8d2d0f9ae113c27" title="Get the cost of a cell in the costmap. " alt="" coords="416,115,585,156"/>
+<area shape="rect" id="node6" href="$classcostmap__2d_1_1_costmap2_d.html#a57d2ea3f3a039d72640c159cd149ff9d" title="Given two map coordinates... compute the associated index. " alt="" coords="633,115,803,156"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="navfn::NavFn::updateCellAstar" name="navfn::NavFn::updateCellAstar">
+<area shape="rect" id="node2" href="$classnavfn_1_1_nav_fn.html#a561511e57e6590da2dcfe7d5a4cf751d" title="Run propagation for &lt;cycles&gt; iterations, or until start is reached using the best&#45;first A* method wit..." alt="" coords="217,71,412,98"/>
+<area shape="rect" id="node3" href="$namespacenavfn.html#a43e1cf99d005f4c0b40ce27c85ac3a0f" title="navfn::create_nav_plan\l_astar" alt="" coords="481,5,633,47"/>
+<area shape="rect" id="node4" href="$classnavfn_1_1_nav_fn.html#a20f2459aef927442363148b8403ad199" title="Calculates a plan using the A* heuristic, returns true if one is found. " alt="" coords="460,71,655,98"/>
+<area shape="rect" id="node5" href="$navtest_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="532,122,583,149"/>
+</map>

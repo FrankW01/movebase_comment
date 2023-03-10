@@ -1,0 +1,8 @@
+<map id="base_local_planner::TrajectoryPlannerTest" name="base_local_planner::TrajectoryPlannerTest">
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_map_grid.html" title="A grid of MapCell cells that is used to propagate path and goal distances for the trajectory controll..." alt="" coords="241,57,374,98"/>
+<area shape="rect" id="node4" href="$classbase__local__planner_1_1_trajectory_planner.html" title="Computes control velocities for a robot given a costmap, a plan, and the robot&#39;s position in the worl..." alt="" coords="241,122,374,163"/>
+<area shape="rect" id="node5" href="$classbase__local__planner_1_1_costmap_model.html" title="A class that implements the WorldModel interface to provide grid based collision checks for the traje..." alt="" coords="241,187,374,229"/>
+<area shape="rect" id="node6" href="$classbase__local__planner_1_1_world_model.html" title="An interface the trajectory controller uses to interact with the world regardless of the underlying w..." alt="" coords="23,187,157,229"/>
+<area shape="rect" id="node7" href="$classbase__local__planner_1_1_wavefront_map_accessor.html" title="base_local_planner\l::WavefrontMapAccessor" alt="" coords="224,253,391,294"/>
+<area shape="rect" id="node8" href="$classcostmap__2d_1_1_costmap2_d.html" title="A 2D costmap provides a mapping between points in the world and their associated &quot;costs&quot;. " alt="" coords="5,260,175,287"/>
+</map>

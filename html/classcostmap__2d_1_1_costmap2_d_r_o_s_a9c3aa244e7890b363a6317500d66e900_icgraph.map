@@ -1,0 +1,8 @@
+<map id="costmap_2d::Costmap2DROS::updateMap" name="costmap_2d::Costmap2DROS::updateMap">
+<area shape="rect" id="node2" href="$clear__tester_8cpp.html#ae52f25afda509d6ef50c32f8feaae444" title="testCountLethal" alt="" coords="293,19,406,45"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a220a578102cf3592a744ad5264bf09ed" title="Set the footprint of the robot to be the given set of points, padded by footprint_padding. " alt="" coords="251,95,448,137"/>
+<area shape="rect" id="node3" href="$clear__tester_8cpp.html#abafd3249b8a1dc81312408e67fec172a" title="TEST" alt="" coords="588,5,643,32"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a27b741da068294f35a426f339d721cc2" title="Constructor for the wrapper. " alt="" coords="783,78,980,119"/>
+<area shape="rect" id="node6" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a05c662c0ad169c124480ed3d9ee500e8" title="Set the footprint of the robot to be the given polygon, padded by footprint_padding. " alt="" coords="496,107,735,149"/>
+<area shape="rect" id="node7" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a22cf571bfd4cd4434c2d203cd341d2c7" title="costmap_2d::Costmap2DROS\l::~Costmap2DROS" alt="" coords="517,173,714,214"/>
+</map>

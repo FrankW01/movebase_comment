@@ -1,0 +1,390 @@
+{
+    "extension": "linecount",
+    "version": "0.1.7",
+    "workspace": "c:\\Users\\Administrator\\Desktop\\ros-ws\\navigation\\costmap_2d",
+    "linecount": [
+        {
+            "version": "0.1.7",
+            "counttime": "2017-07-24 00:58:41",
+            "filesum": 62,
+            "codesum": 6101,
+            "commentsum": 2945,
+            "blanksum": 1393,
+            "filelist": [
+                {
+                    "blank": 6,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "cfg\\Costmap2D.cfg"
+                },
+                {
+                    "blank": 2,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "cfg\\GenericPlugin.cfg"
+                },
+                {
+                    "blank": 4,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "cfg\\InflationPlugin.cfg"
+                },
+                {
+                    "blank": 7,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "cfg\\ObstaclePlugin.cfg"
+                },
+                {
+                    "blank": 6,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "cfg\\VoxelPlugin.cfg"
+                },
+                {
+                    "blank": 9,
+                    "code": 59,
+                    "comment": 2,
+                    "filename": "CHANGELOG.rst"
+                },
+                {
+                    "blank": 28,
+                    "code": 185,
+                    "comment": 2,
+                    "filename": "CMakeLists.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "costmap-note.txt"
+                },
+                {
+                    "blank": 1,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "costmap_plugins.xml"
+                },
+                {
+                    "blank": 5,
+                    "code": 9,
+                    "comment": 39,
+                    "filename": "include\\costmap_2d\\array_parser.h"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 38,
+                    "filename": "include\\costmap_2d\\cost_values.h"
+                },
+                {
+                    "blank": 56,
+                    "code": 179,
+                    "comment": 237,
+                    "filename": "include\\costmap_2d\\costmap_2d.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 44,
+                    "comment": 60,
+                    "filename": "include\\costmap_2d\\costmap_2d_publisher.h"
+                },
+                {
+                    "blank": 27,
+                    "code": 109,
+                    "comment": 131,
+                    "filename": "include\\costmap_2d\\costmap_2d_ros.h"
+                },
+                {
+                    "blank": 13,
+                    "code": 32,
+                    "comment": 106,
+                    "filename": "include\\costmap_2d\\costmap_layer.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 22,
+                    "comment": 40,
+                    "filename": "include\\costmap_2d\\costmap_math.h"
+                },
+                {
+                    "blank": 17,
+                    "code": 28,
+                    "comment": 104,
+                    "filename": "include\\costmap_2d\\footprint.h"
+                },
+                {
+                    "blank": 23,
+                    "code": 104,
+                    "comment": 83,
+                    "filename": "include\\costmap_2d\\inflation_layer.h"
+                },
+                {
+                    "blank": 20,
+                    "code": 45,
+                    "comment": 72,
+                    "filename": "include\\costmap_2d\\layer.h"
+                },
+                {
+                    "blank": 28,
+                    "code": 84,
+                    "comment": 68,
+                    "filename": "include\\costmap_2d\\layered_costmap.h"
+                },
+                {
+                    "blank": 10,
+                    "code": 39,
+                    "comment": 56,
+                    "filename": "include\\costmap_2d\\observation.h"
+                },
+                {
+                    "blank": 15,
+                    "code": 53,
+                    "comment": 99,
+                    "filename": "include\\costmap_2d\\observation_buffer.h"
+                },
+                {
+                    "blank": 27,
+                    "code": 73,
+                    "comment": 88,
+                    "filename": "include\\costmap_2d\\obstacle_layer.h"
+                },
+                {
+                    "blank": 12,
+                    "code": 46,
+                    "comment": 48,
+                    "filename": "include\\costmap_2d\\static_layer.h"
+                },
+                {
+                    "blank": 14,
+                    "code": 88,
+                    "comment": 2,
+                    "filename": "include\\costmap_2d\\testing_helper.h"
+                },
+                {
+                    "blank": 22,
+                    "code": 91,
+                    "comment": 41,
+                    "filename": "include\\costmap_2d\\voxel_layer.h"
+                },
+                {
+                    "blank": 3,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "launch\\example.launch"
+                },
+                {
+                    "blank": 5,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "launch\\example_params.yaml"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "msg\\VoxelGrid.msg"
+                },
+                {
+                    "blank": 5,
+                    "code": 63,
+                    "comment": 0,
+                    "filename": "package.xml"
+                },
+                {
+                    "blank": 43,
+                    "code": 264,
+                    "comment": 66,
+                    "filename": "plugins\\inflation_layer.cpp"
+                },
+                {
+                    "blank": 94,
+                    "code": 448,
+                    "comment": 83,
+                    "filename": "plugins\\obstacle_layer.cpp"
+                },
+                {
+                    "blank": 43,
+                    "code": 244,
+                    "comment": 57,
+                    "filename": "plugins\\static_layer.cpp"
+                },
+                {
+                    "blank": 70,
+                    "code": 298,
+                    "comment": 75,
+                    "filename": "plugins\\voxel_layer.cpp"
+                },
+                {
+                    "blank": 7,
+                    "code": 74,
+                    "comment": 37,
+                    "filename": "src\\array_parser.cpp"
+                },
+                {
+                    "blank": 74,
+                    "code": 333,
+                    "comment": 78,
+                    "filename": "src\\costmap_2d.cpp"
+                },
+                {
+                    "blank": 30,
+                    "code": 146,
+                    "comment": 29,
+                    "filename": "src\\costmap_2d_cloud.cpp"
+                },
+                {
+                    "blank": 16,
+                    "code": 100,
+                    "comment": 37,
+                    "filename": "src\\costmap_2d_markers.cpp"
+                },
+                {
+                    "blank": 3,
+                    "code": 10,
+                    "comment": 37,
+                    "filename": "src\\costmap_2d_node.cpp"
+                },
+                {
+                    "blank": 21,
+                    "code": 105,
+                    "comment": 48,
+                    "filename": "src\\costmap_2d_publisher.cpp"
+                },
+                {
+                    "blank": 74,
+                    "code": 414,
+                    "comment": 70,
+                    "filename": "src\\costmap_2d_ros.cpp"
+                },
+                {
+                    "blank": 17,
+                    "code": 125,
+                    "comment": 1,
+                    "filename": "src\\costmap_layer.cpp"
+                },
+                {
+                    "blank": 10,
+                    "code": 51,
+                    "comment": 28,
+                    "filename": "src\\costmap_math.cpp"
+                },
+                {
+                    "blank": 35,
+                    "code": 245,
+                    "comment": 42,
+                    "filename": "src\\footprint.cpp"
+                },
+                {
+                    "blank": 6,
+                    "code": 22,
+                    "comment": 29,
+                    "filename": "src\\layer.cpp"
+                },
+                {
+                    "blank": 21,
+                    "code": 108,
+                    "comment": 41,
+                    "filename": "src\\layered_costmap.cpp"
+                },
+                {
+                    "blank": 33,
+                    "code": 168,
+                    "comment": 58,
+                    "filename": "src\\observation_buffer.cpp"
+                },
+                {
+                    "blank": 9,
+                    "code": 43,
+                    "comment": 28,
+                    "filename": "test\\array_parser_test.cpp"
+                },
+                {
+                    "blank": 2,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "test\\costmap_params.yaml"
+                },
+                {
+                    "blank": 21,
+                    "code": 81,
+                    "comment": 46,
+                    "filename": "test\\costmap_tester.cpp"
+                },
+                {
+                    "blank": 29,
+                    "code": 105,
+                    "comment": 43,
+                    "filename": "test\\footprint_tests.cpp"
+                },
+                {
+                    "blank": 8,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "test\\footprint_tests.launch"
+                },
+                {
+                    "blank": 67,
+                    "code": 228,
+                    "comment": 115,
+                    "filename": "test\\inflation_tests.cpp"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "test\\inflation_tests.launch"
+                },
+                {
+                    "blank": 218,
+                    "code": 804,
+                    "comment": 155,
+                    "filename": "test\\module_tests.cpp"
+                },
+                {
+                    "blank": 46,
+                    "code": 92,
+                    "comment": 117,
+                    "filename": "test\\obstacle_tests.cpp"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "test\\obstacle_tests.launch"
+                },
+                {
+                    "blank": 4,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "test\\simple_driving_test.xml"
+                },
+                {
+                    "blank": 7,
+                    "code": 15,
+                    "comment": 309,
+                    "filename": "test\\static_tests.cpp"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "test\\static_tests.launch"
+                },
+                {
+                    "filename": "test\\TenByTen.pgm",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "test\\TenByTen.yaml"
+                }
+            ]
+        }
+    ]
+}

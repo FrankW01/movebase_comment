@@ -1,0 +1,5 @@
+<map id="base_local_planner::OscillationCostFunction::prepare" name="base_local_planner::OscillationCostFunction::prepare">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_oscillation_cost_function.html#afb420d9a488660f3583e182cb1939ee1" title="Reset the oscillation flags for the local planner. " alt="" coords="437,5,605,61"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_oscillation_cost_function.html#a2cd60c5b611d43697f3345e3c356f48f" title="base_local_planner\l::OscillationCostFunction\l::updateOscillationFlags" alt="" coords="221,37,389,93"/>
+<area shape="rect" id="node4" href="$classbase__local__planner_1_1_oscillation_cost_function.html#a489f8c9c3f2322d6f24fe8aa1e39b118" title="base_local_planner\l::OscillationCostFunction\l::setOscillationResetDist" alt="" coords="221,117,389,173"/>
+</map>

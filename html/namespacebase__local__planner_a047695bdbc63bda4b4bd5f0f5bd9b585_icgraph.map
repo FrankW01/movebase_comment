@@ -1,0 +1,6 @@
+<map id="base_local_planner::transformGlobalPlan" name="base_local_planner::transformGlobalPlan">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_local_planner_util.html#a1cdbb54d6fa0b516b6fb30de9e7f317f" title="base_local_planner\l::LocalPlannerUtil::\lgetLocalPlan" alt="" coords="230,45,363,101"/>
+<area shape="rect" id="node5" href="$classbase__local__planner_1_1_trajectory_planner_r_o_s.html#adb2d96332da31a154db84930754409af" title="Given the current position, orientation, and velocity of the robot, compute velocity commands to send..." alt="" coords="200,125,393,181"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_local_planner_util.html#ac34e4f518922c568863f53006d5cfcca" title="base_local_planner\l::LocalPlannerUtil::\l~LocalPlannerUtil" alt="" coords="490,5,623,61"/>
+<area shape="rect" id="node4" href="$classdwa__local__planner_1_1_d_w_a_planner_r_o_s.html#a700178e32159b614d328326b6ba5f8b0" title="Given the current position, orientation, and velocity of the robot, compute velocity commands to send..." alt="" coords="441,85,672,141"/>
+</map>

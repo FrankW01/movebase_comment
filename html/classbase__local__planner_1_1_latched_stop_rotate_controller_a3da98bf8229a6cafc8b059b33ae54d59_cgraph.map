@@ -1,0 +1,12 @@
+<map id="base_local_planner::LatchedStopRotateController::computeVelocityCommandsStopRotate" name="base_local_planner::LatchedStopRotateController::computeVelocityCommandsStopRotate">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_local_planner_util.html#a0b25669a2eb263677de189f52e2c0e33" title="base_local_planner\l::LocalPlannerUtil::\lgetGoal" alt="" coords="359,5,493,61"/>
+<area shape="rect" id="node4" href="$classbase__local__planner_1_1_local_planner_util.html#ab872bb31110cc8cf9d1fa7f5b339c6fd" title="base_local_planner\l::LocalPlannerUtil::\lgetCurrentLimits" alt="" coords="359,85,493,141"/>
+<area shape="rect" id="node5" href="$namespaceglobal__planner.html#a2ac867f1fbf1f4ee1946ef6a371ab7ba" title="global_planner::getYaw" alt="" coords="588,375,744,401"/>
+<area shape="rect" id="node6" href="$namespacebase__local__planner.html#a689257572d08394d8d14ab2d1996590c" title="return angle difference to goal to check if the goal orientation has been achieved ..." alt="" coords="312,217,540,258"/>
+<area shape="rect" id="node7" href="$classbase__local__planner_1_1_odometry_helper_ros.html#a9959ba8c07504ca92b52ad80c23fe11d" title="base_local_planner\l::OdometryHelperRos\l::getRobotVel" alt="" coords="353,283,499,339"/>
+<area shape="rect" id="node8" href="$classbase__local__planner_1_1_odometry_helper_ros.html#ada88271c5b81d4a97b81eb51de64f67c" title="base_local_planner\l::OdometryHelperRos\l::getOdom" alt="" coords="353,363,499,419"/>
+<area shape="rect" id="node9" href="$namespacebase__local__planner.html#a80ea2934aded9d99c3e082dd934ae89c" title="Check whether the robot is stopped or not. " alt="" coords="359,443,493,485"/>
+<area shape="rect" id="node10" href="$classbase__local__planner_1_1_latched_stop_rotate_controller.html#a4d852a19860d34e22e47801c4096aeae" title="Stop the robot taking into account acceleration limits. " alt="" coords="328,509,524,565"/>
+<area shape="rect" id="node11" href="$classbase__local__planner_1_1_latched_stop_rotate_controller.html#aad01aa43fb235e400a5cbef2172cc8f8" title="Once a goal position is reached... rotate to the goal orientation. " alt="" coords="328,589,524,645"/>
+<area shape="rect" id="node3" href="$namespacebase__local__planner.html#aa0e40cef653b1dd1f828e2090c22b5b8" title="Returns last pose in plan. " alt="" coords="599,13,733,54"/>
+</map>

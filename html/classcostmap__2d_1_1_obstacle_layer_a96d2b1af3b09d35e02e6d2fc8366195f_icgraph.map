@@ -1,0 +1,6 @@
+<map id="costmap_2d::ObstacleLayer::activate" name="costmap_2d::ObstacleLayer::activate">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_obstacle_layer.html#a4620782e96fabeb0b449daa725857c00" title="costmap_2d::ObstacleLayer\l::ObstacleLayer" alt="" coords="472,5,657,47"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_obstacle_layer.html#a9eca6114b3d54c93504058a1754103e4" title="costmap_2d::ObstacleLayer\l::reset" alt="" coords="239,35,424,76"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_voxel_layer.html#af5f57588c57a8a5c8dff065b5a76a0db" title="costmap_2d::VoxelLayer\l::reset" alt="" coords="248,100,415,141"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_voxel_layer.html#a3987d72bcc1891335c474b060e404329" title="costmap_2d::VoxelLayer\l::isDiscretized" alt="" coords="481,100,648,141"/>
+</map>

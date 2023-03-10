@@ -1,0 +1,24 @@
+<map id="distanceToLine" name="distanceToLine">
+<area shape="rect" id="node2" href="$costmap__math_8h.html#a98aba4ec7ccaf3b54f2a312e2db8ba98" title="distance" alt="" coords="163,238,233,265"/>
+<area shape="rect" id="node12" href="$namespacecostmap__2d.html#a6eeafbd231ad1ec2de69e61754773742" title="Calculate the extreme distances for the footprint. " alt="" coords="297,361,472,403"/>
+<area shape="rect" id="node3" href="$map__cspace_8cpp.html#a11d07a9c9f4b18ebb1d5c5a6d562c38d" title="enqueue" alt="" coords="349,46,420,73"/>
+<area shape="rect" id="node7" href="$classbase__local__planner_1_1_voxel_grid_model.html#a3a5b2c042a813dc06a9fdbfcd0bd6291" title="The costmap already keeps track of world observations, so for this world model this method does nothi..." alt="" coords="283,100,486,141"/>
+<area shape="rect" id="node9" href="$classcostmap__2d_1_1_inflation_layer.html#a2d5d3eef9b0e8c91dfde79c0e40a65af" title="Actually update the underlying costmap, only within the bounds calculated during UpdateBounds(). " alt="" coords="296,165,473,207"/>
+<area shape="rect" id="node10" href="$classcostmap__2d_1_1_voxel_layer.html#ab28185cd71c8e42f72880b779ef08ae2" title="This is called by the LayeredCostmap to poll this plugin as to how much of the costmap it needs to up..." alt="" coords="301,231,468,272"/>
+<area shape="rect" id="node23" href="$classglobal__planner_1_1_a_star_expansion.html#a71ddf1440a2f487c6f10af7a25757371" title="global_planner::AStarExpansion\l::calculatePotentials" alt="" coords="281,296,488,337"/>
+<area shape="rect" id="node4" href="$map__cspace_8cpp.html#a7a2e9876667cad69c3b70881c1aaf1ac" title="map_update_cspace" alt="" coords="564,45,707,71"/>
+<area shape="rect" id="node5" href="$classamcl_1_1_a_m_c_l_laser.html#ab9115fca9c56ad6f745efe8442c2d52f" title="amcl::AMCLLaser::SetModel\lLikelihoodField" alt="" coords="787,5,977,47"/>
+<area shape="rect" id="node6" href="$classamcl_1_1_a_m_c_l_laser.html#acdde5209bb6d160b6b561742036fcb09" title="amcl::AMCLLaser::SetModel\lLikelihoodFieldProb" alt="" coords="787,71,977,112"/>
+<area shape="rect" id="node8" href="$classbase__local__planner_1_1_voxel_grid_model.html#ab9d0a3a6fa8ea481c8b3911b90236c3b" title="Destructor for the world model. " alt="" coords="538,95,733,151"/>
+<area shape="rect" id="node11" href="$classcostmap__2d_1_1_voxel_layer.html#a02a7f51ba2b09b61f6ada3d10acf5a20" title="costmap_2d::VoxelLayer\l::VoxelLayer" alt="" coords="552,227,719,268"/>
+<area shape="rect" id="node13" href="$classbase__local__planner_1_1_world_model.html#ac7e8dc9c77a2dd2fa77f5a27d812fd43" title="base_local_planner\l::WorldModel::footprintCost" alt="" coords="545,292,725,333"/>
+<area shape="rect" id="node14" href="$classbase__local__planner_1_1_trajectory_planner.html#a3b44d4da776a23b06f388aa244de84b1" title="Constructs a trajectory controller. " alt="" coords="569,358,702,414"/>
+<area shape="rect" id="node15" href="$classcostmap__2d_1_1_layered_costmap.html#acf16f3d3636b7fbe6e28edbd32340464" title="Updates the stored footprint, updates the circumscribed and inscribed radii, and calls onFootprintCha..." alt="" coords="536,439,735,480"/>
+<area shape="rect" id="node16" href="$classcostmap__2d_1_1_layered_costmap.html#afc113bdd03ed7d3fa29038769a1bd9e3" title="costmap_2d::LayeredCostmap\l::isInitialized" alt="" coords="783,355,981,396"/>
+<area shape="rect" id="node17" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a220a578102cf3592a744ad5264bf09ed" title="Set the footprint of the robot to be the given set of points, padded by footprint_padding. " alt="" coords="1029,399,1227,440"/>
+<area shape="rect" id="node21" href="$inflation__tests_8cpp.html#a691c7abce99a1c663f13e70eca655d45" title="setRadii" alt="" coords="847,471,917,498"/>
+<area shape="rect" id="node22" href="$inflation__tests_8cpp.html#ad4ae0b82faed5db2b710a038b9cf895f" title="TEST" alt="" coords="1101,486,1155,513"/>
+<area shape="rect" id="node18" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a27b741da068294f35a426f339d721cc2" title="Constructor for the wrapper. " alt="" coords="1561,369,1759,411"/>
+<area shape="rect" id="node19" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a05c662c0ad169c124480ed3d9ee500e8" title="Set the footprint of the robot to be the given polygon, padded by footprint_padding. " alt="" coords="1275,399,1513,440"/>
+<area shape="rect" id="node20" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a22cf571bfd4cd4434c2d203cd341d2c7" title="costmap_2d::Costmap2DROS\l::~Costmap2DROS" alt="" coords="1295,464,1493,505"/>
+</map>

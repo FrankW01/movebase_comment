@@ -1,0 +1,11 @@
+<map id="base_local_planner::OscillationCostFunction::resetOscillationFlags" name="base_local_planner::OscillationCostFunction::resetOscillationFlags">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_oscillation_cost_function.html#a1cc7c1cd4c49df97515da3c12400f4df" title="base_local_planner\l::OscillationCostFunction\l::prepare" alt="" coords="498,5,666,61"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_oscillation_cost_function.html#a2cd60c5b611d43697f3345e3c356f48f" title="base_local_planner\l::OscillationCostFunction\l::updateOscillationFlags" alt="" coords="236,61,404,117"/>
+<area shape="rect" id="node6" href="$classdwa__local__planner_1_1_d_w_a_planner.html#ab2c1143a3a54638d0dc38f9b6fa16e53" title="Constructor for the planner. " alt="" coords="230,142,410,183"/>
+<area shape="rect" id="node7" href="$classdwa__local__planner_1_1_d_w_a_planner.html#ac0ab6d668b0b9e867ca2ba3ec2f235bf" title="dwa_local_planner::\lDWAPlanner::setPlan" alt="" coords="245,207,395,249"/>
+<area shape="rect" id="node9" href="$classdwa__local__planner_1_1_d_w_a_planner.html#a1200e7b997f2acd8c3b912bed37e69d5" title="Check if a trajectory is legal for a position/velocity pair. " alt="" coords="221,273,419,314"/>
+<area shape="rect" id="node4" href="$classdwa__local__planner_1_1_d_w_a_planner.html#ad7e5c57da49cd1517ee0affdf5f3acd3" title="Given the current position and velocity of the robot, find the best trajectory to exectue..." alt="" coords="493,95,671,137"/>
+<area shape="rect" id="node5" href="$classdwa__local__planner_1_1_d_w_a_planner.html#a67aec91da742af7b6a9e001fad67d03f" title="Destructor for the planner. " alt="" coords="745,166,933,207"/>
+<area shape="rect" id="node8" href="$classdwa__local__planner_1_1_d_w_a_planner.html#a943ce6facaf2c7602709ed4d0e9c9c54" title="Get the period at which the local planner is expected to run. " alt="" coords="491,178,673,219"/>
+<area shape="rect" id="node10" href="$classdwa__local__planner_1_1_d_w_a_planner_r_o_s.html#a700178e32159b614d328326b6ba5f8b0" title="Given the current position, orientation, and velocity of the robot, compute velocity commands to send..." alt="" coords="467,295,697,351"/>
+</map>

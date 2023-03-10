@@ -1,0 +1,24 @@
+<map id="costmap_2d::Costmap2D::getOriginY" name="costmap_2d::Costmap2D::getOriginY">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_static_layer.html#a3c8a9c7ea061ad416e09d2f1f18cdc8a" title="Implement this to make this layer match the size of the parent costmap. " alt="" coords="251,5,417,47"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_costmap2_d_publisher.html#a38077dace67c7ca6aff8fb09ac81e17d" title="Destructor. " alt="" coords="223,71,445,112"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_costmap2_d_publisher.html#a47e5b5d93113f39786112919a6981953" title="Publishes the visualization data over ROS. " alt="" coords="223,136,445,177"/>
+<area shape="rect" id="node10" href="$classcostmap__2d_1_1_costmap_layer.html#a9260d210630b6522cad87397506f9696" title="Implement this to make this layer match the size of the parent costmap. " alt="" coords="241,201,427,243"/>
+<area shape="rect" id="node19" href="$classglobal__planner_1_1_global_planner.html#a760dc206a99babddfacded0558d35208" title="global_planner::GlobalPlanner\l::makePlanService" alt="" coords="237,296,431,337"/>
+<area shape="rect" id="node21" href="$classnavfn_1_1_navfn_r_o_s.html#a81643ac812bc02a5652f691c30834c27" title="navfn::NavfnROS::makePlan\lService" alt="" coords="242,391,426,432"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_costmap2_d_publisher.html#a51c026184908fb427babad570150df30" title="Include the given bounds in the changed&#45;rectangle. " alt="" coords="493,19,716,60"/>
+<area shape="rect" id="node6" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a220a578102cf3592a744ad5264bf09ed" title="Set the footprint of the robot to be the given set of points, padded by footprint_padding. " alt="" coords="764,45,961,87"/>
+<area shape="rect" id="node7" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a27b741da068294f35a426f339d721cc2" title="Constructor for the wrapper. " alt="" coords="1296,16,1493,57"/>
+<area shape="rect" id="node8" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a05c662c0ad169c124480ed3d9ee500e8" title="Set the footprint of the robot to be the given polygon, padded by footprint_padding. " alt="" coords="1009,45,1248,87"/>
+<area shape="rect" id="node9" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a22cf571bfd4cd4434c2d203cd341d2c7" title="costmap_2d::Costmap2DROS\l::~Costmap2DROS" alt="" coords="1030,111,1227,152"/>
+<area shape="rect" id="node11" href="$classcostmap__2d_1_1_costmap_layer.html#a7a595c59ef61a168c71e63360b9b1501" title="costmap_2d::CostmapLayer\l::isDiscretized" alt="" coords="512,136,697,177"/>
+<area shape="rect" id="node12" href="$classcostmap__2d_1_1_obstacle_layer.html#a370822e3b19d717ef04311b7b967f496" title="This is called at the end of initialize(). Override to implement subclass&#45;specific initialization..." alt="" coords="512,201,697,243"/>
+<area shape="rect" id="node16" href="$classcostmap__2d_1_1_voxel_layer.html#a0528c59b3cbe4c1b81748284ae0a3dc5" title="Implement this to make this layer match the size of the parent costmap. " alt="" coords="521,267,688,308"/>
+<area shape="rect" id="node13" href="$classcostmap__2d_1_1_obstacle_layer.html#a4620782e96fabeb0b449daa725857c00" title="costmap_2d::ObstacleLayer\l::ObstacleLayer" alt="" coords="770,136,955,177"/>
+<area shape="rect" id="node14" href="$classcostmap__2d_1_1_voxel_layer.html#a7b0d5249f27fd757f206493b491fd37a" title="This is called at the end of initialize(). Override to implement subclass&#45;specific initialization..." alt="" coords="779,201,946,243"/>
+<area shape="rect" id="node15" href="$classcostmap__2d_1_1_voxel_layer.html#a02a7f51ba2b09b61f6ada3d10acf5a20" title="costmap_2d::VoxelLayer\l::VoxelLayer" alt="" coords="1045,267,1212,308"/>
+<area shape="rect" id="node17" href="$classcostmap__2d_1_1_voxel_layer.html#a3987d72bcc1891335c474b060e404329" title="costmap_2d::VoxelLayer\l::isDiscretized" alt="" coords="779,267,946,308"/>
+<area shape="rect" id="node18" href="$classcostmap__2d_1_1_voxel_layer.html#a783343776ec9c85b62c882b7739fc2b0" title="costmap_2d::VoxelLayer\l::~VoxelLayer" alt="" coords="779,332,946,373"/>
+<area shape="rect" id="node20" href="$classglobal__planner_1_1_global_planner.html#af3ade8f9f487fe2ddd109f0845a6ffb2" title="global_planner::GlobalPlanner\l::initialize" alt="" coords="507,332,702,373"/>
+<area shape="rect" id="node22" href="$classnavfn_1_1_navfn_r_o_s.html#a157abea36af92ed9ad78e79328eb0489" title="navfn::NavfnROS::~NavfnROS" alt="" coords="508,398,701,425"/>
+<area shape="rect" id="node23" href="$classnavfn_1_1_navfn_r_o_s.html#a935ac2d5a76a101a3521cb078ee4ba4d" title="Initialization function for the NavFnROS object. " alt="" coords="518,449,691,475"/>
+</map>

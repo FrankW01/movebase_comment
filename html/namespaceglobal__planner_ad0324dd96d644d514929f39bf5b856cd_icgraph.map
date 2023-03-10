@@ -1,0 +1,5 @@
+<map id="global_planner::set_angle" name="global_planner::set_angle">
+<area shape="rect" id="node2" href="$classglobal__planner_1_1_orientation_filter.html#a663a981d99ba796096677a2ede362ea2" title="global_planner::Orientation\lFilter::pointToNext" alt="" coords="184,5,360,47"/>
+<area shape="rect" id="node4" href="$classglobal__planner_1_1_orientation_filter.html#a36817535ca10c2662b6cc2d0919576bf" title="global_planner::Orientation\lFilter::interpolate" alt="" coords="184,71,360,112"/>
+<area shape="rect" id="node3" href="$classglobal__planner_1_1_orientation_filter.html#ab4a576fb0224492885d69a734bacfc5e" title="global_planner::Orientation\lFilter::OrientationFilter" alt="" coords="408,39,584,80"/>
+</map>

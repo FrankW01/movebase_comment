@@ -1,0 +1,51 @@
+<map id="costmap_2d::Costmap2D::getIndex" name="costmap_2d::Costmap2D::getIndex">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_inflation_layer.html#a2d5d3eef9b0e8c91dfde79c0e40a65af" title="Actually update the underlying costmap, only within the bounds calculated during UpdateBounds(). " alt="" coords="227,36,404,77"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_obstacle_layer.html#a1bfef13f020e8aa64a33743f72824ebd" title="This is called by the LayeredCostmap to poll this plugin as to how much of the costmap it needs to up..." alt="" coords="223,223,408,264"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_voxel_layer.html#ab28185cd71c8e42f72880b779ef08ae2" title="This is called by the LayeredCostmap to poll this plugin as to how much of the costmap it needs to up..." alt="" coords="232,400,399,441"/>
+<area shape="rect" id="node7" href="$classcostmap__2d_1_1_costmap2_d.html#a2a8ad2c3fc3aa47be8d2d0f9ae113c27" title="Get the cost of a cell in the costmap. " alt="" coords="231,688,400,729"/>
+<area shape="rect" id="node37" href="$inflation__tests_8cpp.html#ace7be2b076b1bec8a1091d5f74632e28" title="validatePointInflation" alt="" coords="498,1099,637,1126"/>
+<area shape="rect" id="node41" href="$classcostmap__2d_1_1_costmap2_d.html#ae1703900adbbf1e0d929cec0735a8b0e" title="Set the cost of a cell in the costmap. " alt="" coords="231,1231,400,1272"/>
+<area shape="rect" id="node46" href="$classcostmap__2d_1_1_costmap2_d.html#afb8a42c3810e796107ed04c0ca3cbf90" title="Sets the cost of a convex polygon to a desired value. " alt="" coords="231,101,400,143"/>
+<area shape="rect" id="node49" href="$module__tests_8cpp.html#acaf55aec82e7bf50a889e6a81db0b207" title="worldToIndex" alt="" coords="267,1326,364,1353"/>
+<area shape="rect" id="node50" href="$module__tests_8cpp.html#a0e9c8b5f0a3eba4d6e0db102be312cfa" title="TEST" alt="" coords="540,1449,595,1475"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_obstacle_layer.html#a4620782e96fabeb0b449daa725857c00" title="costmap_2d::ObstacleLayer\l::ObstacleLayer" alt="" coords="746,68,931,109"/>
+<area shape="rect" id="node6" href="$classcostmap__2d_1_1_voxel_layer.html#a02a7f51ba2b09b61f6ada3d10acf5a20" title="costmap_2d::VoxelLayer\l::VoxelLayer" alt="" coords="484,188,651,229"/>
+<area shape="rect" id="node8" href="$classbase__local__planner_1_1_costmap_model.html#a80d896d06af4f1c0bd5b61cd758743af" title="Checks if any obstacles in the costmap lie inside a convex footprint that is rasterized into the grid..." alt="" coords="468,371,667,412"/>
+<area shape="rect" id="node10" href="$classbase__local__planner_1_1_map_grid.html#a88efaf02a2735770450745f47239f0d9" title="Used to update the distance of a cell in path distance computation. " alt="" coords="480,553,655,595"/>
+<area shape="rect" id="node12" href="$classbase__local__planner_1_1_trajectory_planner.html#a23f9726d0f43f94e8c5b3a50556dd7b7" title="Compute the components and total cost for a map grid cell. " alt="" coords="1471,573,1604,629"/>
+<area shape="rect" id="node15" href="$classbase__local__planner_1_1_map_grid.html#a8e3227190b9f67376ee2890f493079d5" title="Update what cells are considered path based on the global plan. " alt="" coords="1012,613,1183,655"/>
+<area shape="rect" id="node19" href="$classbase__local__planner_1_1_map_grid.html#ab73fe99a7ad21b36a3178e26296945d5" title="Update what cell is considered the next local goal. " alt="" coords="1016,548,1179,589"/>
+<area shape="rect" id="node20" href="$classbase__local__planner_1_1_obstacle_cost_function.html#a1f6a1fa580a775f11226ca346b8dcc33" title="base_local_planner\l::ObstacleCostFunction\l::footprintCost" alt="" coords="488,838,647,894"/>
+<area shape="rect" id="node23" href="$classbase__local__planner_1_1_trajectory_planner_test.html#aed6310ad3775b62007fa12ea9a3df4da" title="base_local_planner\l::TrajectoryPlannerTest\l::footprintObstacles" alt="" coords="489,918,645,974"/>
+<area shape="rect" id="node25" href="$testing__helper_8h.html#a31015063213528e542a953d8470fc6b5" title="printMap" alt="" coords="531,1049,603,1075"/>
+<area shape="rect" id="node28" href="$testing__helper_8h.html#af4d497e66d7195f0a4b02ce26603c5c8" title="countValues" alt="" coords="520,998,615,1025"/>
+<area shape="rect" id="node30" href="$classcostmap__2d_1_1_static_layer.html#a9ebed8f042ee945073031e51f82229f1" title="Actually update the underlying costmap, only within the bounds calculated during UpdateBounds(). " alt="" coords="484,1151,651,1192"/>
+<area shape="rect" id="node31" href="$classcostmap__2d_1_1_costmap2_d.html#a04cd3558a672159a3ad1b151b1d19661" title="Save the costmap out to a pgm file. " alt="" coords="483,253,652,295"/>
+<area shape="rect" id="node33" href="$classcostmap__2d_1_1_costmap_tester.html#a027acc4743f9e864ac5216ef32bd4a79" title="costmap_2d::CostmapTester\l::compareCells" alt="" coords="744,309,933,351"/>
+<area shape="rect" id="node34" href="$classcostmap__2d_1_1_costmap2_d_publisher.html#a47e5b5d93113f39786112919a6981953" title="Publishes the visualization data over ROS. " alt="" coords="456,772,679,813"/>
+<area shape="rect" id="node39" href="$inflation__tests_8cpp.html#ad4ae0b82faed5db2b710a038b9cf895f" title="TEST" alt="" coords="540,437,595,463"/>
+<area shape="rect" id="node40" href="$classdwa__local__planner_1_1_d_w_a_planner.html#ab62d6664d13e90e42327de34a2ed1cfb" title="Compute the components and total cost for a map grid cell. " alt="" coords="478,488,657,529"/>
+<area shape="rect" id="node9" href="$classbase__local__planner_1_1_costmap_model.html#a0ec575505589c1816559a563b34cd682" title="Destructor for the world model. " alt="" coords="729,375,949,416"/>
+<area shape="rect" id="node11" href="$classbase__local__planner_1_1_map_grid.html#a1b7145c6781d0d3703a1003b9f753420" title="base_local_planner\l::MapGrid::unreachableCell\lCosts" alt="" coords="1244,419,1423,475"/>
+<area shape="rect" id="node14" href="$classbase__local__planner_1_1_map_grid.html#a0af0995160ef050ddb804dafed2f960b" title="Compute the distance from each cell in the local map grid to the planned path. " alt="" coords="727,548,951,589"/>
+<area shape="rect" id="node13" href="$classbase__local__planner_1_1_trajectory_planner_r_o_s.html#a4b78694e9a9731a93d46adb57dc3e61c" title="Constructs the ros wrapper. " alt="" coords="1652,573,1811,629"/>
+<area shape="rect" id="node16" href="$classbase__local__planner_1_1_map_grid_cost_function.html#af3f80d67ddeefec5871b4828ddafb5dc" title="base_local_planner\l::MapGridCostFunction\l::prepare" alt="" coords="1255,579,1411,635"/>
+<area shape="rect" id="node17" href="$classbase__local__planner_1_1_trajectory_planner.html#ad8c384954625a91934bad8354f5dc24d" title="Update the plan that the controller is following. " alt="" coords="1267,659,1400,715"/>
+<area shape="rect" id="node18" href="$classbase__local__planner_1_1_trajectory_planner.html#a26b25e08c3bd59f73b5aa19ad2a4a1e3" title="Given the current position, orientation, and velocity of the robot, return a trajectory to follow..." alt="" coords="1267,499,1400,555"/>
+<area shape="rect" id="node21" href="$classbase__local__planner_1_1_obstacle_cost_function.html#a62321188c336dbef4d749a79cecc45c0" title="base_local_planner\l::ObstacleCostFunction\l::setSumScores" alt="" coords="759,889,918,945"/>
+<area shape="rect" id="node22" href="$classbase__local__planner_1_1_obstacle_cost_function.html#a3bac5a99d333a755440449809270e638" title="base_local_planner\l::ObstacleCostFunction\l::scoreTrajectory" alt="" coords="759,969,918,1025"/>
+<area shape="rect" id="node24" href="$namespacebase__local__planner.html#a2ecfd39db1caed1dfc893a87ded32a7b" title="base_local_planner\l::TEST" alt="" coords="772,1049,905,1091"/>
+<area shape="rect" id="node26" href="$clear__tester_8cpp.html#ae52f25afda509d6ef50c32f8feaae444" title="testCountLethal" alt="" coords="782,1166,895,1193"/>
+<area shape="rect" id="node27" href="$inflation__tests_8cpp.html#ad0876c1fbe3e36f9dbcfddcd309a2838" title="TEST" alt="" coords="811,1217,866,1243"/>
+<area shape="rect" id="node29" href="$inflation__tests_8cpp.html#a7944d546ff12543615d752c882c1ae12" title="TEST" alt="" coords="811,1115,866,1142"/>
+<area shape="rect" id="node32" href="$classcostmap__2d_1_1_costmap_tester.html#a73e0c2048004f4c99a2cc868aed060b3" title="costmap_2d::CostmapTester\l::checkConsistentCosts" alt="" coords="744,244,933,285"/>
+<area shape="rect" id="node35" href="$classcostmap__2d_1_1_costmap2_d_publisher.html#a51c026184908fb427babad570150df30" title="Include the given bounds in the changed&#45;rectangle. " alt="" coords="727,823,950,864"/>
+<area shape="rect" id="node36" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a220a578102cf3592a744ad5264bf09ed" title="Set the footprint of the robot to be the given set of points, padded by footprint_padding. " alt="" coords="999,809,1196,851"/>
+<area shape="rect" id="node38" href="$inflation__tests_8cpp.html#a499b096d8e2224075377c24bb0159b2c" title="TEST" alt="" coords="811,1267,866,1294"/>
+<area shape="rect" id="node42" href="$testing__helper_8h.html#aaec85d539af36b85e87b565dc1bfbccd" title="setValues" alt="" coords="527,1347,607,1374"/>
+<area shape="rect" id="node43" href="$obstacle__tests_8cpp.html#a9a60e8b8b1e2774d5d94b0b402ea9d34" title="TEST" alt="" coords="540,1398,595,1425"/>
+<area shape="rect" id="node44" href="$classglobal__planner_1_1_global_planner.html#af3ade8f9f487fe2ddd109f0845a6ffb2" title="global_planner::GlobalPlanner\l::initialize" alt="" coords="470,1216,665,1257"/>
+<area shape="rect" id="node45" href="$classnavfn_1_1_navfn_r_o_s.html#a01635a5d9947ae1b51ce70603db0c843" title="Computes the full navigation function for the map given a point in the world to start from..." alt="" coords="479,1281,655,1323"/>
+<area shape="rect" id="node47" href="$classcostmap__2d_1_1_obstacle_layer.html#a02fbdf76db69ddc03c400b2c00e903ee" title="Actually update the underlying costmap, only within the bounds calculated during UpdateBounds(). " alt="" coords="475,5,660,47"/>
+<area shape="rect" id="node48" href="$classmove__base_1_1_move_base.html#a1f61244f766f8652ca8d205b34906f39" title="Constructor for the actions. " alt="" coords="490,71,645,112"/>
+</map>

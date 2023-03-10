@@ -1,0 +1,6 @@
+<map id="setValues" name="setValues">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_costmap2_d.html#a702f4ed109f94c8513500cf97ff066a4" title="Accessor for the y size of the costmap in cells. " alt="" coords="133,5,303,47"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_costmap2_d.html#a615a4186649d8970111f8a356906b320" title="Accessor for the x size of the costmap in cells. " alt="" coords="133,71,303,112"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_costmap2_d.html#ae1703900adbbf1e0d929cec0735a8b0e" title="Set the cost of a cell in the costmap. " alt="" coords="133,136,303,177"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_costmap2_d.html#a57d2ea3f3a039d72640c159cd149ff9d" title="Given two map coordinates... compute the associated index. " alt="" coords="351,136,520,177"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="base_local_planner::TrajectoryPlanner::TrajectoryPlanner" name="base_local_planner::TrajectoryPlanner::TrajectoryPlanner">
+<area shape="rect" id="node2" href="$namespacecostmap__2d.html#a6eeafbd231ad1ec2de69e61754773742" title="Calculate the extreme distances for the footprint. " alt="" coords="187,13,361,54"/>
+<area shape="rect" id="node3" href="$costmap__math_8h.html#a98aba4ec7ccaf3b54f2a312e2db8ba98" title="distance" alt="" coords="409,45,480,72"/>
+<area shape="rect" id="node4" href="$costmap__math_8h.html#a31fe9c9633687b41b7c65a18dcab85f9" title="distanceToLine" alt="" coords="528,20,637,47"/>
+<area shape="rect" id="node5" href="$costmap__math_8h.html#a567784da85da753bdd72f7faf2bdf7b6" title="intersects" alt="" coords="543,71,622,97"/>
+</map>

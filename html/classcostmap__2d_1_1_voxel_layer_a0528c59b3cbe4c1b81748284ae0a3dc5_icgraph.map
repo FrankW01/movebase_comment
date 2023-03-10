@@ -1,0 +1,5 @@
+<map id="costmap_2d::VoxelLayer::matchSize" name="costmap_2d::VoxelLayer::matchSize">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_voxel_layer.html#a3987d72bcc1891335c474b060e404329" title="costmap_2d::VoxelLayer\l::isDiscretized" alt="" coords="220,5,387,47"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_voxel_layer.html#a783343776ec9c85b62c882b7739fc2b0" title="costmap_2d::VoxelLayer\l::~VoxelLayer" alt="" coords="220,71,387,112"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_voxel_layer.html#a02a7f51ba2b09b61f6ada3d10acf5a20" title="costmap_2d::VoxelLayer\l::VoxelLayer" alt="" coords="435,71,601,112"/>
+</map>

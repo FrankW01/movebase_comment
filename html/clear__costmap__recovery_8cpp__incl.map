@@ -1,0 +1,12 @@
+<map id="navigation/clear_costmap_recovery/src/clear_costmap_recovery.cpp" name="navigation/clear_costmap_recovery/src/clear_costmap_recovery.cpp">
+<area shape="rect" id="node2" href="$clear__costmap__recovery_8h.html" title="clear_costmap_recovery\l/clear_costmap_recovery.h" alt="" coords="561,109,738,151"/>
+<area shape="rect" id="node3" href="$recovery__behavior_8h.html" title="nav_core/recovery_behavior.h" alt="" coords="395,199,586,225"/>
+<area shape="rect" id="node4" href="$costmap__2d__ros_8h.html" title="costmap_2d/costmap\l_2d_ros.h" alt="" coords="940,273,1087,315"/>
+<area shape="rect" id="node28" href="$costmap__layer_8h.html" title="costmap_2d/costmap\l_layer.h" alt="" coords="461,273,608,315"/>
+<area shape="rect" id="node5" href="$layered__costmap_8h.html" title="costmap_2d/layered\l_costmap.h" alt="" coords="433,363,572,404"/>
+<area shape="rect" id="node7" href="$layer_8h.html" title="costmap_2d/layer.h" alt="" coords="125,452,261,479"/>
+<area shape="rect" id="node16" href="$costmap__2d__publisher_8h.html" title="costmap_2d/costmap\l_2d_publisher.h" alt="" coords="829,363,976,404"/>
+<area shape="rect" id="node22" href="$footprint_8h.html" title="costmap_2d/footprint.h" alt="" coords="1477,370,1632,397"/>
+<area shape="rect" id="node6" href="$cost__values_8h.html" title="costmap_2d/cost_values.h" alt="" coords="285,452,461,479"/>
+<area shape="rect" id="node8" href="$costmap__2d_8h.html" title="costmap_2d/costmap_2d.h" alt="" coords="539,527,717,553"/>
+</map>

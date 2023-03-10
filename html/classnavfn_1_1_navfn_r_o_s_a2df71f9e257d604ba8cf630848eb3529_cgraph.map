@@ -1,0 +1,5 @@
+<map id="navfn::NavfnROS::validPointPotential" name="navfn::NavfnROS::validPointPotential">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_costmap2_d.html#ade55f512e27c62cec28a3de5ca775759" title="Accessor for the resolution of the costmap. " alt="" coords="237,5,407,47"/>
+<area shape="rect" id="node3" href="$classnavfn_1_1_navfn_r_o_s.html#a51f40b93d0f1c181f94fb7da28a476e2" title="Get the potential, or naviagation cost, at a given point in the world (Note: You should call computeP..." alt="" coords="235,71,409,112"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_costmap2_d.html#a9a2c824d4cd3bcad3ac3435d81982986" title="Convert from world coordinates to map coordinates. " alt="" coords="457,71,627,112"/>
+</map>

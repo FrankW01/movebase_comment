@@ -1,0 +1,71 @@
+{
+    "extension": "linecount",
+    "version": "0.1.7",
+    "workspace": "c:\\Users\\Administrator\\Desktop\\ros-ws\\navigation\\dwa_local_planner",
+    "linecount": [
+        {
+            "version": "0.1.7",
+            "counttime": "2017-07-24 01:01:47",
+            "filesum": 9,
+            "codesum": 716,
+            "commentsum": 322,
+            "blanksum": 218,
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "blp_plugin.xml"
+                },
+                {
+                    "blank": 14,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "cfg\\DWAPlanner.cfg"
+                },
+                {
+                    "blank": 15,
+                    "code": 53,
+                    "comment": 1,
+                    "filename": "CHANGELOG.rst"
+                },
+                {
+                    "blank": 9,
+                    "code": 53,
+                    "comment": 0,
+                    "filename": "CMakeLists.txt"
+                },
+                {
+                    "blank": 28,
+                    "code": 64,
+                    "comment": 94,
+                    "filename": "include\\dwa_local_planner\\dwa_planner.h"
+                },
+                {
+                    "blank": 33,
+                    "code": 48,
+                    "comment": 80,
+                    "filename": "include\\dwa_local_planner\\dwa_planner_ros.h"
+                },
+                {
+                    "blank": 9,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "package.xml"
+                },
+                {
+                    "blank": 59,
+                    "code": 239,
+                    "comment": 80,
+                    "filename": "src\\dwa_planner.cpp"
+                },
+                {
+                    "blank": 51,
+                    "code": 185,
+                    "comment": 67,
+                    "filename": "src\\dwa_planner_ros.cpp"
+                }
+            ]
+        }
+    ]
+}

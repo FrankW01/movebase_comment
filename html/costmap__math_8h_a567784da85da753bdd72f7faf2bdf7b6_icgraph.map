@@ -1,0 +1,27 @@
+<map id="intersects" name="intersects">
+<area shape="rect" id="node2" href="$costmap__math_8h.html#a98aba4ec7ccaf3b54f2a312e2db8ba98" title="distance" alt="" coords="157,297,228,323"/>
+<area shape="rect" id="node25" href="$costmap__math_8cpp.html#a928b4806dccd621d58057981b5ab5eb7" title="intersects_helper" alt="" coords="132,406,253,433"/>
+<area shape="rect" id="node3" href="$map__cspace_8cpp.html#a11d07a9c9f4b18ebb1d5c5a6d562c38d" title="enqueue" alt="" coords="369,46,440,73"/>
+<area shape="rect" id="node7" href="$classbase__local__planner_1_1_voxel_grid_model.html#a3a5b2c042a813dc06a9fdbfcd0bd6291" title="The costmap already keeps track of world observations, so for this world model this method does nothi..." alt="" coords="303,100,506,141"/>
+<area shape="rect" id="node9" href="$classcostmap__2d_1_1_inflation_layer.html#a2d5d3eef9b0e8c91dfde79c0e40a65af" title="Actually update the underlying costmap, only within the bounds calculated during UpdateBounds(). " alt="" coords="316,165,493,207"/>
+<area shape="rect" id="node10" href="$classcostmap__2d_1_1_voxel_layer.html#ab28185cd71c8e42f72880b779ef08ae2" title="This is called by the LayeredCostmap to poll this plugin as to how much of the costmap it needs to up..." alt="" coords="321,231,488,272"/>
+<area shape="rect" id="node12" href="$costmap__math_8cpp.html#a31fe9c9633687b41b7c65a18dcab85f9" title="distanceToLine" alt="" coords="350,297,459,323"/>
+<area shape="rect" id="node13" href="$namespacecostmap__2d.html#a6eeafbd231ad1ec2de69e61754773742" title="Calculate the extreme distances for the footprint. " alt="" coords="566,317,741,359"/>
+<area shape="rect" id="node24" href="$classglobal__planner_1_1_a_star_expansion.html#a71ddf1440a2f487c6f10af7a25757371" title="global_planner::AStarExpansion\l::calculatePotentials" alt="" coords="301,399,508,440"/>
+<area shape="rect" id="node4" href="$map__cspace_8cpp.html#a7a2e9876667cad69c3b70881c1aaf1ac" title="map_update_cspace" alt="" coords="582,45,725,71"/>
+<area shape="rect" id="node5" href="$classamcl_1_1_a_m_c_l_laser.html#ab9115fca9c56ad6f745efe8442c2d52f" title="amcl::AMCLLaser::SetModel\lLikelihoodField" alt="" coords="803,5,993,47"/>
+<area shape="rect" id="node6" href="$classamcl_1_1_a_m_c_l_laser.html#acdde5209bb6d160b6b561742036fcb09" title="amcl::AMCLLaser::SetModel\lLikelihoodFieldProb" alt="" coords="803,71,993,112"/>
+<area shape="rect" id="node8" href="$classbase__local__planner_1_1_voxel_grid_model.html#ab9d0a3a6fa8ea481c8b3911b90236c3b" title="Destructor for the world model. " alt="" coords="556,95,751,151"/>
+<area shape="rect" id="node11" href="$classcostmap__2d_1_1_voxel_layer.html#a02a7f51ba2b09b61f6ada3d10acf5a20" title="costmap_2d::VoxelLayer\l::VoxelLayer" alt="" coords="570,231,737,272"/>
+<area shape="rect" id="node14" href="$classbase__local__planner_1_1_world_model.html#ac7e8dc9c77a2dd2fa77f5a27d812fd43" title="base_local_planner\l::WorldModel::footprintCost" alt="" coords="808,244,988,285"/>
+<area shape="rect" id="node15" href="$classbase__local__planner_1_1_trajectory_planner.html#a3b44d4da776a23b06f388aa244de84b1" title="Constructs a trajectory controller. " alt="" coords="831,310,965,366"/>
+<area shape="rect" id="node16" href="$classcostmap__2d_1_1_layered_costmap.html#acf16f3d3636b7fbe6e28edbd32340464" title="Updates the stored footprint, updates the circumscribed and inscribed radii, and calls onFootprintCha..." alt="" coords="799,391,997,432"/>
+<area shape="rect" id="node17" href="$classcostmap__2d_1_1_layered_costmap.html#afc113bdd03ed7d3fa29038769a1bd9e3" title="costmap_2d::LayeredCostmap\l::isInitialized" alt="" coords="1045,307,1244,348"/>
+<area shape="rect" id="node18" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a220a578102cf3592a744ad5264bf09ed" title="Set the footprint of the robot to be the given set of points, padded by footprint_padding. " alt="" coords="1292,351,1489,392"/>
+<area shape="rect" id="node22" href="$inflation__tests_8cpp.html#a691c7abce99a1c663f13e70eca655d45" title="setRadii" alt="" coords="1110,423,1179,450"/>
+<area shape="rect" id="node23" href="$inflation__tests_8cpp.html#ad4ae0b82faed5db2b710a038b9cf895f" title="TEST" alt="" coords="1363,438,1418,465"/>
+<area shape="rect" id="node19" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a27b741da068294f35a426f339d721cc2" title="Constructor for the wrapper. " alt="" coords="1824,321,2021,363"/>
+<area shape="rect" id="node20" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a05c662c0ad169c124480ed3d9ee500e8" title="Set the footprint of the robot to be the given polygon, padded by footprint_padding. " alt="" coords="1537,351,1776,392"/>
+<area shape="rect" id="node21" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a22cf571bfd4cd4434c2d203cd341d2c7" title="costmap_2d::Costmap2DROS\l::~Costmap2DROS" alt="" coords="1558,416,1755,457"/>
+<area shape="rect" id="node26" href="$costmap__math_8cpp.html#a73fceb516298f9b095d8ee0a61957695" title="intersects" alt="" coords="365,465,444,491"/>
+</map>

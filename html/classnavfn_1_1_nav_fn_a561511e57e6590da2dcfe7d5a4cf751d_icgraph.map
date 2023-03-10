@@ -1,0 +1,5 @@
+<map id="navfn::NavFn::propNavFnAstar" name="navfn::NavFn::propNavFnAstar">
+<area shape="rect" id="node2" href="$namespacenavfn.html#a43e1cf99d005f4c0b40ce27c85ac3a0f" title="navfn::create_nav_plan\l_astar" alt="" coords="269,5,421,47"/>
+<area shape="rect" id="node3" href="$classnavfn_1_1_nav_fn.html#a20f2459aef927442363148b8403ad199" title="Calculates a plan using the A* heuristic, returns true if one is found. " alt="" coords="248,71,443,98"/>
+<area shape="rect" id="node4" href="$navtest_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="320,122,371,149"/>
+</map>

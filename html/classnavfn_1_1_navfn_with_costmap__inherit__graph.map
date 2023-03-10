@@ -1,0 +1,4 @@
+<map id="navfn::NavfnWithCostmap" name="navfn::NavfnWithCostmap">
+<area shape="rect" id="node2" href="$classnavfn_1_1_navfn_r_o_s.html" title="Provides a ROS wrapper for the navfn planner which runs a fast, interpolated navigation function on a..." alt="" coords="42,80,161,107"/>
+<area shape="rect" id="node3" href="$classnav__core_1_1_base_global_planner.html" title="Provides an interface for global planners used in navigation. All global planners written as plugins ..." alt="" coords="5,5,197,32"/>
+</map>

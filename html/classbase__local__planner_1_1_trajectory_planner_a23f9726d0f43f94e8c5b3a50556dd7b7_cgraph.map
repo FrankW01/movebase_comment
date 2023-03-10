@@ -1,0 +1,21 @@
+<map id="base_local_planner::TrajectoryPlanner::getCellCosts" name="base_local_planner::TrajectoryPlanner::getCellCosts">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_costmap2_d.html#a2a8ad2c3fc3aa47be8d2d0f9ae113c27" title="Get the cost of a cell in the costmap. " alt="" coords="1171,393,1341,434"/>
+<area shape="rect" id="node4" href="$classbase__local__planner_1_1_map_grid.html#af3db024faefa9420ec75b18d4da90cfe" title="base_local_planner\l::MapGrid::obstacleCosts" alt="" coords="1171,37,1341,78"/>
+<area shape="rect" id="node5" href="$classbase__local__planner_1_1_map_grid.html#a1b7145c6781d0d3703a1003b9f753420" title="base_local_planner\l::MapGrid::unreachableCell\lCosts" alt="" coords="187,451,365,507"/>
+<area shape="rect" id="node16" href="$classcostmap__2d_1_1_costmap2_d.html#a9a2c824d4cd3bcad3ac3435d81982986" title="Convert from world coordinates to map coordinates. " alt="" coords="703,691,873,733"/>
+<area shape="rect" id="node18" href="$classcostmap__2d_1_1_costmap2_d.html#a8e39feaa7ee4446347674b3701a1394c" title="Convert from map coordinates to world coordinates. " alt="" coords="703,757,873,798"/>
+<area shape="rect" id="node19" href="$classbase__local__planner_1_1_trajectory.html#a35c05c071ce0f8e54c18f0f8816315d3" title="Clear the trajectory&#39;s points. " alt="" coords="195,874,357,915"/>
+<area shape="rect" id="node20" href="$classbase__local__planner_1_1_trajectory.html#a94ff45de82ae4417fdbb1158c5c2b204" title="Add a point to the end of a trajectory. " alt="" coords="203,939,349,981"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_costmap2_d.html#a57d2ea3f3a039d72640c159cd149ff9d" title="Given two map coordinates... compute the associated index. " alt="" coords="1389,393,1559,434"/>
+<area shape="rect" id="node6" href="$classbase__local__planner_1_1_map_grid.html#a88efaf02a2735770450745f47239f0d9" title="Used to update the distance of a cell in path distance computation. " alt="" coords="948,94,1123,135"/>
+<area shape="rect" id="node8" href="$classbase__local__planner_1_1_map_grid.html#a0af367c6272d3c4b7c16dde4a41c306a" title="base_local_planner\l::MapGrid::adjustPlanResolution" alt="" coords="683,626,893,667"/>
+<area shape="rect" id="node9" href="$classbase__local__planner_1_1_map_grid.html#a0af0995160ef050ddb804dafed2f960b" title="Compute the distance from each cell in the local map grid to the planned path. " alt="" coords="676,94,900,135"/>
+<area shape="rect" id="node10" href="$classbase__local__planner_1_1_map_grid.html#af1dd07e1b2e42fc5dd65c3f8f0d366e5" title="Compute the distance from each cell in the local map grid to the local goal point. " alt="" coords="413,575,628,617"/>
+<area shape="rect" id="node11" href="$classbase__local__planner_1_1_map_grid.html#a8e3227190b9f67376ee2890f493079d5" title="Update what cells are considered path based on the global plan. " alt="" coords="435,361,606,402"/>
+<area shape="rect" id="node17" href="$classbase__local__planner_1_1_map_grid.html#ab73fe99a7ad21b36a3178e26296945d5" title="Update what cell is considered the next local goal. " alt="" coords="439,458,602,499"/>
+<area shape="rect" id="node7" href="$classbase__local__planner_1_1_map_grid.html#acbeadc4a517c19334f36831931019ec1" title="base_local_planner\l::MapGrid::getCell" alt="" coords="1189,153,1323,194"/>
+<area shape="rect" id="node12" href="$classbase__local__planner_1_1_map_grid.html#ada7418321ccc809a6dfa8e45ada16c6d" title="check if we need to resize " alt="" coords="714,458,862,499"/>
+<area shape="rect" id="node13" href="$classcostmap__2d_1_1_costmap2_d.html#a615a4186649d8970111f8a356906b320" title="Accessor for the x size of the costmap in cells. " alt="" coords="703,262,873,303"/>
+<area shape="rect" id="node14" href="$classcostmap__2d_1_1_costmap2_d.html#a702f4ed109f94c8513500cf97ff066a4" title="Accessor for the y size of the costmap in cells. " alt="" coords="703,327,873,369"/>
+<area shape="rect" id="node15" href="$classcostmap__2d_1_1_costmap2_d.html#ade55f512e27c62cec28a3de5ca775759" title="Accessor for the resolution of the costmap. " alt="" coords="703,393,873,434"/>
+</map>

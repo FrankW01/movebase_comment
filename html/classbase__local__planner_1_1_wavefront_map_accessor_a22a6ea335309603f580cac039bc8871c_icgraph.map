@@ -1,0 +1,7 @@
+<map id="base_local_planner::WavefrontMapAccessor::synchronize" name="base_local_planner::WavefrontMapAccessor::synchronize">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_trajectory_planner_test.html#aed6310ad3775b62007fa12ea9a3df4da" title="base_local_planner\l::TrajectoryPlannerTest\l::footprintObstacles" alt="" coords="225,5,381,61"/>
+<area shape="rect" id="node4" href="$classbase__local__planner_1_1_trajectory_planner_test.html#a58ec327a9cf5589741ccf6bd31ca933d" title="base_local_planner\l::TrajectoryPlannerTest\l::checkGoalDistance" alt="" coords="225,85,381,141"/>
+<area shape="rect" id="node6" href="$classbase__local__planner_1_1_wavefront_map_accessor.html#a31116ccd4b8c9fa55916c57bd5e80c6e" title="base_local_planner\l::WavefrontMapAccessor\l::WavefrontMapAccessor" alt="" coords="220,165,387,221"/>
+<area shape="rect" id="node3" href="$namespacebase__local__planner.html#a2ecfd39db1caed1dfc893a87ded32a7b" title="base_local_planner\l::TEST" alt="" coords="435,13,568,54"/>
+<area shape="rect" id="node5" href="$namespacebase__local__planner.html#a49432455b0122a8b75bef05fd84eb810" title="base_local_planner\l::TEST" alt="" coords="435,93,568,134"/>
+</map>

@@ -1,0 +1,155 @@
+{
+    "extension": "linecount",
+    "version": "0.1.7",
+    "workspace": "c:\\Users\\Administrator\\Desktop\\ros-ws\\navigation\\global_planner",
+    "linecount": [
+        {
+            "version": "0.1.7",
+            "counttime": "2017-07-24 01:02:31",
+            "filesum": 23,
+            "codesum": 1370,
+            "commentsum": 913,
+            "blanksum": 317,
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "bgp_plugin.xml"
+                },
+                {
+                    "blank": 6,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "cfg\\GlobalPlanner.cfg"
+                },
+                {
+                    "blank": 8,
+                    "code": 28,
+                    "comment": 1,
+                    "filename": "CHANGELOG.rst"
+                },
+                {
+                    "blank": 10,
+                    "code": 63,
+                    "comment": 0,
+                    "filename": "CMakeLists.txt"
+                },
+                {
+                    "blank": 6,
+                    "code": 32,
+                    "comment": 38,
+                    "filename": "include\\global_planner\\astar.h"
+                },
+                {
+                    "blank": 12,
+                    "code": 47,
+                    "comment": 52,
+                    "filename": "include\\global_planner\\dijkstra.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 56,
+                    "comment": 43,
+                    "filename": "include\\global_planner\\expander.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 22,
+                    "comment": 48,
+                    "filename": "include\\global_planner\\gradient_path.h"
+                },
+                {
+                    "blank": 3,
+                    "code": 12,
+                    "comment": 38,
+                    "filename": "include\\global_planner\\grid_path.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 20,
+                    "comment": 37,
+                    "filename": "include\\global_planner\\orientation_filter.h"
+                },
+                {
+                    "blank": 29,
+                    "code": 73,
+                    "comment": 112,
+                    "filename": "include\\global_planner\\planner_core.h"
+                },
+                {
+                    "blank": 7,
+                    "code": 29,
+                    "comment": 44,
+                    "filename": "include\\global_planner\\potential_calculator.h"
+                },
+                {
+                    "blank": 5,
+                    "code": 12,
+                    "comment": 38,
+                    "filename": "include\\global_planner\\quadratic_calculator.h"
+                },
+                {
+                    "blank": 4,
+                    "code": 26,
+                    "comment": 38,
+                    "filename": "include\\global_planner\\traceback.h"
+                },
+                {
+                    "blank": 5,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "package.xml"
+                },
+                {
+                    "blank": 16,
+                    "code": 45,
+                    "comment": 38,
+                    "filename": "src\\astar.cpp"
+                },
+                {
+                    "blank": 27,
+                    "code": 138,
+                    "comment": 84,
+                    "filename": "src\\dijkstra.cpp"
+                },
+                {
+                    "blank": 38,
+                    "code": 191,
+                    "comment": 93,
+                    "filename": "src\\gradient_path.cpp"
+                },
+                {
+                    "blank": 8,
+                    "code": 40,
+                    "comment": 38,
+                    "filename": "src\\grid_path.cpp"
+                },
+                {
+                    "blank": 11,
+                    "code": 67,
+                    "comment": 36,
+                    "filename": "src\\orientation_filter.cpp"
+                },
+                {
+                    "blank": 17,
+                    "code": 65,
+                    "comment": 38,
+                    "filename": "src\\plan_node.cpp"
+                },
+                {
+                    "blank": 75,
+                    "code": 310,
+                    "comment": 55,
+                    "filename": "src\\planner_core.cpp"
+                },
+                {
+                    "blank": 6,
+                    "code": 34,
+                    "comment": 42,
+                    "filename": "src\\quadratic_calculator.cpp"
+                }
+            ]
+        }
+    ]
+}

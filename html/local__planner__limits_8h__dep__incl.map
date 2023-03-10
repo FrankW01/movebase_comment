@@ -1,0 +1,13 @@
+<map id="navigation/base_local_planner/include/base_local_planner/local_planner_limits.h" name="navigation/base_local_planner/include/base_local_planner/local_planner_limits.h">
+<area shape="rect" id="node2" href="$local__planner__util_8h.html" title="navigation/base_local\l_planner/include/base\l_local_planner/local_planner\l_util.h" alt="" coords="289,124,474,195"/>
+<area shape="rect" id="node4" href="$latched__stop__rotate__controller_8cpp.html" title="navigation/base_local\l_planner/src/latched\l_stop_rotate_controller.cpp" alt="" coords="5,361,184,417"/>
+<area shape="rect" id="node8" href="$dwa__planner_8h.html" title="navigation/dwa_local\l_planner/include/dwa\l_local_planner/dwa_planner.h" alt="" coords="471,250,663,306"/>
+<area shape="rect" id="node10" href="$simple__trajectory__generator_8h.html" title="navigation/base_local\l_planner/include/base\l_local_planner/simple\l_trajectory_generator.h" alt="" coords="655,124,809,195"/>
+<area shape="rect" id="node3" href="$latched__stop__rotate__controller_8h.html" title="navigation/base_local\l_planner/include/base\l_local_planner/latched\l_stop_rotate_controller.h" alt="" coords="281,243,447,313"/>
+<area shape="rect" id="node7" href="$local__planner__util_8cpp.html" title="navigation/base_local\l_planner/src/local_planner\l_util.cpp" alt="" coords="84,250,257,306"/>
+<area shape="rect" id="node5" href="$dwa__planner__ros_8h.html" title="navigation/dwa_local\l_planner/include/dwa\l_local_planner/dwa_planner_ros.h" alt="" coords="255,361,473,417"/>
+<area shape="rect" id="node6" href="$dwa__planner__ros_8cpp.html" title="navigation/dwa_local\l_planner/src/dwa_planner\l_ros.cpp" alt="" coords="279,465,449,521"/>
+<area shape="rect" id="node9" href="$dwa__planner_8cpp.html" title="navigation/dwa_local\l_planner/src/dwa_planner.cpp" alt="" coords="497,369,692,410"/>
+<area shape="rect" id="node11" href="$simple__trajectory__generator_8cpp.html" title="navigation/base_local\l_planner/src/simple_trajectory\l_generator.cpp" alt="" coords="687,250,883,306"/>
+<area shape="rect" id="node12" href="$trajectory__generator__test_8cpp.html" title="navigation/base_local\l_planner/test/trajectory\l_generator_test.cpp" alt="" coords="908,250,1063,306"/>
+</map>

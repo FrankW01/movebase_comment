@@ -1,0 +1,12 @@
+<map id="voxel_grid::VoxelGrid::clearVoxelLine" name="voxel_grid::VoxelGrid::clearVoxelLine">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_voxel_grid_model.html#a3a5b2c042a813dc06a9fdbfcd0bd6291" title="The costmap already keeps track of world observations, so for this world model this method does nothi..." alt="" coords="197,28,400,69"/>
+<area shape="rect" id="node4" href="$classvoxel__grid_1_1_voxel_grid.html#a82798a1492156f1c23801e0c486743a3" title="voxel_grid::VoxelGrid\l::getVoxel" alt="" coords="459,148,603,189"/>
+<area shape="rect" id="node8" href="$voxel__grid__tests_8cpp.html#a4ed1e65f04eb231a04beb7c3cd79983d" title="TEST" alt="" coords="966,199,1021,226"/>
+<area shape="rect" id="node9" href="$classvoxel__grid_1_1_voxel_grid.html#a204172dfa4c1d101aab0cac064f24a6f" title="voxel_grid::VoxelGrid\l::clearVoxelLineInMap" alt="" coords="223,207,374,248"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_voxel_grid_model.html#ab9d0a3a6fa8ea481c8b3911b90236c3b" title="Destructor for the world model. " alt="" coords="896,13,1091,69"/>
+<area shape="rect" id="node5" href="$classbase__local__planner_1_1_voxel_grid_model.html#ae83079ddab58c740ffd2ef1a7cb3adee" title="base_local_planner\l::VoxelGridModel::getPoints" alt="" coords="663,75,848,116"/>
+<area shape="rect" id="node6" href="$costmap__2d__cloud_8cpp.html#a37983da30da7edf07fa9971cd4957c6b" title="voxelCallback" alt="" coords="705,23,806,50"/>
+<area shape="rect" id="node7" href="$classvoxel__grid_1_1_voxel_grid.html#a23f965c26a19c8eeddaedab7640999a0" title="voxel_grid::VoxelGrid\l::printVoxelGrid" alt="" coords="683,192,827,233"/>
+<area shape="rect" id="node10" href="$classcostmap__2d_1_1_voxel_layer.html#ab28185cd71c8e42f72880b779ef08ae2" title="This is called by the LayeredCostmap to poll this plugin as to how much of the costmap it needs to up..." alt="" coords="448,228,615,269"/>
+<area shape="rect" id="node11" href="$classcostmap__2d_1_1_voxel_layer.html#a02a7f51ba2b09b61f6ada3d10acf5a20" title="costmap_2d::VoxelLayer\l::VoxelLayer" alt="" coords="672,257,839,299"/>
+</map>

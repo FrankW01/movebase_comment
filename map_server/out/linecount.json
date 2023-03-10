@@ -1,0 +1,127 @@
+{
+    "extension": "linecount",
+    "version": "0.1.7",
+    "workspace": "c:\\Users\\Administrator\\Desktop\\ros-ws\\navigation\\map_server",
+    "linecount": [
+        {
+            "version": "0.1.7",
+            "counttime": "2017-07-24 01:02:54",
+            "filesum": 18,
+            "codesum": 858,
+            "commentsum": 386,
+            "blanksum": 179,
+            "filelist": [
+                {
+                    "blank": 14,
+                    "code": 60,
+                    "comment": 2,
+                    "filename": "CHANGELOG.rst"
+                },
+                {
+                    "blank": 12,
+                    "code": 78,
+                    "comment": 0,
+                    "filename": "CMakeLists.txt"
+                },
+                {
+                    "blank": 6,
+                    "code": 12,
+                    "comment": 59,
+                    "filename": "include\\map_server\\image_loader.h"
+                },
+                {
+                    "blank": 6,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "package.xml"
+                },
+                {
+                    "blank": 18,
+                    "code": 92,
+                    "comment": 0,
+                    "filename": "scripts\\crop_map"
+                },
+                {
+                    "blank": 24,
+                    "code": 90,
+                    "comment": 48,
+                    "filename": "src\\image_loader.cpp"
+                },
+                {
+                    "blank": 23,
+                    "code": 177,
+                    "comment": 51,
+                    "filename": "src\\main.cpp"
+                },
+                {
+                    "blank": 28,
+                    "code": 96,
+                    "comment": 44,
+                    "filename": "src\\map_saver.cpp"
+                },
+                {
+                    "blank": 1,
+                    "code": 0,
+                    "comment": 8,
+                    "filename": "src\\map_server.dox"
+                },
+                {
+                    "blank": 9,
+                    "code": 29,
+                    "comment": 34,
+                    "filename": "test\\consumer.py"
+                },
+                {
+                    "blank": 17,
+                    "code": 94,
+                    "comment": 35,
+                    "filename": "test\\rtest.cpp"
+                },
+                {
+                    "blank": 3,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "test\\rtest.xml"
+                },
+                {
+                    "blank": 8,
+                    "code": 18,
+                    "comment": 36,
+                    "filename": "test\\test_constants.cpp"
+                },
+                {
+                    "blank": 4,
+                    "code": 9,
+                    "comment": 30,
+                    "filename": "test\\test_constants.h"
+                },
+                {
+                    "filename": "test\\testmap.bmp",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "test\\testmap.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "test\\testmap.yaml"
+                },
+                {
+                    "blank": 6,
+                    "code": 64,
+                    "comment": 39,
+                    "filename": "test\\utest.cpp"
+                }
+            ]
+        }
+    ]
+}

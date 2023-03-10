@@ -1,0 +1,3 @@
+<map id="base_local_planner::TrajectoryPlanner::findBestPath" name="base_local_planner::TrajectoryPlanner::findBestPath">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_trajectory_planner_r_o_s.html#adb2d96332da31a154db84930754409af" title="Given the current position, orientation, and velocity of the robot, compute velocity commands to send..." alt="" coords="187,5,380,61"/>
+</map>

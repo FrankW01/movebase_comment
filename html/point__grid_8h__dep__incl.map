@@ -1,0 +1,5 @@
+<map id="navigation/base_local_planner/include/base_local_planner/point_grid.h" name="navigation/base_local_planner/include/base_local_planner/point_grid.h">
+<area shape="rect" id="node2" href="$trajectory__planner__ros_8h.html" title="navigation/base_local\l_planner/include/base\l_local_planner/trajectory\l_planner_ros.h" alt="" coords="5,109,168,180"/>
+<area shape="rect" id="node4" href="$point__grid_8cpp.html" title="navigation/base_local\l_planner/src/point_grid.cpp" alt="" coords="192,124,371,165"/>
+<area shape="rect" id="node3" href="$trajectory__planner__ros_8cpp.html" title="navigation/base_local\l_planner/src/trajectory\l_planner_ros.cpp" alt="" coords="11,228,162,284"/>
+</map>

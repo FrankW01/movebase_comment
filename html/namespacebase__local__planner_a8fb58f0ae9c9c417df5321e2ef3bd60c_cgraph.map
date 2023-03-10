@@ -1,0 +1,8 @@
+<map id="base_local_planner::TEST" name="base_local_planner::TEST">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_map_grid.html#a0af0995160ef050ddb804dafed2f960b" title="Compute the distance from each cell in the local map grid to the planned path. " alt="" coords="187,73,411,115"/>
+<area shape="rect" id="node6" href="$classbase__local__planner_1_1_map_grid.html#acbeadc4a517c19334f36831931019ec1" title="base_local_planner\l::MapGrid::getCell" alt="" coords="700,136,833,177"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_map_grid.html#a88efaf02a2735770450745f47239f0d9" title="Used to update the distance of a cell in path distance computation. " alt="" coords="459,72,633,113"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_costmap2_d.html#a2a8ad2c3fc3aa47be8d2d0f9ae113c27" title="Get the cost of a cell in the costmap. " alt="" coords="682,5,851,47"/>
+<area shape="rect" id="node7" href="$classbase__local__planner_1_1_map_grid.html#af3db024faefa9420ec75b18d4da90cfe" title="base_local_planner\l::MapGrid::obstacleCosts" alt="" coords="681,71,852,112"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_costmap2_d.html#a57d2ea3f3a039d72640c159cd149ff9d" title="Given two map coordinates... compute the associated index. " alt="" coords="900,5,1069,47"/>
+</map>

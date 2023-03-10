@@ -1,0 +1,10 @@
+<map id="costmap_2d::CostmapLayer::touch" name="costmap_2d::CostmapLayer::touch">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_costmap_layer.html#a7a595c59ef61a168c71e63360b9b1501" title="costmap_2d::CostmapLayer\l::isDiscretized" alt="" coords="239,5,424,47"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_obstacle_layer.html#a1bfef13f020e8aa64a33743f72824ebd" title="This is called by the LayeredCostmap to poll this plugin as to how much of the costmap it needs to up..." alt="" coords="705,119,891,160"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_obstacle_layer.html#ac81261d46ebc829ca1d747c024a00603" title="costmap_2d::ObstacleLayer\l::updateFootprint" alt="" coords="239,123,424,164"/>
+<area shape="rect" id="node6" href="$classcostmap__2d_1_1_voxel_layer.html#ab28185cd71c8e42f72880b779ef08ae2" title="This is called by the LayeredCostmap to poll this plugin as to how much of the costmap it needs to up..." alt="" coords="481,177,648,219"/>
+<area shape="rect" id="node8" href="$classcostmap__2d_1_1_obstacle_layer.html#a50dac229133e7c22981b0c7e0eafc910" title="Clear freespace based on one observation. " alt="" coords="472,243,657,284"/>
+<area shape="rect" id="node9" href="$classcostmap__2d_1_1_obstacle_layer.html#aadace7301e7b08f358ea3e9e8a17f452" title="costmap_2d::ObstacleLayer\l::updateRaytraceBounds" alt="" coords="239,291,424,332"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_obstacle_layer.html#a4620782e96fabeb0b449daa725857c00" title="costmap_2d::ObstacleLayer\l::ObstacleLayer" alt="" coords="939,243,1124,284"/>
+<area shape="rect" id="node7" href="$classcostmap__2d_1_1_voxel_layer.html#a02a7f51ba2b09b61f6ada3d10acf5a20" title="costmap_2d::VoxelLayer\l::VoxelLayer" alt="" coords="715,184,881,225"/>
+</map>

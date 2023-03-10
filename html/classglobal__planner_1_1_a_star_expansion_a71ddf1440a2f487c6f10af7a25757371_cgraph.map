@@ -1,0 +1,7 @@
+<map id="global_planner::AStarExpansion::calculatePotentials" name="global_planner::AStarExpansion::calculatePotentials">
+<area shape="rect" id="node2" href="$classglobal__planner_1_1_expander.html#ab9ed0e500049774014960dfb68f1e50c" title="global_planner::Expander\l::toIndex" alt="" coords="271,5,439,47"/>
+<area shape="rect" id="node3" href="$classglobal__planner_1_1_potential_calculator.html#a4befc4819934603d43c8dc539f445fd4" title="global_planner::Potential\lCalculator::calculatePotential" alt="" coords="260,71,451,112"/>
+<area shape="rect" id="node4" href="$costmap__math_8h.html#a98aba4ec7ccaf3b54f2a312e2db8ba98" title="distance" alt="" coords="320,137,391,163"/>
+<area shape="rect" id="node5" href="$costmap__math_8h.html#a31fe9c9633687b41b7c65a18dcab85f9" title="distanceToLine" alt="" coords="499,137,608,163"/>
+<area shape="rect" id="node6" href="$costmap__math_8h.html#a567784da85da753bdd72f7faf2bdf7b6" title="intersects" alt="" coords="514,187,593,214"/>
+</map>

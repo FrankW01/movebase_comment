@@ -1,0 +1,4 @@
+<map id="costmap_2d::InflationLayer::onFootprintChanged" name="costmap_2d::InflationLayer::onFootprintChanged">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_layered_costmap.html#a55a92cecc3689caf8b1e9e077788c54b" title="The radius of a circle centered at the origin of the robot which is just within all points and edges ..." alt="" coords="231,5,429,47"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_layered_costmap.html#a5d39338c55ccd02b1577ffb84320272b" title="Returns the latest footprint stored with setFootprint(). " alt="" coords="231,71,429,112"/>
+</map>

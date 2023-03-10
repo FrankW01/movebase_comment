@@ -1,0 +1,9 @@
+<map id="navfn::NavfnROS::initialize" name="navfn::NavfnROS::initialize">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_costmap2_d.html#a615a4186649d8970111f8a356906b320" title="Accessor for the x size of the costmap in cells. " alt="" coords="234,5,403,47"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_costmap2_d.html#a702f4ed109f94c8513500cf97ff066a4" title="Accessor for the y size of the costmap in cells. " alt="" coords="234,71,403,112"/>
+<area shape="rect" id="node4" href="$classnavfn_1_1_navfn_r_o_s.html#a81643ac812bc02a5652f691c30834c27" title="navfn::NavfnROS::makePlan\lService" alt="" coords="227,136,411,177"/>
+<area shape="rect" id="node5" href="$classnavfn_1_1_navfn_r_o_s.html#aa8cec6d49a902ace7e71ffc7125b29a9" title="Given a goal pose in the world, compute a plan. " alt="" coords="459,51,643,78"/>
+<area shape="rect" id="node6" href="$classcostmap__2d_1_1_costmap2_d.html#a9aae81be964f5fff675f9a10c3bf2e82" title="Accessor for the x origin of the costmap. " alt="" coords="466,103,635,144"/>
+<area shape="rect" id="node7" href="$classcostmap__2d_1_1_costmap2_d.html#ade55f512e27c62cec28a3de5ca775759" title="Accessor for the resolution of the costmap. " alt="" coords="466,168,635,209"/>
+<area shape="rect" id="node8" href="$classcostmap__2d_1_1_costmap2_d.html#a686124b010e121eb87629ff17a032d7f" title="Accessor for the y origin of the costmap. " alt="" coords="466,233,635,275"/>
+</map>

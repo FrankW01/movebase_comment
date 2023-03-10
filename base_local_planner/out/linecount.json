@@ -1,0 +1,425 @@
+{
+    "extension": "linecount",
+    "version": "0.1.7",
+    "workspace": "c:\\Users\\Administrator\\Desktop\\ros-ws\\navigation\\base_local_planner",
+    "linecount": [
+        {
+            "version": "0.1.7",
+            "counttime": "2017-07-24 01:00:29",
+            "filesum": 68,
+            "codesum": 5358,
+            "commentsum": 3557,
+            "blanksum": 1413,
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "blp_plugin.xml"
+                },
+                {
+                    "blank": 21,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "cfg\\BaseLocalPlanner.cfg"
+                },
+                {
+                    "blank": 3,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "cfg\\LocalPlannerLimits.cfg"
+                },
+                {
+                    "blank": 8,
+                    "code": 36,
+                    "comment": 2,
+                    "filename": "CHANGELOG.rst"
+                },
+                {
+                    "blank": 18,
+                    "code": 128,
+                    "comment": 0,
+                    "filename": "CMakeLists.txt"
+                },
+                {
+                    "blank": 8,
+                    "code": 19,
+                    "comment": 73,
+                    "filename": "include\\base_local_planner\\costmap_model.h"
+                },
+                {
+                    "blank": 9,
+                    "code": 22,
+                    "comment": 56,
+                    "filename": "include\\base_local_planner\\footprint_helper.h"
+                },
+                {
+                    "blank": 12,
+                    "code": 43,
+                    "comment": 100,
+                    "filename": "include\\base_local_planner\\goal_functions.h"
+                },
+                {
+                    "blank": 17,
+                    "code": 56,
+                    "comment": 22,
+                    "filename": "include\\base_local_planner\\latched_stop_rotate_controller.h"
+                },
+                {
+                    "blank": 18,
+                    "code": 96,
+                    "comment": 60,
+                    "filename": "include\\base_local_planner\\line_iterator.h"
+                },
+                {
+                    "blank": 11,
+                    "code": 73,
+                    "comment": 44,
+                    "filename": "include\\base_local_planner\\local_planner_limits.h"
+                },
+                {
+                    "blank": 30,
+                    "code": 38,
+                    "comment": 44,
+                    "filename": "include\\base_local_planner\\local_planner_util.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 15,
+                    "comment": 48,
+                    "filename": "include\\base_local_planner\\map_cell.h"
+                },
+                {
+                    "blank": 29,
+                    "code": 53,
+                    "comment": 120,
+                    "filename": "include\\base_local_planner\\map_grid.h"
+                },
+                {
+                    "blank": 18,
+                    "code": 40,
+                    "comment": 81,
+                    "filename": "include\\base_local_planner\\map_grid_cost_function.h"
+                },
+                {
+                    "blank": 3,
+                    "code": 24,
+                    "comment": 33,
+                    "filename": "include\\base_local_planner\\map_grid_cost_point.h"
+                },
+                {
+                    "blank": 7,
+                    "code": 23,
+                    "comment": 50,
+                    "filename": "include\\base_local_planner\\map_grid_visualizer.h"
+                },
+                {
+                    "blank": 12,
+                    "code": 34,
+                    "comment": 43,
+                    "filename": "include\\base_local_planner\\obstacle_cost_function.h"
+                },
+                {
+                    "blank": 13,
+                    "code": 26,
+                    "comment": 54,
+                    "filename": "include\\base_local_planner\\odometry_helper_ros.h"
+                },
+                {
+                    "blank": 17,
+                    "code": 25,
+                    "comment": 47,
+                    "filename": "include\\base_local_planner\\oscillation_cost_function.h"
+                },
+                {
+                    "blank": 3,
+                    "code": 14,
+                    "comment": 40,
+                    "filename": "include\\base_local_planner\\planar_laser_scan.h"
+                },
+                {
+                    "blank": 33,
+                    "code": 121,
+                    "comment": 212,
+                    "filename": "include\\base_local_planner\\point_grid.h"
+                },
+                {
+                    "blank": 10,
+                    "code": 18,
+                    "comment": 36,
+                    "filename": "include\\base_local_planner\\prefer_forward_cost_function.h"
+                },
+                {
+                    "blank": 17,
+                    "code": 22,
+                    "comment": 71,
+                    "filename": "include\\base_local_planner\\simple_scored_sampling_planner.h"
+                },
+                {
+                    "blank": 20,
+                    "code": 57,
+                    "comment": 84,
+                    "filename": "include\\base_local_planner\\simple_trajectory_generator.h"
+                },
+                {
+                    "blank": 14,
+                    "code": 24,
+                    "comment": 86,
+                    "filename": "include\\base_local_planner\\trajectory.h"
+                },
+                {
+                    "blank": 13,
+                    "code": 22,
+                    "comment": 51,
+                    "filename": "include\\base_local_planner\\trajectory_cost_function.h"
+                },
+                {
+                    "blank": 4,
+                    "code": 10,
+                    "comment": 36,
+                    "filename": "include\\base_local_planner\\trajectory_inc.h"
+                },
+                {
+                    "blank": 49,
+                    "code": 127,
+                    "comment": 250,
+                    "filename": "include\\base_local_planner\\trajectory_planner.h"
+                },
+                {
+                    "blank": 35,
+                    "code": 84,
+                    "comment": 124,
+                    "filename": "include\\base_local_planner\\trajectory_planner_ros.h"
+                },
+                {
+                    "blank": 11,
+                    "code": 14,
+                    "comment": 50,
+                    "filename": "include\\base_local_planner\\trajectory_sample_generator.h"
+                },
+                {
+                    "blank": 10,
+                    "code": 13,
+                    "comment": 48,
+                    "filename": "include\\base_local_planner\\trajectory_search.h"
+                },
+                {
+                    "blank": 9,
+                    "code": 47,
+                    "comment": 42,
+                    "filename": "include\\base_local_planner\\velocity_iterator.h"
+                },
+                {
+                    "blank": 19,
+                    "code": 71,
+                    "comment": 90,
+                    "filename": "include\\base_local_planner\\voxel_grid_model.h"
+                },
+                {
+                    "blank": 11,
+                    "code": 40,
+                    "comment": 60,
+                    "filename": "include\\base_local_planner\\world_model.h"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "msg\\Position2DInt.msg"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "package.xml"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 1,
+                    "filename": "setup.py"
+                },
+                {
+                    "blank": 26,
+                    "code": 63,
+                    "comment": 53,
+                    "filename": "src\\costmap_model.cpp"
+                },
+                {
+                    "blank": 29,
+                    "code": 169,
+                    "comment": 74,
+                    "filename": "src\\footprint_helper.cpp"
+                },
+                {
+                    "blank": 33,
+                    "code": 173,
+                    "comment": 49,
+                    "filename": "src\\goal_functions.cpp"
+                },
+                {
+                    "blank": 44,
+                    "code": 193,
+                    "comment": 39,
+                    "filename": "src\\latched_stop_rotate_controller.cpp"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "src\\local_planner_limits\\.gitignore"
+                },
+                {
+                    "blank": 11,
+                    "code": 19,
+                    "comment": 15,
+                    "filename": "src\\local_planner_limits\\__init__.py"
+                },
+                {
+                    "blank": 20,
+                    "code": 68,
+                    "comment": 41,
+                    "filename": "src\\local_planner_util.cpp"
+                },
+                {
+                    "blank": 4,
+                    "code": 15,
+                    "comment": 33,
+                    "filename": "src\\map_cell.cpp"
+                },
+                {
+                    "blank": 42,
+                    "code": 223,
+                    "comment": 46,
+                    "filename": "src\\map_grid.cpp"
+                },
+                {
+                    "blank": 13,
+                    "code": 77,
+                    "comment": 41,
+                    "filename": "src\\map_grid_cost_function.cpp"
+                },
+                {
+                    "blank": 7,
+                    "code": 44,
+                    "comment": 33,
+                    "filename": "src\\map_grid_visualizer.cpp"
+                },
+                {
+                    "blank": 21,
+                    "code": 79,
+                    "comment": 44,
+                    "filename": "src\\obstacle_cost_function.cpp"
+                },
+                {
+                    "blank": 11,
+                    "code": 46,
+                    "comment": 41,
+                    "filename": "src\\odometry_helper_ros.cpp"
+                },
+                {
+                    "blank": 20,
+                    "code": 114,
+                    "comment": 44,
+                    "filename": "src\\oscillation_cost_function.cpp"
+                },
+                {
+                    "blank": 118,
+                    "code": 434,
+                    "comment": 134,
+                    "filename": "src\\point_grid.cpp"
+                },
+                {
+                    "blank": 6,
+                    "code": 13,
+                    "comment": 9,
+                    "filename": "src\\prefer_forward_cost_function.cpp"
+                },
+                {
+                    "blank": 12,
+                    "code": 94,
+                    "comment": 40,
+                    "filename": "src\\simple_scored_sampling_planner.cpp"
+                },
+                {
+                    "blank": 31,
+                    "code": 174,
+                    "comment": 78,
+                    "filename": "src\\simple_trajectory_generator.cpp"
+                },
+                {
+                    "blank": 8,
+                    "code": 39,
+                    "comment": 33,
+                    "filename": "src\\trajectory.cpp"
+                },
+                {
+                    "blank": 156,
+                    "code": 658,
+                    "comment": 205,
+                    "filename": "src\\trajectory_planner.cpp"
+                },
+                {
+                    "blank": 108,
+                    "code": 387,
+                    "comment": 103,
+                    "filename": "src\\trajectory_planner_ros.cpp"
+                },
+                {
+                    "blank": 42,
+                    "code": 186,
+                    "comment": 83,
+                    "filename": "src\\voxel_grid_model.cpp"
+                },
+                {
+                    "blank": 29,
+                    "code": 99,
+                    "comment": 17,
+                    "filename": "test\\footprint_helper_test.cpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 7,
+                    "comment": 6,
+                    "filename": "test\\gtest_main.cpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 48,
+                    "comment": 28,
+                    "filename": "test\\line_iterator_test.cpp"
+                },
+                {
+                    "blank": 24,
+                    "code": 132,
+                    "comment": 6,
+                    "filename": "test\\map_grid_test.cpp"
+                },
+                {
+                    "blank": 8,
+                    "code": 12,
+                    "comment": 6,
+                    "filename": "test\\trajectory_generator_test.cpp"
+                },
+                {
+                    "blank": 30,
+                    "code": 137,
+                    "comment": 51,
+                    "filename": "test\\utest.cpp"
+                },
+                {
+                    "blank": 18,
+                    "code": 125,
+                    "comment": 36,
+                    "filename": "test\\velocity_iterator_test.cpp"
+                },
+                {
+                    "blank": 9,
+                    "code": 30,
+                    "comment": 11,
+                    "filename": "test\\wavefront_map_accessor.h"
+                }
+            ]
+        }
+    ]
+}

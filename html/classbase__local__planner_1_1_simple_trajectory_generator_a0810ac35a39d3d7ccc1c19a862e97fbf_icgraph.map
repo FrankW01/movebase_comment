@@ -1,0 +1,7 @@
+<map id="base_local_planner::SimpleTrajectoryGenerator::initialise" name="base_local_planner::SimpleTrajectoryGenerator::initialise">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_simple_trajectory_generator.html#aea15c7d1fe8977c75334caff43b12925" title="base_local_planner\l::SimpleTrajectoryGenerator\l::~SimpleTrajectoryGenerator" alt="" coords="240,5,432,61"/>
+<area shape="rect" id="node3" href="$classdwa__local__planner_1_1_d_w_a_planner.html#a1200e7b997f2acd8c3b912bed37e69d5" title="Check if a trajectory is legal for a position/velocity pair. " alt="" coords="237,151,435,193"/>
+<area shape="rect" id="node6" href="$classdwa__local__planner_1_1_d_w_a_planner.html#ad7e5c57da49cd1517ee0affdf5f3acd3" title="Given the current position and velocity of the robot, find the best trajectory to exectue..." alt="" coords="247,86,425,127"/>
+<area shape="rect" id="node4" href="$classdwa__local__planner_1_1_d_w_a_planner.html#a67aec91da742af7b6a9e001fad67d03f" title="Destructor for the planner. " alt="" coords="504,86,692,127"/>
+<area shape="rect" id="node5" href="$classdwa__local__planner_1_1_d_w_a_planner_r_o_s.html#a700178e32159b614d328326b6ba5f8b0" title="Given the current position, orientation, and velocity of the robot, compute velocity commands to send..." alt="" coords="483,152,713,208"/>
+</map>

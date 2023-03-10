@@ -1,0 +1,11 @@
+<map id="sign" name="sign">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_costmap2_d.html#af1d619d9b49b6851cb0a33de4e39ec78" title="Raytrace a line and apply some action at each step. " alt="" coords="100,57,269,99"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_obstacle_layer.html#a50dac229133e7c22981b0c7e0eafc910" title="Clear freespace based on one observation. " alt="" coords="752,25,937,67"/>
+<area shape="rect" id="node6" href="$classcostmap__2d_1_1_costmap2_d.html#ad0c6f7cb8e11569a02f873c545acec90" title="Get the map cells that make up the outline of a polygon. " alt="" coords="317,87,487,128"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_obstacle_layer.html#a4620782e96fabeb0b449daa725857c00" title="costmap_2d::ObstacleLayer\l::ObstacleLayer" alt="" coords="1219,25,1404,67"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_obstacle_layer.html#a1bfef13f020e8aa64a33743f72824ebd" title="This is called by the LayeredCostmap to poll this plugin as to how much of the costmap it needs to up..." alt="" coords="985,25,1171,67"/>
+<area shape="rect" id="node7" href="$classcostmap__2d_1_1_costmap2_d.html#aa3c49f2d63f6edfb7396d1b0c79a4b12" title="Get the map cells that fill a convex polygon. " alt="" coords="535,89,704,131"/>
+<area shape="rect" id="node8" href="$classcostmap__2d_1_1_costmap2_d.html#afb8a42c3810e796107ed04c0ca3cbf90" title="Sets the cost of a convex polygon to a desired value. " alt="" coords="760,91,929,132"/>
+<area shape="rect" id="node9" href="$classcostmap__2d_1_1_obstacle_layer.html#a02fbdf76db69ddc03c400b2c00e903ee" title="Actually update the underlying costmap, only within the bounds calculated during UpdateBounds(). " alt="" coords="985,91,1171,132"/>
+<area shape="rect" id="node10" href="$classmove__base_1_1_move_base.html#a1f61244f766f8652ca8d205b34906f39" title="Constructor for the actions. " alt="" coords="1001,156,1155,197"/>
+</map>

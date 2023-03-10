@@ -1,0 +1,6 @@
+<map id="base_local_planner::TrajectoryPlanner::scoreTrajectory" name="base_local_planner::TrajectoryPlanner::scoreTrajectory">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_trajectory_planner.html#a16f45df8237d94cafe714d4e5aa4eeb3" title="Generate and score a single trajectory. " alt="" coords="199,45,333,101"/>
+<area shape="rect" id="node5" href="$classbase__local__planner_1_1_trajectory_planner_r_o_s.html#af883fc515db5a2234cd6b6d366ca31a5" title="Generate and score a single trajectory. " alt="" coords="187,125,345,181"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_trajectory_planner_r_o_s.html#a79384acb51a894dbcec4447bee1ca90f" title="Destructor for the wrapper. " alt="" coords="393,5,560,61"/>
+<area shape="rect" id="node4" href="$classbase__local__planner_1_1_trajectory_planner_r_o_s.html#a9155bebb3d073ae4b19b8d0da87478a6" title="Generate and score a single trajectory. " alt="" coords="397,85,556,141"/>
+</map>

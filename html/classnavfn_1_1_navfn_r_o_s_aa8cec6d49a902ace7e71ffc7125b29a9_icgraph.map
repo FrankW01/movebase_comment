@@ -1,0 +1,7 @@
+<map id="navfn::NavfnROS::makePlan" name="navfn::NavfnROS::makePlan">
+<area shape="rect" id="node2" href="$classnavfn_1_1_navfn_with_costmap.html#aa8e245ce4b1e4d9a6d4616107f993d6f" title="navfn::NavfnWithCostmap\l::makePlanService" alt="" coords="245,5,414,47"/>
+<area shape="rect" id="node4" href="$classnavfn_1_1_navfn_r_o_s.html#a81643ac812bc02a5652f691c30834c27" title="navfn::NavfnROS::makePlan\lService" alt="" coords="237,71,421,112"/>
+<area shape="rect" id="node3" href="$classnavfn_1_1_navfn_with_costmap.html#aba48f2e70ebe9c84bd9b3de9ce1c3e33" title="navfn::NavfnWithCostmap\l::NavfnWithCostmap" alt="" coords="481,5,651,47"/>
+<area shape="rect" id="node5" href="$classnavfn_1_1_navfn_r_o_s.html#a157abea36af92ed9ad78e79328eb0489" title="navfn::NavfnROS::~NavfnROS" alt="" coords="469,74,663,101"/>
+<area shape="rect" id="node6" href="$classnavfn_1_1_navfn_r_o_s.html#a935ac2d5a76a101a3521cb078ee4ba4d" title="Initialization function for the NavFnROS object. " alt="" coords="479,125,653,151"/>
+</map>

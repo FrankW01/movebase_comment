@@ -1,0 +1,8 @@
+<map id="navfn::NavFn::initCost" name="navfn::NavFn::initCost">
+<area shape="rect" id="node2" href="$classnavfn_1_1_nav_fn.html#a233063ad5d082e7e86802c194a9a322a" title="navfn::NavFn::setupNavFn" alt="" coords="200,97,371,123"/>
+<area shape="rect" id="node3" href="$namespacenavfn.html#a43e1cf99d005f4c0b40ce27c85ac3a0f" title="navfn::create_nav_plan\l_astar" alt="" coords="446,5,598,47"/>
+<area shape="rect" id="node4" href="$classnavfn_1_1_nav_fn.html#a3516a575e782e45168ee810a983befa3" title="Caclulates the full navigation function using Dijkstra. " alt="" coords="419,122,625,149"/>
+<area shape="rect" id="node5" href="$navtest_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="675,71,726,98"/>
+<area shape="rect" id="node7" href="$classnavfn_1_1_nav_fn.html#a20f2459aef927442363148b8403ad199" title="Calculates a plan using the A* heuristic, returns true if one is found. " alt="" coords="425,173,619,199"/>
+<area shape="rect" id="node6" href="$path__calc__test_8cpp.html#a1cc564604d7ce869e4a03dcb9c17c68a" title="TEST" alt="" coords="673,122,728,149"/>
+</map>

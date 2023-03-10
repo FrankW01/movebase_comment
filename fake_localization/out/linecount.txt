@@ -1,0 +1,17 @@
+===============================================================================
+EXTENSION NAME : linecount
+EXTENSION VERSION : 0.1.7
+-------------------------------------------------------------------------------
+count time : 2017-07-24 01:02:14
+count workspace : c:\Users\Administrator\Desktop\ros-ws\navigation\fake_localization
+total files : 5
+total code lines : 257
+total comment lines : 89
+total blank lines : 73
+
+CHANGELOG.rst, code is 37, comment is 0, blank is 14.
+CMakeLists.txt, code is 36, comment is 0, blank is 9.
+fake_localization.cpp, code is 129, comment is 79, blank is 37.
+package.xml, code is 27, comment is 0, blank is 4.
+static_odom_broadcaster.py, code is 28, comment is 10, blank is 9.
+===============================================================================

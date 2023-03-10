@@ -1,0 +1,7 @@
+<map id="base_local_planner::PointGrid::nearestNeighborDistance" name="base_local_planner::PointGrid::nearestNeighborDistance">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_point_grid.html#a85f9826c14353e9a75696be52d438554" title="Convert from world coordinates to grid coordinates. " alt="" coords="256,5,411,47"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_point_grid.html#aa98a155058a5045be350a89eb3858f41" title="Get the bounds in world coordinates of a cell in the point grid, assumes a legal cell when called..." alt="" coords="245,71,421,112"/>
+<area shape="rect" id="node4" href="$classbase__local__planner_1_1_point_grid.html#af278e4297342dce5d1e3b0b8643dbe4e" title="Compute the squared distance between two points. " alt="" coords="475,129,637,171"/>
+<area shape="rect" id="node5" href="$classbase__local__planner_1_1_point_grid.html#a701757dbd179c3dad466c7b7e2114d6b" title="Find the distance between a point and its nearest neighbor in a cell. " alt="" coords="240,188,427,229"/>
+<area shape="rect" id="node6" href="$classbase__local__planner_1_1_point_grid.html#a107ea768298e5560e962498692674d5a" title="Converts cell coordinates to an index value that can be used to look up the correct grid cell..." alt="" coords="484,195,628,236"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="base_local_planner::PointGrid::getPointsInRange" name="base_local_planner::PointGrid::getPointsInRange">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_point_grid.html#adcf3cf7ebf7d52a909fb2744560bf1e4" title="Destructor for a point grid. " alt="" coords="689,23,844,64"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_point_grid.html#ae9398ded210128450fbdb86f231cf588" title="Checks if any points in the grid lie inside a convex footprint. " alt="" coords="476,23,641,64"/>
+<area shape="rect" id="node5" href="$classbase__local__planner_1_1_point_grid.html#a693cf4b2962ea0ffb4e74daf44a317a4" title="Removes points from the grid that lie within a laser scan. " alt="" coords="248,77,428,133"/>
+<area shape="rect" id="node8" href="$classbase__local__planner_1_1_point_grid.html#afb743eed27facd44c2ed0e59e9f04449" title="Removes points from the grid that lie within the polygon. " alt="" coords="248,157,428,213"/>
+<area shape="rect" id="node4" href="$point__grid_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="741,92,792,118"/>
+<area shape="rect" id="node6" href="$classbase__local__planner_1_1_point_grid.html#ac2ef35c1ba187bc774ec0c2437ede23a" title="Check if two line segmenst intersect. " alt="" coords="477,162,640,203"/>
+<area shape="rect" id="node7" href="$classbase__local__planner_1_1_point_grid.html#adb8a9a0665445fe274510a86dd0e8277" title="Inserts observations from sensors into the point grid. " alt="" coords="476,88,641,130"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="navigation/navfn/include/navfn/navfn_ros.h" name="navigation/navfn/include/navfn/navfn_ros.h">
+<area shape="rect" id="node3" href="$navfn_8h.html" title="navfn/navfn.h" alt="" coords="1651,102,1746,129"/>
+<area shape="rect" id="node8" href="$costmap__2d_8h.html" title="costmap_2d/costmap_2d.h" alt="" coords="561,437,740,464"/>
+<area shape="rect" id="node16" href="$base__global__planner_8h.html" title="nav_core/base_global\l_planner.h" alt="" coords="1429,95,1576,136"/>
+<area shape="rect" id="node35" href="$potarr__point_8h.html" title="navfn/potarr_point.h" alt="" coords="2084,102,2219,129"/>
+<area shape="rect" id="node17" href="$costmap__2d__ros_8h.html" title="costmap_2d/costmap\l_2d_ros.h" alt="" coords="1429,184,1576,225"/>
+<area shape="rect" id="node18" href="$layered__costmap_8h.html" title="costmap_2d/layered\l_costmap.h" alt="" coords="305,273,444,315"/>
+<area shape="rect" id="node20" href="$layer_8h.html" title="costmap_2d/layer.h" alt="" coords="150,363,286,389"/>
+<area shape="rect" id="node24" href="$costmap__2d__publisher_8h.html" title="costmap_2d/costmap\l_2d_publisher.h" alt="" coords="970,273,1117,315"/>
+<area shape="rect" id="node28" href="$footprint_8h.html" title="costmap_2d/footprint.h" alt="" coords="1830,281,1985,307"/>
+<area shape="rect" id="node19" href="$cost__values_8h.html" title="costmap_2d/cost_values.h" alt="" coords="412,363,588,389"/>
+</map>

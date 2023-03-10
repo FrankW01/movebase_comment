@@ -1,0 +1,4 @@
+<map id="costmap_2d::writeFootprintToParam" name="costmap_2d::writeFootprintToParam">
+<area shape="rect" id="node2" href="$namespacecostmap__2d.html#a983825dbb0ea5cf30ea3fa2763375e98" title="Read the ros&#45;params &quot;footprint&quot; and/or &quot;robot_radius&quot; from the given NodeHandle using searchParam() t..." alt="" coords="232,5,416,47"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a27b741da068294f35a426f339d721cc2" title="Constructor for the wrapper. " alt="" coords="464,5,661,47"/>
+</map>

@@ -1,0 +1,22 @@
+<map id="costmap_2d::VoxelLayer::isDiscretized" name="costmap_2d::VoxelLayer::isDiscretized">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_voxel_layer.html#a0528c59b3cbe4c1b81748284ae0a3dc5" title="Implement this to make this layer match the size of the parent costmap. " alt="" coords="227,332,394,373"/>
+<area shape="rect" id="node17" href="$classcostmap__2d_1_1_voxel_layer.html#af5f57588c57a8a5c8dff065b5a76a0db" title="costmap_2d::VoxelLayer\l::reset" alt="" coords="227,548,394,589"/>
+<area shape="rect" id="node19" href="$classcostmap__2d_1_1_voxel_layer.html#a56c9a252631b5d4af75c1d17eac8e052" title="Resets the costmap and static_map to be unknown space. " alt="" coords="459,645,625,687"/>
+<area shape="rect" id="node21" href="$classcostmap__2d_1_1_voxel_layer.html#a7e9b75bd9cee13aa9f893a17d549fbee" title="costmap_2d::VoxelLayer\l::setupDynamicReconfigure" alt="" coords="220,665,401,707"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_costmap_layer.html#a9260d210630b6522cad87397506f9696" title="Implement this to make this layer match the size of the parent costmap. " alt="" coords="449,201,635,243"/>
+<area shape="rect" id="node13" href="$classvoxel__grid_1_1_voxel_grid.html#a5b03e57131d3ae12440c701cb1216688" title="Resizes a voxel grid to the desired size. " alt="" coords="470,267,614,308"/>
+<area shape="rect" id="node15" href="$classvoxel__grid_1_1_voxel_grid.html#a443198a401b95b15c75c3f33c7064646" title="voxel_grid::VoxelGrid\l::sizeX" alt="" coords="470,332,614,373"/>
+<area shape="rect" id="node16" href="$classvoxel__grid_1_1_voxel_grid.html#a53c39103a03b74959a128b6df7343aaa" title="voxel_grid::VoxelGrid\l::sizeY" alt="" coords="470,397,614,439"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_layered_costmap.html#ae0c5b98322d3f62761418b895e2884b3" title="costmap_2d::LayeredCostmap\l::getCostmap" alt="" coords="683,5,881,47"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_costmap2_d.html#a95bae6eccd820a77d8040562e2a51118" title="costmap_2d::Costmap2D\l::resizeMap" alt="" coords="697,71,867,112"/>
+<area shape="rect" id="node8" href="$classcostmap__2d_1_1_costmap2_d.html#a615a4186649d8970111f8a356906b320" title="Accessor for the x size of the costmap in cells. " alt="" coords="697,136,867,177"/>
+<area shape="rect" id="node9" href="$classcostmap__2d_1_1_costmap2_d.html#a702f4ed109f94c8513500cf97ff066a4" title="Accessor for the y size of the costmap in cells. " alt="" coords="697,201,867,243"/>
+<area shape="rect" id="node10" href="$classcostmap__2d_1_1_costmap2_d.html#ade55f512e27c62cec28a3de5ca775759" title="Accessor for the resolution of the costmap. " alt="" coords="697,267,867,308"/>
+<area shape="rect" id="node11" href="$classcostmap__2d_1_1_costmap2_d.html#a9aae81be964f5fff675f9a10c3bf2e82" title="Accessor for the x origin of the costmap. " alt="" coords="697,332,867,373"/>
+<area shape="rect" id="node12" href="$classcostmap__2d_1_1_costmap2_d.html#a686124b010e121eb87629ff17a032d7f" title="Accessor for the y origin of the costmap. " alt="" coords="697,397,867,439"/>
+<area shape="rect" id="node6" href="$classcostmap__2d_1_1_costmap2_d.html#a1da91220df45a19376a3e3df3a517c27" title="Initializes the costmap, static_map, and markers data structures. " alt="" coords="929,71,1099,112"/>
+<area shape="rect" id="node7" href="$classcostmap__2d_1_1_costmap2_d.html#ab4424e85f6daaf91eaf455e4bb241c19" title="Resets the costmap and static_map to be unknown space. " alt="" coords="929,359,1099,400"/>
+<area shape="rect" id="node14" href="$classvoxel__grid_1_1_voxel_grid.html#aab30ed5d435c878574d0769186d196ac" title="voxel_grid::VoxelGrid\l::reset" alt="" coords="710,463,854,504"/>
+<area shape="rect" id="node18" href="$classcostmap__2d_1_1_obstacle_layer.html#a4b5054749c568e2df8180c2a7c0e6177" title="Stop publishers. " alt="" coords="449,515,635,556"/>
+<area shape="rect" id="node20" href="$classcostmap__2d_1_1_obstacle_layer.html#a96d2b1af3b09d35e02e6d2fc8366195f" title="Restart publishers if they&#39;ve been stopped. " alt="" coords="449,580,635,621"/>
+</map>

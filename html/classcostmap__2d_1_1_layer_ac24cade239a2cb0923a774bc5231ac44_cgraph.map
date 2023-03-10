@@ -1,0 +1,3 @@
+<map id="costmap_2d::Layer::getFootprint" name="costmap_2d::Layer::getFootprint">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_layered_costmap.html#a5d39338c55ccd02b1577ffb84320272b" title="Returns the latest footprint stored with setFootprint(). " alt="" coords="195,5,393,47"/>
+</map>

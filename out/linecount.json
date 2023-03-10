@@ -1,0 +1,4053 @@
+{
+    "extension": "linecount",
+    "version": "0.1.7",
+    "workspace": "c:\\Users\\Administrator\\Desktop\\ros-ws\\navigation",
+    "linecount": [
+        {
+            "version": "0.1.7",
+            "counttime": "2017-07-24 00:56:11",
+            "filesum": 334,
+            "codesum": 47458,
+            "commentsum": 29690,
+            "blanksum": 6917,
+            "filelist": [
+                {
+                    "blank": 1,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 24,
+                    "comment": 3,
+                    "filename": ".travis.yml"
+                },
+                {
+                    "filename": ".vs\\navigation\\v15\\.suo",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".vs\\slnx.sqlite",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": ".vs\\VSWorkspaceState.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "amcl\\amcl note"
+                },
+                {
+                    "blank": 22,
+                    "code": 53,
+                    "comment": 0,
+                    "filename": "amcl\\cfg\\AMCL.cfg"
+                },
+                {
+                    "blank": 16,
+                    "code": 69,
+                    "comment": 3,
+                    "filename": "amcl\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 19,
+                    "code": 123,
+                    "comment": 9,
+                    "filename": "amcl\\CMakeLists.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "amcl\\examples\\amcl_diff.launch"
+                },
+                {
+                    "blank": 0,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "amcl\\examples\\amcl_omni.launch"
+                },
+                {
+                    "blank": 43,
+                    "code": 40,
+                    "comment": 67,
+                    "filename": "amcl\\include\\amcl\\map\\map.h"
+                },
+                {
+                    "blank": 4,
+                    "code": 3,
+                    "comment": 4,
+                    "filename": "amcl\\include\\amcl\\pf\\eig3.h"
+                },
+                {
+                    "blank": 49,
+                    "code": 74,
+                    "comment": 72,
+                    "filename": "amcl\\include\\amcl\\pf\\pf.h"
+                },
+                {
+                    "blank": 29,
+                    "code": 34,
+                    "comment": 46,
+                    "filename": "amcl\\include\\amcl\\pf\\pf_kdtree.h"
+                },
+                {
+                    "blank": 29,
+                    "code": 35,
+                    "comment": 57,
+                    "filename": "amcl\\include\\amcl\\pf\\pf_pdf.h"
+                },
+                {
+                    "blank": 22,
+                    "code": 29,
+                    "comment": 43,
+                    "filename": "amcl\\include\\amcl\\pf\\pf_vector.h"
+                },
+                {
+                    "blank": 27,
+                    "code": 76,
+                    "comment": 53,
+                    "filename": "amcl\\include\\amcl\\sensors\\amcl_laser.h"
+                },
+                {
+                    "blank": 18,
+                    "code": 43,
+                    "comment": 37,
+                    "filename": "amcl\\include\\amcl\\sensors\\amcl_odom.h"
+                },
+                {
+                    "blank": 22,
+                    "code": 29,
+                    "comment": 46,
+                    "filename": "amcl\\include\\amcl\\sensors\\amcl_sensor.h"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "amcl\\package.xml"
+                },
+                {
+                    "blank": 17,
+                    "code": 35,
+                    "comment": 32,
+                    "filename": "amcl\\src\\amcl\\map\\map.c"
+                },
+                {
+                    "blank": 32,
+                    "code": 174,
+                    "comment": 27,
+                    "filename": "amcl\\src\\amcl\\map\\map_cspace.cpp"
+                },
+                {
+                    "blank": 31,
+                    "code": 89,
+                    "comment": 38,
+                    "filename": "amcl\\src\\amcl\\map\\map_draw.c"
+                },
+                {
+                    "blank": 14,
+                    "code": 76,
+                    "comment": 30,
+                    "filename": "amcl\\src\\amcl\\map\\map_range.c"
+                },
+                {
+                    "blank": 21,
+                    "code": 80,
+                    "comment": 114,
+                    "filename": "amcl\\src\\amcl\\map\\map_store.c"
+                },
+                {
+                    "blank": 40,
+                    "code": 205,
+                    "comment": 27,
+                    "filename": "amcl\\src\\amcl\\pf\\eig3.c"
+                },
+                {
+                    "blank": 140,
+                    "code": 387,
+                    "comment": 135,
+                    "filename": "amcl\\src\\amcl\\pf\\pf.c"
+                },
+                {
+                    "blank": 37,
+                    "code": 79,
+                    "comment": 47,
+                    "filename": "amcl\\src\\amcl\\pf\\pf_draw.c"
+                },
+                {
+                    "blank": 101,
+                    "code": 253,
+                    "comment": 132,
+                    "filename": "amcl\\src\\amcl\\pf\\pf_kdtree.c"
+                },
+                {
+                    "blank": 41,
+                    "code": 88,
+                    "comment": 80,
+                    "filename": "amcl\\src\\amcl\\pf\\pf_pdf.c"
+                },
+                {
+                    "blank": 53,
+                    "code": 121,
+                    "comment": 102,
+                    "filename": "amcl\\src\\amcl\\pf\\pf_vector.c"
+                },
+                {
+                    "blank": 96,
+                    "code": 323,
+                    "comment": 62,
+                    "filename": "amcl\\src\\amcl\\sensors\\amcl_laser.cpp"
+                },
+                {
+                    "blank": 33,
+                    "code": 222,
+                    "comment": 37,
+                    "filename": "amcl\\src\\amcl\\sensors\\amcl_odom.cpp"
+                },
+                {
+                    "filename": "amcl\\src\\amcl\\sensors\\amcl_odom.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 16,
+                    "code": 35,
+                    "comment": 14,
+                    "filename": "amcl\\src\\amcl\\sensors\\amcl_sensor.cpp"
+                },
+                {
+                    "blank": 221,
+                    "code": 1145,
+                    "comment": 180,
+                    "filename": "amcl\\src\\amcl_node.cpp"
+                },
+                {
+                    "blank": 14,
+                    "code": 60,
+                    "comment": 5,
+                    "filename": "amcl\\test\\basic_localization.py"
+                },
+                {
+                    "blank": 0,
+                    "code": 44,
+                    "comment": 5,
+                    "filename": "amcl\\test\\basic_localization_stage.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 44,
+                    "comment": 5,
+                    "filename": "amcl\\test\\global_localization_stage.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 44,
+                    "comment": 5,
+                    "filename": "amcl\\test\\rosie_multilaser.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 42,
+                    "comment": 8,
+                    "filename": "amcl\\test\\set_initial_pose.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 43,
+                    "comment": 11,
+                    "filename": "amcl\\test\\set_initial_pose_delayed.xml"
+                },
+                {
+                    "blank": 7,
+                    "code": 37,
+                    "comment": 2,
+                    "filename": "amcl\\test\\set_pose.py"
+                },
+                {
+                    "blank": 0,
+                    "code": 47,
+                    "comment": 2,
+                    "filename": "amcl\\test\\small_loop_crazy_driving_prg.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 47,
+                    "comment": 2,
+                    "filename": "amcl\\test\\small_loop_crazy_driving_prg_corrected.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 44,
+                    "comment": 2,
+                    "filename": "amcl\\test\\small_loop_prf.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "amcl\\test\\texas_greenroom_loop.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "amcl\\test\\texas_greenroom_loop_corrected.xml"
+                },
+                {
+                    "blank": 1,
+                    "code": 37,
+                    "comment": 10,
+                    "filename": "amcl\\test\\texas_willow_hallway_loop.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "amcl\\test\\texas_willow_hallway_loop_corrected.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "base_local_planner\\blp_plugin.xml"
+                },
+                {
+                    "blank": 21,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "base_local_planner\\cfg\\BaseLocalPlanner.cfg"
+                },
+                {
+                    "blank": 3,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "base_local_planner\\cfg\\LocalPlannerLimits.cfg"
+                },
+                {
+                    "blank": 8,
+                    "code": 36,
+                    "comment": 2,
+                    "filename": "base_local_planner\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 18,
+                    "code": 128,
+                    "comment": 0,
+                    "filename": "base_local_planner\\CMakeLists.txt"
+                },
+                {
+                    "blank": 8,
+                    "code": 19,
+                    "comment": 73,
+                    "filename": "base_local_planner\\include\\base_local_planner\\costmap_model.h"
+                },
+                {
+                    "blank": 9,
+                    "code": 22,
+                    "comment": 56,
+                    "filename": "base_local_planner\\include\\base_local_planner\\footprint_helper.h"
+                },
+                {
+                    "blank": 12,
+                    "code": 43,
+                    "comment": 100,
+                    "filename": "base_local_planner\\include\\base_local_planner\\goal_functions.h"
+                },
+                {
+                    "blank": 17,
+                    "code": 56,
+                    "comment": 22,
+                    "filename": "base_local_planner\\include\\base_local_planner\\latched_stop_rotate_controller.h"
+                },
+                {
+                    "blank": 18,
+                    "code": 96,
+                    "comment": 60,
+                    "filename": "base_local_planner\\include\\base_local_planner\\line_iterator.h"
+                },
+                {
+                    "blank": 11,
+                    "code": 73,
+                    "comment": 44,
+                    "filename": "base_local_planner\\include\\base_local_planner\\local_planner_limits.h"
+                },
+                {
+                    "blank": 30,
+                    "code": 38,
+                    "comment": 44,
+                    "filename": "base_local_planner\\include\\base_local_planner\\local_planner_util.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 15,
+                    "comment": 48,
+                    "filename": "base_local_planner\\include\\base_local_planner\\map_cell.h"
+                },
+                {
+                    "blank": 29,
+                    "code": 53,
+                    "comment": 120,
+                    "filename": "base_local_planner\\include\\base_local_planner\\map_grid.h"
+                },
+                {
+                    "blank": 18,
+                    "code": 40,
+                    "comment": 81,
+                    "filename": "base_local_planner\\include\\base_local_planner\\map_grid_cost_function.h"
+                },
+                {
+                    "blank": 3,
+                    "code": 24,
+                    "comment": 33,
+                    "filename": "base_local_planner\\include\\base_local_planner\\map_grid_cost_point.h"
+                },
+                {
+                    "blank": 7,
+                    "code": 23,
+                    "comment": 50,
+                    "filename": "base_local_planner\\include\\base_local_planner\\map_grid_visualizer.h"
+                },
+                {
+                    "blank": 12,
+                    "code": 34,
+                    "comment": 43,
+                    "filename": "base_local_planner\\include\\base_local_planner\\obstacle_cost_function.h"
+                },
+                {
+                    "blank": 13,
+                    "code": 26,
+                    "comment": 54,
+                    "filename": "base_local_planner\\include\\base_local_planner\\odometry_helper_ros.h"
+                },
+                {
+                    "blank": 17,
+                    "code": 25,
+                    "comment": 47,
+                    "filename": "base_local_planner\\include\\base_local_planner\\oscillation_cost_function.h"
+                },
+                {
+                    "blank": 3,
+                    "code": 14,
+                    "comment": 40,
+                    "filename": "base_local_planner\\include\\base_local_planner\\planar_laser_scan.h"
+                },
+                {
+                    "blank": 33,
+                    "code": 121,
+                    "comment": 212,
+                    "filename": "base_local_planner\\include\\base_local_planner\\point_grid.h"
+                },
+                {
+                    "blank": 10,
+                    "code": 18,
+                    "comment": 36,
+                    "filename": "base_local_planner\\include\\base_local_planner\\prefer_forward_cost_function.h"
+                },
+                {
+                    "blank": 17,
+                    "code": 22,
+                    "comment": 71,
+                    "filename": "base_local_planner\\include\\base_local_planner\\simple_scored_sampling_planner.h"
+                },
+                {
+                    "blank": 20,
+                    "code": 57,
+                    "comment": 84,
+                    "filename": "base_local_planner\\include\\base_local_planner\\simple_trajectory_generator.h"
+                },
+                {
+                    "blank": 14,
+                    "code": 24,
+                    "comment": 86,
+                    "filename": "base_local_planner\\include\\base_local_planner\\trajectory.h"
+                },
+                {
+                    "blank": 13,
+                    "code": 22,
+                    "comment": 51,
+                    "filename": "base_local_planner\\include\\base_local_planner\\trajectory_cost_function.h"
+                },
+                {
+                    "blank": 4,
+                    "code": 10,
+                    "comment": 36,
+                    "filename": "base_local_planner\\include\\base_local_planner\\trajectory_inc.h"
+                },
+                {
+                    "blank": 49,
+                    "code": 127,
+                    "comment": 250,
+                    "filename": "base_local_planner\\include\\base_local_planner\\trajectory_planner.h"
+                },
+                {
+                    "blank": 35,
+                    "code": 84,
+                    "comment": 124,
+                    "filename": "base_local_planner\\include\\base_local_planner\\trajectory_planner_ros.h"
+                },
+                {
+                    "blank": 11,
+                    "code": 14,
+                    "comment": 50,
+                    "filename": "base_local_planner\\include\\base_local_planner\\trajectory_sample_generator.h"
+                },
+                {
+                    "blank": 10,
+                    "code": 13,
+                    "comment": 48,
+                    "filename": "base_local_planner\\include\\base_local_planner\\trajectory_search.h"
+                },
+                {
+                    "blank": 9,
+                    "code": 47,
+                    "comment": 42,
+                    "filename": "base_local_planner\\include\\base_local_planner\\velocity_iterator.h"
+                },
+                {
+                    "blank": 19,
+                    "code": 71,
+                    "comment": 90,
+                    "filename": "base_local_planner\\include\\base_local_planner\\voxel_grid_model.h"
+                },
+                {
+                    "blank": 11,
+                    "code": 40,
+                    "comment": 60,
+                    "filename": "base_local_planner\\include\\base_local_planner\\world_model.h"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "base_local_planner\\msg\\Position2DInt.msg"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "base_local_planner\\package.xml"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 1,
+                    "filename": "base_local_planner\\setup.py"
+                },
+                {
+                    "blank": 26,
+                    "code": 63,
+                    "comment": 53,
+                    "filename": "base_local_planner\\src\\costmap_model.cpp"
+                },
+                {
+                    "blank": 29,
+                    "code": 169,
+                    "comment": 74,
+                    "filename": "base_local_planner\\src\\footprint_helper.cpp"
+                },
+                {
+                    "blank": 33,
+                    "code": 173,
+                    "comment": 49,
+                    "filename": "base_local_planner\\src\\goal_functions.cpp"
+                },
+                {
+                    "blank": 44,
+                    "code": 193,
+                    "comment": 39,
+                    "filename": "base_local_planner\\src\\latched_stop_rotate_controller.cpp"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "base_local_planner\\src\\local_planner_limits\\.gitignore"
+                },
+                {
+                    "blank": 11,
+                    "code": 19,
+                    "comment": 15,
+                    "filename": "base_local_planner\\src\\local_planner_limits\\__init__.py"
+                },
+                {
+                    "blank": 20,
+                    "code": 68,
+                    "comment": 41,
+                    "filename": "base_local_planner\\src\\local_planner_util.cpp"
+                },
+                {
+                    "blank": 4,
+                    "code": 15,
+                    "comment": 33,
+                    "filename": "base_local_planner\\src\\map_cell.cpp"
+                },
+                {
+                    "blank": 42,
+                    "code": 223,
+                    "comment": 46,
+                    "filename": "base_local_planner\\src\\map_grid.cpp"
+                },
+                {
+                    "blank": 13,
+                    "code": 77,
+                    "comment": 41,
+                    "filename": "base_local_planner\\src\\map_grid_cost_function.cpp"
+                },
+                {
+                    "blank": 7,
+                    "code": 44,
+                    "comment": 33,
+                    "filename": "base_local_planner\\src\\map_grid_visualizer.cpp"
+                },
+                {
+                    "blank": 21,
+                    "code": 79,
+                    "comment": 44,
+                    "filename": "base_local_planner\\src\\obstacle_cost_function.cpp"
+                },
+                {
+                    "blank": 11,
+                    "code": 46,
+                    "comment": 41,
+                    "filename": "base_local_planner\\src\\odometry_helper_ros.cpp"
+                },
+                {
+                    "blank": 20,
+                    "code": 114,
+                    "comment": 44,
+                    "filename": "base_local_planner\\src\\oscillation_cost_function.cpp"
+                },
+                {
+                    "blank": 118,
+                    "code": 434,
+                    "comment": 134,
+                    "filename": "base_local_planner\\src\\point_grid.cpp"
+                },
+                {
+                    "blank": 6,
+                    "code": 13,
+                    "comment": 9,
+                    "filename": "base_local_planner\\src\\prefer_forward_cost_function.cpp"
+                },
+                {
+                    "blank": 12,
+                    "code": 94,
+                    "comment": 40,
+                    "filename": "base_local_planner\\src\\simple_scored_sampling_planner.cpp"
+                },
+                {
+                    "blank": 31,
+                    "code": 174,
+                    "comment": 78,
+                    "filename": "base_local_planner\\src\\simple_trajectory_generator.cpp"
+                },
+                {
+                    "blank": 8,
+                    "code": 39,
+                    "comment": 33,
+                    "filename": "base_local_planner\\src\\trajectory.cpp"
+                },
+                {
+                    "blank": 156,
+                    "code": 658,
+                    "comment": 205,
+                    "filename": "base_local_planner\\src\\trajectory_planner.cpp"
+                },
+                {
+                    "blank": 108,
+                    "code": 387,
+                    "comment": 103,
+                    "filename": "base_local_planner\\src\\trajectory_planner_ros.cpp"
+                },
+                {
+                    "blank": 42,
+                    "code": 186,
+                    "comment": 83,
+                    "filename": "base_local_planner\\src\\voxel_grid_model.cpp"
+                },
+                {
+                    "blank": 29,
+                    "code": 99,
+                    "comment": 17,
+                    "filename": "base_local_planner\\test\\footprint_helper_test.cpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 7,
+                    "comment": 6,
+                    "filename": "base_local_planner\\test\\gtest_main.cpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 48,
+                    "comment": 28,
+                    "filename": "base_local_planner\\test\\line_iterator_test.cpp"
+                },
+                {
+                    "blank": 24,
+                    "code": 132,
+                    "comment": 6,
+                    "filename": "base_local_planner\\test\\map_grid_test.cpp"
+                },
+                {
+                    "blank": 8,
+                    "code": 12,
+                    "comment": 6,
+                    "filename": "base_local_planner\\test\\trajectory_generator_test.cpp"
+                },
+                {
+                    "blank": 30,
+                    "code": 137,
+                    "comment": 51,
+                    "filename": "base_local_planner\\test\\utest.cpp"
+                },
+                {
+                    "blank": 18,
+                    "code": 125,
+                    "comment": 36,
+                    "filename": "base_local_planner\\test\\velocity_iterator_test.cpp"
+                },
+                {
+                    "blank": 9,
+                    "code": 30,
+                    "comment": 11,
+                    "filename": "base_local_planner\\test\\wavefront_map_accessor.h"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "carrot_planner\\bgp_plugin.xml"
+                },
+                {
+                    "blank": 14,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "carrot_planner\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 9,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "carrot_planner\\CMakeLists.txt"
+                },
+                {
+                    "blank": 9,
+                    "code": 30,
+                    "comment": 68,
+                    "filename": "carrot_planner\\include\\carrot_planner\\carrot_planner.h"
+                },
+                {
+                    "blank": 9,
+                    "code": 32,
+                    "comment": 2,
+                    "filename": "carrot_planner\\package.xml"
+                },
+                {
+                    "blank": 30,
+                    "code": 101,
+                    "comment": 41,
+                    "filename": "carrot_planner\\src\\carrot_planner.cpp"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "clear_costmap_recovery\\ccr_plugin.xml"
+                },
+                {
+                    "blank": 15,
+                    "code": 50,
+                    "comment": 0,
+                    "filename": "clear_costmap_recovery\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "clear_costmap_recovery\\clearCostMapRecovery-note.txt"
+                },
+                {
+                    "blank": 13,
+                    "code": 56,
+                    "comment": 0,
+                    "filename": "clear_costmap_recovery\\CMakeLists.txt"
+                },
+                {
+                    "blank": 4,
+                    "code": 26,
+                    "comment": 57,
+                    "filename": "clear_costmap_recovery\\include\\clear_costmap_recovery\\clear_costmap_recovery.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "clear_costmap_recovery\\package.xml"
+                },
+                {
+                    "blank": 26,
+                    "code": 94,
+                    "comment": 38,
+                    "filename": "clear_costmap_recovery\\src\\clear_costmap_recovery.cpp"
+                },
+                {
+                    "blank": 23,
+                    "code": 69,
+                    "comment": 0,
+                    "filename": "clear_costmap_recovery\\test\\clear_tester.cpp"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "clear_costmap_recovery\\test\\clear_tests.launch"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "clear_costmap_recovery\\test\\params.yaml"
+                },
+                {
+                    "blank": 6,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "costmap_2d\\cfg\\Costmap2D.cfg"
+                },
+                {
+                    "blank": 2,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "costmap_2d\\cfg\\GenericPlugin.cfg"
+                },
+                {
+                    "blank": 4,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "costmap_2d\\cfg\\InflationPlugin.cfg"
+                },
+                {
+                    "blank": 7,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "costmap_2d\\cfg\\ObstaclePlugin.cfg"
+                },
+                {
+                    "blank": 6,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "costmap_2d\\cfg\\VoxelPlugin.cfg"
+                },
+                {
+                    "blank": 9,
+                    "code": 59,
+                    "comment": 2,
+                    "filename": "costmap_2d\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 28,
+                    "code": 185,
+                    "comment": 2,
+                    "filename": "costmap_2d\\CMakeLists.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "costmap_2d\\costmap-note.txt"
+                },
+                {
+                    "blank": 1,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "costmap_2d\\costmap_plugins.xml"
+                },
+                {
+                    "blank": 5,
+                    "code": 9,
+                    "comment": 39,
+                    "filename": "costmap_2d\\include\\costmap_2d\\array_parser.h"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 38,
+                    "filename": "costmap_2d\\include\\costmap_2d\\cost_values.h"
+                },
+                {
+                    "blank": 56,
+                    "code": 179,
+                    "comment": 237,
+                    "filename": "costmap_2d\\include\\costmap_2d\\costmap_2d.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 44,
+                    "comment": 60,
+                    "filename": "costmap_2d\\include\\costmap_2d\\costmap_2d_publisher.h"
+                },
+                {
+                    "blank": 27,
+                    "code": 109,
+                    "comment": 131,
+                    "filename": "costmap_2d\\include\\costmap_2d\\costmap_2d_ros.h"
+                },
+                {
+                    "blank": 13,
+                    "code": 32,
+                    "comment": 106,
+                    "filename": "costmap_2d\\include\\costmap_2d\\costmap_layer.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 22,
+                    "comment": 40,
+                    "filename": "costmap_2d\\include\\costmap_2d\\costmap_math.h"
+                },
+                {
+                    "blank": 17,
+                    "code": 28,
+                    "comment": 104,
+                    "filename": "costmap_2d\\include\\costmap_2d\\footprint.h"
+                },
+                {
+                    "blank": 23,
+                    "code": 104,
+                    "comment": 83,
+                    "filename": "costmap_2d\\include\\costmap_2d\\inflation_layer.h"
+                },
+                {
+                    "blank": 20,
+                    "code": 45,
+                    "comment": 72,
+                    "filename": "costmap_2d\\include\\costmap_2d\\layer.h"
+                },
+                {
+                    "blank": 28,
+                    "code": 84,
+                    "comment": 68,
+                    "filename": "costmap_2d\\include\\costmap_2d\\layered_costmap.h"
+                },
+                {
+                    "blank": 10,
+                    "code": 39,
+                    "comment": 56,
+                    "filename": "costmap_2d\\include\\costmap_2d\\observation.h"
+                },
+                {
+                    "blank": 15,
+                    "code": 53,
+                    "comment": 99,
+                    "filename": "costmap_2d\\include\\costmap_2d\\observation_buffer.h"
+                },
+                {
+                    "blank": 27,
+                    "code": 73,
+                    "comment": 88,
+                    "filename": "costmap_2d\\include\\costmap_2d\\obstacle_layer.h"
+                },
+                {
+                    "blank": 12,
+                    "code": 46,
+                    "comment": 48,
+                    "filename": "costmap_2d\\include\\costmap_2d\\static_layer.h"
+                },
+                {
+                    "blank": 14,
+                    "code": 88,
+                    "comment": 2,
+                    "filename": "costmap_2d\\include\\costmap_2d\\testing_helper.h"
+                },
+                {
+                    "blank": 22,
+                    "code": 91,
+                    "comment": 41,
+                    "filename": "costmap_2d\\include\\costmap_2d\\voxel_layer.h"
+                },
+                {
+                    "blank": 3,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "costmap_2d\\launch\\example.launch"
+                },
+                {
+                    "blank": 5,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "costmap_2d\\launch\\example_params.yaml"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "costmap_2d\\msg\\VoxelGrid.msg"
+                },
+                {
+                    "blank": 5,
+                    "code": 63,
+                    "comment": 0,
+                    "filename": "costmap_2d\\package.xml"
+                },
+                {
+                    "blank": 43,
+                    "code": 264,
+                    "comment": 66,
+                    "filename": "costmap_2d\\plugins\\inflation_layer.cpp"
+                },
+                {
+                    "blank": 94,
+                    "code": 448,
+                    "comment": 83,
+                    "filename": "costmap_2d\\plugins\\obstacle_layer.cpp"
+                },
+                {
+                    "blank": 43,
+                    "code": 244,
+                    "comment": 57,
+                    "filename": "costmap_2d\\plugins\\static_layer.cpp"
+                },
+                {
+                    "blank": 70,
+                    "code": 298,
+                    "comment": 75,
+                    "filename": "costmap_2d\\plugins\\voxel_layer.cpp"
+                },
+                {
+                    "blank": 7,
+                    "code": 74,
+                    "comment": 37,
+                    "filename": "costmap_2d\\src\\array_parser.cpp"
+                },
+                {
+                    "blank": 74,
+                    "code": 333,
+                    "comment": 78,
+                    "filename": "costmap_2d\\src\\costmap_2d.cpp"
+                },
+                {
+                    "blank": 30,
+                    "code": 146,
+                    "comment": 29,
+                    "filename": "costmap_2d\\src\\costmap_2d_cloud.cpp"
+                },
+                {
+                    "blank": 16,
+                    "code": 100,
+                    "comment": 37,
+                    "filename": "costmap_2d\\src\\costmap_2d_markers.cpp"
+                },
+                {
+                    "blank": 3,
+                    "code": 10,
+                    "comment": 37,
+                    "filename": "costmap_2d\\src\\costmap_2d_node.cpp"
+                },
+                {
+                    "blank": 21,
+                    "code": 105,
+                    "comment": 48,
+                    "filename": "costmap_2d\\src\\costmap_2d_publisher.cpp"
+                },
+                {
+                    "blank": 74,
+                    "code": 414,
+                    "comment": 70,
+                    "filename": "costmap_2d\\src\\costmap_2d_ros.cpp"
+                },
+                {
+                    "blank": 17,
+                    "code": 125,
+                    "comment": 1,
+                    "filename": "costmap_2d\\src\\costmap_layer.cpp"
+                },
+                {
+                    "blank": 10,
+                    "code": 51,
+                    "comment": 28,
+                    "filename": "costmap_2d\\src\\costmap_math.cpp"
+                },
+                {
+                    "blank": 35,
+                    "code": 245,
+                    "comment": 42,
+                    "filename": "costmap_2d\\src\\footprint.cpp"
+                },
+                {
+                    "blank": 6,
+                    "code": 22,
+                    "comment": 29,
+                    "filename": "costmap_2d\\src\\layer.cpp"
+                },
+                {
+                    "blank": 21,
+                    "code": 108,
+                    "comment": 41,
+                    "filename": "costmap_2d\\src\\layered_costmap.cpp"
+                },
+                {
+                    "blank": 33,
+                    "code": 168,
+                    "comment": 58,
+                    "filename": "costmap_2d\\src\\observation_buffer.cpp"
+                },
+                {
+                    "blank": 9,
+                    "code": 43,
+                    "comment": 28,
+                    "filename": "costmap_2d\\test\\array_parser_test.cpp"
+                },
+                {
+                    "blank": 2,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "costmap_2d\\test\\costmap_params.yaml"
+                },
+                {
+                    "blank": 21,
+                    "code": 81,
+                    "comment": 46,
+                    "filename": "costmap_2d\\test\\costmap_tester.cpp"
+                },
+                {
+                    "blank": 29,
+                    "code": 105,
+                    "comment": 43,
+                    "filename": "costmap_2d\\test\\footprint_tests.cpp"
+                },
+                {
+                    "blank": 8,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "costmap_2d\\test\\footprint_tests.launch"
+                },
+                {
+                    "blank": 67,
+                    "code": 228,
+                    "comment": 115,
+                    "filename": "costmap_2d\\test\\inflation_tests.cpp"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "costmap_2d\\test\\inflation_tests.launch"
+                },
+                {
+                    "blank": 218,
+                    "code": 804,
+                    "comment": 155,
+                    "filename": "costmap_2d\\test\\module_tests.cpp"
+                },
+                {
+                    "blank": 46,
+                    "code": 92,
+                    "comment": 117,
+                    "filename": "costmap_2d\\test\\obstacle_tests.cpp"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "costmap_2d\\test\\obstacle_tests.launch"
+                },
+                {
+                    "blank": 4,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "costmap_2d\\test\\simple_driving_test.xml"
+                },
+                {
+                    "blank": 7,
+                    "code": 15,
+                    "comment": 309,
+                    "filename": "costmap_2d\\test\\static_tests.cpp"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "costmap_2d\\test\\static_tests.launch"
+                },
+                {
+                    "filename": "costmap_2d\\test\\TenByTen.pgm",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "costmap_2d\\test\\TenByTen.yaml"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "dwa_local_planner\\blp_plugin.xml"
+                },
+                {
+                    "blank": 14,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "dwa_local_planner\\cfg\\DWAPlanner.cfg"
+                },
+                {
+                    "blank": 15,
+                    "code": 53,
+                    "comment": 1,
+                    "filename": "dwa_local_planner\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 9,
+                    "code": 53,
+                    "comment": 0,
+                    "filename": "dwa_local_planner\\CMakeLists.txt"
+                },
+                {
+                    "blank": 28,
+                    "code": 64,
+                    "comment": 94,
+                    "filename": "dwa_local_planner\\include\\dwa_local_planner\\dwa_planner.h"
+                },
+                {
+                    "blank": 33,
+                    "code": 48,
+                    "comment": 80,
+                    "filename": "dwa_local_planner\\include\\dwa_local_planner\\dwa_planner_ros.h"
+                },
+                {
+                    "blank": 9,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "dwa_local_planner\\package.xml"
+                },
+                {
+                    "blank": 59,
+                    "code": 239,
+                    "comment": 80,
+                    "filename": "dwa_local_planner\\src\\dwa_planner.cpp"
+                },
+                {
+                    "blank": 51,
+                    "code": 185,
+                    "comment": 67,
+                    "filename": "dwa_local_planner\\src\\dwa_planner_ros.cpp"
+                },
+                {
+                    "blank": 14,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "fake_localization\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 9,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "fake_localization\\CMakeLists.txt"
+                },
+                {
+                    "blank": 37,
+                    "code": 129,
+                    "comment": 79,
+                    "filename": "fake_localization\\fake_localization.cpp"
+                },
+                {
+                    "blank": 4,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "fake_localization\\package.xml"
+                },
+                {
+                    "blank": 9,
+                    "code": 28,
+                    "comment": 10,
+                    "filename": "fake_localization\\static_odom_broadcaster.py"
+                },
+                {
+                    "blank": 441,
+                    "code": 21573,
+                    "comment": 17540,
+                    "filename": "git.pdf"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "global_planner\\bgp_plugin.xml"
+                },
+                {
+                    "blank": 6,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "global_planner\\cfg\\GlobalPlanner.cfg"
+                },
+                {
+                    "blank": 8,
+                    "code": 28,
+                    "comment": 1,
+                    "filename": "global_planner\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 10,
+                    "code": 63,
+                    "comment": 0,
+                    "filename": "global_planner\\CMakeLists.txt"
+                },
+                {
+                    "blank": 6,
+                    "code": 32,
+                    "comment": 38,
+                    "filename": "global_planner\\include\\global_planner\\astar.h"
+                },
+                {
+                    "blank": 12,
+                    "code": 47,
+                    "comment": 52,
+                    "filename": "global_planner\\include\\global_planner\\dijkstra.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 56,
+                    "comment": 43,
+                    "filename": "global_planner\\include\\global_planner\\expander.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 22,
+                    "comment": 48,
+                    "filename": "global_planner\\include\\global_planner\\gradient_path.h"
+                },
+                {
+                    "blank": 3,
+                    "code": 12,
+                    "comment": 38,
+                    "filename": "global_planner\\include\\global_planner\\grid_path.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 20,
+                    "comment": 37,
+                    "filename": "global_planner\\include\\global_planner\\orientation_filter.h"
+                },
+                {
+                    "blank": 29,
+                    "code": 73,
+                    "comment": 112,
+                    "filename": "global_planner\\include\\global_planner\\planner_core.h"
+                },
+                {
+                    "blank": 7,
+                    "code": 29,
+                    "comment": 44,
+                    "filename": "global_planner\\include\\global_planner\\potential_calculator.h"
+                },
+                {
+                    "blank": 5,
+                    "code": 12,
+                    "comment": 38,
+                    "filename": "global_planner\\include\\global_planner\\quadratic_calculator.h"
+                },
+                {
+                    "blank": 4,
+                    "code": 26,
+                    "comment": 38,
+                    "filename": "global_planner\\include\\global_planner\\traceback.h"
+                },
+                {
+                    "blank": 5,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "global_planner\\package.xml"
+                },
+                {
+                    "blank": 16,
+                    "code": 45,
+                    "comment": 38,
+                    "filename": "global_planner\\src\\astar.cpp"
+                },
+                {
+                    "blank": 27,
+                    "code": 138,
+                    "comment": 84,
+                    "filename": "global_planner\\src\\dijkstra.cpp"
+                },
+                {
+                    "blank": 38,
+                    "code": 191,
+                    "comment": 93,
+                    "filename": "global_planner\\src\\gradient_path.cpp"
+                },
+                {
+                    "blank": 8,
+                    "code": 40,
+                    "comment": 38,
+                    "filename": "global_planner\\src\\grid_path.cpp"
+                },
+                {
+                    "blank": 11,
+                    "code": 67,
+                    "comment": 36,
+                    "filename": "global_planner\\src\\orientation_filter.cpp"
+                },
+                {
+                    "blank": 17,
+                    "code": 65,
+                    "comment": 38,
+                    "filename": "global_planner\\src\\plan_node.cpp"
+                },
+                {
+                    "blank": 75,
+                    "code": 310,
+                    "comment": 55,
+                    "filename": "global_planner\\src\\planner_core.cpp"
+                },
+                {
+                    "blank": 6,
+                    "code": 34,
+                    "comment": 42,
+                    "filename": "global_planner\\src\\quadratic_calculator.cpp"
+                },
+                {
+                    "filename": "GPATH",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "GRTAGS",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "GTAGS",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 14,
+                    "code": 60,
+                    "comment": 2,
+                    "filename": "map_server\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 12,
+                    "code": 78,
+                    "comment": 0,
+                    "filename": "map_server\\CMakeLists.txt"
+                },
+                {
+                    "blank": 6,
+                    "code": 12,
+                    "comment": 59,
+                    "filename": "map_server\\include\\map_server\\image_loader.h"
+                },
+                {
+                    "blank": 6,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "map_server\\package.xml"
+                },
+                {
+                    "blank": 18,
+                    "code": 92,
+                    "comment": 0,
+                    "filename": "map_server\\scripts\\crop_map"
+                },
+                {
+                    "blank": 24,
+                    "code": 90,
+                    "comment": 48,
+                    "filename": "map_server\\src\\image_loader.cpp"
+                },
+                {
+                    "blank": 23,
+                    "code": 177,
+                    "comment": 51,
+                    "filename": "map_server\\src\\main.cpp"
+                },
+                {
+                    "blank": 28,
+                    "code": 96,
+                    "comment": 44,
+                    "filename": "map_server\\src\\map_saver.cpp"
+                },
+                {
+                    "blank": 1,
+                    "code": 0,
+                    "comment": 8,
+                    "filename": "map_server\\src\\map_server.dox"
+                },
+                {
+                    "blank": 9,
+                    "code": 29,
+                    "comment": 34,
+                    "filename": "map_server\\test\\consumer.py"
+                },
+                {
+                    "blank": 17,
+                    "code": 94,
+                    "comment": 35,
+                    "filename": "map_server\\test\\rtest.cpp"
+                },
+                {
+                    "blank": 3,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "map_server\\test\\rtest.xml"
+                },
+                {
+                    "blank": 8,
+                    "code": 18,
+                    "comment": 36,
+                    "filename": "map_server\\test\\test_constants.cpp"
+                },
+                {
+                    "blank": 4,
+                    "code": 9,
+                    "comment": 30,
+                    "filename": "map_server\\test\\test_constants.h"
+                },
+                {
+                    "filename": "map_server\\test\\testmap.bmp",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "map_server\\test\\testmap.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "map_server\\test\\testmap.yaml"
+                },
+                {
+                    "blank": 6,
+                    "code": 64,
+                    "comment": 39,
+                    "filename": "map_server\\test\\utest.cpp"
+                },
+                {
+                    "blank": 9,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "move_base\\cfg\\MoveBase.cfg"
+                },
+                {
+                    "blank": 14,
+                    "code": 63,
+                    "comment": 0,
+                    "filename": "move_base\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 8,
+                    "code": 59,
+                    "comment": 0,
+                    "filename": "move_base\\CMakeLists.txt"
+                },
+                {
+                    "blank": 42,
+                    "code": 94,
+                    "comment": 97,
+                    "filename": "move_base\\include\\move_base\\move_base.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 53,
+                    "comment": 2,
+                    "filename": "move_base\\package.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "move_base\\planner_test.xml"
+                },
+                {
+                    "blank": 192,
+                    "code": 752,
+                    "comment": 170,
+                    "filename": "move_base\\src\\move_base.cpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 8,
+                    "comment": 29,
+                    "filename": "move_base\\src\\move_base_node.cpp"
+                },
+                {
+                    "blank": 14,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "move_slow_and_clear\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 10,
+                    "code": 49,
+                    "comment": 0,
+                    "filename": "move_slow_and_clear\\CMakeLists.txt"
+                },
+                {
+                    "blank": 8,
+                    "code": 38,
+                    "comment": 38,
+                    "filename": "move_slow_and_clear\\include\\move_slow_and_clear\\move_slow_and_clear.h"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "move_slow_and_clear\\move_slow_and_clear-note.txt"
+                },
+                {
+                    "blank": 9,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "move_slow_and_clear\\package.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "move_slow_and_clear\\recovery_plugin.xml"
+                },
+                {
+                    "blank": 27,
+                    "code": 155,
+                    "comment": 42,
+                    "filename": "move_slow_and_clear\\src\\move_slow_and_clear.cpp"
+                },
+                {
+                    "blank": 14,
+                    "code": 39,
+                    "comment": 1,
+                    "filename": "nav_core\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 4,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "nav_core\\CMakeLists.txt"
+                },
+                {
+                    "blank": 7,
+                    "code": 23,
+                    "comment": 65,
+                    "filename": "nav_core\\include\\nav_core\\base_global_planner.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 19,
+                    "comment": 65,
+                    "filename": "nav_core\\include\\nav_core\\base_local_planner.h"
+                },
+                {
+                    "blank": 6,
+                    "code": 15,
+                    "comment": 54,
+                    "filename": "nav_core\\include\\nav_core\\recovery_behavior.h"
+                },
+                {
+                    "blank": 7,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "nav_core\\package.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "navfn\\bgp_plugin.xml"
+                },
+                {
+                    "blank": 15,
+                    "code": 61,
+                    "comment": 2,
+                    "filename": "navfn\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 14,
+                    "code": 113,
+                    "comment": 0,
+                    "filename": "navfn\\CMakeLists.txt"
+                },
+                {
+                    "blank": 46,
+                    "code": 69,
+                    "comment": 164,
+                    "filename": "navfn\\include\\navfn\\navfn.h"
+                },
+                {
+                    "blank": 22,
+                    "code": 56,
+                    "comment": 113,
+                    "filename": "navfn\\include\\navfn\\navfn_ros.h"
+                },
+                {
+                    "blank": 9,
+                    "code": 33,
+                    "comment": 15,
+                    "filename": "navfn\\include\\navfn\\navwin.h"
+                },
+                {
+                    "blank": 6,
+                    "code": 18,
+                    "comment": 35,
+                    "filename": "navfn\\include\\navfn\\potarr_point.h"
+                },
+                {
+                    "blank": 2,
+                    "code": 4,
+                    "comment": 30,
+                    "filename": "navfn\\include\\navfn\\read_pgm_costmap.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 25,
+                    "comment": 7,
+                    "filename": "navfn\\Makefile.orig"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "navfn\\package.xml"
+                },
+                {
+                    "blank": 173,
+                    "code": 700,
+                    "comment": 273,
+                    "filename": "navfn\\src\\navfn.cpp"
+                },
+                {
+                    "blank": 34,
+                    "code": 69,
+                    "comment": 37,
+                    "filename": "navfn\\src\\navfn_node.cpp"
+                },
+                {
+                    "blank": 82,
+                    "code": 307,
+                    "comment": 60,
+                    "filename": "navfn\\src\\navfn_ros.cpp"
+                },
+                {
+                    "blank": 47,
+                    "code": 278,
+                    "comment": 36,
+                    "filename": "navfn\\src\\navtest.cpp"
+                },
+                {
+                    "blank": 35,
+                    "code": 245,
+                    "comment": 16,
+                    "filename": "navfn\\src\\navwin.cpp"
+                },
+                {
+                    "blank": 10,
+                    "code": 101,
+                    "comment": 32,
+                    "filename": "navfn\\src\\read_pgm_costmap.cpp"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "navfn\\srv\\MakeNavPlan.srv"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "navfn\\srv\\SetCostmap.srv"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "navfn\\test\\CMakeLists.txt"
+                },
+                {
+                    "blank": 25,
+                    "code": 105,
+                    "comment": 31,
+                    "filename": "navfn\\test\\path_calc_test.cpp"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "navfn\\test\\willow_costmap.pgm"
+                },
+                {
+                    "blank": 14,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "navigation\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "navigation\\CMakeLists.txt"
+                },
+                {
+                    "blank": 3,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "navigation\\package.xml"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 2,
+                    "filename": "navigation\\README.rst"
+                },
+                {
+                    "blank": 5,
+                    "code": 13,
+                    "comment": 6,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 15,
+                    "code": 59,
+                    "comment": 2,
+                    "filename": "robot_pose_ekf\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 17,
+                    "code": 90,
+                    "comment": 2,
+                    "filename": "robot_pose_ekf\\CMakeLists.txt"
+                },
+                {
+                    "blank": 5,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "robot_pose_ekf\\example_with_gps.launch"
+                },
+                {
+                    "blank": 9,
+                    "code": 17,
+                    "comment": 34,
+                    "filename": "robot_pose_ekf\\include\\robot_pose_ekf\\nonlinearanalyticconditionalgaussianodo.h"
+                },
+                {
+                    "blank": 31,
+                    "code": 61,
+                    "comment": 90,
+                    "filename": "robot_pose_ekf\\include\\robot_pose_ekf\\odom_estimation.h"
+                },
+                {
+                    "blank": 28,
+                    "code": 62,
+                    "comment": 60,
+                    "filename": "robot_pose_ekf\\include\\robot_pose_ekf\\odom_estimation_node.h"
+                },
+                {
+                    "blank": 6,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "robot_pose_ekf\\package.xml"
+                },
+                {
+                    "blank": 6,
+                    "code": 34,
+                    "comment": 13,
+                    "filename": "robot_pose_ekf\\plotekf.m"
+                },
+                {
+                    "blank": 4,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "robot_pose_ekf\\robot_pose_ekf.launch"
+                },
+                {
+                    "blank": 3,
+                    "code": 9,
+                    "comment": 1,
+                    "filename": "robot_pose_ekf\\scripts\\wtf.py"
+                },
+                {
+                    "blank": 12,
+                    "code": 51,
+                    "comment": 20,
+                    "filename": "robot_pose_ekf\\src\\nonlinearanalyticconditionalgaussianodo.cpp"
+                },
+                {
+                    "blank": 55,
+                    "code": 296,
+                    "comment": 85,
+                    "filename": "robot_pose_ekf\\src\\odom_estimation.cpp"
+                },
+                {
+                    "blank": 96,
+                    "code": 363,
+                    "comment": 86,
+                    "filename": "robot_pose_ekf\\src\\odom_estimation_node.cpp"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "robot_pose_ekf\\srv\\GetStatus.srv"
+                },
+                {
+                    "blank": 43,
+                    "code": 112,
+                    "comment": 46,
+                    "filename": "robot_pose_ekf\\test\\test_robot_pose_ekf.cpp"
+                },
+                {
+                    "blank": 3,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "robot_pose_ekf\\test\\test_robot_pose_ekf.launch"
+                },
+                {
+                    "blank": 30,
+                    "code": 51,
+                    "comment": 38,
+                    "filename": "robot_pose_ekf\\test\\test_robot_pose_ekf_zero_covariance.cpp"
+                },
+                {
+                    "blank": 3,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "robot_pose_ekf\\test\\test_robot_pose_ekf_zero_covariance.launch"
+                },
+                {
+                    "blank": 14,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "rotate_recovery\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 7,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "rotate_recovery\\CMakeLists.txt"
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 57,
+                    "filename": "rotate_recovery\\include\\rotate_recovery\\rotate_recovery.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "rotate_recovery\\package.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "rotate_recovery\\rotate_plugin.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "rotate_recovery\\rotate_recovery.txt"
+                },
+                {
+                    "blank": 29,
+                    "code": 80,
+                    "comment": 46,
+                    "filename": "rotate_recovery\\src\\rotate_recovery.cpp"
+                },
+                {
+                    "blank": 15,
+                    "code": 46,
+                    "comment": 0,
+                    "filename": "voxel_grid\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 7,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "voxel_grid\\CMakeLists.txt"
+                },
+                {
+                    "blank": 52,
+                    "code": 314,
+                    "comment": 77,
+                    "filename": "voxel_grid\\include\\voxel_grid\\voxel_grid.h"
+                },
+                {
+                    "blank": 5,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "voxel_grid\\package.xml"
+                },
+                {
+                    "blank": 31,
+                    "code": 150,
+                    "comment": 40,
+                    "filename": "voxel_grid\\src\\voxel_grid.cpp"
+                },
+                {
+                    "blank": 17,
+                    "code": 70,
+                    "comment": 59,
+                    "filename": "voxel_grid\\test\\voxel_grid_tests.cpp"
+                }
+            ]
+        },
+        {
+            "version": "0.1.7",
+            "counttime": "2017-07-24 01:06:39",
+            "filesum": 334,
+            "codesum": 47458,
+            "commentsum": 29690,
+            "blanksum": 6917,
+            "filelist": [
+                {
+                    "blank": 1,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 24,
+                    "comment": 3,
+                    "filename": ".travis.yml"
+                },
+                {
+                    "filename": ".vs\\navigation\\v15\\.suo",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".vs\\slnx.sqlite",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": ".vs\\VSWorkspaceState.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "amcl\\amcl note"
+                },
+                {
+                    "blank": 22,
+                    "code": 53,
+                    "comment": 0,
+                    "filename": "amcl\\cfg\\AMCL.cfg"
+                },
+                {
+                    "blank": 16,
+                    "code": 69,
+                    "comment": 3,
+                    "filename": "amcl\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 19,
+                    "code": 123,
+                    "comment": 9,
+                    "filename": "amcl\\CMakeLists.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "amcl\\examples\\amcl_diff.launch"
+                },
+                {
+                    "blank": 0,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "amcl\\examples\\amcl_omni.launch"
+                },
+                {
+                    "blank": 43,
+                    "code": 40,
+                    "comment": 67,
+                    "filename": "amcl\\include\\amcl\\map\\map.h"
+                },
+                {
+                    "blank": 4,
+                    "code": 3,
+                    "comment": 4,
+                    "filename": "amcl\\include\\amcl\\pf\\eig3.h"
+                },
+                {
+                    "blank": 49,
+                    "code": 74,
+                    "comment": 72,
+                    "filename": "amcl\\include\\amcl\\pf\\pf.h"
+                },
+                {
+                    "blank": 29,
+                    "code": 34,
+                    "comment": 46,
+                    "filename": "amcl\\include\\amcl\\pf\\pf_kdtree.h"
+                },
+                {
+                    "blank": 29,
+                    "code": 35,
+                    "comment": 57,
+                    "filename": "amcl\\include\\amcl\\pf\\pf_pdf.h"
+                },
+                {
+                    "blank": 22,
+                    "code": 29,
+                    "comment": 43,
+                    "filename": "amcl\\include\\amcl\\pf\\pf_vector.h"
+                },
+                {
+                    "blank": 27,
+                    "code": 76,
+                    "comment": 53,
+                    "filename": "amcl\\include\\amcl\\sensors\\amcl_laser.h"
+                },
+                {
+                    "blank": 18,
+                    "code": 43,
+                    "comment": 37,
+                    "filename": "amcl\\include\\amcl\\sensors\\amcl_odom.h"
+                },
+                {
+                    "blank": 22,
+                    "code": 29,
+                    "comment": 46,
+                    "filename": "amcl\\include\\amcl\\sensors\\amcl_sensor.h"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "amcl\\package.xml"
+                },
+                {
+                    "blank": 17,
+                    "code": 35,
+                    "comment": 32,
+                    "filename": "amcl\\src\\amcl\\map\\map.c"
+                },
+                {
+                    "blank": 32,
+                    "code": 174,
+                    "comment": 27,
+                    "filename": "amcl\\src\\amcl\\map\\map_cspace.cpp"
+                },
+                {
+                    "blank": 31,
+                    "code": 89,
+                    "comment": 38,
+                    "filename": "amcl\\src\\amcl\\map\\map_draw.c"
+                },
+                {
+                    "blank": 14,
+                    "code": 76,
+                    "comment": 30,
+                    "filename": "amcl\\src\\amcl\\map\\map_range.c"
+                },
+                {
+                    "blank": 21,
+                    "code": 80,
+                    "comment": 114,
+                    "filename": "amcl\\src\\amcl\\map\\map_store.c"
+                },
+                {
+                    "blank": 40,
+                    "code": 205,
+                    "comment": 27,
+                    "filename": "amcl\\src\\amcl\\pf\\eig3.c"
+                },
+                {
+                    "blank": 140,
+                    "code": 387,
+                    "comment": 135,
+                    "filename": "amcl\\src\\amcl\\pf\\pf.c"
+                },
+                {
+                    "blank": 37,
+                    "code": 79,
+                    "comment": 47,
+                    "filename": "amcl\\src\\amcl\\pf\\pf_draw.c"
+                },
+                {
+                    "blank": 101,
+                    "code": 253,
+                    "comment": 132,
+                    "filename": "amcl\\src\\amcl\\pf\\pf_kdtree.c"
+                },
+                {
+                    "blank": 41,
+                    "code": 88,
+                    "comment": 80,
+                    "filename": "amcl\\src\\amcl\\pf\\pf_pdf.c"
+                },
+                {
+                    "blank": 53,
+                    "code": 121,
+                    "comment": 102,
+                    "filename": "amcl\\src\\amcl\\pf\\pf_vector.c"
+                },
+                {
+                    "blank": 96,
+                    "code": 323,
+                    "comment": 62,
+                    "filename": "amcl\\src\\amcl\\sensors\\amcl_laser.cpp"
+                },
+                {
+                    "blank": 33,
+                    "code": 222,
+                    "comment": 37,
+                    "filename": "amcl\\src\\amcl\\sensors\\amcl_odom.cpp"
+                },
+                {
+                    "filename": "amcl\\src\\amcl\\sensors\\amcl_odom.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 16,
+                    "code": 35,
+                    "comment": 14,
+                    "filename": "amcl\\src\\amcl\\sensors\\amcl_sensor.cpp"
+                },
+                {
+                    "blank": 221,
+                    "code": 1145,
+                    "comment": 180,
+                    "filename": "amcl\\src\\amcl_node.cpp"
+                },
+                {
+                    "blank": 14,
+                    "code": 60,
+                    "comment": 5,
+                    "filename": "amcl\\test\\basic_localization.py"
+                },
+                {
+                    "blank": 0,
+                    "code": 44,
+                    "comment": 5,
+                    "filename": "amcl\\test\\basic_localization_stage.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 44,
+                    "comment": 5,
+                    "filename": "amcl\\test\\global_localization_stage.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 44,
+                    "comment": 5,
+                    "filename": "amcl\\test\\rosie_multilaser.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 42,
+                    "comment": 8,
+                    "filename": "amcl\\test\\set_initial_pose.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 43,
+                    "comment": 11,
+                    "filename": "amcl\\test\\set_initial_pose_delayed.xml"
+                },
+                {
+                    "blank": 7,
+                    "code": 37,
+                    "comment": 2,
+                    "filename": "amcl\\test\\set_pose.py"
+                },
+                {
+                    "blank": 0,
+                    "code": 47,
+                    "comment": 2,
+                    "filename": "amcl\\test\\small_loop_crazy_driving_prg.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 47,
+                    "comment": 2,
+                    "filename": "amcl\\test\\small_loop_crazy_driving_prg_corrected.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 44,
+                    "comment": 2,
+                    "filename": "amcl\\test\\small_loop_prf.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "amcl\\test\\texas_greenroom_loop.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "amcl\\test\\texas_greenroom_loop_corrected.xml"
+                },
+                {
+                    "blank": 1,
+                    "code": 37,
+                    "comment": 10,
+                    "filename": "amcl\\test\\texas_willow_hallway_loop.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "amcl\\test\\texas_willow_hallway_loop_corrected.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "base_local_planner\\blp_plugin.xml"
+                },
+                {
+                    "blank": 21,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "base_local_planner\\cfg\\BaseLocalPlanner.cfg"
+                },
+                {
+                    "blank": 3,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "base_local_planner\\cfg\\LocalPlannerLimits.cfg"
+                },
+                {
+                    "blank": 8,
+                    "code": 36,
+                    "comment": 2,
+                    "filename": "base_local_planner\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 18,
+                    "code": 128,
+                    "comment": 0,
+                    "filename": "base_local_planner\\CMakeLists.txt"
+                },
+                {
+                    "blank": 8,
+                    "code": 19,
+                    "comment": 73,
+                    "filename": "base_local_planner\\include\\base_local_planner\\costmap_model.h"
+                },
+                {
+                    "blank": 9,
+                    "code": 22,
+                    "comment": 56,
+                    "filename": "base_local_planner\\include\\base_local_planner\\footprint_helper.h"
+                },
+                {
+                    "blank": 12,
+                    "code": 43,
+                    "comment": 100,
+                    "filename": "base_local_planner\\include\\base_local_planner\\goal_functions.h"
+                },
+                {
+                    "blank": 17,
+                    "code": 56,
+                    "comment": 22,
+                    "filename": "base_local_planner\\include\\base_local_planner\\latched_stop_rotate_controller.h"
+                },
+                {
+                    "blank": 18,
+                    "code": 96,
+                    "comment": 60,
+                    "filename": "base_local_planner\\include\\base_local_planner\\line_iterator.h"
+                },
+                {
+                    "blank": 11,
+                    "code": 73,
+                    "comment": 44,
+                    "filename": "base_local_planner\\include\\base_local_planner\\local_planner_limits.h"
+                },
+                {
+                    "blank": 30,
+                    "code": 38,
+                    "comment": 44,
+                    "filename": "base_local_planner\\include\\base_local_planner\\local_planner_util.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 15,
+                    "comment": 48,
+                    "filename": "base_local_planner\\include\\base_local_planner\\map_cell.h"
+                },
+                {
+                    "blank": 29,
+                    "code": 53,
+                    "comment": 120,
+                    "filename": "base_local_planner\\include\\base_local_planner\\map_grid.h"
+                },
+                {
+                    "blank": 18,
+                    "code": 40,
+                    "comment": 81,
+                    "filename": "base_local_planner\\include\\base_local_planner\\map_grid_cost_function.h"
+                },
+                {
+                    "blank": 3,
+                    "code": 24,
+                    "comment": 33,
+                    "filename": "base_local_planner\\include\\base_local_planner\\map_grid_cost_point.h"
+                },
+                {
+                    "blank": 7,
+                    "code": 23,
+                    "comment": 50,
+                    "filename": "base_local_planner\\include\\base_local_planner\\map_grid_visualizer.h"
+                },
+                {
+                    "blank": 12,
+                    "code": 34,
+                    "comment": 43,
+                    "filename": "base_local_planner\\include\\base_local_planner\\obstacle_cost_function.h"
+                },
+                {
+                    "blank": 13,
+                    "code": 26,
+                    "comment": 54,
+                    "filename": "base_local_planner\\include\\base_local_planner\\odometry_helper_ros.h"
+                },
+                {
+                    "blank": 17,
+                    "code": 25,
+                    "comment": 47,
+                    "filename": "base_local_planner\\include\\base_local_planner\\oscillation_cost_function.h"
+                },
+                {
+                    "blank": 3,
+                    "code": 14,
+                    "comment": 40,
+                    "filename": "base_local_planner\\include\\base_local_planner\\planar_laser_scan.h"
+                },
+                {
+                    "blank": 33,
+                    "code": 121,
+                    "comment": 212,
+                    "filename": "base_local_planner\\include\\base_local_planner\\point_grid.h"
+                },
+                {
+                    "blank": 10,
+                    "code": 18,
+                    "comment": 36,
+                    "filename": "base_local_planner\\include\\base_local_planner\\prefer_forward_cost_function.h"
+                },
+                {
+                    "blank": 17,
+                    "code": 22,
+                    "comment": 71,
+                    "filename": "base_local_planner\\include\\base_local_planner\\simple_scored_sampling_planner.h"
+                },
+                {
+                    "blank": 20,
+                    "code": 57,
+                    "comment": 84,
+                    "filename": "base_local_planner\\include\\base_local_planner\\simple_trajectory_generator.h"
+                },
+                {
+                    "blank": 14,
+                    "code": 24,
+                    "comment": 86,
+                    "filename": "base_local_planner\\include\\base_local_planner\\trajectory.h"
+                },
+                {
+                    "blank": 13,
+                    "code": 22,
+                    "comment": 51,
+                    "filename": "base_local_planner\\include\\base_local_planner\\trajectory_cost_function.h"
+                },
+                {
+                    "blank": 4,
+                    "code": 10,
+                    "comment": 36,
+                    "filename": "base_local_planner\\include\\base_local_planner\\trajectory_inc.h"
+                },
+                {
+                    "blank": 49,
+                    "code": 127,
+                    "comment": 250,
+                    "filename": "base_local_planner\\include\\base_local_planner\\trajectory_planner.h"
+                },
+                {
+                    "blank": 35,
+                    "code": 84,
+                    "comment": 124,
+                    "filename": "base_local_planner\\include\\base_local_planner\\trajectory_planner_ros.h"
+                },
+                {
+                    "blank": 11,
+                    "code": 14,
+                    "comment": 50,
+                    "filename": "base_local_planner\\include\\base_local_planner\\trajectory_sample_generator.h"
+                },
+                {
+                    "blank": 10,
+                    "code": 13,
+                    "comment": 48,
+                    "filename": "base_local_planner\\include\\base_local_planner\\trajectory_search.h"
+                },
+                {
+                    "blank": 9,
+                    "code": 47,
+                    "comment": 42,
+                    "filename": "base_local_planner\\include\\base_local_planner\\velocity_iterator.h"
+                },
+                {
+                    "blank": 19,
+                    "code": 71,
+                    "comment": 90,
+                    "filename": "base_local_planner\\include\\base_local_planner\\voxel_grid_model.h"
+                },
+                {
+                    "blank": 11,
+                    "code": 40,
+                    "comment": 60,
+                    "filename": "base_local_planner\\include\\base_local_planner\\world_model.h"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "base_local_planner\\msg\\Position2DInt.msg"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "base_local_planner\\package.xml"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 1,
+                    "filename": "base_local_planner\\setup.py"
+                },
+                {
+                    "blank": 26,
+                    "code": 63,
+                    "comment": 53,
+                    "filename": "base_local_planner\\src\\costmap_model.cpp"
+                },
+                {
+                    "blank": 29,
+                    "code": 169,
+                    "comment": 74,
+                    "filename": "base_local_planner\\src\\footprint_helper.cpp"
+                },
+                {
+                    "blank": 33,
+                    "code": 173,
+                    "comment": 49,
+                    "filename": "base_local_planner\\src\\goal_functions.cpp"
+                },
+                {
+                    "blank": 44,
+                    "code": 193,
+                    "comment": 39,
+                    "filename": "base_local_planner\\src\\latched_stop_rotate_controller.cpp"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "base_local_planner\\src\\local_planner_limits\\.gitignore"
+                },
+                {
+                    "blank": 11,
+                    "code": 19,
+                    "comment": 15,
+                    "filename": "base_local_planner\\src\\local_planner_limits\\__init__.py"
+                },
+                {
+                    "blank": 20,
+                    "code": 68,
+                    "comment": 41,
+                    "filename": "base_local_planner\\src\\local_planner_util.cpp"
+                },
+                {
+                    "blank": 4,
+                    "code": 15,
+                    "comment": 33,
+                    "filename": "base_local_planner\\src\\map_cell.cpp"
+                },
+                {
+                    "blank": 42,
+                    "code": 223,
+                    "comment": 46,
+                    "filename": "base_local_planner\\src\\map_grid.cpp"
+                },
+                {
+                    "blank": 13,
+                    "code": 77,
+                    "comment": 41,
+                    "filename": "base_local_planner\\src\\map_grid_cost_function.cpp"
+                },
+                {
+                    "blank": 7,
+                    "code": 44,
+                    "comment": 33,
+                    "filename": "base_local_planner\\src\\map_grid_visualizer.cpp"
+                },
+                {
+                    "blank": 21,
+                    "code": 79,
+                    "comment": 44,
+                    "filename": "base_local_planner\\src\\obstacle_cost_function.cpp"
+                },
+                {
+                    "blank": 11,
+                    "code": 46,
+                    "comment": 41,
+                    "filename": "base_local_planner\\src\\odometry_helper_ros.cpp"
+                },
+                {
+                    "blank": 20,
+                    "code": 114,
+                    "comment": 44,
+                    "filename": "base_local_planner\\src\\oscillation_cost_function.cpp"
+                },
+                {
+                    "blank": 118,
+                    "code": 434,
+                    "comment": 134,
+                    "filename": "base_local_planner\\src\\point_grid.cpp"
+                },
+                {
+                    "blank": 6,
+                    "code": 13,
+                    "comment": 9,
+                    "filename": "base_local_planner\\src\\prefer_forward_cost_function.cpp"
+                },
+                {
+                    "blank": 12,
+                    "code": 94,
+                    "comment": 40,
+                    "filename": "base_local_planner\\src\\simple_scored_sampling_planner.cpp"
+                },
+                {
+                    "blank": 31,
+                    "code": 174,
+                    "comment": 78,
+                    "filename": "base_local_planner\\src\\simple_trajectory_generator.cpp"
+                },
+                {
+                    "blank": 8,
+                    "code": 39,
+                    "comment": 33,
+                    "filename": "base_local_planner\\src\\trajectory.cpp"
+                },
+                {
+                    "blank": 156,
+                    "code": 658,
+                    "comment": 205,
+                    "filename": "base_local_planner\\src\\trajectory_planner.cpp"
+                },
+                {
+                    "blank": 108,
+                    "code": 387,
+                    "comment": 103,
+                    "filename": "base_local_planner\\src\\trajectory_planner_ros.cpp"
+                },
+                {
+                    "blank": 42,
+                    "code": 186,
+                    "comment": 83,
+                    "filename": "base_local_planner\\src\\voxel_grid_model.cpp"
+                },
+                {
+                    "blank": 29,
+                    "code": 99,
+                    "comment": 17,
+                    "filename": "base_local_planner\\test\\footprint_helper_test.cpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 7,
+                    "comment": 6,
+                    "filename": "base_local_planner\\test\\gtest_main.cpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 48,
+                    "comment": 28,
+                    "filename": "base_local_planner\\test\\line_iterator_test.cpp"
+                },
+                {
+                    "blank": 24,
+                    "code": 132,
+                    "comment": 6,
+                    "filename": "base_local_planner\\test\\map_grid_test.cpp"
+                },
+                {
+                    "blank": 8,
+                    "code": 12,
+                    "comment": 6,
+                    "filename": "base_local_planner\\test\\trajectory_generator_test.cpp"
+                },
+                {
+                    "blank": 30,
+                    "code": 137,
+                    "comment": 51,
+                    "filename": "base_local_planner\\test\\utest.cpp"
+                },
+                {
+                    "blank": 18,
+                    "code": 125,
+                    "comment": 36,
+                    "filename": "base_local_planner\\test\\velocity_iterator_test.cpp"
+                },
+                {
+                    "blank": 9,
+                    "code": 30,
+                    "comment": 11,
+                    "filename": "base_local_planner\\test\\wavefront_map_accessor.h"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "carrot_planner\\bgp_plugin.xml"
+                },
+                {
+                    "blank": 14,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "carrot_planner\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 9,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "carrot_planner\\CMakeLists.txt"
+                },
+                {
+                    "blank": 9,
+                    "code": 30,
+                    "comment": 68,
+                    "filename": "carrot_planner\\include\\carrot_planner\\carrot_planner.h"
+                },
+                {
+                    "blank": 9,
+                    "code": 32,
+                    "comment": 2,
+                    "filename": "carrot_planner\\package.xml"
+                },
+                {
+                    "blank": 30,
+                    "code": 101,
+                    "comment": 41,
+                    "filename": "carrot_planner\\src\\carrot_planner.cpp"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "clear_costmap_recovery\\ccr_plugin.xml"
+                },
+                {
+                    "blank": 15,
+                    "code": 50,
+                    "comment": 0,
+                    "filename": "clear_costmap_recovery\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "clear_costmap_recovery\\clearCostMapRecovery-note.txt"
+                },
+                {
+                    "blank": 13,
+                    "code": 56,
+                    "comment": 0,
+                    "filename": "clear_costmap_recovery\\CMakeLists.txt"
+                },
+                {
+                    "blank": 4,
+                    "code": 26,
+                    "comment": 57,
+                    "filename": "clear_costmap_recovery\\include\\clear_costmap_recovery\\clear_costmap_recovery.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "clear_costmap_recovery\\package.xml"
+                },
+                {
+                    "blank": 26,
+                    "code": 94,
+                    "comment": 38,
+                    "filename": "clear_costmap_recovery\\src\\clear_costmap_recovery.cpp"
+                },
+                {
+                    "blank": 23,
+                    "code": 69,
+                    "comment": 0,
+                    "filename": "clear_costmap_recovery\\test\\clear_tester.cpp"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "clear_costmap_recovery\\test\\clear_tests.launch"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "clear_costmap_recovery\\test\\params.yaml"
+                },
+                {
+                    "blank": 6,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "costmap_2d\\cfg\\Costmap2D.cfg"
+                },
+                {
+                    "blank": 2,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "costmap_2d\\cfg\\GenericPlugin.cfg"
+                },
+                {
+                    "blank": 4,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "costmap_2d\\cfg\\InflationPlugin.cfg"
+                },
+                {
+                    "blank": 7,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "costmap_2d\\cfg\\ObstaclePlugin.cfg"
+                },
+                {
+                    "blank": 6,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "costmap_2d\\cfg\\VoxelPlugin.cfg"
+                },
+                {
+                    "blank": 9,
+                    "code": 59,
+                    "comment": 2,
+                    "filename": "costmap_2d\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 28,
+                    "code": 185,
+                    "comment": 2,
+                    "filename": "costmap_2d\\CMakeLists.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "costmap_2d\\costmap-note.txt"
+                },
+                {
+                    "blank": 1,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "costmap_2d\\costmap_plugins.xml"
+                },
+                {
+                    "blank": 5,
+                    "code": 9,
+                    "comment": 39,
+                    "filename": "costmap_2d\\include\\costmap_2d\\array_parser.h"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 38,
+                    "filename": "costmap_2d\\include\\costmap_2d\\cost_values.h"
+                },
+                {
+                    "blank": 56,
+                    "code": 179,
+                    "comment": 237,
+                    "filename": "costmap_2d\\include\\costmap_2d\\costmap_2d.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 44,
+                    "comment": 60,
+                    "filename": "costmap_2d\\include\\costmap_2d\\costmap_2d_publisher.h"
+                },
+                {
+                    "blank": 27,
+                    "code": 109,
+                    "comment": 131,
+                    "filename": "costmap_2d\\include\\costmap_2d\\costmap_2d_ros.h"
+                },
+                {
+                    "blank": 13,
+                    "code": 32,
+                    "comment": 106,
+                    "filename": "costmap_2d\\include\\costmap_2d\\costmap_layer.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 22,
+                    "comment": 40,
+                    "filename": "costmap_2d\\include\\costmap_2d\\costmap_math.h"
+                },
+                {
+                    "blank": 17,
+                    "code": 28,
+                    "comment": 104,
+                    "filename": "costmap_2d\\include\\costmap_2d\\footprint.h"
+                },
+                {
+                    "blank": 23,
+                    "code": 104,
+                    "comment": 83,
+                    "filename": "costmap_2d\\include\\costmap_2d\\inflation_layer.h"
+                },
+                {
+                    "blank": 20,
+                    "code": 45,
+                    "comment": 72,
+                    "filename": "costmap_2d\\include\\costmap_2d\\layer.h"
+                },
+                {
+                    "blank": 28,
+                    "code": 84,
+                    "comment": 68,
+                    "filename": "costmap_2d\\include\\costmap_2d\\layered_costmap.h"
+                },
+                {
+                    "blank": 10,
+                    "code": 39,
+                    "comment": 56,
+                    "filename": "costmap_2d\\include\\costmap_2d\\observation.h"
+                },
+                {
+                    "blank": 15,
+                    "code": 53,
+                    "comment": 99,
+                    "filename": "costmap_2d\\include\\costmap_2d\\observation_buffer.h"
+                },
+                {
+                    "blank": 27,
+                    "code": 73,
+                    "comment": 88,
+                    "filename": "costmap_2d\\include\\costmap_2d\\obstacle_layer.h"
+                },
+                {
+                    "blank": 12,
+                    "code": 46,
+                    "comment": 48,
+                    "filename": "costmap_2d\\include\\costmap_2d\\static_layer.h"
+                },
+                {
+                    "blank": 14,
+                    "code": 88,
+                    "comment": 2,
+                    "filename": "costmap_2d\\include\\costmap_2d\\testing_helper.h"
+                },
+                {
+                    "blank": 22,
+                    "code": 91,
+                    "comment": 41,
+                    "filename": "costmap_2d\\include\\costmap_2d\\voxel_layer.h"
+                },
+                {
+                    "blank": 3,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "costmap_2d\\launch\\example.launch"
+                },
+                {
+                    "blank": 5,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "costmap_2d\\launch\\example_params.yaml"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "costmap_2d\\msg\\VoxelGrid.msg"
+                },
+                {
+                    "blank": 5,
+                    "code": 63,
+                    "comment": 0,
+                    "filename": "costmap_2d\\package.xml"
+                },
+                {
+                    "blank": 43,
+                    "code": 264,
+                    "comment": 66,
+                    "filename": "costmap_2d\\plugins\\inflation_layer.cpp"
+                },
+                {
+                    "blank": 94,
+                    "code": 448,
+                    "comment": 83,
+                    "filename": "costmap_2d\\plugins\\obstacle_layer.cpp"
+                },
+                {
+                    "blank": 43,
+                    "code": 244,
+                    "comment": 57,
+                    "filename": "costmap_2d\\plugins\\static_layer.cpp"
+                },
+                {
+                    "blank": 70,
+                    "code": 298,
+                    "comment": 75,
+                    "filename": "costmap_2d\\plugins\\voxel_layer.cpp"
+                },
+                {
+                    "blank": 7,
+                    "code": 74,
+                    "comment": 37,
+                    "filename": "costmap_2d\\src\\array_parser.cpp"
+                },
+                {
+                    "blank": 74,
+                    "code": 333,
+                    "comment": 78,
+                    "filename": "costmap_2d\\src\\costmap_2d.cpp"
+                },
+                {
+                    "blank": 30,
+                    "code": 146,
+                    "comment": 29,
+                    "filename": "costmap_2d\\src\\costmap_2d_cloud.cpp"
+                },
+                {
+                    "blank": 16,
+                    "code": 100,
+                    "comment": 37,
+                    "filename": "costmap_2d\\src\\costmap_2d_markers.cpp"
+                },
+                {
+                    "blank": 3,
+                    "code": 10,
+                    "comment": 37,
+                    "filename": "costmap_2d\\src\\costmap_2d_node.cpp"
+                },
+                {
+                    "blank": 21,
+                    "code": 105,
+                    "comment": 48,
+                    "filename": "costmap_2d\\src\\costmap_2d_publisher.cpp"
+                },
+                {
+                    "blank": 74,
+                    "code": 414,
+                    "comment": 70,
+                    "filename": "costmap_2d\\src\\costmap_2d_ros.cpp"
+                },
+                {
+                    "blank": 17,
+                    "code": 125,
+                    "comment": 1,
+                    "filename": "costmap_2d\\src\\costmap_layer.cpp"
+                },
+                {
+                    "blank": 10,
+                    "code": 51,
+                    "comment": 28,
+                    "filename": "costmap_2d\\src\\costmap_math.cpp"
+                },
+                {
+                    "blank": 35,
+                    "code": 245,
+                    "comment": 42,
+                    "filename": "costmap_2d\\src\\footprint.cpp"
+                },
+                {
+                    "blank": 6,
+                    "code": 22,
+                    "comment": 29,
+                    "filename": "costmap_2d\\src\\layer.cpp"
+                },
+                {
+                    "blank": 21,
+                    "code": 108,
+                    "comment": 41,
+                    "filename": "costmap_2d\\src\\layered_costmap.cpp"
+                },
+                {
+                    "blank": 33,
+                    "code": 168,
+                    "comment": 58,
+                    "filename": "costmap_2d\\src\\observation_buffer.cpp"
+                },
+                {
+                    "blank": 9,
+                    "code": 43,
+                    "comment": 28,
+                    "filename": "costmap_2d\\test\\array_parser_test.cpp"
+                },
+                {
+                    "blank": 2,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "costmap_2d\\test\\costmap_params.yaml"
+                },
+                {
+                    "blank": 21,
+                    "code": 81,
+                    "comment": 46,
+                    "filename": "costmap_2d\\test\\costmap_tester.cpp"
+                },
+                {
+                    "blank": 29,
+                    "code": 105,
+                    "comment": 43,
+                    "filename": "costmap_2d\\test\\footprint_tests.cpp"
+                },
+                {
+                    "blank": 8,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "costmap_2d\\test\\footprint_tests.launch"
+                },
+                {
+                    "blank": 67,
+                    "code": 228,
+                    "comment": 115,
+                    "filename": "costmap_2d\\test\\inflation_tests.cpp"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "costmap_2d\\test\\inflation_tests.launch"
+                },
+                {
+                    "blank": 218,
+                    "code": 804,
+                    "comment": 155,
+                    "filename": "costmap_2d\\test\\module_tests.cpp"
+                },
+                {
+                    "blank": 46,
+                    "code": 92,
+                    "comment": 117,
+                    "filename": "costmap_2d\\test\\obstacle_tests.cpp"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "costmap_2d\\test\\obstacle_tests.launch"
+                },
+                {
+                    "blank": 4,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "costmap_2d\\test\\simple_driving_test.xml"
+                },
+                {
+                    "blank": 7,
+                    "code": 15,
+                    "comment": 309,
+                    "filename": "costmap_2d\\test\\static_tests.cpp"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "costmap_2d\\test\\static_tests.launch"
+                },
+                {
+                    "filename": "costmap_2d\\test\\TenByTen.pgm",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "costmap_2d\\test\\TenByTen.yaml"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "dwa_local_planner\\blp_plugin.xml"
+                },
+                {
+                    "blank": 14,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "dwa_local_planner\\cfg\\DWAPlanner.cfg"
+                },
+                {
+                    "blank": 15,
+                    "code": 53,
+                    "comment": 1,
+                    "filename": "dwa_local_planner\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 9,
+                    "code": 53,
+                    "comment": 0,
+                    "filename": "dwa_local_planner\\CMakeLists.txt"
+                },
+                {
+                    "blank": 28,
+                    "code": 64,
+                    "comment": 94,
+                    "filename": "dwa_local_planner\\include\\dwa_local_planner\\dwa_planner.h"
+                },
+                {
+                    "blank": 33,
+                    "code": 48,
+                    "comment": 80,
+                    "filename": "dwa_local_planner\\include\\dwa_local_planner\\dwa_planner_ros.h"
+                },
+                {
+                    "blank": 9,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "dwa_local_planner\\package.xml"
+                },
+                {
+                    "blank": 59,
+                    "code": 239,
+                    "comment": 80,
+                    "filename": "dwa_local_planner\\src\\dwa_planner.cpp"
+                },
+                {
+                    "blank": 51,
+                    "code": 185,
+                    "comment": 67,
+                    "filename": "dwa_local_planner\\src\\dwa_planner_ros.cpp"
+                },
+                {
+                    "blank": 14,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "fake_localization\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 9,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "fake_localization\\CMakeLists.txt"
+                },
+                {
+                    "blank": 37,
+                    "code": 129,
+                    "comment": 79,
+                    "filename": "fake_localization\\fake_localization.cpp"
+                },
+                {
+                    "blank": 4,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "fake_localization\\package.xml"
+                },
+                {
+                    "blank": 9,
+                    "code": 28,
+                    "comment": 10,
+                    "filename": "fake_localization\\static_odom_broadcaster.py"
+                },
+                {
+                    "blank": 441,
+                    "code": 21573,
+                    "comment": 17540,
+                    "filename": "git.pdf"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "global_planner\\bgp_plugin.xml"
+                },
+                {
+                    "blank": 6,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "global_planner\\cfg\\GlobalPlanner.cfg"
+                },
+                {
+                    "blank": 8,
+                    "code": 28,
+                    "comment": 1,
+                    "filename": "global_planner\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 10,
+                    "code": 63,
+                    "comment": 0,
+                    "filename": "global_planner\\CMakeLists.txt"
+                },
+                {
+                    "blank": 6,
+                    "code": 32,
+                    "comment": 38,
+                    "filename": "global_planner\\include\\global_planner\\astar.h"
+                },
+                {
+                    "blank": 12,
+                    "code": 47,
+                    "comment": 52,
+                    "filename": "global_planner\\include\\global_planner\\dijkstra.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 56,
+                    "comment": 43,
+                    "filename": "global_planner\\include\\global_planner\\expander.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 22,
+                    "comment": 48,
+                    "filename": "global_planner\\include\\global_planner\\gradient_path.h"
+                },
+                {
+                    "blank": 3,
+                    "code": 12,
+                    "comment": 38,
+                    "filename": "global_planner\\include\\global_planner\\grid_path.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 20,
+                    "comment": 37,
+                    "filename": "global_planner\\include\\global_planner\\orientation_filter.h"
+                },
+                {
+                    "blank": 29,
+                    "code": 73,
+                    "comment": 112,
+                    "filename": "global_planner\\include\\global_planner\\planner_core.h"
+                },
+                {
+                    "blank": 7,
+                    "code": 29,
+                    "comment": 44,
+                    "filename": "global_planner\\include\\global_planner\\potential_calculator.h"
+                },
+                {
+                    "blank": 5,
+                    "code": 12,
+                    "comment": 38,
+                    "filename": "global_planner\\include\\global_planner\\quadratic_calculator.h"
+                },
+                {
+                    "blank": 4,
+                    "code": 26,
+                    "comment": 38,
+                    "filename": "global_planner\\include\\global_planner\\traceback.h"
+                },
+                {
+                    "blank": 5,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "global_planner\\package.xml"
+                },
+                {
+                    "blank": 16,
+                    "code": 45,
+                    "comment": 38,
+                    "filename": "global_planner\\src\\astar.cpp"
+                },
+                {
+                    "blank": 27,
+                    "code": 138,
+                    "comment": 84,
+                    "filename": "global_planner\\src\\dijkstra.cpp"
+                },
+                {
+                    "blank": 38,
+                    "code": 191,
+                    "comment": 93,
+                    "filename": "global_planner\\src\\gradient_path.cpp"
+                },
+                {
+                    "blank": 8,
+                    "code": 40,
+                    "comment": 38,
+                    "filename": "global_planner\\src\\grid_path.cpp"
+                },
+                {
+                    "blank": 11,
+                    "code": 67,
+                    "comment": 36,
+                    "filename": "global_planner\\src\\orientation_filter.cpp"
+                },
+                {
+                    "blank": 17,
+                    "code": 65,
+                    "comment": 38,
+                    "filename": "global_planner\\src\\plan_node.cpp"
+                },
+                {
+                    "blank": 75,
+                    "code": 310,
+                    "comment": 55,
+                    "filename": "global_planner\\src\\planner_core.cpp"
+                },
+                {
+                    "blank": 6,
+                    "code": 34,
+                    "comment": 42,
+                    "filename": "global_planner\\src\\quadratic_calculator.cpp"
+                },
+                {
+                    "filename": "GPATH",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "GRTAGS",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "GTAGS",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 14,
+                    "code": 60,
+                    "comment": 2,
+                    "filename": "map_server\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 12,
+                    "code": 78,
+                    "comment": 0,
+                    "filename": "map_server\\CMakeLists.txt"
+                },
+                {
+                    "blank": 6,
+                    "code": 12,
+                    "comment": 59,
+                    "filename": "map_server\\include\\map_server\\image_loader.h"
+                },
+                {
+                    "blank": 6,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "map_server\\package.xml"
+                },
+                {
+                    "blank": 18,
+                    "code": 92,
+                    "comment": 0,
+                    "filename": "map_server\\scripts\\crop_map"
+                },
+                {
+                    "blank": 24,
+                    "code": 90,
+                    "comment": 48,
+                    "filename": "map_server\\src\\image_loader.cpp"
+                },
+                {
+                    "blank": 23,
+                    "code": 177,
+                    "comment": 51,
+                    "filename": "map_server\\src\\main.cpp"
+                },
+                {
+                    "blank": 28,
+                    "code": 96,
+                    "comment": 44,
+                    "filename": "map_server\\src\\map_saver.cpp"
+                },
+                {
+                    "blank": 1,
+                    "code": 0,
+                    "comment": 8,
+                    "filename": "map_server\\src\\map_server.dox"
+                },
+                {
+                    "blank": 9,
+                    "code": 29,
+                    "comment": 34,
+                    "filename": "map_server\\test\\consumer.py"
+                },
+                {
+                    "blank": 17,
+                    "code": 94,
+                    "comment": 35,
+                    "filename": "map_server\\test\\rtest.cpp"
+                },
+                {
+                    "blank": 3,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "map_server\\test\\rtest.xml"
+                },
+                {
+                    "blank": 8,
+                    "code": 18,
+                    "comment": 36,
+                    "filename": "map_server\\test\\test_constants.cpp"
+                },
+                {
+                    "blank": 4,
+                    "code": 9,
+                    "comment": 30,
+                    "filename": "map_server\\test\\test_constants.h"
+                },
+                {
+                    "filename": "map_server\\test\\testmap.bmp",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "map_server\\test\\testmap.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "map_server\\test\\testmap.yaml"
+                },
+                {
+                    "blank": 6,
+                    "code": 64,
+                    "comment": 39,
+                    "filename": "map_server\\test\\utest.cpp"
+                },
+                {
+                    "blank": 9,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "move_base\\cfg\\MoveBase.cfg"
+                },
+                {
+                    "blank": 14,
+                    "code": 63,
+                    "comment": 0,
+                    "filename": "move_base\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 8,
+                    "code": 59,
+                    "comment": 0,
+                    "filename": "move_base\\CMakeLists.txt"
+                },
+                {
+                    "blank": 42,
+                    "code": 94,
+                    "comment": 97,
+                    "filename": "move_base\\include\\move_base\\move_base.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 53,
+                    "comment": 2,
+                    "filename": "move_base\\package.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "move_base\\planner_test.xml"
+                },
+                {
+                    "blank": 192,
+                    "code": 752,
+                    "comment": 170,
+                    "filename": "move_base\\src\\move_base.cpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 8,
+                    "comment": 29,
+                    "filename": "move_base\\src\\move_base_node.cpp"
+                },
+                {
+                    "blank": 14,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "move_slow_and_clear\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 10,
+                    "code": 49,
+                    "comment": 0,
+                    "filename": "move_slow_and_clear\\CMakeLists.txt"
+                },
+                {
+                    "blank": 8,
+                    "code": 38,
+                    "comment": 38,
+                    "filename": "move_slow_and_clear\\include\\move_slow_and_clear\\move_slow_and_clear.h"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "move_slow_and_clear\\move_slow_and_clear-note.txt"
+                },
+                {
+                    "blank": 9,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "move_slow_and_clear\\package.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "move_slow_and_clear\\recovery_plugin.xml"
+                },
+                {
+                    "blank": 27,
+                    "code": 155,
+                    "comment": 42,
+                    "filename": "move_slow_and_clear\\src\\move_slow_and_clear.cpp"
+                },
+                {
+                    "blank": 14,
+                    "code": 39,
+                    "comment": 1,
+                    "filename": "nav_core\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 4,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "nav_core\\CMakeLists.txt"
+                },
+                {
+                    "blank": 7,
+                    "code": 23,
+                    "comment": 65,
+                    "filename": "nav_core\\include\\nav_core\\base_global_planner.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 19,
+                    "comment": 65,
+                    "filename": "nav_core\\include\\nav_core\\base_local_planner.h"
+                },
+                {
+                    "blank": 6,
+                    "code": 15,
+                    "comment": 54,
+                    "filename": "nav_core\\include\\nav_core\\recovery_behavior.h"
+                },
+                {
+                    "blank": 7,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "nav_core\\package.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "navfn\\bgp_plugin.xml"
+                },
+                {
+                    "blank": 15,
+                    "code": 61,
+                    "comment": 2,
+                    "filename": "navfn\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 14,
+                    "code": 113,
+                    "comment": 0,
+                    "filename": "navfn\\CMakeLists.txt"
+                },
+                {
+                    "blank": 46,
+                    "code": 69,
+                    "comment": 164,
+                    "filename": "navfn\\include\\navfn\\navfn.h"
+                },
+                {
+                    "blank": 22,
+                    "code": 56,
+                    "comment": 113,
+                    "filename": "navfn\\include\\navfn\\navfn_ros.h"
+                },
+                {
+                    "blank": 9,
+                    "code": 33,
+                    "comment": 15,
+                    "filename": "navfn\\include\\navfn\\navwin.h"
+                },
+                {
+                    "blank": 6,
+                    "code": 18,
+                    "comment": 35,
+                    "filename": "navfn\\include\\navfn\\potarr_point.h"
+                },
+                {
+                    "blank": 2,
+                    "code": 4,
+                    "comment": 30,
+                    "filename": "navfn\\include\\navfn\\read_pgm_costmap.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 25,
+                    "comment": 7,
+                    "filename": "navfn\\Makefile.orig"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "navfn\\package.xml"
+                },
+                {
+                    "blank": 173,
+                    "code": 700,
+                    "comment": 273,
+                    "filename": "navfn\\src\\navfn.cpp"
+                },
+                {
+                    "blank": 34,
+                    "code": 69,
+                    "comment": 37,
+                    "filename": "navfn\\src\\navfn_node.cpp"
+                },
+                {
+                    "blank": 82,
+                    "code": 307,
+                    "comment": 60,
+                    "filename": "navfn\\src\\navfn_ros.cpp"
+                },
+                {
+                    "blank": 47,
+                    "code": 278,
+                    "comment": 36,
+                    "filename": "navfn\\src\\navtest.cpp"
+                },
+                {
+                    "blank": 35,
+                    "code": 245,
+                    "comment": 16,
+                    "filename": "navfn\\src\\navwin.cpp"
+                },
+                {
+                    "blank": 10,
+                    "code": 101,
+                    "comment": 32,
+                    "filename": "navfn\\src\\read_pgm_costmap.cpp"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "navfn\\srv\\MakeNavPlan.srv"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "navfn\\srv\\SetCostmap.srv"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "navfn\\test\\CMakeLists.txt"
+                },
+                {
+                    "blank": 25,
+                    "code": 105,
+                    "comment": 31,
+                    "filename": "navfn\\test\\path_calc_test.cpp"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "navfn\\test\\willow_costmap.pgm"
+                },
+                {
+                    "blank": 14,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "navigation\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "navigation\\CMakeLists.txt"
+                },
+                {
+                    "blank": 3,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "navigation\\package.xml"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 2,
+                    "filename": "navigation\\README.rst"
+                },
+                {
+                    "blank": 5,
+                    "code": 13,
+                    "comment": 6,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 15,
+                    "code": 59,
+                    "comment": 2,
+                    "filename": "robot_pose_ekf\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 17,
+                    "code": 90,
+                    "comment": 2,
+                    "filename": "robot_pose_ekf\\CMakeLists.txt"
+                },
+                {
+                    "blank": 5,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "robot_pose_ekf\\example_with_gps.launch"
+                },
+                {
+                    "blank": 9,
+                    "code": 17,
+                    "comment": 34,
+                    "filename": "robot_pose_ekf\\include\\robot_pose_ekf\\nonlinearanalyticconditionalgaussianodo.h"
+                },
+                {
+                    "blank": 31,
+                    "code": 61,
+                    "comment": 90,
+                    "filename": "robot_pose_ekf\\include\\robot_pose_ekf\\odom_estimation.h"
+                },
+                {
+                    "blank": 28,
+                    "code": 62,
+                    "comment": 60,
+                    "filename": "robot_pose_ekf\\include\\robot_pose_ekf\\odom_estimation_node.h"
+                },
+                {
+                    "blank": 6,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "robot_pose_ekf\\package.xml"
+                },
+                {
+                    "blank": 6,
+                    "code": 34,
+                    "comment": 13,
+                    "filename": "robot_pose_ekf\\plotekf.m"
+                },
+                {
+                    "blank": 4,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "robot_pose_ekf\\robot_pose_ekf.launch"
+                },
+                {
+                    "blank": 3,
+                    "code": 9,
+                    "comment": 1,
+                    "filename": "robot_pose_ekf\\scripts\\wtf.py"
+                },
+                {
+                    "blank": 12,
+                    "code": 51,
+                    "comment": 20,
+                    "filename": "robot_pose_ekf\\src\\nonlinearanalyticconditionalgaussianodo.cpp"
+                },
+                {
+                    "blank": 55,
+                    "code": 296,
+                    "comment": 85,
+                    "filename": "robot_pose_ekf\\src\\odom_estimation.cpp"
+                },
+                {
+                    "blank": 96,
+                    "code": 363,
+                    "comment": 86,
+                    "filename": "robot_pose_ekf\\src\\odom_estimation_node.cpp"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "robot_pose_ekf\\srv\\GetStatus.srv"
+                },
+                {
+                    "blank": 43,
+                    "code": 112,
+                    "comment": 46,
+                    "filename": "robot_pose_ekf\\test\\test_robot_pose_ekf.cpp"
+                },
+                {
+                    "blank": 3,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "robot_pose_ekf\\test\\test_robot_pose_ekf.launch"
+                },
+                {
+                    "blank": 30,
+                    "code": 51,
+                    "comment": 38,
+                    "filename": "robot_pose_ekf\\test\\test_robot_pose_ekf_zero_covariance.cpp"
+                },
+                {
+                    "blank": 3,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "robot_pose_ekf\\test\\test_robot_pose_ekf_zero_covariance.launch"
+                },
+                {
+                    "blank": 14,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "rotate_recovery\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 7,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "rotate_recovery\\CMakeLists.txt"
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 57,
+                    "filename": "rotate_recovery\\include\\rotate_recovery\\rotate_recovery.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "rotate_recovery\\package.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "rotate_recovery\\rotate_plugin.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "rotate_recovery\\rotate_recovery.txt"
+                },
+                {
+                    "blank": 29,
+                    "code": 80,
+                    "comment": 46,
+                    "filename": "rotate_recovery\\src\\rotate_recovery.cpp"
+                },
+                {
+                    "blank": 15,
+                    "code": 46,
+                    "comment": 0,
+                    "filename": "voxel_grid\\CHANGELOG.rst"
+                },
+                {
+                    "blank": 7,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "voxel_grid\\CMakeLists.txt"
+                },
+                {
+                    "blank": 52,
+                    "code": 314,
+                    "comment": 77,
+                    "filename": "voxel_grid\\include\\voxel_grid\\voxel_grid.h"
+                },
+                {
+                    "blank": 5,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "voxel_grid\\package.xml"
+                },
+                {
+                    "blank": 31,
+                    "code": 150,
+                    "comment": 40,
+                    "filename": "voxel_grid\\src\\voxel_grid.cpp"
+                },
+                {
+                    "blank": 17,
+                    "code": 70,
+                    "comment": 59,
+                    "filename": "voxel_grid\\test\\voxel_grid_tests.cpp"
+                }
+            ]
+        }
+    ]
+}

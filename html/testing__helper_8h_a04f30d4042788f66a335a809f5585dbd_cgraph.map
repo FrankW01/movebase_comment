@@ -1,0 +1,5 @@
+<map id="addInflationLayer" name="addInflationLayer">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_layer.html#a638403f929a31601ca2a1894f7dc4716" title="costmap_2d::Layer::\linitialize" alt="" coords="201,5,342,47"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_layered_costmap.html#a8afdb4c9795e2383bd5b66b89c748a6b" title="costmap_2d::LayeredCostmap\l::addPlugin" alt="" coords="172,71,371,112"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_layer.html#a97888a23e12ab5b798a854c2f590ae71" title="This is called at the end of initialize(). Override to implement subclass&#45;specific initialization..." alt="" coords="419,5,560,47"/>
+</map>

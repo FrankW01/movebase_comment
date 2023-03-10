@@ -1,0 +1,3 @@
+<map id="costmap_2d::LayeredCostmap::getInscribedRadius" name="costmap_2d::LayeredCostmap::getInscribedRadius">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_inflation_layer.html#ae838b68ddf6d2dce9efca777e8455335" title="LayeredCostmap calls this whenever the footprint there changes (via LayeredCostmap::setFootprint()). Override to be notified of changes to the robot&#39;s footprint. " alt="" coords="252,5,429,47"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="costmap_2d::Costmap2DPublisher::Costmap2DPublisher" name="costmap_2d::Costmap2DPublisher::Costmap2DPublisher">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_costmap2_d.html#a615a4186649d8970111f8a356906b320" title="Accessor for the x size of the costmap in cells. " alt="" coords="276,5,445,47"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_costmap2_d.html#a702f4ed109f94c8513500cf97ff066a4" title="Accessor for the y size of the costmap in cells. " alt="" coords="276,71,445,112"/>
+</map>

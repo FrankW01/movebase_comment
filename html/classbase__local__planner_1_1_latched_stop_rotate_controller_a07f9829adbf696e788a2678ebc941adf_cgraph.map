@@ -1,0 +1,10 @@
+<map id="base_local_planner::LatchedStopRotateController::isGoalReached" name="base_local_planner::LatchedStopRotateController::isGoalReached">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_local_planner_util.html#ab872bb31110cc8cf9d1fa7f5b339c6fd" title="base_local_planner\l::LocalPlannerUtil::\lgetCurrentLimits" alt="" coords="297,5,430,61"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_odometry_helper_ros.html#ada88271c5b81d4a97b81eb51de64f67c" title="base_local_planner\l::OdometryHelperRos\l::getOdom" alt="" coords="290,85,437,141"/>
+<area shape="rect" id="node4" href="$classbase__local__planner_1_1_local_planner_util.html#a0b25669a2eb263677de189f52e2c0e33" title="base_local_planner\l::LocalPlannerUtil::\lgetGoal" alt="" coords="297,165,430,221"/>
+<area shape="rect" id="node6" href="$namespacebase__local__planner.html#a007b4a7cab1ce8354626fa161fc0ea0d" title="return squared distance to check if the goal position has been achieved " alt="" coords="277,246,450,287"/>
+<area shape="rect" id="node7" href="$namespaceglobal__planner.html#a2ac867f1fbf1f4ee1946ef6a371ab7ba" title="global_planner::getYaw" alt="" coords="525,341,681,368"/>
+<area shape="rect" id="node8" href="$namespacebase__local__planner.html#a689257572d08394d8d14ab2d1996590c" title="return angle difference to goal to check if the goal orientation has been achieved ..." alt="" coords="249,363,477,405"/>
+<area shape="rect" id="node9" href="$namespacebase__local__planner.html#a80ea2934aded9d99c3e082dd934ae89c" title="Check whether the robot is stopped or not. " alt="" coords="297,429,430,470"/>
+<area shape="rect" id="node5" href="$namespacebase__local__planner.html#aa0e40cef653b1dd1f828e2090c22b5b8" title="Returns last pose in plan. " alt="" coords="537,173,670,214"/>
+</map>

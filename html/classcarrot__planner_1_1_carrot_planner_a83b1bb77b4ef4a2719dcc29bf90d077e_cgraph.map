@@ -1,0 +1,6 @@
+<map id="carrot_planner::CarrotPlanner::initialize" name="carrot_planner::CarrotPlanner::initialize">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#ac07a4d7573ab5d8daa87e4bbebf43853" title="Return a pointer to the &quot;master&quot; costmap which receives updates from all the layers. " alt="" coords="244,5,441,47"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_costmap2_d.html#ade55f512e27c62cec28a3de5ca775759" title="Accessor for the resolution of the costmap. " alt="" coords="258,71,427,112"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#add1c9e06ffbae7fecc956c3c377f869e" title="Return the current footprint of the robot as a vector of points. " alt="" coords="244,136,441,177"/>
+<area shape="rect" id="node5" href="$classbase__local__planner_1_1_world_model.html#a36d4c808bc441e2b87b0ac038099993a" title="Subclass will implement this method to check a footprint at a given position and orientation for lega..." alt="" coords="253,201,433,243"/>
+</map>

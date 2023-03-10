@@ -1,0 +1,33 @@
+===============================================================================
+EXTENSION NAME : linecount
+EXTENSION VERSION : 0.1.7
+-------------------------------------------------------------------------------
+count time : 2017-07-24 01:04:42
+count workspace : c:\Users\Administrator\Desktop\ros-ws\navigation\navfn
+total files : 21
+total code lines : 2217
+total comment lines : 851
+total blank lines : 531
+
+bgp_plugin.xml, code is 7, comment is 0, blank is 0.
+CHANGELOG.rst, code is 61, comment is 2, blank is 15.
+CMakeLists.txt, code is 113, comment is 0, blank is 14.
+include\navfn\navfn.h, code is 69, comment is 164, blank is 46.
+include\navfn\navfn_ros.h, code is 56, comment is 113, blank is 22.
+include\navfn\navwin.h, code is 33, comment is 15, blank is 9.
+include\navfn\potarr_point.h, code is 18, comment is 35, blank is 6.
+include\navfn\read_pgm_costmap.h, code is 4, comment is 30, blank is 2.
+Makefile.orig, code is 25, comment is 7, blank is 8.
+package.xml, code is 8, comment is 0, blank is 1.
+src\navfn.cpp, code is 700, comment is 273, blank is 173.
+src\navfn_node.cpp, code is 69, comment is 37, blank is 34.
+src\navfn_ros.cpp, code is 307, comment is 60, blank is 82.
+src\navtest.cpp, code is 278, comment is 36, blank is 47.
+src\navwin.cpp, code is 245, comment is 16, blank is 35.
+src\read_pgm_costmap.cpp, code is 101, comment is 32, blank is 10.
+srv\MakeNavPlan.srv, code is 7, comment is 0, blank is 2.
+srv\SetCostmap.srv, code is 4, comment is 0, blank is 0.
+test\CMakeLists.txt, code is 2, comment is 0, blank is 0.
+test\path_calc_test.cpp, code is 105, comment is 31, blank is 25.
+test\willow_costmap.pgm, code is 5, comment is 0, blank is 0.
+===============================================================================

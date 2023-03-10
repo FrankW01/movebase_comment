@@ -1,0 +1,18 @@
+===============================================================================
+EXTENSION NAME : linecount
+EXTENSION VERSION : 0.1.7
+-------------------------------------------------------------------------------
+count time : 2017-07-24 01:06:14
+count workspace : c:\Users\Administrator\Desktop\ros-ws\navigation\voxel_grid
+total files : 6
+total code lines : 627
+total comment lines : 176
+total blank lines : 127
+
+CHANGELOG.rst, code is 46, comment is 0, blank is 15.
+CMakeLists.txt, code is 31, comment is 0, blank is 7.
+include\voxel_grid\voxel_grid.h, code is 314, comment is 77, blank is 52.
+package.xml, code is 16, comment is 0, blank is 5.
+src\voxel_grid.cpp, code is 150, comment is 40, blank is 31.
+test\voxel_grid_tests.cpp, code is 70, comment is 59, blank is 17.
+===============================================================================

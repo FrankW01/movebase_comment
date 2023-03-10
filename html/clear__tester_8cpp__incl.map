@@ -1,0 +1,18 @@
+<map id="navigation/clear_costmap_recovery/test/clear_tester.cpp" name="navigation/clear_costmap_recovery/test/clear_tester.cpp">
+<area shape="rect" id="node4" href="$clear__costmap__recovery_8h.html" title="clear_costmap_recovery\l/clear_costmap_recovery.h" alt="" coords="338,95,515,136"/>
+<area shape="rect" id="node30" href="$testing__helper_8h.html" title="costmap_2d/testing\l_helper.h" alt="" coords="2708,95,2844,136"/>
+<area shape="rect" id="node5" href="$recovery__behavior_8h.html" title="nav_core/recovery_behavior.h" alt="" coords="282,191,473,218"/>
+<area shape="rect" id="node6" href="$costmap__2d__ros_8h.html" title="costmap_2d/costmap\l_2d_ros.h" alt="" coords="437,273,584,315"/>
+<area shape="rect" id="node29" href="$costmap__layer_8h.html" title="costmap_2d/costmap\l_layer.h" alt="" coords="2407,273,2553,315"/>
+<area shape="rect" id="node7" href="$layered__costmap_8h.html" title="costmap_2d/layered\l_costmap.h" alt="" coords="2557,363,2696,404"/>
+<area shape="rect" id="node9" href="$layer_8h.html" title="costmap_2d/layer.h" alt="" coords="2420,459,2556,486"/>
+<area shape="rect" id="node18" href="$costmap__2d__publisher_8h.html" title="costmap_2d/costmap\l_2d_publisher.h" alt="" coords="2003,363,2149,404"/>
+<area shape="rect" id="node23" href="$footprint_8h.html" title="costmap_2d/footprint.h" alt="" coords="613,370,768,397"/>
+<area shape="rect" id="node8" href="$cost__values_8h.html" title="costmap_2d/cost_values.h" alt="" coords="2844,459,3020,486"/>
+<area shape="rect" id="node10" href="$costmap__2d_8h.html" title="costmap_2d/costmap_2d.h" alt="" coords="2509,541,2688,568"/>
+<area shape="rect" id="node31" href="$static__layer_8h.html" title="costmap_2d/static_layer.h" alt="" coords="2554,191,2729,218"/>
+<area shape="rect" id="node34" href="$obstacle__layer_8h.html" title="costmap_2d/obstacle\l_layer.h" alt="" coords="1709,184,1856,225"/>
+<area shape="rect" id="node48" href="$inflation__layer_8h.html" title="costmap_2d/inflation\l_layer.h" alt="" coords="2983,273,3124,315"/>
+<area shape="rect" id="node35" href="$observation__buffer_8h.html" title="costmap_2d/observation\l_buffer.h" alt="" coords="1632,452,1795,493"/>
+<area shape="rect" id="node38" href="$observation_8h.html" title="costmap_2d/observation.h" alt="" coords="1627,541,1800,568"/>
+</map>

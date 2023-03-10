@@ -1,0 +1,15 @@
+<map id="costmap_2d::transformFootprint" name="costmap_2d::transformFootprint">
+<area shape="rect" id="node2" href="$classcostmap__2d_1_1_obstacle_layer.html#ac81261d46ebc829ca1d747c024a00603" title="costmap_2d::ObstacleLayer\l::updateFootprint" alt="" coords="266,69,451,111"/>
+<area shape="rect" id="node7" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a9c3aa244e7890b363a6317500d66e900" title="costmap_2d::Costmap2DROS\l::updateMap" alt="" coords="260,135,457,176"/>
+<area shape="rect" id="node14" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a66b8eaac1ba4252fd663adfddfecbb7e" title="Build the oriented footprint of the robot at the robot&#39;s current pose. " alt="" coords="260,200,457,241"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_obstacle_layer.html#a1bfef13f020e8aa64a33743f72824ebd" title="This is called by the LayeredCostmap to poll this plugin as to how much of the costmap it needs to up..." alt="" coords="511,5,697,47"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_voxel_layer.html#ab28185cd71c8e42f72880b779ef08ae2" title="This is called by the LayeredCostmap to poll this plugin as to how much of the costmap it needs to up..." alt="" coords="521,71,687,112"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_obstacle_layer.html#a4620782e96fabeb0b449daa725857c00" title="costmap_2d::ObstacleLayer\l::ObstacleLayer" alt="" coords="777,5,963,47"/>
+<area shape="rect" id="node6" href="$classcostmap__2d_1_1_voxel_layer.html#a02a7f51ba2b09b61f6ada3d10acf5a20" title="costmap_2d::VoxelLayer\l::VoxelLayer" alt="" coords="787,71,953,112"/>
+<area shape="rect" id="node8" href="$clear__tester_8cpp.html#ae52f25afda509d6ef50c32f8feaae444" title="testCountLethal" alt="" coords="547,141,661,167"/>
+<area shape="rect" id="node10" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a220a578102cf3592a744ad5264bf09ed" title="Set the footprint of the robot to be the given set of points, padded by footprint_padding. " alt="" coords="505,217,703,259"/>
+<area shape="rect" id="node9" href="$clear__tester_8cpp.html#abafd3249b8a1dc81312408e67fec172a" title="TEST" alt="" coords="843,139,897,166"/>
+<area shape="rect" id="node11" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a27b741da068294f35a426f339d721cc2" title="Constructor for the wrapper. " alt="" coords="1037,212,1235,253"/>
+<area shape="rect" id="node12" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a05c662c0ad169c124480ed3d9ee500e8" title="Set the footprint of the robot to be the given polygon, padded by footprint_padding. " alt="" coords="751,241,989,283"/>
+<area shape="rect" id="node13" href="$classcostmap__2d_1_1_costmap2_d_r_o_s.html#a22cf571bfd4cd4434c2d203cd341d2c7" title="costmap_2d::Costmap2DROS\l::~Costmap2DROS" alt="" coords="771,307,969,348"/>
+</map>

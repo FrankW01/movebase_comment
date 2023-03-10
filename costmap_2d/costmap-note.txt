@@ -1,0 +1,5 @@
+layered_costmap: core func: update cost for all layers(static/obstacle/inflate)
+layer: updateBounds updateCost interface
+costmap_layer: core: different update cost method
+costmap2D: map<-->world coordinate transform; uchar* costmap lives here.
+costmap2Dros: just a wrapper

@@ -1,0 +1,30 @@
+===============================================================================
+EXTENSION NAME : linecount
+EXTENSION VERSION : 0.1.7
+-------------------------------------------------------------------------------
+count time : 2017-07-24 01:05:33
+count workspace : c:\Users\Administrator\Desktop\ros-ws\navigation\robot_pose_ekf
+total files : 18
+total code lines : 1291
+total comment lines : 477
+total blank lines : 367
+
+CHANGELOG.rst, code is 59, comment is 2, blank is 15.
+CMakeLists.txt, code is 90, comment is 2, blank is 17.
+example_with_gps.launch, code is 12, comment is 0, blank is 5.
+include\robot_pose_ekf\nonlinearanalyticconditionalgaussianodo.h, code is 17, comment is 34, blank is 9.
+include\robot_pose_ekf\odom_estimation.h, code is 61, comment is 90, blank is 31.
+include\robot_pose_ekf\odom_estimation_node.h, code is 62, comment is 60, blank is 28.
+package.xml, code is 31, comment is 0, blank is 6.
+plotekf.m, code is 34, comment is 13, blank is 6.
+robot_pose_ekf.launch, code is 12, comment is 0, blank is 4.
+scripts\wtf.py, code is 9, comment is 1, blank is 3.
+src\nonlinearanalyticconditionalgaussianodo.cpp, code is 51, comment is 20, blank is 12.
+src\odom_estimation.cpp, code is 296, comment is 85, blank is 55.
+src\odom_estimation_node.cpp, code is 363, comment is 86, blank is 96.
+srv\GetStatus.srv, code is 2, comment is 0, blank is 1.
+test\test_robot_pose_ekf.cpp, code is 112, comment is 46, blank is 43.
+test\test_robot_pose_ekf.launch, code is 16, comment is 0, blank is 3.
+test\test_robot_pose_ekf_zero_covariance.cpp, code is 51, comment is 38, blank is 30.
+test\test_robot_pose_ekf_zero_covariance.launch, code is 13, comment is 0, blank is 3.
+===============================================================================

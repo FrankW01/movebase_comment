@@ -1,0 +1,10 @@
+<map id="navigation/costmap_2d/include/costmap_2d/obstacle_layer.h" name="navigation/costmap_2d/include/costmap_2d/obstacle_layer.h">
+<area shape="rect" id="node3" href="$costmap__layer_8h.html" title="costmap_2d/costmap\l_layer.h" alt="" coords="609,109,756,151"/>
+<area shape="rect" id="node10" href="$layered__costmap_8h.html" title="costmap_2d/layered\l_costmap.h" alt="" coords="305,273,444,315"/>
+<area shape="rect" id="node15" href="$observation__buffer_8h.html" title="costmap_2d/observation\l_buffer.h" alt="" coords="927,273,1089,315"/>
+<area shape="rect" id="node32" href="$footprint_8h.html" title="costmap_2d/footprint.h" alt="" coords="1309,117,1464,143"/>
+<area shape="rect" id="node4" href="$layer_8h.html" title="costmap_2d/layer.h" alt="" coords="464,199,600,225"/>
+<area shape="rect" id="node5" href="$costmap__2d_8h.html" title="costmap_2d/costmap_2d.h" alt="" coords="256,363,435,389"/>
+<area shape="rect" id="node11" href="$cost__values_8h.html" title="costmap_2d/cost_values.h" alt="" coords="5,363,181,389"/>
+<area shape="rect" id="node18" href="$observation_8h.html" title="costmap_2d/observation.h" alt="" coords="1165,363,1339,389"/>
+</map>

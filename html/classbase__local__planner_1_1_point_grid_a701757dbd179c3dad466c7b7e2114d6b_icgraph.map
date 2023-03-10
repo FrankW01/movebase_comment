@@ -1,0 +1,8 @@
+<map id="base_local_planner::PointGrid::getNearestInCell" name="base_local_planner::PointGrid::getNearestInCell">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_point_grid.html#ac2ef35c1ba187bc774ec0c2437ede23a" title="Check if two line segmenst intersect. " alt="" coords="657,16,820,57"/>
+<area shape="rect" id="node3" href="$classbase__local__planner_1_1_point_grid.html#ab0d5b4b745f965826501b9fca2bf7aa7" title="Find the distance between a point and its nearest neighbor in the grid. " alt="" coords="240,30,427,86"/>
+<area shape="rect" id="node4" href="$classbase__local__planner_1_1_point_grid.html#a28e4c85e879080776352bd86b64ccf12" title="Insert a point into the point grid. " alt="" coords="475,81,608,123"/>
+<area shape="rect" id="node5" href="$classbase__local__planner_1_1_point_grid.html#adb8a9a0665445fe274510a86dd0e8277" title="Inserts observations from sensors into the point grid. " alt="" coords="656,81,821,123"/>
+<area shape="rect" id="node7" href="$point__grid_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="921,147,972,174"/>
+<area shape="rect" id="node6" href="$classbase__local__planner_1_1_point_grid.html#adcf3cf7ebf7d52a909fb2744560bf1e4" title="Destructor for a point grid. " alt="" coords="869,81,1024,123"/>
+</map>

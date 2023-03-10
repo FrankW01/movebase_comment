@@ -1,0 +1,9 @@
+<map id="estimation::OdomEstimationNode::~OdomEstimationNode" name="estimation::OdomEstimationNode::~OdomEstimationNode">
+<area shape="rect" id="node2" href="$classestimation_1_1_odom_estimation.html#af2f5fa22f8d559f98ca64e8c8df1fbc9" title="estimation::OdomEstimation\l::addMeasurement" alt="" coords="483,32,669,73"/>
+<area shape="rect" id="node3" href="$classestimation_1_1_odom_estimation.html#a015caf531f3d4f2308fbfde712698445" title="estimation::OdomEstimation\l::isInitialized" alt="" coords="248,162,435,204"/>
+<area shape="rect" id="node4" href="$classestimation_1_1_odom_estimation.html#ae4f5bfb76cebf987c05919e3523a9eec" title="estimation::OdomEstimation\l::getEstimate" alt="" coords="483,228,669,269"/>
+<area shape="rect" id="node7" href="$classestimation_1_1_odom_estimation.html#a91b04be6d9486c1575ce5b9be8e43000" title="estimation::OdomEstimation\l::update" alt="" coords="248,32,435,73"/>
+<area shape="rect" id="node8" href="$classestimation_1_1_odom_estimation.html#ad808cfc8e118991b9ad573793a88eaf8" title="estimation::OdomEstimation\l::initialize" alt="" coords="248,97,435,138"/>
+<area shape="rect" id="node5" href="$classestimation_1_1_odom_estimation.html#a857c19be236a3ea12c1f79bbf1e8fc31" title="estimation::OdomEstimation\l::setOutputFrame" alt="" coords="483,97,669,138"/>
+<area shape="rect" id="node6" href="$classestimation_1_1_odom_estimation.html#af339c8b659c56063d9f627a1d826be42" title="estimation::OdomEstimation\l::setBaseFootprintFrame" alt="" coords="483,162,669,204"/>
+</map>

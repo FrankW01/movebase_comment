@@ -1,0 +1,7 @@
+<map id="costmap_2d::Costmap2D" name="costmap_2d::Costmap2D">
+<area shape="rect" id="node2" href="$classbase__local__planner_1_1_wavefront_map_accessor.html" title="base_local_planner\l::WavefrontMapAccessor" alt="" coords="5,80,172,121"/>
+<area shape="rect" id="node3" href="$classcostmap__2d_1_1_costmap_layer.html" title="costmap_2d::CostmapLayer" alt="" coords="196,87,381,114"/>
+<area shape="rect" id="node4" href="$classcostmap__2d_1_1_obstacle_layer.html" title="costmap_2d::ObstacleLayer" alt="" coords="96,169,281,196"/>
+<area shape="rect" id="node6" href="$classcostmap__2d_1_1_static_layer.html" title="costmap_2d::StaticLayer" alt="" coords="305,169,472,196"/>
+<area shape="rect" id="node5" href="$classcostmap__2d_1_1_voxel_layer.html" title="costmap_2d::VoxelLayer" alt="" coords="105,244,272,271"/>
+</map>
