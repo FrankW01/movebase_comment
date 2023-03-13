@@ -432,7 +432,7 @@ void GlobalPlanner::publishPotential(float* potential)
         } else
             grid.data[i] = potential_array_[i] * publish_scale_ / max;//保证输出的最大值为publish_scale，默认值100挺好的
     }
-    potential_pub_.publish(grid);
+    potential_pub_.publish(grid);//车辆起点附近在costmap显示下，值为0，呈现灰色
 }
 
 } //end namespace global_planner

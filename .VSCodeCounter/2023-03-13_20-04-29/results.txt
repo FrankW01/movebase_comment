@@ -1,0 +1,110 @@
+Date : 2023-03-13 20:04:29
+Directory : /home/nvidia/code/movebase_comment/base_local_planner
+Total : 70 files,  5981 codes, 3483 comments, 1506 blanks, all 10970 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| C++              |         61 |      5,272 |      3,460 |      1,428 |     10,160 |
+| JSON             |          1 |        425 |          0 |          0 |        425 |
+| reStructuredText |          1 |        173 |          0 |         29 |        202 |
+| XML              |          2 |         50 |          0 |          9 |         59 |
+| Properties       |          2 |         33 |         10 |         26 |         69 |
+| Python           |          2 |         26 |         13 |         14 |         53 |
+| ROS Message      |          1 |          2 |          0 |          0 |          2 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                              | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                 |         70 |      5,981 |      3,483 |      1,506 |     10,970 |
+| . (Files)                                                                                                         |          4 |        230 |          1 |         41 |        272 |
+| cfg                                                                                                               |          2 |         33 |         10 |         26 |         69 |
+| include                                                                                                           |         31 |      1,259 |      2,101 |        499 |      3,859 |
+| include/base_local_planner                                                                                        |         31 |      1,259 |      2,101 |        499 |      3,859 |
+| msg                                                                                                               |          1 |          2 |          0 |          0 |          2 |
+| out                                                                                                               |          1 |        425 |          0 |          0 |        425 |
+| src                                                                                                               |         23 |      3,411 |      1,209 |        796 |      5,416 |
+| src (Files)                                                                                                       |         22 |      3,392 |      1,197 |        785 |      5,374 |
+| src/local_planner_limits                                                                                          |          1 |         19 |         12 |         11 |         42 |
+| test                                                                                                              |          8 |        621 |        162 |        144 |        927 |
++-------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                                                                                          | language         | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| /home/nvidia/code/movebase_comment/base_local_planner/CHANGELOG.rst                                               | reStructuredText |        173 |          0 |         29 |        202 |
+| /home/nvidia/code/movebase_comment/base_local_planner/blp_plugin.xml                                              | XML              |          7 |          0 |          1 |          8 |
+| /home/nvidia/code/movebase_comment/base_local_planner/cfg/BaseLocalPlanner.cfg                                    | Properties       |         33 |          3 |         22 |         58 |
+| /home/nvidia/code/movebase_comment/base_local_planner/cfg/LocalPlannerLimits.cfg                                  | Properties       |          0 |          7 |          4 |         11 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/costmap_model.h                  | C++              |         19 |         75 |          9 |        103 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/footprint_helper.h               | C++              |         22 |         56 |         10 |         88 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/goal_functions.h                 | C++              |         41 |        100 |         13 |        154 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/latched_stop_rotate_controller.h | C++              |         55 |         22 |         17 |         94 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/line_iterator.h                  | C++              |         96 |         29 |         19 |        144 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/local_planner_limits.h           | C++              |         73 |         37 |         12 |        122 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/local_planner_util.h             | C++              |         37 |         44 |         31 |        112 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/map_cell.h                       | C++              |         15 |         44 |          9 |         68 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/map_grid.h                       | C++              |         53 |        118 |         30 |        201 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/map_grid_cost_function.h         | C++              |         40 |         82 |         18 |        140 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/map_grid_cost_point.h            | C++              |         24 |         33 |          4 |         61 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/map_grid_visualizer.h            | C++              |         20 |         45 |          7 |         72 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/obstacle_cost_function.h         | C++              |         34 |         43 |         13 |         90 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/odometry_helper_ros.h            | C++              |         26 |         53 |         14 |         93 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/oscillation_cost_function.h      | C++              |         25 |         47 |         18 |         90 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/planar_laser_scan.h              | C++              |         14 |         40 |          4 |         58 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/point_grid.h                     | C++              |        106 |        189 |         32 |        327 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/prefer_forward_cost_function.h   | C++              |         18 |         36 |         11 |         65 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/simple_scored_sampling_planner.h | C++              |         22 |         79 |         18 |        119 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/simple_trajectory_generator.h    | C++              |         57 |         96 |         21 |        174 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/trajectory.h                     | C++              |         24 |         80 |         15 |        119 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/trajectory_cost_function.h       | C++              |         22 |         56 |         13 |         91 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/trajectory_inc.h                 | C++              |         10 |         33 |          5 |         48 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/trajectory_planner.h             | C++              |        126 |        211 |         49 |        386 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/trajectory_planner_ros.h         | C++              |         83 |        114 |         35 |        232 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/trajectory_sample_generator.h    | C++              |         14 |         51 |         11 |         76 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/trajectory_search.h              | C++              |         13 |         48 |         11 |         72 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/twirling_cost_function.h         | C++              |         13 |         43 |          9 |         65 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/velocity_iterator.h              | C++              |         48 |         42 |         10 |        100 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/voxel_grid_model.h               | C++              |         69 |         92 |         19 |        180 |
+| /home/nvidia/code/movebase_comment/base_local_planner/include/base_local_planner/world_model.h                    | C++              |         40 |         63 |         12 |        115 |
+| /home/nvidia/code/movebase_comment/base_local_planner/msg/Position2DInt.msg                                       | ROS Message      |          2 |          0 |          0 |          2 |
+| /home/nvidia/code/movebase_comment/base_local_planner/out/linecount.json                                          | JSON             |        425 |          0 |          0 |        425 |
+| /home/nvidia/code/movebase_comment/base_local_planner/package.xml                                                 | XML              |         43 |          0 |          8 |         51 |
+| /home/nvidia/code/movebase_comment/base_local_planner/setup.py                                                    | Python           |          7 |          1 |          3 |         11 |
+| /home/nvidia/code/movebase_comment/base_local_planner/src/costmap_model.cpp                                       | C++              |         65 |         55 |         26 |        146 |
+| /home/nvidia/code/movebase_comment/base_local_planner/src/footprint_helper.cpp                                    | C++              |        169 |         50 |         30 |        249 |
+| /home/nvidia/code/movebase_comment/base_local_planner/src/goal_functions.cpp                                      | C++              |        179 |         45 |         22 |        246 |
+| /home/nvidia/code/movebase_comment/base_local_planner/src/latched_stop_rotate_controller.cpp                      | C++              |        194 |         40 |         46 |        280 |
+| /home/nvidia/code/movebase_comment/base_local_planner/src/local_planner_limits/__init__.py                        | Python           |         19 |         12 |         11 |         42 |
+| /home/nvidia/code/movebase_comment/base_local_planner/src/local_planner_util.cpp                                  | C++              |         68 |         40 |         21 |        129 |
+| /home/nvidia/code/movebase_comment/base_local_planner/src/map_cell.cpp                                            | C++              |         15 |         33 |          5 |         53 |
+| /home/nvidia/code/movebase_comment/base_local_planner/src/map_grid.cpp                                            | C++              |        230 |         42 |         38 |        310 |
+| /home/nvidia/code/movebase_comment/base_local_planner/src/map_grid_cost_function.cpp                              | C++              |         77 |         41 |         14 |        132 |
+| /home/nvidia/code/movebase_comment/base_local_planner/src/map_grid_visualizer.cpp                                 | C++              |         52 |         33 |         11 |         96 |
+| /home/nvidia/code/movebase_comment/base_local_planner/src/obstacle_cost_function.cpp                              | C++              |         86 |         44 |         23 |        153 |
+| /home/nvidia/code/movebase_comment/base_local_planner/src/odometry_helper_ros.cpp                                 | C++              |         54 |         41 |         12 |        107 |
+| /home/nvidia/code/movebase_comment/base_local_planner/src/oscillation_cost_function.cpp                           | C++              |        114 |         44 |         21 |        179 |
+| /home/nvidia/code/movebase_comment/base_local_planner/src/point_grid.cpp                                          | C++              |        350 |        116 |         91 |        557 |
+| /home/nvidia/code/movebase_comment/base_local_planner/src/point_grid_node.cpp                                     | C++              |        129 |         52 |         41 |        222 |
+| /home/nvidia/code/movebase_comment/base_local_planner/src/prefer_forward_cost_function.cpp                        | C++              |         13 |          9 |          7 |         29 |
+| /home/nvidia/code/movebase_comment/base_local_planner/src/simple_scored_sampling_planner.cpp                      | C++              |         95 |         47 |         12 |        154 |
+| /home/nvidia/code/movebase_comment/base_local_planner/src/simple_trajectory_generator.cpp                         | C++              |        181 |         83 |         33 |        297 |
+| /home/nvidia/code/movebase_comment/base_local_planner/src/trajectory.cpp                                          | C++              |         39 |         33 |          9 |         81 |
+| /home/nvidia/code/movebase_comment/base_local_planner/src/trajectory_planner.cpp                                  | C++              |        666 |        179 |        157 |      1,002 |
+| /home/nvidia/code/movebase_comment/base_local_planner/src/trajectory_planner_ros.cpp                              | C++              |        402 |        105 |        111 |        618 |
+| /home/nvidia/code/movebase_comment/base_local_planner/src/twirling_cost_function.cpp                              | C++              |          7 |          6 |          6 |         19 |
+| /home/nvidia/code/movebase_comment/base_local_planner/src/voxel_grid_model.cpp                                    | C++              |        207 |         59 |         49 |        315 |
+| /home/nvidia/code/movebase_comment/base_local_planner/test/footprint_helper_test.cpp                              | C++              |         99 |         17 |         30 |        146 |
+| /home/nvidia/code/movebase_comment/base_local_planner/test/gtest_main.cpp                                         | C++              |          7 |          6 |          6 |         19 |
+| /home/nvidia/code/movebase_comment/base_local_planner/test/line_iterator_test.cpp                                 | C++              |         48 |         28 |          6 |         82 |
+| /home/nvidia/code/movebase_comment/base_local_planner/test/map_grid_test.cpp                                      | C++              |        163 |         11 |         33 |        207 |
+| /home/nvidia/code/movebase_comment/base_local_planner/test/trajectory_generator_test.cpp                          | C++              |         12 |          6 |          9 |         27 |
+| /home/nvidia/code/movebase_comment/base_local_planner/test/utest.cpp                                              | C++              |        137 |         48 |         31 |        216 |
+| /home/nvidia/code/movebase_comment/base_local_planner/test/velocity_iterator_test.cpp                             | C++              |        125 |         35 |         19 |        179 |
+| /home/nvidia/code/movebase_comment/base_local_planner/test/wavefront_map_accessor.h                               | C++              |         30 |         11 |         10 |         51 |
+| Total                                                                                                             |                  |      5,981 |      3,483 |      1,506 |     10,970 |
++-------------------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+

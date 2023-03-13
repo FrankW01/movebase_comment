@@ -78,7 +78,10 @@ void DijkstraExpansion::setSize(int xs, int ys) {////设置或初始化地图的
 //
 
 bool DijkstraExpansion::calculatePotentials(unsigned char* costs, double start_x, double start_y, double end_x, double end_y,
-                                           int cycles, float* potential) {
+                                           it cycles, float* potential) {
+    if(costs == nullptr){//note zhijie 为了验证cost异常时为null的测试
+        ROS_WARN("the costmap is nullptr");
+    }                                        
     cells_visited_ = 0; //设置已经遍历过的栅格为0
     // priority buffers
     threshold_ = lethal_cost_;//阈值设置为致命代价

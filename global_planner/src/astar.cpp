@@ -51,7 +51,7 @@ bool AStarExpansion::calculatePotentials(unsigned char* costs, double start_x, d
     queue_.push_back(Index(start_i, 0));//0是index这个点的代价，//1.将起点放入队列  起点的代价为0
 
     std::fill(potential, potential + ns_, POT_HIGH);          //2.将所有点的potential都设为一个极大值  先将所有点的潜在代价设置为极大值
-    potential[start_i] = 0;                                   //3.将起点的potential设为0
+    potential[start_i] = 0;                                   //3.将起点的potential设为0，所以呈现灰色
 
     int goal_i = toIndex(end_x, end_y);
     int cycle = 0;

@@ -179,7 +179,7 @@ namespace move_base {
       MoveBaseActionServer* as_;//action服务器？
 
       boost::shared_ptr<nav_core::BaseLocalPlanner> tc_;//局部规划器
-      costmap_2d::Costmap2DROS* planner_costmap_ros_, *controller_costmap_ros_;//两个代价地图
+      costmap_2d::Costmap2DROS* planner_costmap_ros_, *controller_costmap_ros_;//两个代价地图,第一个我知道是全局代价地图
 
       boost::shared_ptr<nav_core::BaseGlobalPlanner> planner_;//全局规划器
       std::string robot_base_frame_, global_frame_;
