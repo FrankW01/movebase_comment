@@ -52,18 +52,18 @@ PLUGINLIB_EXPORT_CLASS(global_planner::GlobalPlanner, nav_core::BaseGlobalPlanne
 
 namespace global_planner {
 
-void GlobalPlanner::outlineMap(unsigned char* costarr, int nx, int ny, unsigned char value) {//是把costmap边缘代价都变成致命代价吗？
+void GlobalPlanner::outlineMap(unsigned char* costarr, int nx, int ny, unsigned char value) {//是把costmap边缘代价都变成致命代价吗？对
     unsigned char* pc = costarr;
-    for (int i = 0; i < nx; i++)
+    for (int i = 0; i < nx; i++)//上边
         *pc++ = value;
     pc = costarr + (ny - 1) * nx;
-    for (int i = 0; i < nx; i++)
+    for (int i = 0; i < nx; i++)//下边
         *pc++ = value;
     pc = costarr;
-    for (int i = 0; i < ny; i++, pc += nx)
+    for (int i = 0; i < ny; i++, pc += nx)//左边
         *pc = value;
     pc = costarr + nx - 1;
-    for (int i = 0; i < ny; i++, pc += nx)
+    for (int i = 0; i < ny; i++, pc += nx)//右边
         *pc = value;
 }
 
