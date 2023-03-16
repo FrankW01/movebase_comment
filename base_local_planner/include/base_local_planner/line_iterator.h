@@ -34,7 +34,7 @@
 namespace base_local_planner
 {
 
-/** An iterator implementing Bresenham Ray-Tracing. */
+/** An iterator implementing Bresenham Ray-Tracing. */ //一个实现 Bresenham 光线追踪的迭代器。 具体没有看
 class LineIterator
 {
 public:

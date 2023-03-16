@@ -39,7 +39,7 @@
 namespace base_local_planner {
   /**
    * @class MapCell
-   * @brief Stores path distance and goal distance information used for scoring trajectories
+   * @brief Stores path distance and goal distance information used for scoring trajectories 存储用于对轨迹进行评分的路径距离和目标距离信息
    */
   class MapCell{
     public:
@@ -54,13 +54,13 @@ namespace base_local_planner {
        */
       MapCell(const MapCell& mc);
 
-      unsigned int cx, cy; ///< @brief Cell index in the grid map
+      unsigned int cx, cy; ///< @brief Cell index in the grid map 网格图中的单元格索引
 
-      double target_dist; ///< @brief Distance to planner's path
+      double target_dist; ///< @brief Distance to planner's path 到规划器路径的距离
 
-      bool target_mark; ///< @brief Marks for computing path/goal distances
+      bool target_mark; ///< @brief Marks for computing path/goal distances 计算路径/目标距离的标记
 
-      bool within_robot; ///< @brief Mark for cells within the robot footprint
+      bool within_robot; ///< @brief Mark for cells within the robot footprint 标记机器人足迹内的单元格
   };
 };
 

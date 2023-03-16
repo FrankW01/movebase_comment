@@ -42,7 +42,7 @@
 
 namespace base_local_planner {
 
-class PreferForwardCostFunction: public base_local_planner::TrajectoryCostFunction {
+class PreferForwardCostFunction: public base_local_planner::TrajectoryCostFunction { //一个是判断小车会不会倒着走，据说DWA没有使用它
 public:
 
   PreferForwardCostFunction(double penalty) : penalty_(penalty) {}

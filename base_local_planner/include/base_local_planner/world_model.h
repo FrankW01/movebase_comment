@@ -47,23 +47,23 @@ namespace base_local_planner {
   /**
    * @class WorldModel
    * @brief An interface the trajectory controller uses to interact with the
-   * world regardless of the underlying world model.
+   * world regardless of the underlying world model. 轨迹控制器用于与世界交互的接口，无论底层世界模型如何。
    */
   class WorldModel{
     public:
       /**
-       * @brief  Subclass will implement this method to check a footprint at a given position and orientation for legality in the world
+       * @brief  Subclass will implement this method to check a footprint at a given position and orientation for legality in the world子类将实现此方法来检查给定位置和方向的足迹在世界上的合法性
        * @param  position The position of the robot in world coordinates
-       * @param  footprint The specification of the footprint of the robot in world coordinates
-       * @param  inscribed_radius The radius of the inscribed circle of the robot
-       * @param  circumscribed_radius The radius of the circumscribed circle of the robot
-       * @return Positive if all the points lie outside the footprint, negative otherwise:
+       * @param  footprint The specification of the footprint of the robot in world coordinates机器人在世界坐标中的足迹规范
+       * @param  inscribed_radius The radius of the inscribed circle of the robot机器人内切圆半径
+       * @param  circumscribed_radius The radius of the circumscribed circle of the robot 机器人外接圆半径
+       * @return Positive if all the points lie outside the footprint, negative otherwise: 如果所有点都位于足迹之外，则为正，否则为负
        *          -1 if footprint covers at least a lethal obstacle cell, or
        *          -2 if footprint covers at least a no-information cell, or
        *          -3 if footprint is partially or totally outside of the map
        */
       virtual double footprintCost(const geometry_msgs::Point& position, const std::vector<geometry_msgs::Point>& footprint,
-          double inscribed_radius, double circumscribed_radius) = 0;
+          double inscribed_radius, double circumscribed_radius) = 0;//虚方法
 
       double footprintCost(double x, double y, double theta, const std::vector<geometry_msgs::Point>& footprint_spec, double inscribed_radius = 0.0, double circumscribed_radius=0.0){
 
@@ -73,7 +73,7 @@ namespace base_local_planner {
         for(unsigned int i = 0; i < footprint_spec.size(); ++i){
           geometry_msgs::Point new_pt;
           new_pt.x = x + (footprint_spec[i].x * cos_th - footprint_spec[i].y * sin_th);
-          new_pt.y = y + (footprint_spec[i].x * sin_th + footprint_spec[i].y * cos_th);
+          new_pt.y = y + (footprint_spec[i].x * sin_th + footprint_spec[i].y * cos_th);//计算footprint的真实位置！！！
           oriented_footprint.push_back(new_pt);
         }
 
@@ -81,15 +81,15 @@ namespace base_local_planner {
         robot_position.x = x;
         robot_position.y = y;
 
-        if(inscribed_radius==0.0){
+        if(inscribed_radius==0.0){//如果内切半径这里等于0，就重新计算内切半径
           costmap_2d::calculateMinAndMaxDistances(footprint_spec, inscribed_radius, circumscribed_radius);
         }
 
-        return footprintCost(robot_position, oriented_footprint, inscribed_radius, circumscribed_radius);
+        return footprintCost(robot_position, oriented_footprint, inscribed_radius, circumscribed_radius);//多态方法
       }
 
       /**
-       * @brief  Checks if any obstacles in the costmap lie inside a convex footprint that is rasterized into the grid
+       * @brief  Checks if any obstacles in the costmap lie inside a convex footprint that is rasterized into the grid 检查成本图中是否有任何障碍物位于被光栅化到网格中的凸足迹内
        * @param  position The position of the robot in world coordinates
        * @param  footprint The specification of the footprint of the robot in world coordinates
        * @param  inscribed_radius The radius of the inscribed circle of the robot

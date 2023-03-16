@@ -48,9 +48,9 @@ namespace base_local_planner {
 /**
  * when scoring a trajectory according to the values in mapgrid, we can take
  *return the value of the last point (if no of the earlier points were in
- * return collision), the sum for all points, or the product of all (non-zero) points
+ * return collision), the sum for all points, or the product of all (non-zero) points * 当根据地图网格中的值对轨迹进行评分时，我们可以返回最后一个点的值（如果之前的点没有返回碰撞），所有点的总和，或所有点的乘积（非零）分
  */
-enum CostAggregationType { Last, Sum, Product};
+enum CostAggregationType { Last, Sum, Product};//成本汇总类型
 
 /**
  * This class provides cost based on a map_grid of a small area of the world.
@@ -63,14 +63,14 @@ enum CostAggregationType { Last, Sum, Product};
  * score hundreds of trajectories very quickly.
  *
  * This can be used to favor trajectories which stay on a given path, or which
- * approach a given goal.
+ * approach a given goal. 此类提供基于世界上一小块区域的 map_grid 的成本。 map_grid 覆盖了一个代价地图，代价地图包含关于感知到的障碍物的信息。 通过将某些单元格设置为距离 0 来使用 map_grid，然后在它们周围传播距离，填充它们周围可达的区域。 使用 grid_maps 的方法用于提高计算效率，允许非常快速地对数百条轨迹进行评分。 这可用于支持留在给定路径上或接近给定目标的轨迹
  * @param costmap_ros Reference to object giving updates of obstacles around robot
- * @param xshift where the scoring point is with respect to robot center pose
+ * @param xshift where the scoring point is with respect to robot center pose  得分点是相对于机器人中心姿势的
  * @param yshift where the scoring point is with respect to robot center pose
- * @param is_local_goal_function, scores for local goal rather than whole path
+ * @param is_local_goal_function, scores for local goal rather than whole path 对于局部目标而不是整个路径
  * @param aggregationType how to combine costs along trajectory
  */
-class MapGridCostFunction: public base_local_planner::TrajectoryCostFunction {//继承了打分基类
+class MapGridCostFunction: public base_local_planner::TrajectoryCostFunction {//继承了打分基类，MapGridCostFunction用来评估局部规划的轨迹离全局规划的轨迹的距离，也可以用来评估到目标的距离
 public:
   MapGridCostFunction(costmap_2d::Costmap2D* costmap,
       double xshift = 0.0,
@@ -81,7 +81,7 @@ public:
   ~MapGridCostFunction() {}
 
   /**
-   * set line segments on the grid with distance 0, resets the grid
+   * set line segments on the grid with distance 0, resets the grid 在距离为0的网格上设置线段，重置网格
    */
   void setTargetPoses(std::vector<geometry_msgs::PoseStamped> target_poses);
 
@@ -94,7 +94,7 @@ public:
   void setStopOnFailure(bool stop_on_failure) {stop_on_failure_ = stop_on_failure;}
 
   /**
-   * propagate distances
+   * propagate distances 传播距离
    */
   bool prepare();
 
@@ -103,34 +103,34 @@ public:
   /**
    * return a value that indicates cell is in obstacle
    */
-  double obstacleCosts() {
+  double obstacleCosts() {//返回一个值，表示单元格处于障碍物中，什么意思？
     return map_.obstacleCosts();
   }
 
   /**
    * returns a value indicating cell was not reached by wavefront
-   * propagation of set cells. (is behind walls, regarding the region covered by grid)
+   * propagation of set cells. (is behind walls, regarding the region covered by grid)//返回一个值，指示单元格未通过设置单元格的波前传播到达。在墙后，关于网格覆盖的区域
    */
-  double unreachableCellCosts() {
+  double unreachableCellCosts() {//这是什么意思？无法到达的代价
     return map_.unreachableCellCosts();
   }
 
-  // used for easier debugging
+  // used for easier debugging用于更容易调试
   double getCellCosts(unsigned int cx, unsigned int cy);
 
 private:
   std::vector<geometry_msgs::PoseStamped> target_poses_;
   costmap_2d::Costmap2D* costmap_;
 
-  base_local_planner::MapGrid map_;
+  base_local_planner::MapGrid map_;//它维护了一个MapGrid，MapGridCostFunction建立后随时知道地图上一个点到全局规划轨迹的距离，或者是到目标的距离。
   CostAggregationType aggregationType_;
   /// xshift and yshift allow scoring for different
   // ooints of robots than center, like fron or back
   // this can help with alignment or keeping specific
-  // wheels on tracks both default to 0
+  // wheels on tracks both default to 0 :xshift 和 yshift 允许对机器人的不同点而不是中心进行评分，例如前向或后向，这有助于对齐或保持轨道上的特定轮子均默认为 0
   double xshift_;
   double yshift_;
-  // if true, we look for a suitable local goal on path, else we use the full path for costs
+  // if true, we look for a suitable local goal on path, else we use the full path for costs  :如果为真，我们在路径上寻找合适的局部目标，否则我们使用完整路径作为成本,什么意思？
   bool is_local_goal_function_;
   bool stop_on_failure_;
 };

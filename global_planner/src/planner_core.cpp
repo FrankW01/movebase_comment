@@ -293,7 +293,7 @@ bool GlobalPlanner::makePlan(const geometry_msgs::PoseStamped& start, const geom
     path_maker_->setSize(nx, ny);
     potential_array_ = new float[nx * ny];//这个可行点矩阵是什么?->代码中，成本矩阵potential_array中单元值potential就是start到该点需要的成本
     //在libros，outline_map_是true。outlineMap作用是把代价格地图中上、下两行，左、右两行栅格置为costmap_2d::LETHAL_OBSTACLE
-    outlineMap(costmap_->getCharMap(), nx, ny, costmap_2d::LETHAL_OBSTACLE);
+    outlineMap(costmap_->getCharMap(), nx, ny, costmap_2d::LETHAL_OBSTACLE);//这里代价地图指针如果为空，全局规划就有问题！！！
     //计算成本矩阵potential_array(planner_->calculatePotentials)
     bool found_legal = planner_->calculatePotentials(costmap_->getCharMap(), start_x, start_y, goal_x, goal_y,
                                                     nx * ny * 2, potential_array_);//计算这个潜在路径是什么东西？这个了寻路算法，生成potential_array_，根据这个potential_array_会产生path

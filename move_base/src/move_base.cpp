@@ -116,14 +116,14 @@ namespace move_base {
     private_nh.param("clearing_rotation_allowed", clearing_rotation_allowed_, true);
     private_nh.param("recovery_behavior_enabled", recovery_behavior_enabled_, true);
 
-    //create the ros wrapper for the planner's costmap... and initializer a pointer we'll use with the underlying map
-    planner_costmap_ros_ = new costmap_2d::Costmap2DROS("global_costmap", tf_);//初始化代价地图
+    //create the ros wrapper for the planner's costmap... and initializer a pointer we'll use with the underlying map 为规划器的成本图创建ros包装器...并初始化一个我们将与底层地图一起使用的指针
+    planner_costmap_ros_ = new costmap_2d::Costmap2DROS("global_costmap", tf_);//初始化全局代价地图
     planner_costmap_ros_->pause();
 
-    //initialize the global planner
+    //initialize the global planner 初始化全局规划器
     try {
-      planner_ = bgp_loader_.createInstance(global_planner);
-      planner_->initialize(bgp_loader_.getName(global_planner), planner_costmap_ros_);
+      planner_ = bgp_loader_.createInstance(global_planner);//创建一个全局规划器的实例
+      planner_->initialize(bgp_loader_.getName(global_planner), planner_costmap_ros_);//调用全局规划器的初始化函数，给全局规划器一个全局代价地图
     } catch (const pluginlib::PluginlibException& ex) {
       ROS_FATAL("Failed to create the %s planner, are you sure it is properly registered and that the containing library is built? Exception: %s", global_planner.c_str(), ex.what());
       exit(1);

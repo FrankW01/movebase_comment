@@ -45,7 +45,7 @@ namespace base_local_planner {
   CostmapModel::CostmapModel(const Costmap2D& ma) : costmap_(ma) {}
 
   double CostmapModel::footprintCost(const geometry_msgs::Point& position, const std::vector<geometry_msgs::Point>& footprint,
-      double inscribed_radius, double circumscribed_radius){
+      double inscribed_radius, double circumscribed_radius){//对footprint中每个点进行cost计算，检测是否发生碰撞
     // returns:
     //  -1 if footprint covers at least a lethal obstacle cell, or
     //  -2 if footprint covers at least a no-information cell, or
@@ -69,7 +69,7 @@ namespace base_local_planner {
       return cost;
     }
 
-    //now we really have to lay down the footprint in the costmap grid
+    //now we really have to lay down the footprint in the costmap grid 现在我们真的必须在成本地图网格中放下脚印
     unsigned int x0, x1, y0, y1;
     double line_cost = 0.0;
     double footprint_cost = 0.0;
@@ -85,7 +85,7 @@ namespace base_local_planner {
         return -3.0;
 
       line_cost = lineCost(x0, x1, y0, y1);
-      footprint_cost = std::max(line_cost, footprint_cost);
+      footprint_cost = std::max(line_cost, footprint_cost);//代价为最大的那条边的代价值
 
       //if there is an obstacle that hits the line... we know that we can return false right away
       if(line_cost < 0)
@@ -93,7 +93,7 @@ namespace base_local_planner {
     }
 
     //we also need to connect the first point in the footprint to the last point
-    //get the cell coord of the last point
+    //get the cell coord of the last point 我们还需要将足迹中的第一个点连接到最后一个点获取最后一个点的单元格坐标
     if(!costmap_.worldToMap(footprint.back().x, footprint.back().y, x0, y0))
       return -3.0;
 
@@ -113,25 +113,25 @@ namespace base_local_planner {
   }
 
   //calculate the cost of a ray-traced line
-  double CostmapModel::lineCost(int x0, int x1, int y0, int y1) const {
+  double CostmapModel::lineCost(int x0, int x1, int y0, int y1) const {//计算线的代价
     double line_cost = 0.0;
     double point_cost = -1.0;
 
     for( LineIterator line( x0, y0, x1, y1 ); line.isValid(); line.advance() )
     {
-      point_cost = pointCost( line.getX(), line.getY() ); //Score the current point
+      point_cost = pointCost( line.getX(), line.getY() ); //Score the current point  计算当前的代价
 
       if(point_cost < 0)
         return point_cost;
 
-      if(line_cost < point_cost)
+      if(line_cost < point_cost)//选择这些线上所有点中最大cost作为这条线的cost
         line_cost = point_cost;
     }
 
     return line_cost;
   }
 
-  double CostmapModel::pointCost(int x, int y) const {
+  double CostmapModel::pointCost(int x, int y) const {//计算点的代价
     unsigned char cost = costmap_.getCost(x, y);
     //if the cell is in an obstacle the path is invalid
     if(cost == NO_INFORMATION)

@@ -45,7 +45,7 @@ namespace base_local_planner {
   /**
    * @class CostmapModel
    * @brief A class that implements the WorldModel interface to provide grid
-   * based collision checks for the trajectory controller using the costmap.
+   * based collision checks for the trajectory controller using the costmap. 一个实现 WorldModel 接口的类，使用成本图为轨迹控制器提供基于网格的碰撞检查
    */
   class CostmapModel : public WorldModel {
     public:
@@ -77,7 +77,7 @@ namespace base_local_planner {
           double inscribed_radius, double circumscribed_radius);
 
       /**
-       * @brief  Rasterizes a line in the costmap grid and checks for collisions
+       * @brief  Rasterizes a line in the costmap grid and checks for collisions 栅格化代价地图网格中的一条线并检查碰撞
        * @param x0 The x position of the first cell in grid coordinates
        * @param y0 The y position of the first cell in grid coordinates
        * @param x1 The x position of the second cell in grid coordinates
@@ -87,7 +87,7 @@ namespace base_local_planner {
       double lineCost(int x0, int x1, int y0, int y1) const;
 
       /**
-       * @brief  Checks the cost of a point in the costmap
+       * @brief  Checks the cost of a point in the costmap 检查成本图中某个点的成本
        * @param x The x position of the point in cell coordinates
        * @param y The y position of the point in cell coordinates
        * @return A positive cost for a legal point... negative otherwise
@@ -95,7 +95,7 @@ namespace base_local_planner {
       double pointCost(int x, int y) const;
 
     private:
-      const costmap_2d::Costmap2D& costmap_; ///< @brief Allows access of costmap obstacle information
+      const costmap_2d::Costmap2D& costmap_; ///< @brief Allows access of costmap obstacle information 允许访问成本地图障碍信息
 
   };
 };

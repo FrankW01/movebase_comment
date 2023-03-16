@@ -53,7 +53,7 @@ namespace base_local_planner {
 *在每次批处理运行之前调用prepare方法，然后针对每个批处理运行调用prepare方法
 *采样集的轨迹，score_轨迹可以称为。
  */
-class TrajectoryCostFunction {//对轨迹进行打分
+class TrajectoryCostFunction {//对轨迹进行打分 轨迹代价的抽象类，TrajectoryCostFunction可是说是最重要的一个接口。
 public:
 
   /**
@@ -66,7 +66,7 @@ public:
   /**
    * return a score for trajectory traj
    */
-  virtual double scoreTrajectory(Trajectory &traj) = 0;
+  virtual double scoreTrajectory(Trajectory &traj) = 0;//主要规定了一个scoreTrajectory函数，也就是走过一个轨迹需要付出的代价
 
   double getScale() {
     return scale_;

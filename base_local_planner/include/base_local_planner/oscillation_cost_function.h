@@ -43,7 +43,7 @@
 
 namespace base_local_planner {
 
-class OscillationCostFunction: public base_local_planner::TrajectoryCostFunction {//继承打分基类  振荡代价
+class OscillationCostFunction: public base_local_planner::TrajectoryCostFunction {//继承打分基类  振荡代价，一个是判断小车是不是老是震动
 public:
   OscillationCostFunction();
   virtual ~OscillationCostFunction();
@@ -67,7 +67,7 @@ private:
   void resetOscillationFlagsIfPossible(const Eigen::Vector3f& pos, const Eigen::Vector3f& prev);
 
   /**
-   * @brief  Given a trajectory that's selected, set flags if needed to
+   * @brief  Given a trajectory that's selected, set flags if needed to 给定选定的轨迹，根据需要设置标志以防止机器人振荡
    * prevent the robot from oscillating
    * @param  t The selected trajectory
    * @return True if a flag was set, false otherwise

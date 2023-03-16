@@ -105,7 +105,7 @@ namespace base_local_planner{
 
     //if the cell is an obstacle set the max path distance
     unsigned char cost = costmap.getCost(check_cell->cx, check_cell->cy);
-    if(! getCell(check_cell->cx, check_cell->cy).within_robot &&
+    if(! getCell(check_cell->cx, check_cell->cy).within_robot &&//如果这个cell在足迹之内，或者代价是致死代价，就把这个cell的target_dist设置为size(),并且返回false
         (cost == costmap_2d::LETHAL_OBSTACLE ||
          cost == costmap_2d::INSCRIBED_INFLATED_OBSTACLE ||
          cost == costmap_2d::NO_INFORMATION)){
@@ -114,24 +114,24 @@ namespace base_local_planner{
     }
 
     double new_target_dist = current_cell->target_dist + 1;
-    if (new_target_dist < check_cell->target_dist) {
+    if (new_target_dist < check_cell->target_dist) {//如果当前代价+1 小于 check_cell 的原有代价，则将其更新为更小值
       check_cell->target_dist = new_target_dist;
     }
     return true;
   }
 
 
-  //reset the path_dist and goal_dist fields for all cells
+  //reset the path_dist and goal_dist fields for all cells 重置所有单元格的 path_dist 和 goal_dist 字段
   void MapGrid::resetPathDist(){
     for(unsigned int i = 0; i < map_.size(); ++i) {
-      map_[i].target_dist = unreachableCellCosts();
+      map_[i].target_dist = unreachableCellCosts();//重置的时候代价为不可达代价，只有这里用到不可达？怎么判断在墙后？
       map_[i].target_mark = false;
       map_[i].within_robot = false;
     }
   }
 
   void MapGrid::adjustPlanResolution(const std::vector<geometry_msgs::PoseStamped>& global_plan_in,
-      std::vector<geometry_msgs::PoseStamped>& global_plan_out, double resolution) {
+      std::vector<geometry_msgs::PoseStamped>& global_plan_out, double resolution) {//根据分辨率来调整路径点，这个具体实现没有看！
     if (global_plan_in.size() == 0) {
       return;
     }
@@ -169,7 +169,7 @@ namespace base_local_planner{
 
   //update what map cells are considered path based on the global_plan
   void MapGrid::setTargetCells(const costmap_2d::Costmap2D& costmap,
-      const std::vector<geometry_msgs::PoseStamped>& global_plan) {
+      const std::vector<geometry_msgs::PoseStamped>& global_plan) {//只把局部路径的所有点作为0代价
     sizeCheck(costmap.getSizeInCellsX(), costmap.getSizeInCellsY());
 
     bool started_path = false;
@@ -206,9 +206,9 @@ namespace base_local_planner{
     computeTargetDistance(path_dist_queue, costmap);
   }
 
-  //mark the point of the costmap as local goal where global_plan first leaves the area (or its last point)
+  //mark the point of the costmap as local goal where global_plan first leaves the area (or its last point) 将代价地图的点标记为 global_plan 首先离开该区域（或其最后一个点）的局部目标
   void MapGrid::setLocalGoal(const costmap_2d::Costmap2D& costmap,
-      const std::vector<geometry_msgs::PoseStamped>& global_plan) {
+      const std::vector<geometry_msgs::PoseStamped>& global_plan) {//只把局部路径的最后一个点作为0代价
     sizeCheck(costmap.getSizeInCellsX(), costmap.getSizeInCellsY());
 
     int local_goal_x = -1;
@@ -222,18 +222,18 @@ namespace base_local_planner{
     for (unsigned int i = 0; i < adjusted_global_plan.size(); ++i) {
       double g_x = adjusted_global_plan[i].pose.position.x;
       double g_y = adjusted_global_plan[i].pose.position.y;
-      unsigned int map_x, map_y;
+      unsigned int map_x, map_y;//转换为地图的坐标
       if (costmap.worldToMap(g_x, g_y, map_x, map_y) && costmap.getCost(map_x, map_y) != costmap_2d::NO_INFORMATION) {
         local_goal_x = map_x;
         local_goal_y = map_y;
         started_path = true;
       } else {
         if (started_path) {
-          break;
-        }// else we might have a non pruned path, so we just continue
+          break; 
+        }// else we might have a non pruned path, so we just continue 否则我们可能有一条未修剪的路径，所以我们继续 ，什么意思？
       }
     }
-    if (!started_path) {
+    if (!started_path) {//也就是说全局路径没有一个点在局部代价地图中
       ROS_ERROR("None of the points of the global plan were in the local costmap, global plan points too far from robot");
       return;
     }
@@ -241,7 +241,7 @@ namespace base_local_planner{
     queue<MapCell*> path_dist_queue;
     if (local_goal_x >= 0 && local_goal_y >= 0) {
       MapCell& current = getCell(local_goal_x, local_goal_y);
-      costmap.mapToWorld(local_goal_x, local_goal_y, goal_x_, goal_y_);
+      costmap.mapToWorld(local_goal_x, local_goal_y, goal_x_, goal_y_);//这个goal_x_是全局坐标
       current.target_dist = 0.0;
       current.target_mark = true;
       path_dist_queue.push(&current);
@@ -252,7 +252,7 @@ namespace base_local_planner{
 
 
 
-  void MapGrid::computeTargetDistance(queue<MapCell*>& dist_queue, const costmap_2d::Costmap2D& costmap){
+  void MapGrid::computeTargetDistance(queue<MapCell*>& dist_queue, const costmap_2d::Costmap2D& costmap){//利用wave propagation的效果对队列进行膨胀
     MapCell* current_cell;
     MapCell* check_cell;
     unsigned int last_col = size_x_ - 1;
@@ -265,9 +265,9 @@ namespace base_local_planner{
 
       if(current_cell->cx > 0){
         check_cell = current_cell - 1;
-        if(!check_cell->target_mark){
+        if(!check_cell->target_mark){//这个target_mark是这个cell是否被访问的标志
           //mark the cell as visisted
-          check_cell->target_mark = true;
+          check_cell->target_mark = true;//表示访问过
           if(updatePathCell(current_cell, check_cell, costmap)) {
             dist_queue.push(check_cell);
           }

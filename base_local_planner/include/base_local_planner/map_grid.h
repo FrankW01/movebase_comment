@@ -133,15 +133,15 @@ namespace base_local_planner{
       /**
        * return a value that indicates cell is in obstacle
        */
-      inline double obstacleCosts() {
+      inline double obstacleCosts() {//返回这个障碍物的代价
         return map_.size();
       }
 
       /**
        * returns a value indicating cell was not reached by wavefront
-       * propagation of set cells. (is behind walls, regarding the region covered by grid)
+       * propagation of set cells. (is behind walls, regarding the region covered by grid)  返回一个值，指示单元格未通过设置单元格的波前传播到达。 （在墙后，关于网格覆盖的区域）
        */
-      inline double unreachableCellCosts() {
+      inline double unreachableCellCosts() {//这个是无法达到的地方，比如墙的后边
         return map_.size() + 1;
       }
 
@@ -173,7 +173,7 @@ namespace base_local_planner{
        * @brief  Compute the distance from each cell in the local map grid to the local goal point
        * @param goal_queue A queue containing the local goal cell 
        */
-      void computeGoalDistance(std::queue<MapCell*>& dist_queue, const costmap_2d::Costmap2D& costmap);
+      void computeGoalDistance(std::queue<MapCell*>& dist_queue, const costmap_2d::Costmap2D& costmap);//没有进行具体实现
 
       /**
        * @brief Update what cells are considered path based on the global plan 

@@ -50,7 +50,7 @@ MapGridCostFunction::MapGridCostFunction(costmap_2d::Costmap2D* costmap,
     xshift_(xshift),
     yshift_(yshift),
     is_local_goal_function_(is_local_goal_function),
-    stop_on_failure_(true) {}
+    stop_on_failure_(true) {}//初始化列表按照成员声明顺序进行初始化是很好的
 
 void MapGridCostFunction::setTargetPoses(std::vector<geometry_msgs::PoseStamped> target_poses) {
   target_poses_ = target_poses;
@@ -68,23 +68,23 @@ bool MapGridCostFunction::prepare() {
 }
 
 double MapGridCostFunction::getCellCosts(unsigned int px, unsigned int py) {
-  double grid_dist = map_(px, py).target_dist;
+  double grid_dist = map_(px, py).target_dist;//这个是对哪个map进行的计算？
   return grid_dist;
 }
 
 double MapGridCostFunction::scoreTrajectory(Trajectory &traj) {
   double cost = 0.0;
-  if (aggregationType_ == Product) {
+  if (aggregationType_ == Product) {//如果代价是使用乘法，那就cost初始值为1
     cost = 1.0;
   }
   double px, py, pth;
   unsigned int cell_x, cell_y;
   double grid_dist;
 
-  for (unsigned int i = 0; i < traj.getPointsSize(); ++i) {
+  for (unsigned int i = 0; i < traj.getPointsSize(); ++i) {//对轨迹中的每个点进行遍历
     traj.getPoint(i, px, py, pth);
 
-    // translate point forward if specified
+    // translate point forward if specified 如果指定，向前翻译点
     if (xshift_ != 0.0) {
       px = px + xshift_ * cos(pth);
       py = py + xshift_ * sin(pth);
@@ -94,7 +94,7 @@ double MapGridCostFunction::scoreTrajectory(Trajectory &traj) {
       px = px + yshift_ * cos(pth + M_PI_2);
       py = py + yshift_ * sin(pth + M_PI_2);
     }
-
+    //我们不允许偏离地图的轨迹......无论如何不应该经常发生
     //we won't allow trajectories that go off the map... shouldn't happen that often anyways
     if ( ! costmap_->worldToMap(px, py, cell_x, cell_y)) {
       //we're off the map
@@ -102,7 +102,7 @@ double MapGridCostFunction::scoreTrajectory(Trajectory &traj) {
       return -4.0;
     }
     grid_dist = getCellCosts(cell_x, cell_y);
-    //if a point on this trajectory has no clear path to the goal... it may be invalid
+    //if a point on this trajectory has no clear path to the goal... it may be invalid 如果这条轨迹上的一个点没有通往目标的明确路径……它可能是无效的
     if (stop_on_failure_) {
       if (grid_dist == map_.obstacleCosts()) {
         return -3.0;
@@ -111,7 +111,7 @@ double MapGridCostFunction::scoreTrajectory(Trajectory &traj) {
       }
     }
 
-    switch( aggregationType_ ) {
+    switch( aggregationType_ ) {//这个来维护最终的代价计算
     case Last:
       cost = grid_dist;
       break;

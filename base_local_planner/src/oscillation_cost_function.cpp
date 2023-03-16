@@ -49,16 +49,16 @@ OscillationCostFunction::~OscillationCostFunction() {
 }
 
 void OscillationCostFunction::setOscillationResetDist(double dist, double angle) {
-  oscillation_reset_dist_ = dist;
-  oscillation_reset_angle_ = angle;
+  oscillation_reset_dist_ = dist;//这个是振荡重置距离
+  oscillation_reset_angle_ = angle;//振荡重置角度
 }
 
-void OscillationCostFunction::updateOscillationFlags(Eigen::Vector3f pos, base_local_planner::Trajectory* traj, double min_vel_trans) {
+void OscillationCostFunction::updateOscillationFlags(Eigen::Vector3f pos, base_local_planner::Trajectory* traj, double min_vel_trans) {//更新振荡标志
   if (traj->cost_ >= 0) {
     if (setOscillationFlags(traj, min_vel_trans)) {
-      prev_stationary_pos_ = pos;
+      prev_stationary_pos_ = pos;//更新pre pose
     }
-    //if we've got restrictions... check if we can reset any oscillation flags
+    //if we've got restrictions... check if we can reset any oscillation flags  如果我们有限制...检查我们是否可以重置任何振荡标志
     if(forward_pos_only_ || forward_neg_only_
         || strafe_pos_only_ || strafe_neg_only_
         || rot_pos_only_ || rot_neg_only_){
@@ -81,7 +81,7 @@ void OscillationCostFunction::resetOscillationFlagsIfPossible(const Eigen::Vecto
   }
 }
 
-void OscillationCostFunction::resetOscillationFlags() {
+void OscillationCostFunction::resetOscillationFlags() {//重置振荡
   strafe_pos_only_ = false;
   strafe_neg_only_ = false;
   strafing_pos_ = false;
@@ -100,14 +100,14 @@ void OscillationCostFunction::resetOscillationFlags() {
 
 bool OscillationCostFunction::setOscillationFlags(base_local_planner::Trajectory* t, double min_vel_trans) {
   bool flag_set = false;
-  //set oscillation flags for moving forward and backward
-  if (t->xv_ < 0.0) {
+  //set oscillation flags for moving forward and backward 设置向前和向后移动的振荡标志
+  if (t->xv_ < 0.0) {//如果轨迹速度为负
     if (forward_pos_) {
       forward_neg_only_ = true;
       flag_set = true;
     }
-    forward_pos_ = false;
-    forward_neg_ = true;
+    forward_pos_ = false;//正速度false
+    forward_neg_ = true;//负速度true
   }
   if (t->xv_ > 0.0) {
     if (forward_neg_) {
@@ -118,9 +118,9 @@ bool OscillationCostFunction::setOscillationFlags(base_local_planner::Trajectory
     forward_pos_ = true;
   }
 
-  //we'll only set flags for strafing and rotating when we're not moving forward at all
-  if (fabs(t->xv_) <= min_vel_trans) {
-    //check negative strafe
+  //we'll only set flags for strafing and rotating when we're not moving forward at all 我们只会在完全不向前移动时设置扫射和旋转标志
+  if (fabs(t->xv_) <= min_vel_trans) { //只有前向速度小于最小速度min_vel_trans，我们才会检测旋转振荡
+    //check negative strafe 检查负扫射
     if (t->yv_ < 0) {
       if (strafing_pos_) {
         strafe_neg_only_ = true;
@@ -169,7 +169,7 @@ double OscillationCostFunction::scoreTrajectory(Trajectory &traj) {
       (strafe_pos_only_  && traj.yv_ < 0.0) ||
       (strafe_neg_only_  && traj.yv_ > 0.0) ||
       (rot_pos_only_     && traj.thetav_ < 0.0) ||
-      (rot_neg_only_     && traj.thetav_ > 0.0)) {
+      (rot_neg_only_     && traj.thetav_ > 0.0)) {//如果仅正，但是轨迹是反，则认为振荡，代价为-5，但这些flag是怎么设置我不清楚
     return -5.0;
   }
   return 0.0;
