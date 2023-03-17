@@ -162,7 +162,7 @@ namespace base_local_planner {
 
       private_nh.param("sim_time", sim_time, 1.0);
       private_nh.param("sim_granularity", sim_granularity, 0.025);
-      private_nh.param("angular_sim_granularity", angular_sim_granularity, sim_granularity);
+      private_nh.param("angular_sim_granularity", angular_sim_granularity, sim_granularity);//角度模拟粒度如果没有提供值，就使用上一个值
       private_nh.param("vx_samples", vx_samples, 3);
       private_nh.param("vtheta_samples", vtheta_samples, 20);
 

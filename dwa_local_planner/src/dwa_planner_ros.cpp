@@ -139,7 +139,7 @@ namespace dwa_local_planner {
     }
   }
   
-  bool DWAPlannerROS::setPlan(const std::vector<geometry_msgs::PoseStamped>& orig_global_plan) {
+  bool DWAPlannerROS::setPlan(const std::vector<geometry_msgs::PoseStamped>& orig_global_plan) {//(DWAPlannerROS::setPlan)把makePlan规划出的结果原样赋值给planner_util_.global_plan_
     if (! isInitialized()) {
       ROS_ERROR("This planner has not been initialized, please call initialize() before using this planner");
       return false;
@@ -185,7 +185,7 @@ namespace dwa_local_planner {
 
 
 
-  bool DWAPlannerROS::dwaComputeVelocityCommands(geometry_msgs::PoseStamped &global_pose, geometry_msgs::Twist& cmd_vel) {//通过dwa规划速度
+  bool DWAPlannerROS::dwaComputeVelocityCommands(geometry_msgs::PoseStamped &global_pose, geometry_msgs::Twist& cmd_vel) {//通过dwa规划速度，move_bae通过接口computeVelocityCommands进行本地路径规划来具体调用
     // dynamic window sampling approach to get useful velocity commands
     if(! isInitialized()){
       ROS_ERROR("This planner has not been initialized, please call initialize() before using this planner");
@@ -269,16 +269,16 @@ namespace dwa_local_planner {
     if ( ! costmap_ros_->getRobotPose(current_pose_)) {//检测是否能获取位置
       ROS_ERROR("Could not get robot pose");//频繁报错，getRobotPose返回值是false
       return false;
-    }
+    }//在函数一开始先通过代价地图对象获取机器人的位姿。DWAPlannerROS运行在本地代价地图，它的全局坐标系是odom，current_pose_就是base_footprint-->odom的tf。
     std::vector<geometry_msgs::PoseStamped> transformed_plan;
     //通过局部路径规划器获得全局路径在局部地图下的映射，映射的末端即为局部子目标点。映射失败时会有报错提醒
-    if ( ! planner_util_.getLocalPlan(current_pose_, transformed_plan)) {
+    if ( ! planner_util_.getLocalPlan(current_pose_, transformed_plan)) {//然后通过planner_util_对象的getLocalPlan接口，在全局轨迹中截取从当前位置到终点之间的路径，用本地变量transformed_plan记录
       ROS_ERROR("Could not get local plan");
       return false;
     }
 
     //if the global plan passed in is empty... we won't do anything
-    if(transformed_plan.empty()) {//如果转换到当前空间下的路径是空的，则报错
+    if(transformed_plan.empty()) {//如果转换到当前空间下的路径是空的，则报错，如果剩余的路径是空的，就没有继续规划的必要了。
       ROS_WARN_NAMED("dwa_local_planner", "Received an empty transformed plan.");
       return false;
     }
@@ -287,13 +287,13 @@ namespace dwa_local_planner {
     // update plan in dwa_planner even if we just stop and rotate, to allow checkTrajectory
     // 在dwa_planner中更新计划，即使我们只是停止并旋转，以允许检查轨迹
     //更新局部路径及局部地图
-    dp_->updatePlanAndLocalCosts(current_pose_, transformed_plan, costmap_ros_->getRobotFootprint());
+    dp_->updatePlanAndLocalCosts(current_pose_, transformed_plan, costmap_ros_->getRobotFootprint());//更新规划器的轨迹和本地代价。怎么更新的没有具体看！具体怎么更新原有代价地图的？还不清楚
     //检测是否到达目标点
-    if (latchedStopRotateController_.isPositionReached(&planner_util_, current_pose_)) {
+    if (latchedStopRotateController_.isPositionReached(&planner_util_, current_pose_)) {// 如果我们到达了终点，就发布空路径，同时通过辅助对象控制机器人停下来。
       //publish an empty plan because we've reached our goal position
       std::vector<geometry_msgs::PoseStamped> local_plan;
       std::vector<geometry_msgs::PoseStamped> transformed_plan;
-      publishGlobalPlan(transformed_plan);
+      publishGlobalPlan(transformed_plan);//发布局部下的全局路径,这个全局路径确实只要在框内的就压入,这里确实是有争议的
       publishLocalPlan(local_plan);//发布空计划
       base_local_planner::LocalPlannerLimits limits = planner_util_.getCurrentLimits();
       return latchedStopRotateController_.computeVelocityCommandsStopRotate(
@@ -304,8 +304,8 @@ namespace dwa_local_planner {
           odom_helper_,
           current_pose_,
           boost::bind(&DWAPlanner::checkTrajectory, dp_, _1, _2, _3));
-    } else {
-      bool isOk = dwaComputeVelocityCommands(current_pose_, cmd_vel);//通过dwa算法规划速度
+    } else {//没有到达目标位置，我们就通过成员函数dwaComputeVelocityCommands计算速度控制指令，并发布路径。
+      bool isOk = dwaComputeVelocityCommands(current_pose_, cmd_vel);//通过dwa算法规划速度第二层接口
       if (isOk) {
         publishGlobalPlan(transformed_plan);
       } else {

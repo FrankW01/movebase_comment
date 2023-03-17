@@ -102,9 +102,9 @@ bool LocalPlannerUtil::setPlan(const std::vector<geometry_msgs::PoseStamped>& or
   return true;
 }
 
-bool LocalPlannerUtil::getLocalPlan(const geometry_msgs::PoseStamped& global_pose, std::vector<geometry_msgs::PoseStamped>& transformed_plan) {
+bool LocalPlannerUtil::getLocalPlan(const geometry_msgs::PoseStamped& global_pose, std::vector<geometry_msgs::PoseStamped>& transformed_plan) {//原因是上面所说的“getLocalPlan除了截取剩余轨迹之外， 还会将全局轨迹点转换到代价地图的坐标系下”
   //get the global plan in our frame
-  if(!base_local_planner::transformGlobalPlan(
+  if(!base_local_planner::transformGlobalPlan(//将全局路径截取costmap中的部分，并且转化到costmap中的具体实现，具体没有干
       *tf_,
       global_plan_,
       global_pose,

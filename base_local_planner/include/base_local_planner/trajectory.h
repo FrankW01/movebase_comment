@@ -53,15 +53,15 @@ namespace base_local_planner {
        * @param xv The x velocity used to seed the trajectory
        * @param yv The y velocity used to seed the trajectory
        * @param thetav The theta velocity used to seed the trajectory
-       * @param num_pts The expected number of points for a trajectory
+       * @param num_pts The expected number of points for a trajectory  轨迹的预期点数
        */
       Trajectory(double xv, double yv, double thetav, double time_delta, unsigned int num_pts);
 
-      double xv_, yv_, thetav_; ///< @brief The x, y, and theta velocities of the trajectory
+      double xv_, yv_, thetav_; ///< @brief The x, y, and theta velocities of the trajectory 轨迹的线速度与角速度
 
-      double cost_; ///< @brief The cost/score of the trajectory
+      double cost_; ///< @brief The cost/score of the trajectory//轨迹的代价
 
-      double time_delta_; ///< @brief The time gap between points
+      double time_delta_; ///< @brief The time gap between points //每个点之间的时间间隔
 
       /**
        * @brief  Get a point within the trajectory

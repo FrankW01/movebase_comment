@@ -60,18 +60,18 @@ void SimpleTrajectoryGenerator::initialise(
 
 
 void SimpleTrajectoryGenerator::initialise(
-    const Eigen::Vector3f& pos,
-    const Eigen::Vector3f& vel,
-    const Eigen::Vector3f& goal,
-    base_local_planner::LocalPlannerLimits* limits,
-    const Eigen::Vector3f& vsamples,
-    bool discretize_by_time) {//dwa生成速度速度空间的函数,discretize_by_time默认为false
+    const Eigen::Vector3f& pos,//机器人的当前位姿(odom坐标系)
+    const Eigen::Vector3f& vel,//当前速度
+    const Eigen::Vector3f& goal,//目标
+    base_local_planner::LocalPlannerLimits* limits,//limits记录机器人的各种运动限制，比如最大速度，最大加速度之类的
+    const Eigen::Vector3f& vsamples,//vsamples则记录了在x、y方向和theta的num_samples，discretize_by_time则用于配置采样器是否需要在时间上进行离散化处理
+    bool discretize_by_time) {//dwa生成速度速度空间的函数,discretize_by_time默认为false,因为只处理2D，速度有三个分量，线速度中的x、y，角速度中的theta。三个分量互相独立，根据数学上排列公式，候选速度数=x分量候选数 * y分量候选数 * theta分量候选数。要计算一个分量的候选数，只须要三个参数：最小速度min、最大速度max、样本数num_samples。
   /*
    * We actually generate all velocity sample vectors here, from which to generate trajectories later on
    实际上，我们在这里生成了所有的速度样本向量，然后从中生成轨迹
    */
-  double max_vel_th = limits->max_vel_theta;
-  double min_vel_th = -1.0 * max_vel_th;
+  double max_vel_th = limits->max_vel_theta;//最大角速度就是最大角速度
+  double min_vel_th = -1.0 * max_vel_th;//最小角速度是最大角速度的负数
   discretize_by_time_ = discretize_by_time;
   Eigen::Vector3f acc_lim = limits->getAccLimits();
   pos_ = pos;
@@ -92,7 +92,7 @@ void SimpleTrajectoryGenerator::initialise(
     Eigen::Vector3f max_vel = Eigen::Vector3f::Zero();
     Eigen::Vector3f min_vel = Eigen::Vector3f::Zero();
 
-    if ( ! use_dwa_) {
+    if ( ! use_dwa_) {//不使用dwa模式
       // there is no point in overshooting the goal, and it also may break the
       // robot behavior, so we limit the velocities to those that do not overshoot in sim_time
       //超越目标是没有意义的，它也可能打破目标
@@ -103,17 +103,17 @@ void SimpleTrajectoryGenerator::initialise(
 
       // if we use continous acceleration, we can sample the max velocity we can reach in sim_time_
       // 如果我们使用连续加速度，我们可以采样在模拟时间内达到的最大速度_
-      max_vel[0] = std::min(max_vel_x, vel[0] + acc_lim[0] * sim_time_);//最大的x速度
+      max_vel[0] = std::min(max_vel_x, vel[0] + acc_lim[0] * sim_time_);//最大的x速度,这个就是sim_time
       max_vel[1] = std::min(max_vel_y, vel[1] + acc_lim[1] * sim_time_);//最大的y速度
       max_vel[2] = std::min(max_vel_th, vel[2] + acc_lim[2] * sim_time_);//最大的角速度
 
       min_vel[0] = std::max(min_vel_x, vel[0] - acc_lim[0] * sim_time_);
       min_vel[1] = std::max(min_vel_y, vel[1] - acc_lim[1] * sim_time_);
       min_vel[2] = std::max(min_vel_th, vel[2] - acc_lim[2] * sim_time_);
-    } else {
+    } else {//使用dwa模式，根据机器人当前的速度和加速度限制，计算机器人的速度区间。
       // with dwa do not accelerate beyond the first step, we only sample within velocities we reach in sim_period
       // 由于dwa的加速不超过第一步，我们只在sim_周期内达到的速度内采样
-      max_vel[0] = std::min(max_vel_x, vel[0] + acc_lim[0] * sim_period_);
+      max_vel[0] = std::min(max_vel_x, vel[0] + acc_lim[0] * sim_period_);//sim_period_等于dwa中的控制频率的倒数，1/controller_frequency
       max_vel[1] = std::min(max_vel_y, vel[1] + acc_lim[1] * sim_period_);
       max_vel[2] = std::min(max_vel_th, vel[2] + acc_lim[2] * sim_period_);
 
@@ -135,7 +135,7 @@ void SimpleTrajectoryGenerator::initialise(
         for(; !th_it.isFinished(); th_it++) {
           vel_samp[2] = th_it.getVelocity();
           //ROS_DEBUG("Sample %f, %f, %f", vel_samp[0], vel_samp[1], vel_samp[2]);
-          sample_params_.push_back(vel_samp);
+          sample_params_.push_back(vel_samp);//根据三参数min、max、num_samples，枚举出所有候选速度，生成的速度保存在sample_params_
         }
         th_it.reset();
       }
@@ -188,19 +188,19 @@ bool SimpleTrajectoryGenerator::nextTrajectory(Trajectory &comp_traj) {//在simp
  * @param vel desired velocity for sampling
  */
 bool SimpleTrajectoryGenerator::generateTrajectory(
-      Eigen::Vector3f pos,
+      Eigen::Vector3f pos,//其中pos和vel分别是机器人目前的位姿和速度
       Eigen::Vector3f vel,
-      Eigen::Vector3f sample_target_vel,
-      base_local_planner::Trajectory& traj) {//根据当前速度矢量来生成轨迹
+      Eigen::Vector3f sample_target_vel,//sample_target_vel是某个候选速度
+      base_local_planner::Trajectory& traj) {//根据当前速度矢量来生成轨迹，给定一个时间段sim_time_(1.7秒)，让机器人按着候选速度运行1.7秒，这时会形成一条路径，在路径中等间隔取num_steps个坐标点，就可由候选速度和num_steps个坐标点组成轨迹。
   // printf("vel_x = %f,vel_y =%f,vel_theta =%f",sample_target_vel[0],sample_target_vel[1],sample_target_vel[2]);//note-zhijie 打印当前路径的速度矢量
   double vmag = hypot(sample_target_vel[0], sample_target_vel[1]);//xy的和速度
   double eps = 1e-4;
-  traj.cost_   = -1.0; // placed here in case we return early
+  traj.cost_   = -1.0; // placed here in case we return early,每个轨迹的初始值都是-1
   //trajectory might be reused so we'll make sure to reset it
   traj.resetPoints();
 
   // make sure that the robot would at least be moving with one of
-  // the required minimum velocities for translation and rotation (if set)
+  // the required minimum velocities for translation and rotation (if set)  判定候选速度是否在膨胀之后的候选空间内，若不是则报错退出。
   if ((limits_->min_vel_trans >= 0 && vmag + eps < limits_->min_vel_trans) &&
       (limits_->min_vel_theta >= 0 && fabs(sample_target_vel[2]) + eps < limits_->min_vel_theta)) {
     return false;
@@ -211,16 +211,16 @@ bool SimpleTrajectoryGenerator::generateTrajectory(
   }
 
   int num_steps;
-  if (discretize_by_time_) {//所有轨迹为相同时间,现在是false
-    num_steps = ceil(sim_time_ / sim_granularity_);
-  } else {//所有轨迹为相同长度
+  if (discretize_by_time_) {//所有轨迹有相同的步长,现在是false，不进这个入口
+    num_steps = ceil(sim_time_ / sim_granularity_);//sim_time_ 就是dwa中设置的sim_time,sim_granularity这个就是那个模拟时间
+  } else {//所有轨迹根据速度，不同轨迹有不同的步长
     //compute the number of steps we must take along this trajectory to be "safe"
     double sim_time_distance = vmag * sim_time_; // the distance the robot would travel in sim_time if it did not change velocity
     double sim_time_angle = fabs(sample_target_vel[2]) * sim_time_; // the angle the robot would rotate in sim_time
     num_steps =
         ceil(std::max(sim_time_distance / sim_granularity_,
             sim_time_angle    / angular_sim_granularity_));
-  }
+  }//根据仿真粒度计算仿真步数，即样本点数。如果速度量过小，在sim_time_的时间内不能产生超过仿真粒度的线位移或者角位移就报错退出。线位移、角度位移各自独立计算仿真步数，num_steps是它们的较大值。
 
   if (num_steps == 0) {
     return false;
@@ -228,26 +228,26 @@ bool SimpleTrajectoryGenerator::generateTrajectory(
 
   //compute a timestep
   double dt = sim_time_ / num_steps;
-  traj.time_delta_ = dt;
+  traj.time_delta_ = dt;//根据步长来计算dt，如果discretize_by_time为false，则轨迹速度越快，采样点数目就越多，dt就越小
 
   Eigen::Vector3f loop_vel;
-  if (continued_acceleration_) {
-    // assuming the velocity of the first cycle is the one we want to store in the trajectory object
+  if (continued_acceleration_) {//continued_acceleration_ 与use_dwa为互为相反
+    // assuming the velocity of the first cycle is the one we want to store in the trajectory object 假设第一个循环的速度是我们想要存储在轨迹对象中的速度
     // 假设第一个循环的速度是我们想要存储在轨迹对象中的速度
-    loop_vel = computeNewVelocities(sample_target_vel, vel, limits_->getAccLimits(), dt);
+    loop_vel = computeNewVelocities(sample_target_vel, vel, limits_->getAccLimits(), dt);//这个函数功能还没有看
     traj.xv_     = loop_vel[0];
     traj.yv_     = loop_vel[1];
     traj.thetav_ = loop_vel[2];
   } else {
-    // assuming sample_vel is our target velocity within acc limits for one timestep
+    // assuming sample_vel is our target velocity within acc limits for one timestep 假设 sample_vel 是我们在一个时间步长的 acc 限制内的目标速度，
     loop_vel = sample_target_vel;
     traj.xv_     = sample_target_vel[0];
     traj.yv_     = sample_target_vel[1];
     traj.thetav_ = sample_target_vel[2];
   }
 
-  //simulate the trajectory and check for collisions, updating costs along the way
-  for (int i = 0; i < num_steps; ++i) {
+  //simulate the trajectory and check for collisions, updating costs along the way 模拟轨迹并检查碰撞，沿途更新成本
+  for (int i = 0; i < num_steps; ++i) {//在一个for循环中，依次计算各个仿真步的坐标点，并将之添加到输出参数traj中。
 
     //add the point to the trajectory so we can draw it later if we want
     traj.addPoint(pos[0], pos[1], pos[2]);
@@ -261,7 +261,7 @@ bool SimpleTrajectoryGenerator::generateTrajectory(
     //update the position of the robot using the velocities passed in
     // 使用传入的速度更新机器人的位置
     //具体实现了根据速度来生成规划的代码
-    pos = computeNewPositions(pos, loop_vel, dt);//航迹推演新的位置
+    pos = computeNewPositions(pos, loop_vel, dt);//航迹推演新的位置，computeNewPositions功能：从当前坐标pos开始，经过loop_vel*dt位移后，算出会到达的新坐标。//具体还没有看
 
   } // end for simulation steps
 

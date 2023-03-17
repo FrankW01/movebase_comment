@@ -63,7 +63,7 @@ namespace dwa_local_planner {
    * @brief ROS Wrapper for the DWAPlanner that adheres to the
    * BaseLocalPlanner interface and can be used as a plugin for move_base.
    */
-  class DWAPlannerROS : public nav_core::BaseLocalPlanner {//插件类的基类
+  class DWAPlannerROS : public nav_core::BaseLocalPlanner {//这个是dwa的封装接口
     public:
       /**
        * @brief  Constructor for DWAPlannerROS wrapper
@@ -137,7 +137,7 @@ namespace dwa_local_planner {
 
       base_local_planner::LocalPlannerUtil planner_util_;
 
-      boost::shared_ptr<DWAPlanner> dp_; ///< @brief The trajectory controller  局部路径规划器
+      boost::shared_ptr<DWAPlanner> dp_; ///< @brief The trajectory controller  局部路径规划器dp_
 
       costmap_2d::Costmap2DROS* costmap_ros_;
 

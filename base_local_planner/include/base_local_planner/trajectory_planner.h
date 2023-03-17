@@ -311,7 +311,7 @@ namespace base_local_planner {
       std::vector<double> y_vels_; ///< @brief Y velocities to explore
 
       double stop_time_buffer_; ///< @brief How long before hitting something we're going to enforce that the robot stop
-      double sim_period_; ///< @brief The number of seconds to use to compute max/min vels for dwa
+      double sim_period_; ///< @brief The number of seconds to use to compute max/min vels for dwa用于计算 dwa 的最大/最小值的秒数
 
       double inscribed_radius_, circumscribed_radius_;
 

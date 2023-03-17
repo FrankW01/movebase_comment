@@ -50,10 +50,10 @@ namespace base_local_planner {
   double SimpleScoredSamplingPlanner::scoreTrajectory(Trajectory& traj, double best_traj_cost) {
     double traj_cost = 0;
     int gen_id = 0;
-    //首先在for循环遍历各个打分项目
+    //对传入的一条路径遍历各个打分器来进行打分
     for(std::vector<TrajectoryCostFunction*>::iterator score_function = critics_.begin(); score_function != critics_.end(); ++score_function) {
-      TrajectoryCostFunction* score_function_p = *score_function;
-      if (score_function_p->getScale() == 0) {
+      TrajectoryCostFunction* score_function_p = *score_function;//当前打分器
+      if (score_function_p->getScale() == 0) {//这个scale是该打分器权重，权重为0则跳过
         continue;
       }
       double cost = score_function_p->scoreTrajectory(traj);//然后再利用每个打分项目的scoreTrajectory函数对轨迹进行打分,可到各个实现类中查看
@@ -65,9 +65,9 @@ namespace base_local_planner {
       }
       //奖每个得分项目乘以比例系数并相加,得到总分
       if (cost != 0) {
-        cost *= score_function_p->getScale();
+        cost *= score_function_p->getScale();//scale越大，代表该项在总代价里面占比越大
       }
-      traj_cost += cost;
+      traj_cost += cost;//打分是累加的
       //找到最优路径对应的得分
       if (best_traj_cost > 0) {
         // since we keep adding positives, once we are worse than the best, we will stay worse
@@ -88,11 +88,11 @@ namespace base_local_planner {
     double loop_traj_cost, best_traj_cost = -1;
     bool gen_success;
     int count, count_valid;
-    // std::vector<TrajectoryCostFunction*> critics_;  对轨迹进行打分
+    // std::vector<TrajectoryCostFunction*> critics_;  对每个打分器检测是否准备好
     for (std::vector<TrajectoryCostFunction*>::iterator loop_critic = critics_.begin(); loop_critic != critics_.end(); ++loop_critic) {
       TrajectoryCostFunction* loop_critic_p = *loop_critic;
       if (loop_critic_p->prepare() == false) {
-        ROS_WARN("A scoring function failed to prepare");
+        ROS_WARN("A scoring function failed to prepare");//评分函数准备失败
         return false;
       }
     }
@@ -102,7 +102,7 @@ namespace base_local_planner {
       count_valid = 0;
       TrajectorySampleGenerator* gen_ = *loop_gen;
       while (gen_->hasMoreTrajectories()) {//这里生成根据速度来生成规划路径的代码
-        gen_success = gen_->nextTrajectory(loop_traj);
+        gen_success = gen_->nextTrajectory(loop_traj);//loop_traj是当前循环的路径
         if (gen_success == false) {
           // TODO use this for debugging
           continue;

@@ -102,7 +102,7 @@ namespace base_local_planner {
       const geometry_msgs::PoseStamped& global_robot_pose,
       const costmap_2d::Costmap2D& costmap,
       const std::string& global_frame,
-      std::vector<geometry_msgs::PoseStamped>& transformed_plan);
+      std::vector<geometry_msgs::PoseStamped>& transformed_plan);//根据本地代价地图，从全局路径global_plan截取一段，并将路径点从/map坐标系转换到/odom坐标系，生成结果放在transformed_plan
 
   /**
    * @brief  Returns last pose in plan

@@ -44,6 +44,8 @@ namespace base_local_planner {
 
   /**
    * We use the class to get even sized samples between min and max, inluding zero if it is not included (and range goes from negative to positive
+   * 经过上面计算，samples_就存储着num_samples个候选速度，这些速度平均分布在[min, max]区间。
+   * 但有个例外，如果候选值中有负到正的变化，而且没有0，强制把0加入候选，这时samples_中就增加到num_samples + 1。速度是0时，意味着机器人在那分量上是静止，静止可能会是个常用值。
    */
   class VelocityIterator {
     public:
@@ -65,7 +67,7 @@ namespace base_local_planner {
             current = next;
             next += step_size;
             samples_.push_back(current);
-            // if 0 is among samples, this is never true. Else it inserts a 0 between the positive and negative samples
+            // if 0 is among samples, this is never true. Else it inserts a 0 between the positive and negative samples // 如果候选值中有负到正的变化，而且没有0，强制把0加入候选。
             if ((current < 0) && (next > 0)) {
               samples_.push_back(0.0);
             }

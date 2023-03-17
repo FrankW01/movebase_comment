@@ -55,7 +55,7 @@ namespace base_local_planner {
     return angles::shortest_angular_distance(yaw, goal_th);
   }
 
-  void publishPlan(const std::vector<geometry_msgs::PoseStamped>& path, const ros::Publisher& pub) {
+  void publishPlan(const std::vector<geometry_msgs::PoseStamped>& path, const ros::Publisher& pub) {//传入一个ros发布句柄与path
     //given an empty path we won't do anything
     if(path.empty())
       return;
@@ -94,19 +94,19 @@ namespace base_local_planner {
   }
 
   bool transformGlobalPlan(
-      const tf2_ros::Buffer& tf,
-      const std::vector<geometry_msgs::PoseStamped>& global_plan,
-      const geometry_msgs::PoseStamped& global_pose,
-      const costmap_2d::Costmap2D& costmap,
-      const std::string& global_frame,
-      std::vector<geometry_msgs::PoseStamped>& transformed_plan){
+      const tf2_ros::Buffer& tf,//用于获取坐标系变换tf
+      const std::vector<geometry_msgs::PoseStamped>& global_plan,//makePlan生成的全局路径
+      const geometry_msgs::PoseStamped& global_pose,//机器人在/odom坐标系下的当前位姿
+      const costmap_2d::Costmap2D& costmap,//本地代价地图
+      const std::string& global_frame,//路径点要转换到的坐标系
+      std::vector<geometry_msgs::PoseStamped>& transformed_plan){//根据本地代价地图，从全局路径global_plan截取一段，并将路径点从/map坐标系转换到/odom坐标系，生成结果放在transformed_plan。
     transformed_plan.clear();
 
     if (global_plan.empty()) {
       ROS_ERROR("Received plan with zero length");
       return false;
     }
-
+    // 怎么判断路径点A是否要放入transformed_plan？——把机器人中心放到/map坐标系下，记为robot_pose。如果A和robot_pose之间路径小于1.5米（本地代价地图半径），则放入
     const geometry_msgs::PoseStamped& plan_pose = global_plan[0];
     try {
       // get plan_to_global_transform from plan frame to global_frame
@@ -115,9 +115,9 @@ namespace base_local_planner {
 
       //let's get the pose of the robot in the frame of the plan
       geometry_msgs::PoseStamped robot_pose;
-      tf.transform(global_pose, robot_pose, plan_pose.header.frame_id);
+      tf.transform(global_pose, robot_pose, plan_pose.header.frame_id);//我记得这个global_pose与robot_pose都是一样的坐标系/map
 
-      //we'll discard points on the plan that are outside the local costmap
+      //we'll discard points on the plan that are outside the local costmap我们将丢弃计划中本地成本地图之外的点
       double dist_threshold = std::max(costmap.getSizeInCellsX() * costmap.getResolution() / 2.0,
                                        costmap.getSizeInCellsY() * costmap.getResolution() / 2.0);
 
@@ -125,21 +125,21 @@ namespace base_local_planner {
       double sq_dist_threshold = dist_threshold * dist_threshold;
       double sq_dist = 0;
 
-      //we need to loop to a point on the plan that is within a certain distance of the robot
-      while(i < (unsigned int)global_plan.size()) {
+      //we need to loop to a point on the plan that is within a certain distance of the robot 我们需要循环到机器人一定距离内的计划点
+      while(i < (unsigned int)global_plan.size()) {//从起始点开始，找到第一个落在本地代价地图内的点
         double x_diff = robot_pose.pose.position.x - global_plan[i].pose.position.x;
         double y_diff = robot_pose.pose.position.y - global_plan[i].pose.position.y;
         sq_dist = x_diff * x_diff + y_diff * y_diff;
         if (sq_dist <= sq_dist_threshold) {
-          break;
+          break;//一旦全局路径的进入代价地图，就记录下来i即可
         }
         ++i;
       }
 
       geometry_msgs::PoseStamped newer_pose;
 
-      //now we'll transform until points are outside of our distance threshold
-      while(i < (unsigned int)global_plan.size() && sq_dist <= sq_dist_threshold) {
+      //now we'll transform until points are outside of our distance threshold 现在我们将变换直到点超出我们的距离阈值
+      while(i < (unsigned int)global_plan.size() && sq_dist <= sq_dist_threshold) {//从i点开始，找到第一个落在本地代价地图外的点，把当中代价地图内的点放入transformed_plan。
         const geometry_msgs::PoseStamped& pose = global_plan[i];
         tf2::doTransform(pose, newer_pose, plan_to_global_transform);
 

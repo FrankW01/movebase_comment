@@ -52,9 +52,10 @@ namespace base_local_planner {
    * free-space collision checks for the trajectory controller. This class
    * stores points binned into a grid and performs point-in-polygon checks when
    * necessary to determine the legality of a footprint at a given
-   * position/orientation.
+   * position/orientation.实现 WorldModel 接口以为轨迹控制器提供自由空间碰撞检查的类。 
+   * 此类将点存储到网格中，并在必要时执行多边形中的点检查以确定给定位置/方向上足迹的合法性。
    */
-  class PointGrid : public WorldModel {
+  class PointGrid : public WorldModel {//没用到
     public:
       /**
        * @brief  Constuctor for a grid that stores points in the plane

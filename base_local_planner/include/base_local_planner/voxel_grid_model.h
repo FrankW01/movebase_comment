@@ -50,9 +50,9 @@ namespace base_local_planner {
   /**
    * @class VoxelGridModel
    * @brief A class that implements the WorldModel interface to provide grid
-   * based collision checks for the trajectory controller using a 3D voxel grid.
+   * based collision checks for the trajectory controller using a 3D voxel grid. 一个实现 WorldModel 接口的类，使用 3D 体素网格为轨迹控制器提供基于网格的碰撞检查。
    */
-  class VoxelGridModel : public WorldModel {
+  class VoxelGridModel : public WorldModel {//这个model没有用到，怀疑是3D的碰撞检测
     public:
       /**
        * @brief  Constructor for the VoxelGridModel

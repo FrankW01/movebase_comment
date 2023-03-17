@@ -273,6 +273,8 @@ namespace dwa_local_planner {
     // path for the robot center. Choosing the final position after
     // turning towards goal orientation causes instability when the
     // robot needs to make a 180 degree turn at the end
+    // 我们希望机器人的鼻子被拉到它的最终位置（在机器人转向目标方向之前），而不是机器人中心路径的终点。 
+    // 转向目标方向后选择最终位置会导致机器人在结束时需要进行 180 度转弯时不稳定
     std::vector<geometry_msgs::PoseStamped> front_global_plan = global_plan_;
     double angle_to_goal = atan2(goal_pose.pose.position.y - pos[1], goal_pose.pose.position.x - pos[0]);
     front_global_plan.back().pose.position.x = front_global_plan.back().pose.position.x +
@@ -326,7 +328,7 @@ namespace dwa_local_planner {
         vel,
         goal,
         &limits,
-        vsamples_);
+        vsamples_);//(SimpleTrajectoryGenerator::initialise)枚举出所有候选速度。
 
     result_traj_.cost_ = -7;
     // find best trajectory by sampling and scoring the samples

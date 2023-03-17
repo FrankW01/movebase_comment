@@ -53,9 +53,9 @@ namespace base_local_planner {
  *
  * This is supposed to be a simple and robust implementation of
  * the TrajectorySearch interface. More efficient search may well be
- * possible using search heuristics, parallel search, etc.
+ * possible using search heuristics, parallel search, etc. 这应该是 TrajectorySearch 接口的简单而强大的实现。 使用搜索启发式、并行搜索等可能会更有效地进行搜索。
  */
-class SimpleScoredSamplingPlanner : public base_local_planner::TrajectorySearch {
+class SimpleScoredSamplingPlanner : public base_local_planner::TrajectorySearch {//选出最好的轨迹
 public:
 
   ~SimpleScoredSamplingPlanner() {}
@@ -70,13 +70,16 @@ public:
    * Then resets count and tries for the next in the list.
    * passing max_samples = -1 (default): Each Sampling planner will continue to call
    * generator until generator runs out of samples (or forever if that never happens)
+   * 获取生成器和评论家的列表。 评论家返回成本 > 0，或无效轨迹的负成本。 
+   * 除了第一个生成器之外的其他生成器都是回退生成器，这意味着它们只有在前一个生成器没有找到有效轨迹时才会生成。 将使用每个生成器，直到它停止返回轨迹或计数达到 max_samples。 然后重置计数并尝试列表中的下一个。
+  传递 max_samples = -1（默认）：每个抽样计划器将继续调用生成器，直到生成器用完样本（如果从未发生，则永远调用）
    */
   SimpleScoredSamplingPlanner(std::vector<TrajectorySampleGenerator*> gen_list, std::vector<TrajectoryCostFunction*>& critics, int max_samples = -1);
 
   /**
    * runs all scoring functions over the trajectory creating a weigthed sum
    * of positive costs, aborting as soon as a negative cost are found or costs greater
-   * than positive best_traj_cost accumulated
+   * than positive best_traj_cost accumulated  在轨迹上运行所有评分函数，创建正成本的加权和，一旦发现负成本或成本大于累积的正 best_traj 成本就中止
    */
   double scoreTrajectory(Trajectory& traj, double best_traj_cost);
 
@@ -104,8 +107,9 @@ public:
 
 
 private:
-  std::vector<TrajectorySampleGenerator*> gen_list_;
-  std::vector<TrajectoryCostFunction*> critics_;
+  std::vector<TrajectorySampleGenerator*> gen_list_;//轨迹生成器
+  std::vector<TrajectoryCostFunction*> critics_;//打分器
+  // 产生一系列轨迹，然后用一系列costFunction打分加起来，选最好的那个。这里的轨迹生成器虽然是一个list，但是其实在dwa_local_planner就放了一个进去。costFunction放了6个。
 
   int max_samples_;
 };

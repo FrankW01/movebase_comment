@@ -67,7 +67,7 @@ namespace dwa_local_planner {
    * @class DWAPlanner
    * @brief A class implementing a local planner using the Dynamic Window Approach
    */
-  class DWAPlanner {
+  class DWAPlanner {//这个dwa具体算法实现类
     public:
       /**
        * @brief  Constructor for the planner

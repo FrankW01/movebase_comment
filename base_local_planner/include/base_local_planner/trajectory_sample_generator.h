@@ -53,12 +53,12 @@ public:
   /**
    * Whether this generator can create more trajectories
    */
-  virtual bool hasMoreTrajectories() = 0;
+  virtual bool hasMoreTrajectories() = 0;//接口一，是否能生成更多的路径，并且生成这些路径
 
   /**
    * Whether this generator can create more trajectories
    */
-  virtual bool nextTrajectory(Trajectory &traj) = 0;
+  virtual bool nextTrajectory(Trajectory &traj) = 0;//同上
 
   /**
    * @brief  Virtual destructor for the interface

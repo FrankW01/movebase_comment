@@ -44,19 +44,19 @@ namespace base_local_planner {
 
 /**
  * @class TrajectorySearch
- * @brief Interface for modules finding a trajectory to use for navigation commands next
+ * @brief Interface for modules finding a trajectory to use for navigation commands next 用于寻找轨迹的模块接口，用于接下来的导航命令
  */
 class TrajectorySearch {
 public:
   /**
    * searches the space of allowed trajectory and
    * returns one considered the optimal given the
-   * constraints of the particular search.
+   * constraints of the particular search. 搜索允许轨迹的空间并返回一个被认为是给定特定搜索约束的最佳轨迹。
    *
    * @param traj The container to write the result to
    * @param all_explored pass NULL or a container to collect all trajectories for debugging (has a penalty)
    */
-  virtual bool findBestTrajectory(Trajectory& traj, std::vector<Trajectory>* all_explored) = 0;
+  virtual bool findBestTrajectory(Trajectory& traj, std::vector<Trajectory>* all_explored) = 0;//定义了一个接口函数
 
   virtual ~TrajectorySearch() {}
 

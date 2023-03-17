@@ -59,19 +59,12 @@ namespace base_local_planner {
  * trajectory rollout approach does so respecting the acceleration limit, so it gradually increases velocity
  */
  /*
- *基于自由度的等距离散生成轨迹。
-*这应该是轨迹采样生成器的一个简单而健壮的实现
-*接口，更高效的实现是可以想象的。
-*
-*这可以用于dwa和轨迹卷展方法。
-*例如，假设这些值：
-*模拟时间=1s，模拟周期=200ms，dt=200ms，
-*vsamples_x=5，
-*acc_limit_x=1m/s^2，vel_x=0（机器人处于静止状态，数值仅用于简单计算）
-*dwa_planner将采样0 m/s至0.2m/s的最大x速度。
-*轨迹卷展方法将采样最大x速度0米/秒到1米/秒
-*轨迹卷展方法是在考虑加速度限制的情况下实现的，因此它会逐渐增加速度*/
+ 基于自由度的等距离散化生成轨迹。 这应该是 TrajectorySampleGenerator 接口的简单而强大的实现，更有效的实现是可以想象的。这可用于 dwa 和轨迹推出方法。 
+ 例如，假设这些值：sim_time = 1s, sim_period=200ms, dt = 200ms, vsamples_x=5, acc_limit_x = 1m/s^2, vel_x=0（机器人静止，值只是为了便于计算）
+ dwa_planner 将采样最大值 -x-速度从 0m/s 到 0.2m/s。 trajectory rollout approach 将采样 max-x-velocity 0m/s 到 1m/s*/
 class SimpleTrajectoryGenerator: public base_local_planner::TrajectorySampleGenerator {//继承了TrajectorySampleGenerator类
+// 以供后面打分挑选。比如当前速度是5，允许的速度范围是0-10，那么这个类会产生10个目标速度值，
+// 然后根据加速度限制将当前速度尽量加速或减速到目标值，持续一定的步长，并记录生成的所有轨迹。可见这个轨迹生成类也算是人如其名，too simple。
 public:
 
   SimpleTrajectoryGenerator() {
@@ -103,8 +96,8 @@ public:
    * @param vel current robot velocity
    * @param limits Current velocity limits
    * @param vsamples: in how many samples to divide the given dimension
-   * @param use_acceleration_limits: if true use physical model, else idealized robot model
-   * @param discretize_by_time if true, the trajectory is split according in chunks of the same duration, else of same length
+   * @param use_acceleration_limits: if true use physical model, else idealized robot model  如果 true 使用物理模型，否则理想化机器人模型
+   * @param discretize_by_time if true, the trajectory is split according in chunks of the same duration, else of same length如果为真，轨迹将根据相同持续时间的块进行分割，否则相同长度
    */
   void initialise(
       const Eigen::Vector3f& pos,
@@ -119,7 +112,7 @@ public:
    *
    * @param sim_granularity granularity of collision detection
    * @param angular_sim_granularity angular granularity of collision detection
-   * @param use_dwa whether to use DWA or trajectory rollout
+   * @param use_dwa whether to use DWA or trajectory rollout 是否使用 DWA 或 trajectory rollout
    * @param sim_period distance between points in one trajectory
    */
   void setParameters(double sim_time,
@@ -149,7 +142,7 @@ public:
         Eigen::Vector3f pos,
         Eigen::Vector3f vel,
         Eigen::Vector3f sample_target_vel,
-        base_local_planner::Trajectory& traj);
+        base_local_planner::Trajectory& traj);//轨迹就是速度跟点的集合，在trajectory.h中定义
 
 protected:
 
@@ -165,7 +158,7 @@ protected:
   bool discretize_by_time_;
 
   double sim_time_, sim_granularity_, angular_sim_granularity_;
-  bool use_dwa_;
+  bool use_dwa_;//现在use_dwa 为true
   double sim_period_; // only for dwa
 };
 
