@@ -654,7 +654,7 @@ namespace move_base {
   void MoveBase::executeCb(const move_base_msgs::MoveBaseGoalConstPtr& move_base_goal)//执行完全局规划后，调用executeCycle进入局部路径规划器中，如果传入失败也会出现报错信息
   {
     if(!isQuaternionValid(move_base_goal->target_pose.pose.orientation)){
-      as_->setAborted(move_base_msgs::MoveBaseResult(), "Aborting on goal because it was sent with an invalid quaternion");
+      as_->setAborted(move_base_msgs::MoveBaseResult(), "Aborting on goal because it was sent with an invalid quaternion");//这个函数是opt中actionlib中的需要在vscode中配置或添加头文件路径 ，增加这个opt的搜索路径
       return;
     }
 

@@ -261,7 +261,7 @@ bool SimpleTrajectoryGenerator::generateTrajectory(
     //update the position of the robot using the velocities passed in
     // 使用传入的速度更新机器人的位置
     //具体实现了根据速度来生成规划的代码
-    pos = computeNewPositions(pos, loop_vel, dt);//航迹推演新的位置，computeNewPositions功能：从当前坐标pos开始，经过loop_vel*dt位移后，算出会到达的新坐标。//具体还没有看
+    pos = computeNewPositions(pos, loop_vel, dt);//航迹推演新的位置，computeNewPositions功能：从当前坐标pos开始，经过loop_vel*dt位移后，算出会到达的新坐标。
 
   } // end for simulation steps
 

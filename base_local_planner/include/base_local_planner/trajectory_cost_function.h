@@ -59,14 +59,14 @@ public:
   /**
    *
    * General updating of context values if required.
-   * Subclasses may overwrite. Return false in case there is any error.
+   * Subclasses may overwrite. Return false in case there is any error. 如果需要，一般更新上下文值。 子类可以覆盖。 如果有任何错误，则返回 false。
    */
-  virtual bool prepare() = 0;
+  virtual bool prepare() = 0;//更新准则的上下文
 
   /**
    * return a score for trajectory traj
    */
-  virtual double scoreTrajectory(Trajectory &traj) = 0;//主要规定了一个scoreTrajectory函数，也就是走过一个轨迹需要付出的代价
+  virtual double scoreTrajectory(Trajectory &traj) = 0;//主要规定了一个scoreTrajectory函数，也就是走过一个轨迹需要付出的代价，这个每个具体代价的必须实现的接口API，对候选轨迹打分
 
   double getScale() {
     return scale_;
@@ -82,7 +82,7 @@ protected:
   TrajectoryCostFunction(double scale = 1.0): scale_(scale) {}
 
 private:
-  double scale_;
+  double scale_;//私有成员scale_，用于指示该准则得分权重，它不是个虚函数，如果不给专门设置，权重默认1.0。
 };
 
 }

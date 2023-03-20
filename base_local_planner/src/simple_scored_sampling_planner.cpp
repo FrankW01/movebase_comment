@@ -58,13 +58,13 @@ namespace base_local_planner {
       }
       double cost = score_function_p->scoreTrajectory(traj);//然后再利用每个打分项目的scoreTrajectory函数对轨迹进行打分,可到各个实现类中查看
       // printf(" cost = %f\n",cost);//debug info note-zhijie 打印当前路径代价
-      if (cost < 0) {
+      if (cost < 0) {//2）是负数，意味着该轨迹是不合理的，表示的是错误代码，而不是得分。
         ROS_DEBUG("Velocity %.3lf, %.3lf, %.3lf discarded by cost function  %d with cost: %f", traj.xv_, traj.yv_, traj.thetav_, gen_id, cost);
         traj_cost = cost;
         break;
       }
       //奖每个得分项目乘以比例系数并相加,得到总分
-      if (cost != 0) {
+      if (cost != 0) {//1）得分>=0时，得分越低轨迹越优。
         cost *= score_function_p->getScale();//scale越大，代表该项在总代价里面占比越大
       }
       traj_cost += cost;//打分是累加的

@@ -71,7 +71,7 @@ bool ObstacleCostFunction::prepare() {
   return true;
 }
 
-double ObstacleCostFunction::scoreTrajectory(Trajectory &traj) {
+double ObstacleCostFunction::scoreTrajectory(Trajectory &traj) {//计算得分思路：依次把机器人中心放在轨迹中所有坐标点，算出机器人足迹涉及到栅格中最大的cost。>=0的返回值中，最大值是253(INSCRIBED_INFLATED_OBSTACLE)。
   double cost = 0;
   double scale = getScalingFactor(traj, scaling_speed_, max_trans_vel_, max_scaling_factor_);
   double px, py, pth;
@@ -104,6 +104,7 @@ double ObstacleCostFunction::getScalingFactor(Trajectory &traj, double scaling_s
 
   //if we're over a certain speed threshold, we'll scale the robot's
   //footprint to make it either slow down or stay further from walls  如果我们超过某个速度阈值，我们将缩放机器人的足迹以使其减速或远离墙壁
+  //如果当前平移速度小于scaling_speed_，则缩放因子为1.0，否则，缩放因子为(vmag - scaling_speed) / (max_trans_vel - scaling_speed) * max_scaling_factor + 1.0。然后，该缩放因子会被用于计算轨迹中各个点的footprintCost。
   double scale = 1.0;
   if (vmag > scaling_speed) {
     //scale up to the max scaling factor linearly... this could be changed later 线性放大到最大比例因子...这可以在以后更改

@@ -43,7 +43,7 @@ MapGridCostFunction::MapGridCostFunction(costmap_2d::Costmap2D* costmap,
     double xshift,
     double yshift,
     bool is_local_goal_function,
-    CostAggregationType aggregationType) :
+    CostAggregationType aggregationType) ://aggregationType_如果是last，那就是只考虑结果的最后一个点
     costmap_(costmap),
     map_(costmap->getSizeInCellsX(), costmap->getSizeInCellsY()),
     aggregationType_(aggregationType),
@@ -56,13 +56,13 @@ void MapGridCostFunction::setTargetPoses(std::vector<geometry_msgs::PoseStamped>
   target_poses_ = target_poses;
 }
 
-bool MapGridCostFunction::prepare() {
+bool MapGridCostFunction::prepare() {//MapGridCostFunction有关的四个打分项在prepare中会对局部地图进行预计算，从而方便后边进行打分
   map_.resetPathDist();
 
-  if (is_local_goal_function_) {
-    map_.setLocalGoal(*costmap_, target_poses_);
+  if (is_local_goal_function_) {//如果为true，则
+    map_.setLocalGoal(*costmap_, target_poses_);//将最后一个点作为代价值，计算costmap
   } else {
-    map_.setTargetCells(*costmap_, target_poses_);
+    map_.setTargetCells(*costmap_, target_poses_);//将局部路径所有点作为代价值，计算costmap
   }
   return true;
 }
@@ -85,7 +85,7 @@ double MapGridCostFunction::scoreTrajectory(Trajectory &traj) {
     traj.getPoint(i, px, py, pth);
 
     // translate point forward if specified 如果指定，向前翻译点
-    if (xshift_ != 0.0) {
+    if (xshift_ != 0.0) {//这里注意，这里的shift是将轨迹中每个点都向pth方向移动固定的距离
       px = px + xshift_ * cos(pth);
       py = py + xshift_ * sin(pth);
     }
@@ -103,13 +103,14 @@ double MapGridCostFunction::scoreTrajectory(Trajectory &traj) {
     }
     grid_dist = getCellCosts(cell_x, cell_y);
     //if a point on this trajectory has no clear path to the goal... it may be invalid 如果这条轨迹上的一个点没有通往目标的明确路径……它可能是无效的
-    if (stop_on_failure_) {
+    if (stop_on_failure_) {//即如果轨迹中的某个点是障碍物或不可到达，则表示查找该点的得分失败，这会造成scoreTrajectory函数直接返回对应的负的得分。
       if (grid_dist == map_.obstacleCosts()) {
-        return -3.0;
+        return -3.0;//例如，如果轨迹中的某个点本身就是障碍物（在路径MapGrid中会有标记），则scoreTrajectory直接返回-3作为轨迹得分
       } else if (grid_dist == map_.unreachableCellCosts()) {
-        return -2.0;
+        return -2.0;//如果轨迹中某个点不可达（在MapGrid地图中没有计算到），则scoreTrajectory直接返回-2作为轨迹得分。
       }
     }
+    // 对于goal_front_costs和alignment_costs_两个打分项对应的stop_on_failure参数为false，这是因为前向打分点有可能会出现计算距离出错的情况，例如超出地图范围，但由于前向打分点的打分失败不会带来危险，因此可以不立刻返回负得分
 
     switch( aggregationType_ ) {//这个来维护最终的代价计算
     case Last:

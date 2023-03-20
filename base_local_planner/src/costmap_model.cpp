@@ -43,9 +43,9 @@ using namespace costmap_2d;
 
 namespace base_local_planner {
   CostmapModel::CostmapModel(const Costmap2D& ma) : costmap_(ma) {}
-
+  //为提高效率，它不计算足迹所有栅格的代价，认为只要计算N条边涉及到的栅格，就可计算出最大代价。这包括不计算中心点(x, y)栅格的代价。
   double CostmapModel::footprintCost(const geometry_msgs::Point& position, const std::vector<geometry_msgs::Point>& footprint,
-      double inscribed_radius, double circumscribed_radius){//对footprint中每个点进行cost计算，检测是否发生碰撞
+      double inscribed_radius, double circumscribed_radius){//对footprint中每个点进行cost计算，检测是否发生碰撞，它是把机器人中心放到特定坐标(x, y)，并且转特定角度(theat)后，机器人这个凸边形、N条边涉及到栅格中最大的cost值。
     // returns:
     //  -1 if footprint covers at least a lethal obstacle cell, or
     //  -2 if footprint covers at least a no-information cell, or
@@ -66,7 +66,7 @@ namespace base_local_planner {
         return -2.0;
       if(cost == LETHAL_OBSTACLE || cost == INSCRIBED_INFLATED_OBSTACLE)
         return -1.0;
-      return cost;
+      return cost;//返回值中，最大值是253-1(INSCRIBED_INFLATED_OBSTACLE = 253)
     }
 
     //now we really have to lay down the footprint in the costmap grid 现在我们真的必须在成本地图网格中放下脚印

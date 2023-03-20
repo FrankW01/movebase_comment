@@ -49,7 +49,7 @@ namespace base_local_planner {
  * more than you'd like on its way to a goal. This class provides a way
  * to assign a penalty purely to rotational velocities.
  */
-class TwirlingCostFunction: public base_local_planner::TrajectoryCostFunction {//继承打分基类
+class TwirlingCostFunction: public base_local_planner::TrajectoryCostFunction {//继承打分基类,TwirlingCostFunction可说是最简单的准则类。接口prepare总是返回true，scoreTrajectory总是以轨迹的角速度值作为轨迹的代价。
 public:
 
   TwirlingCostFunction() {}

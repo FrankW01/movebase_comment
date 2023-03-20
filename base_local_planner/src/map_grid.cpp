@@ -82,8 +82,8 @@ namespace base_local_planner{
   }
 
   void MapGrid::sizeCheck(unsigned int size_x, unsigned int size_y){
-    if(map_.size() != size_x * size_y)
-      map_.resize(size_x * size_y);
+    if(map_.size() != size_x * size_y)//map_当前尺寸和参数costmap要求的尺寸不一致时，sizeCheck会销毁旧的map_、生成新的
+      map_.resize(size_x * size_y);//这个resize里面初始化是0吗，resize并不会对原vector已经存在的元素进行重新初始化
 
     if(size_x_ != size_x || size_y_ != size_y){
       size_x_ = size_x;
@@ -109,7 +109,7 @@ namespace base_local_planner{
         (cost == costmap_2d::LETHAL_OBSTACLE ||
          cost == costmap_2d::INSCRIBED_INFLATED_OBSTACLE ||
          cost == costmap_2d::NO_INFORMATION)){
-      check_cell->target_dist = obstacleCosts();
+      check_cell->target_dist = obstacleCosts();//obstacleCosts()数值是map_.size()，示例就是3600。
       return false;
     }
 
@@ -140,8 +140,8 @@ namespace base_local_planner{
     global_plan_out.push_back(global_plan_in[0]);
 
     double min_sq_resolution = resolution * resolution;
-
-    for (unsigned int i = 1; i < global_plan_in.size(); ++i) {
+   //for循环目的：找到全局路径中第一个离开局部地图的坐标点
+    for (unsigned int i = 1; i < global_plan_in.size(); ++i) {//相邻两个坐标的距离（直角三角形斜边）超过resolution时，内插坐标点，确保相邻两个坐标距离<=resolution
       double loop_x = global_plan_in[i].pose.position.x;
       double loop_y = global_plan_in[i].pose.position.y;
       double sqdist = (loop_x - last_x) * (loop_x - last_x) + (loop_y - last_y) * (loop_y - last_y);
@@ -183,13 +183,13 @@ namespace base_local_planner{
     }
     unsigned int i;
     // put global path points into local map until we reach the border of the local map
-    for (i = 0; i < adjusted_global_plan.size(); ++i) {
+    for (i = 0; i < adjusted_global_plan.size(); ++i) {//for循环目的：把全局路径的坐标逐个存入零线（path_dist_queue），直到遇到第一个离开局部地图的坐标点
       double g_x = adjusted_global_plan[i].pose.position.x;
       double g_y = adjusted_global_plan[i].pose.position.y;
       unsigned int map_x, map_y;
       if (costmap.worldToMap(g_x, g_y, map_x, map_y) && costmap.getCost(map_x, map_y) != costmap_2d::NO_INFORMATION) {
         MapCell& current = getCell(map_x, map_y);
-        current.target_dist = 0.0;
+        current.target_dist = 0.0;//当前那个cell要设置为0，这个也就是cost,右侧图中可看到，所有零线中的点，距离都置了0
         current.target_mark = true;
         path_dist_queue.push(&current);
         started_path = true;
@@ -203,7 +203,7 @@ namespace base_local_planner{
       return;
     }
 
-    computeTargetDistance(path_dist_queue, costmap);
+    computeTargetDistance(path_dist_queue, costmap);//computeTargetDistance结束后会改修改各个MapCell的target_dist
   }
 
   //mark the point of the costmap as local goal where global_plan first leaves the area (or its last point) 将代价地图的点标记为 global_plan 首先离开该区域（或其最后一个点）的局部目标
@@ -215,8 +215,8 @@ namespace base_local_planner{
     int local_goal_y = -1;
     bool started_path = false;
 
-    std::vector<geometry_msgs::PoseStamped> adjusted_global_plan;
-    adjustPlanResolution(global_plan, adjusted_global_plan, costmap.getResolution());
+    std::vector<geometry_msgs::PoseStamped> adjusted_global_plan;//for找出距离目标最近、但还落在局部地图的坐标
+    adjustPlanResolution(global_plan, adjusted_global_plan, costmap.getResolution());//首先对映射到局部地图中的路径进行栅格级的插补(MapGrid::adjustPlanResolution)，从而使得整个路径是栅格连续的。
 
     // skip global path points until we reach the border of the local map
     for (unsigned int i = 0; i < adjusted_global_plan.size(); ++i) {
@@ -246,8 +246,8 @@ namespace base_local_planner{
       current.target_mark = true;
       path_dist_queue.push(&current);
     }
-
-    computeTargetDistance(path_dist_queue, costmap);
+    // 接下要计算局部地图中所有点到[62]坐标的距离。对[62]，把target_mark置为true，表示不必再以它为中心去膨胀了
+    computeTargetDistance(path_dist_queue, costmap);//然后调用computeTargetDistance函数采用类似dijkstra算法的逐步探索的方式，计算出MapGrid地图中所有点（栅格级）相对于与标记点的最短距离
   }
 
 

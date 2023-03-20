@@ -81,7 +81,7 @@ public:
    * of positive costs, aborting as soon as a negative cost are found or costs greater
    * than positive best_traj_cost accumulated  在轨迹上运行所有评分函数，创建正成本的加权和，一旦发现负成本或成本大于累积的正 best_traj 成本就中止
    */
-  double scoreTrajectory(Trajectory& traj, double best_traj_cost);
+  double scoreTrajectory(Trajectory& traj, double best_traj_cost);//traj是上面generateTrajectory算出的某个轨迹，best_traj_cost指示之前已比较出的最优轨迹得分。对于得分和轨迹优劣的对应关系，1）得分>=0时，得分越低轨迹越优。2）是负数，意味着该轨迹是不合理的，表示的是错误代码，而不是得分。
 
   /**
    * Calls generator until generator has no more samples or max_samples is reached.

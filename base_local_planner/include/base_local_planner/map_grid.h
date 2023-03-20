@@ -141,7 +141,7 @@ namespace base_local_planner{
        * returns a value indicating cell was not reached by wavefront
        * propagation of set cells. (is behind walls, regarding the region covered by grid)  返回一个值，指示单元格未通过设置单元格的波前传播到达。 （在墙后，关于网格覆盖的区域）
        */
-      inline double unreachableCellCosts() {//这个是无法达到的地方，比如墙的后边
+      inline double unreachableCellCosts() {//这个是无法达到的地方，比如墙的后边,那些无法膨胀到的点就保留初始化后的默认值，即unreachableCellCosts(3601)
         return map_.size() + 1;
       }
 
