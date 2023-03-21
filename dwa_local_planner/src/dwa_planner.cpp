@@ -216,7 +216,7 @@ namespace dwa_local_planner {
    * This function is used when other strategies are to be applied,
    * but the cost functions for obstacles are to be reused.
    */
-  bool DWAPlanner::checkTrajectory(
+  bool DWAPlanner::checkTrajectory(//它试图以当前机器人位姿、当前速度，判断在地图上，是否能以速度(vx, vy, vth)走出一条路径。能走出一条路径(cost > 0)，或目前已基本接近goal(cost == 0)，则返回true。
       Eigen::Vector3f pos,
       Eigen::Vector3f vel,
       Eigen::Vector3f vel_samples){

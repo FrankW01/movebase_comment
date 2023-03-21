@@ -99,7 +99,7 @@ namespace base_local_planner{
     }
   }
 
-
+//computeTargetDistance会膨胀出代价地图中的所有点吗？——答案会，但前提是代价地图中不能存在距离是obstacleCosts(3600)的点。updatePathCell遇到这些点，会强制以它终止膨胀。那些无法膨胀到的点就保留初始化后的默认值，即unreachableCellCosts(3601)。
   inline bool MapGrid::updatePathCell(MapCell* current_cell, MapCell* check_cell,
       const costmap_2d::Costmap2D& costmap){
 
@@ -129,7 +129,7 @@ namespace base_local_planner{
       map_[i].within_robot = false;
     }
   }
-
+//adjustPlanResolution对映射到局部地图中的全局路径进行栅格级插补，从而使得整个路径是栅格连续的。插补思路是这样的，1）所有全局路径的坐标点都会保留。2）相邻两个坐标的距离（直角三角形斜边）超过resolution时，内插坐标点，确保相邻两个坐标距离<=resolution。
   void MapGrid::adjustPlanResolution(const std::vector<geometry_msgs::PoseStamped>& global_plan_in,
       std::vector<geometry_msgs::PoseStamped>& global_plan_out, double resolution) {//根据分辨率来调整路径点，这个具体实现没有看！
     if (global_plan_in.size() == 0) {
@@ -268,7 +268,7 @@ namespace base_local_planner{
         if(!check_cell->target_mark){//这个target_mark是这个cell是否被访问的标志
           //mark the cell as visisted
           check_cell->target_mark = true;//表示访问过
-          if(updatePathCell(current_cell, check_cell, costmap)) {
+          if(updatePathCell(current_cell, check_cell, costmap)) {//如果是返回是障碍物区域，则不会压入栈中
             dist_queue.push(check_cell);
           }
         }

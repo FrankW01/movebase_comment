@@ -161,7 +161,7 @@ namespace dwa_local_planner {
       return false;
     }
 
-    if(latchedStopRotateController_.isGoalReached(&planner_util_, odom_helper_, current_pose_)) {
+    if(latchedStopRotateController_.isGoalReached(&planner_util_, odom_helper_, current_pose_)) {//调用这个函数
       ROS_INFO("Goal reached");
       return true;
     } else {
@@ -303,7 +303,7 @@ namespace dwa_local_planner {
           &planner_util_,
           odom_helper_,
           current_pose_,
-          boost::bind(&DWAPlanner::checkTrajectory, dp_, _1, _2, _3));
+          boost::bind(&DWAPlanner::checkTrajectory, dp_, _1, _2, _3));//这个就是obstacle_check的具体实现
     } else {//没有到达目标位置，我们就通过成员函数dwaComputeVelocityCommands计算速度控制指令，并发布路径。
       bool isOk = dwaComputeVelocityCommands(current_pose_, cmd_vel);//通过dwa算法规划速度第二层接口
       if (isOk) {

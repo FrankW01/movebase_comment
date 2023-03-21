@@ -17,7 +17,7 @@
 
 namespace base_local_planner {
 
-class LatchedStopRotateController {
+class LatchedStopRotateController {//DWAPlannerROS的停止处理逻辑，由LatchedStopRotateController类完成，主要包括三个部分：停止判断、加速停止、旋转至目标角度
 public:
   LatchedStopRotateController(const std::string& name = "");
   virtual ~LatchedStopRotateController();
