@@ -1,1 +1,0 @@
-just rotate, avoid collision through checking all time

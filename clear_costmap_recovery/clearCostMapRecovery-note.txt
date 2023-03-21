@@ -1,1 +1,0 @@
-clear obstacle layer in the costmap, outside a circle

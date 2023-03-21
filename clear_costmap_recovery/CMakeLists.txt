@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.0.2)
 project(clear_costmap_recovery)
 
 find_package(catkin REQUIRED
@@ -8,17 +8,15 @@ find_package(catkin REQUIRED
             nav_core
             pluginlib
             roscpp
-            tf
+            tf2_ros
         )
 
 find_package(Eigen3 REQUIRED)
-find_package(PCL REQUIRED)
 remove_definitions(-DDISABLE_LIBUSB-1.0)
 include_directories(
     include
     ${catkin_INCLUDE_DIRS}
     ${EIGEN3_INCLUDE_DIRS}
-    ${PCL_INCLUDE_DIRS}
 )
 add_definitions(${EIGEN3_DEFINITIONS})
 
@@ -30,10 +28,11 @@ catkin_package(
         nav_core
         pluginlib
         roscpp
-        tf
+        tf2_ros
 )
 
 add_library(clear_costmap_recovery src/clear_costmap_recovery.cpp)
+add_dependencies(clear_costmap_recovery ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 target_link_libraries(clear_costmap_recovery ${catkin_LIBRARIES})
 
 
@@ -45,9 +44,6 @@ if(CATKIN_ENABLE_TESTING)
   # Add the test folder to the include directories
   include_directories(test)
 
-  include_directories(${GTEST_INCLUDE_DIRS})
-  link_directories(${GTEST_LIBRARY_DIRS})
-
   # Create targets for test executables
   add_rostest_gtest(clear_tester test/clear_tests.launch test/clear_tester.cpp)
   target_link_libraries(clear_tester clear_costmap_recovery ${GTEST_LIBRARIES})
@@ -57,6 +53,7 @@ endif()
 install(TARGETS clear_costmap_recovery
        ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
        LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+       RUNTIME DESTINATION ${CATKIN_GLOBAL_BIN_DESTINATION}
        )
 
 install(FILES ccr_plugin.xml

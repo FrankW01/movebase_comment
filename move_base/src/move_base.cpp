@@ -160,7 +160,7 @@ namespace move_base {
       controller_costmap_ros_->stop();
     }
 
-    //load any user specified recovery behaviors, and if that fails load the defaults
+    //load any user specified recovery behaviors, and if that fails load the defaults  加载恢复器
     if(!loadRecoveryBehaviors(private_nh)){
       loadDefaultRecoveryBehaviors();
     }
@@ -982,7 +982,7 @@ namespace move_base {
           msg.recovery_behavior_name =  recovery_behavior_names_[recovery_index_];//当前恢复的名称
 
           recovery_status_pub_.publish(msg);//发布话题名称recovery_status
-
+          //这个是恢复器的外露的接口
           recovery_behaviors_[recovery_index_]->runBehavior();//用插件来执行具体恢复行为--------------------------------------------------------
           // std::vector<boost::shared_ptr<nav_core::RecoveryBehavior> > recovery_behaviors_;
 
@@ -1039,7 +1039,7 @@ namespace move_base {
     return false;//如果false状态
   }
 
-  bool MoveBase::loadRecoveryBehaviors(ros::NodeHandle node){
+  bool MoveBase::loadRecoveryBehaviors(ros::NodeHandle node){//装载恢复器
     XmlRpc::XmlRpcValue behavior_list;
     if(node.getParam("recovery_behaviors", behavior_list)){
       if(behavior_list.getType() == XmlRpc::XmlRpcValue::TypeArray){
@@ -1124,7 +1124,7 @@ namespace move_base {
     return true;
   }
 
-  //we'll load our default recovery behaviors here
+  //we'll load our default recovery behaviors here 
   void MoveBase::loadDefaultRecoveryBehaviors(){
     recovery_behaviors_.clear();
     try{
