@@ -69,11 +69,11 @@ namespace move_base {
     CLEARING//清空
   }; 
 
-  enum RecoveryTrigger//恢复触发器枚举，这个是恢复器的状态吗？
+  enum RecoveryTrigger//这个是执行恢复器后也无法恢复的问题报错信息
   {
-    PLANNING_R,//规划
-    CONTROLLING_R,//控制
-    OSCILLATION_R//振荡
+    PLANNING_R,//没有有效全局规划
+    CONTROLLING_R,//没有有效局部规划
+    OSCILLATION_R//一直在振荡
   };
 
   /**
