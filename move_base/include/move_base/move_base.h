@@ -211,10 +211,10 @@ namespace move_base {
       pluginlib::ClassLoader<nav_core::RecoveryBehavior> recovery_loader_;//恢复行为的插件
 
       //set up plan triple buffer//设置三个缓冲区？
-    
-      std::vector<geometry_msgs::PoseStamped>* planner_plan_;//全局规划的位置点向量
-      std::vector<geometry_msgs::PoseStamped>* latest_plan_;//最近规划的位置点向量
-      std::vector<geometry_msgs::PoseStamped>* controller_plan_;//控制规划的位置点向量
+      //下边这三个都是全局路径指针，但是用处，生命周期都不一样
+      std::vector<geometry_msgs::PoseStamped>* planner_plan_;//全局路径
+      std::vector<geometry_msgs::PoseStamped>* latest_plan_;//全局路径，latest_plan_表示上一次全局规划(makePkan)时规划出的路径。功能是用于同步。在planThread线程执行的makePlan需要点时间，过程中要一直接占用planner_plan_，要是主线程也要读planner_plan_的话，不方便线程同步。
+      std::vector<geometry_msgs::PoseStamped>* controller_plan_;//全局路径
 
       //set up the planner's thread
       bool runPlanner_;//bool向量
