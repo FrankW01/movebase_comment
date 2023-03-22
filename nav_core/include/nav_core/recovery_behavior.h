@@ -58,7 +58,7 @@ namespace nav_core {
       /**
        * @brief   Runs the RecoveryBehavior
        */
-      virtual void runBehavior() = 0;//主要功能函数
+      virtual void runBehavior() = 0;//主要功能函数的接口类
 
       /**
        * @brief  Virtual destructor for the interface

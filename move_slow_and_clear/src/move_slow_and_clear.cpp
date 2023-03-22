@@ -58,7 +58,7 @@ namespace move_slow_and_clear
     local_costmap_ = local_costmap;
 
     ros::NodeHandle private_nh_("~/" + n);
-    private_nh_.param("clearing_distance", clearing_distance_, 0.5);
+    private_nh_.param("clearing_distance", clearing_distance_, 0.5);//机器人半径清扫范围
     private_nh_.param("limited_trans_speed", limited_trans_speed_, 0.25);
     private_nh_.param("limited_rot_speed", limited_rot_speed_, 0.45);
     private_nh_.param("limited_distance", limited_distance_, 0.3);
@@ -113,7 +113,7 @@ namespace move_slow_and_clear
           if(plugin->getName().find("obstacles")!=std::string::npos){
             boost::shared_ptr<costmap_2d::ObstacleLayer> costmap;
             costmap = boost::static_pointer_cast<costmap_2d::ObstacleLayer>(plugin);
-            costmap->setConvexPolygonCost(global_poly, costmap_2d::FREE_SPACE);
+            costmap->setConvexPolygonCost(global_poly, costmap_2d::FREE_SPACE);//这个只是清除障碍物层的代价
           }
     }
      
@@ -143,11 +143,11 @@ namespace move_slow_and_clear
         ROS_ERROR("The planner %s, does not have the parameter %s", planner_nh_.getNamespace().c_str(), max_rot_param_name_.c_str());
       }
     }
-
+    //我们还想保存我们当前的位置，以便我们可以取消我们以后施加的速度限制
     //we also want to save our current position so that we can remove the speed limit we impose later on
     speed_limit_pose_ = global_pose;
 
-    //limit the speed of the robot until it moves a certain distance
+    //limit the speed of the robot until it moves a certain distance 限制机器人的速度，直到它移动一定距离
     setRobotSpeed(limited_trans_speed_, limited_rot_speed_);
     limit_set_ = true;
     distance_check_timer_ = private_nh_.createTimer(ros::Duration(0.1), &MoveSlowAndClear::distanceCheck, this);
@@ -171,7 +171,7 @@ namespace move_slow_and_clear
     if(limited_distance_ * limited_distance_ <= getSqDistance())
     {
       ROS_INFO("Moved far enough, removing speed limit.");
-      //have to do this because a system call within a timer cb does not seem to play nice
+      //have to do this because a system call within a timer cb does not seem to play nice 必须这样做，因为在定时器回调函数中的系统调用似乎不太友好
       if(remove_limit_thread_)
       {
         remove_limit_thread_->join();
@@ -187,7 +187,7 @@ namespace move_slow_and_clear
   {
     boost::mutex::scoped_lock l(mutex_);
     setRobotSpeed(old_trans_speed_, old_rot_speed_);
-    limit_set_ = false;
+    limit_set_ = false;//移除速度限制
   }
 
   void MoveSlowAndClear::setRobotSpeed(double trans_speed, double rot_speed)
@@ -222,4 +222,12 @@ namespace move_slow_and_clear
       }
     }
   }
+  /*
+  这段代码的意思是定义了一个名为MoveSlowAndClear的类的成员函数，该函数用于设置机器人的移动速度1。该函数接受两个参数，分别是trans_speed和rot_speed，表示机器人的平移速度和旋转速度1。
+  该函数使用dynamic_reconfigure库来动态地修改planner_dynamic_reconfigure_service_服务的配置参数，从而改变机器人的速度限制1。该函数使用try-catch语句来捕获可能发生的异常，并在控制台输出相应的信息2。
+  这是一个C++语言和ROS框架的程序2。
+
+  planner_dynamic_reconfigure_service_服务是一个ROS中的动态重配置服务，用于实时地调整机器人的路径规划器的参数12。这些参数包括costmap、planner等，可以影响机器人的导航性能1。
+  使用dynamic_reconfigure库，可以方便地通过rqt_reconfigure工具来修改这些参数，并观察机器人的行为变化13。
+  */
 };

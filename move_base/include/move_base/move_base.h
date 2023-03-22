@@ -63,13 +63,13 @@ namespace move_base {
   //typedefs to help us out with the action server so that we don't hace to type so much
   typedef actionlib::SimpleActionServer<move_base_msgs::MoveBaseAction> MoveBaseActionServer;
 
-  enum MoveBaseState {//movebase状态枚举
+  enum MoveBaseState {//movebase状态枚举，这个是movebase的状态机的移动之间的状态代码
     PLANNING,//规划
     CONTROLLING,//控制
     CLEARING//清空
-  };
+  }; 
 
-  enum RecoveryTrigger//恢复触发器枚举
+  enum RecoveryTrigger//恢复触发器枚举，这个是恢复器的状态吗？
   {
     PLANNING_R,//规划
     CONTROLLING_R,//控制
@@ -148,7 +148,7 @@ namespace move_base {
       /**
        * @brief  Publishes a velocity command of zero to the base
        */
-      void publishZeroVelocity();//发布一个零速度向底盘
+      void publishZeroVelocity();//发布一个零速度向底盘，这个是在没有局部规划的时候进行吗？
 
       /**
        * @brief  Reset the state of the move_base action and send a zero velocity command to the base
@@ -176,13 +176,13 @@ namespace move_base {
 
       tf2_ros::Buffer& tf_;//todo
 
-      MoveBaseActionServer* as_;//action服务器？
+      MoveBaseActionServer* as_;//action服务器？这个是movebaseactionlib的定义
 
       boost::shared_ptr<nav_core::BaseLocalPlanner> tc_;//局部规划器
-      costmap_2d::Costmap2DROS* planner_costmap_ros_, *controller_costmap_ros_;//两个代价地图,第一个我知道是全局代价地图
+      costmap_2d::Costmap2DROS* planner_costmap_ros_, *controller_costmap_ros_;//两个代价地图,第一个我知道是全局代价地图，局部代价地图
 
       boost::shared_ptr<nav_core::BaseGlobalPlanner> planner_;//全局规划器
-      std::string robot_base_frame_, global_frame_;
+      std::string robot_base_frame_, global_frame_;//这个global_frame是map坐标系，但是robot_base_frame_需要用gdb调试出来,这个是base_link
 
       std::vector<boost::shared_ptr<nav_core::RecoveryBehavior> > recovery_behaviors_;//恢复行为共享指针向量
       std::vector<std::string> recovery_behavior_names_;//恢复行为名字的向量
@@ -201,8 +201,8 @@ namespace move_base {
       bool make_plan_clear_costmap_, make_plan_add_unreachable_goal_;//flag变量
       double oscillation_timeout_, oscillation_distance_;
 
-      MoveBaseState state_;//moVe——base状态
-      RecoveryTrigger recovery_trigger_;//恢复触发器状态
+      MoveBaseState state_;//move_base状态
+      RecoveryTrigger recovery_trigger_;//恢复触发器状态，initia状态是PLANNING_R
 
       ros::Time last_valid_plan_, last_valid_control_, last_oscillation_reset_;//时间
       geometry_msgs::PoseStamped oscillation_pose_;//振荡位置
@@ -223,7 +223,7 @@ namespace move_base {
           // condition_variable用来唤醒一个或多个等待在某特定条件上的线程，下面列出了condition_variable提供的操作：
     // 所有等待(wait)某个条件的线程都必须使用相同的mutex，且必须使用unique_lock绑定mutex，并且让wait()等待在unique_lock上，否则会发生不明确的行为
       geometry_msgs::PoseStamped planner_goal_;//一个点
-      boost::thread* planner_thread_;//一个线程？,这里具体的看一下boost，应该是执行规划的线程
+      boost::thread* planner_thread_;//一个线程？,这里具体的看一下boost，应该是执行规划的线程,这个线程的功能？这个线程调用的函数planThread
       //todo
 
 

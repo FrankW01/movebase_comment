@@ -113,23 +113,23 @@ void RotateRecovery::runBehavior()
   local_costmap_->getRobotPose(global_pose);
 
   double current_angle = tf2::getYaw(global_pose.pose.orientation);
-  double start_angle = current_angle;
+  double start_angle = current_angle;//得到机器人中心在global坐标系下的位姿，从中提取出角度，记为start_angle。，机器人初始时刻的角度。如果真能转完一圈，机器人应该还大致这是角度
 
-  bool got_180 = false;
-
+  bool got_180 = false;//机器人已转过的角度是否已超过180度
+  //机器人至少转过180度，并且和初始角度差值<=tolerance_。由于tolerance_很小，换句话说，角度转换一圈
   while (n.ok() &&
          (!got_180 ||
-          std::fabs(angles::shortest_angular_distance(current_angle, start_angle)) > tolerance_))
+          std::fabs(angles::shortest_angular_distance(current_angle, start_angle)) > tolerance_))//进入while循环，直到机器人转了360度，或累计时间已超过5秒
   {
     // Update Current Angle
     local_costmap_->getRobotPose(global_pose);
-    current_angle = tf2::getYaw(global_pose.pose.orientation);
+    current_angle = tf2::getYaw(global_pose.pose.orientation);//用计算start_angle一样方法，得到机器人当前角度，记为current_angle
 
     // compute the distance left to rotate
-    double dist_left;
+    double dist_left; //算出现在离转完360度还剩多少度，记为dist_left
     if (!got_180)
     {
-      // If we haven't hit 180 yet, we need to rotate a half circle plus the distance to the 180 point
+      // If we haven't hit 180 yet, we need to rotate a half circle plus the distance to the 180 point 如果我们还没有达到180，我们需要旋转半圈加上到180点的距离
       double distance_to_180 = std::fabs(angles::shortest_angular_distance(current_angle, start_angle + M_PI));
       dist_left = M_PI + distance_to_180;
 
@@ -140,7 +140,7 @@ void RotateRecovery::runBehavior()
     }
     else
     {
-      // If we have hit the 180, we just have the distance back to the start
+      // If we have hit the 180, we just have the distance back to the start 如果我们达到了 180 度，我们就只有回到起点的距离
       dist_left = std::fabs(angles::shortest_angular_distance(current_angle, start_angle));
     }
 
@@ -148,7 +148,9 @@ void RotateRecovery::runBehavior()
 
     // check if that velocity is legal by forward simulating
     double sim_angle = 0.0;
-    while (sim_angle < dist_left)
+    while (sim_angle < dist_left)//通过一个对累加角度(sim_angle)的while循环，判断机器人是否能转完剩下的dist_left度。
+    // 判断是否能转，用的是模拟机器人将走路径中的N个位置。while一次称为一轮，在N轮模拟中，对机器人位姿三要素x、y和theta，x、y固定不变，
+    // theta则从current_angle一轮轮增大到current_angle + dist_left。检查每一轮(x, y, theta)时，机器人是否会碰到障碍物。只要有一轮碰到，认为转圈失败，结束RotateRecovery。
     {
       double theta = current_angle + sim_angle;
 
@@ -165,10 +167,10 @@ void RotateRecovery::runBehavior()
     }
 
     // compute the velocity that will let us stop by the time we reach the goal
-    double vel = sqrt(2 * acc_lim_th_ * dist_left);
+    double vel = sqrt(2 * acc_lim_th_ * dist_left);//根据加速度、速度和路程的公式，以dist_left作为路程，计算出机器人要用的速度vel
 
     // make sure that this velocity falls within the specified limits
-    vel = std::min(std::max(vel, min_rotational_vel_), max_rotational_vel_);
+    vel = std::min(std::max(vel, min_rotational_vel_), max_rotational_vel_);//另外，vel必须处于范围[min_rotational_vel_, max_rotational_vel_]之内。
 
     geometry_msgs::Twist cmd_vel;
     cmd_vel.linear.x = 0.0;
@@ -177,7 +179,7 @@ void RotateRecovery::runBehavior()
 
     vel_pub.publish(cmd_vel);
 
-    r.sleep();
+    r.sleep();//为保证机器人有时间按这速度移动，须要留出点时间。等待，让这轮while的时间不小于(1/frequency_)秒
   }
 }
 };  // namespace rotate_recovery

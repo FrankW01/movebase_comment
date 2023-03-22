@@ -45,7 +45,7 @@
 namespace rotate_recovery
 {
 /**
- * @class RotateRecovery
+ * @class RotateRecovery   RotateRecovery行为是让机器人原地逆时针转一圈。如果转一圈时间有点长，那最多转5秒钟。为实现转圈，它工作在局部代价地图
  * @brief A recovery behavior that rotates the robot in-place to attempt to clear out space
  */
 class RotateRecovery : public nav_core::RecoveryBehavior

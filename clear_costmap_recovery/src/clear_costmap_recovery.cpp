@@ -47,7 +47,7 @@ using costmap_2d::NO_INFORMATION;
 namespace clear_costmap_recovery {
 ClearCostmapRecovery::ClearCostmapRecovery(): global_costmap_(NULL), local_costmap_(NULL),
   tf_(NULL), initialized_(false) {}
-
+//首先以当前机器人中心为中心，向上、下、左、右各扩展reset_distance_米生成一个矩形R。然后判断invert_area_to_clear_。是false时，清除R矩形内栅格。是true时，清除代价地图内除R矩形外的栅格
 void ClearCostmapRecovery::initialize(std::string name, tf2_ros::Buffer* tf,
     costmap_2d::Costmap2DROS* global_costmap, costmap_2d::Costmap2DROS* local_costmap){
   if(!initialized_){
@@ -59,10 +59,10 @@ void ClearCostmapRecovery::initialize(std::string name, tf2_ros::Buffer* tf,
     //get some parameters from the parameter server
     ros::NodeHandle private_nh("~/" + name_);
 
-    private_nh.param("reset_distance", reset_distance_, 3.0);
-    private_nh.param("invert_area_to_clear", invert_area_to_clear_, false);
-    private_nh.param("force_updating", force_updating_, false);
-    private_nh.param("affected_maps", affected_maps_, std::string("both"));
+    private_nh.param("reset_distance", reset_distance_, 3.0);//首先以当前机器人中心为中心，向上、下、左、右各扩展reset_distance_米生成一个矩形R
+    private_nh.param("invert_area_to_clear", invert_area_to_clear_, false);//然后判断invert_area_to_clear_。是false时，清除R矩形内栅格。是true时，清除代价地图内除R矩形外的栅格
+    private_nh.param("force_updating", force_updating_, false);//对代价地图执行清除操作后，如果fore_upateing_，还会对该地图执行updateMap
+    private_nh.param("affected_maps", affected_maps_, std::string("both"));//affected_maps_参数决定要处理哪些地图，是both时同时处理两种，global只处理全局代价地图，local则只处理局部代价地图。
     if (affected_maps_ != "local" && affected_maps_ != "global" && affected_maps_ != "both")
     {
       ROS_WARN("Wrong value for affected_maps parameter: '%s'; valid values are 'local', 'global' or 'both'; " \
@@ -72,11 +72,11 @@ void ClearCostmapRecovery::initialize(std::string name, tf2_ros::Buffer* tf,
 
     std::vector<std::string> clearable_layers_default, clearable_layers;
     clearable_layers_default.push_back( std::string("obstacles") );
-    private_nh.param("layer_names", clearable_layers, clearable_layers_default);
+    private_nh.param("layer_names", clearable_layers, clearable_layers_default);//用gdb调试的时候看到这里，就是一个obstacles而已
 
     for(unsigned i=0; i < clearable_layers.size(); i++) {
         ROS_INFO("Recovery behavior will clear layer '%s'", clearable_layers[i].c_str());
-        clearable_layers_.insert(clearable_layers[i]);
+        clearable_layers_.insert(clearable_layers[i]);//这个clearable_layers到头来就只有一个obstacles，clearable_layers_决定要清除的是哪些层，一般设置的是{obstacle_layer}，即只清除障碍层
     }
 
     initialized_ = true;
@@ -111,7 +111,7 @@ void ClearCostmapRecovery::runBehavior(){
     clear(global_costmap_);
 
     if (force_updating_)
-      global_costmap_->updateMap();
+      global_costmap_->updateMap();//全局地图的更新接口吗
 
     ROS_DEBUG("Global costmap cleared in %fs", (ros::WallTime::now() - t0).toSec());
   }
@@ -128,7 +128,7 @@ void ClearCostmapRecovery::runBehavior(){
   }
 }
 
-void ClearCostmapRecovery::clear(costmap_2d::Costmap2DROS* costmap){
+void ClearCostmapRecovery::clear(costmap_2d::Costmap2DROS* costmap){//clear(...)作用是获取枚举代价地图中的各层costmap，如果该层在clearable_layers_，对其调用clearMap进行清理
   std::vector<boost::shared_ptr<costmap_2d::Layer> >* plugins = costmap->getLayeredCostmap()->getPlugins();
 
   geometry_msgs::PoseStamped pose;
@@ -144,10 +144,11 @@ void ClearCostmapRecovery::clear(costmap_2d::Costmap2DROS* costmap){
   for (std::vector<boost::shared_ptr<costmap_2d::Layer> >::iterator pluginp = plugins->begin(); pluginp != plugins->end(); ++pluginp) {
     boost::shared_ptr<costmap_2d::Layer> plugin = *pluginp;
     std::string name = plugin->getName();
-    int slash = name.rfind('/');
-    if( slash != std::string::npos ){
+    int slash = name.rfind('/');//string 的 rfind 是一个方法，它用来查找字符串中最后一次出现的指定子串的位置
+    if( slash != std::string::npos ){//std::string::npos 是一个静态成员常量，它表示 size_t 类型的最大可能值。它通常用来表示字符串中不存在的位置或者没有匹配的结果。例如，如果你用 str.find(str2) 来查找 str2 在 str 中的位置，如果没有找到，那么返回值就是 std::string::npos。1
         name = name.substr(slash+1);
     }
+    //plugin->getName()值示例：global_costmap/static_layer。name是它的后半部static_layer。
 
     if(clearable_layers_.count(name)!=0){
 
@@ -159,6 +160,9 @@ void ClearCostmapRecovery::clear(costmap_2d::Costmap2DROS* costmap){
 
       boost::shared_ptr<costmap_2d::CostmapLayer> costmap;
       costmap = boost::static_pointer_cast<costmap_2d::CostmapLayer>(plugin);
+      // static_pointer_cast 是一个函数模板，它用来将一个 shared_ptr 类型的智能指针静态转换为另一个 shared_ptr 类型的智能指针。12
+      // 它相当于对智能指针所管理的原始指针进行 static_cast 操作，但是保持了共享所有权的特性。2
+      // 例如，如果你有一个基类 A 和一个派生类 B，你可以用 static_pointer_cast 将一个 shared_ptr<A> 类型的智能指针转换为一个 shared_ptr<B> 类型的智能指针，只要它们所指向的对象是同一个。2
       clearMap(costmap, x, y);
     }
   }
@@ -178,7 +182,7 @@ void ClearCostmapRecovery::clearMap(boost::shared_ptr<costmap_2d::CostmapLayer> 
   costmap->worldToMapNoBounds(start_point_x, start_point_y, start_x, start_y);
   costmap->worldToMapNoBounds(end_point_x, end_point_y, end_x, end_y);
 
-  costmap->clearArea(start_x, start_y, end_x, end_y, invert_area_to_clear_);
+  costmap->clearArea(start_x, start_y, end_x, end_y, invert_area_to_clear_);//这个东西的实现我怎么没有找到
 
   double ox = costmap->getOriginX(), oy = costmap->getOriginY();
   double width = costmap->getSizeInMetersX(), height = costmap->getSizeInMetersY();

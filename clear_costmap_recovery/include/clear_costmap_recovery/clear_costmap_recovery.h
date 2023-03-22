@@ -46,7 +46,7 @@ namespace clear_costmap_recovery{
    * @class ClearCostmapRecovery
    * @brief A recovery behavior that reverts the navigation stack's costmaps to the static map outside of a user-specified region.
    */
-  class ClearCostmapRecovery : public nav_core::RecoveryBehavior {
+  class ClearCostmapRecovery : public nav_core::RecoveryBehavior {//清除代价地图中指定层的部分区域，所谓清除是指把该栅格代价置为NO_INFORMATION。那这个区域在哪呢？
     public:
       /**
        * @brief  Constructor, make sure to call initialize in addition to actually initialize the object
