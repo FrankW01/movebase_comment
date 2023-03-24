@@ -836,7 +836,7 @@ namespace move_base {
 
     //check that the observation buffers for the costmap are current, we don't want to drive blind
     // 检查costmap的观察缓冲区是否最新，我们不想盲目驾驶
-    if(!controller_costmap_ros_->isCurrent()){
+    if(!controller_costmap_ros_->isCurrent()){//note zhijie 可以利用这个函数来判断obstacle是否是最新的
       ROS_WARN("[%s]:Sensor data is out of date, we're not going to allow commanding of the base for safety",ros::this_node::getName().c_str());
       publishZeroVelocity();
       return false;
