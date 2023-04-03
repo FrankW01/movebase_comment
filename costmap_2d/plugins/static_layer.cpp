@@ -67,7 +67,7 @@ void StaticLayer::onInitialize()//Costmap2DROS的构造函数会调用各Layer�
   std::string map_topic;
   nh.param("map_topic", map_topic, std::string("map"));
   nh.param("first_map_only", first_map_only_, false);
-  nh.param("subscribe_to_updates", subscribe_to_updates_, false);
+  nh.param("subscribe_to_updates", subscribe_to_updates_, false);//这里是false
 
   nh.param("track_unknown_space", track_unknown_space_, true);//这个是什么参数定义？ 不将未知区域改为自由区域
   nh.param("use_maximum", use_maximum_, false);
@@ -80,8 +80,13 @@ void StaticLayer::onInitialize()//Costmap2DROS的构造函数会调用各Layer�
   lethal_threshold_ = std::max(std::min(temp_lethal_threshold, 100), 0);//这个temp_l_t不会超过100，最多100
   unknown_cost_value_ = temp_unknown_cost_value;
 
-  // Only resubscribe if topic has changed 只有当话题改变后才重新订阅
-  if (map_sub_.getTopic() != ros::names::resolve(map_topic))
+// 这句代码的意思是比较 map_sub_ 的话题名称和 map_topic 的话题名称是否相同。
+// map_sub_ 是一个订阅者对象，它可以用 getTopic() 方法获取它订阅的话题名称。
+// ros::names::resolve(map_topic) 是一个函数，它可以将 map_topic 这个字符串解析成一个完整的话题名称，即加上命名空间和前缀等。
+// 如果 map_sub_ 的话题名称和 map_topic 的话题名称不相同，那么这句代码的结果就是 true，否则就是 false。
+  // Only resubscribe if topic has changed 只有当话题改变后才重新订阅、
+  // ros::names::resolve 是一个函数，它可以将一个字符串解析成一个完整的话题名称，即加上命名空间和前缀等
+  if (map_sub_.getTopic() != ros::names::resolve(map_topic))//最一开始的时候前面是“”空字符串
   {
     // we'll subscribe to the latched topic that the map server uses
     ROS_INFO("Requesting the map...");

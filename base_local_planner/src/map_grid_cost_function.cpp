@@ -98,7 +98,7 @@ double MapGridCostFunction::scoreTrajectory(Trajectory &traj) {
     //we won't allow trajectories that go off the map... shouldn't happen that often anyways
     if ( ! costmap_->worldToMap(px, py, cell_x, cell_y)) {
       //we're off the map
-      ROS_WARN("Off Map %f, %f", px, py);//note-zhijie 遇到墙会出现这个 //todo
+      ROS_WARN("Off Map %f, %f", px, py);//note-zhijie 遇到墙会出现这个 //因为这个是代价地图窗口导致，当局部路径过长的话超出地图边界，就会报错
       return -4.0;
     }
     grid_dist = getCellCosts(cell_x, cell_y);

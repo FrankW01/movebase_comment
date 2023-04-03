@@ -508,7 +508,7 @@ void ObstacleLayer::raytraceFreespace(const Observation& clearing_observation, d
   {
     ROS_WARN_THROTTLE(
         1.0, "The origin for the sensor at (%.2f, %.2f) is out of map bounds. So, the costmap cannot raytrace for it.",
-        ox, oy);
+        ox, oy);//我在重新拉动机器人位姿的时候出现了
     return;
   }
 
